@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-08-01T00:53:05.699031">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-09-01T00:50:34.337277">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:arn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mapudungun</seg>
+			</tuv>
+			<tuv xml:lang="arn">
+				<seg>Mapuzugun</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:picture-in-picture-toggle-shortcut-alt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "}" }</seg>
@@ -43,7 +51,7 @@
 				<seg>#1r;#1r</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/toolbox.properties:toolboxdebugtargetinforuntimelabel" srclang="en-US">
+		<tu tuid="firefox:devtools/client/toolbox.properties:toolboxdebugtargetinfotargetlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$S (%2$S)</seg>
 			</tuv>
@@ -51,7 +59,7 @@
 				<seg>%1$S (%2$S)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/toolbox.properties:toolboxdebugtargetinfotargetlabel" srclang="en-US">
+		<tu tuid="firefox:devtools/client/toolbox.properties:toolboxdebugtargetinforuntimelabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$S (%2$S)</seg>
 			</tuv>
@@ -91,7 +99,7 @@
 				<seg>arn,es-CL,es-AR,es-MX,es-ES,es,en-US,en</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/migration/migration.dtd:importfromfirefoxlabel" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -115,22 +123,6 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="arn">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="arn">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -140,6 +132,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="arn">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/migration/migration.dtd:importfromfirefoxlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="arn">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -283,7 +291,7 @@
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -291,7 +299,7 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -307,14 +315,6 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-			<tuv xml:lang="arn">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/profile/bookmarks.inc:firefox_heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
@@ -323,7 +323,15 @@
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/migration/migration.properties:sourcenamefirefox" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+			<tuv xml:lang="arn">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -339,7 +347,7 @@
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/migration/migration.properties:sourcenamefirefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
