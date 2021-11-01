@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-10-01T00:56:34.735771">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-11-01T00:55:11.586965">
 	</header>
 	<body>
 		<tu tuid="firefox:browser/chrome/browser/browser.dtd:mainwindowtitlemodifiermenuseparator" srclang="en-US">
@@ -19,7 +19,7 @@
 				<seg>‘)’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateunpressedabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateuncheckedabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>( )</seg>
 			</tuv>
@@ -27,7 +27,7 @@
 				<seg>( ) nisqa \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateuncheckedabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateunpressedabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>( )</seg>
 			</tuv>
@@ -99,12 +99,12 @@
 				<seg>%1$S de %2$S nisqa  \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:asklaterbuttonaccesskey" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/commonDialog.dtd:selectallcmdaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
 			<tuv xml:lang="quy">
-				<seg>a nisqa</seg>
+				<seg>A</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:accepttermsbuttonaccesskey" srclang="en-US">
@@ -115,12 +115,12 @@
 				<seg>A  nisqa hanllalli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/commonDialog.dtd:selectallcmdaccesskey" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:asklaterbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
 			<tuv xml:lang="quy">
-				<seg>A</seg>
+				<seg>a nisqa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutAbout.ftl:about-about-title" srclang="en-US">
@@ -147,7 +147,7 @@
 				<seg>Llikachasqa ukupi lliw haykuqkunamanta.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/plugins.properties:title_label" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:title-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>About Plugins</seg>
 			</tuv>
@@ -155,7 +155,7 @@
 				<seg>Plugins nisqamanta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:title-label" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/plugins.properties:title_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>About Plugins</seg>
 			</tuv>
@@ -227,14 +227,6 @@
 				<seg>Qallariy, kichay, hapichiy</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:gpu-active" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Active</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Utqaq, kichaq,</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-active" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Active</seg>
@@ -249,6 +241,14 @@
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Utqaq.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:gpu-active" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Active</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Utqaq, kichaq,</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-actuarial" srclang="en-US">
@@ -571,7 +571,7 @@
 				<seg>Qatiqatikamaqtan qipichiyta munashkani:URL nisqa haywaqmanta,\n imakaqtawqa wasituqu huq  haywaq  qawachiqmantapacha \n qawapakuqpa tatichisqanmi kashkan. \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:auto-refresh" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-auto-refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Autorefresh every 3 seconds</seg>
 			</tuv>
@@ -579,7 +579,7 @@
 				<seg>Wayrapachiy sapa kinsa chikan tuymipi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-auto-refresh" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:auto-refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Autorefresh every 3 seconds</seg>
 			</tuv>
@@ -627,20 +627,20 @@
 				<seg>qawachina  \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:base" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>base</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>taqyana  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:baseabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>base</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>taqyana \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:base" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>base</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>taqyana  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:blocked-gfx-card" srclang="en-US">
@@ -699,7 +699,7 @@
 				<seg>Blocklisted; failure code { $failureCode } nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/profile/bookmarks.inc:bookmarks_title" srclang="en-US">
+		<tu tuid="firefox:browser/profile/bookmarks.inc:bookmarks_heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -707,7 +707,7 @@
 				<seg>Bookmarks</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/profile/bookmarks.inc:bookmarks_heading" srclang="en-US">
+		<tu tuid="firefox:browser/profile/bookmarks.inc:bookmarks_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -739,7 +739,7 @@
 				<seg>urayman \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-boxabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-box" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>box</seg>
 			</tuv>
@@ -747,7 +747,7 @@
 				<seg>allchana \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-box" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-boxabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>box</seg>
 			</tuv>
@@ -867,14 +867,6 @@
 				<seg>Ñitinakuna\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:bytes-received" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Bytes Received</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Bytes nisqa chaskisqakuna</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-bytes-received" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bytes Received</seg>
@@ -883,7 +875,15 @@
 				<seg>Bytes nisqa chaskisqakuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-bytes-sent" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:bytes-received" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bytes Received</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Bytes nisqa chaskisqakuna</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:bytes-sent" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bytes Sent</seg>
 			</tuv>
@@ -891,7 +891,7 @@
 				<seg>Bytes nisqa apachisqakuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:bytes-sent" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-bytes-sent" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bytes Sent</seg>
 			</tuv>
@@ -947,14 +947,6 @@
 				<seg>Canvas nisqapi manaña tupanachikunqañachu strokeStyle nisqawan utaq fillStyle  nisqawanpas huqniray qatiqati chaninman,CanvasGradient utaq  CanvasPattern.nisqakunamanpas\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:captionabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>caption</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>imakasqan \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:caption" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>caption</seg>
@@ -963,20 +955,12 @@
 				<seg>Imakasqan willakuy   \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:cellabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:captionabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>cell</seg>
+				<seg>caption</seg>
 			</tuv>
 			<tuv xml:lang="quy">
-				<seg>tawakuchutuqu\u0020</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlcell" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>cell</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Tawakuchutuqu    \u0020</seg>
+				<seg>imakasqan \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlcellabbr" srclang="en-US">
@@ -987,12 +971,28 @@
 				<seg>tawakuchutuqu \u0020</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:cellabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cell</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>tawakuchutuqu\u0020</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:cell" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>cell</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Tawakuchutuqu     \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlcell" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cell</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Tawakuchutuqu    \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/commonDialog.dtd:checkboxlabel" srclang="en-US">
@@ -1179,20 +1179,20 @@
 				<seg>%S nisqaq chawchun\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:combobox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>combo box</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>May munayniykiman allchana  kuyuchiy  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:comboboxabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>combo box</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>May munayniykiman allchana  kuyuchiy   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:combobox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>combo box</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>May munayniykiman allchana  kuyuchiy  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:quicknav_combobox" srclang="en-US">
@@ -1315,20 +1315,20 @@
 				<seg>Tukupay\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/commonDialog.dtd:copycmdlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Copy</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Imakaq ruway</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-histogram-copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Ima kaq tiqray</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/commonDialog.dtd:copycmdlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copy</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Imakaq ruway</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:copy-raw-data-to-clipboard-label" srclang="en-US">
@@ -1515,20 +1515,20 @@
 				<seg>Chaninchasqa  \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definitionlist" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>definition list</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Qatiqatisuti chaninchasqakuna  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definitionlistabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>definition list</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Qatiqatisuti chaninchasqakuna   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definitionlist" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>definition list</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Qatiqatisuti chaninchasqakuna  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:denominatorabbr" srclang="en-US">
@@ -1555,20 +1555,20 @@
 				<seg>Imakaqtañawinchay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:description-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Description</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Imakaqtañawinchay</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:gpu-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Description</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Imakaqñawinchay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:description-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Description</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Imakaqtañawinchay</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-addon-table-details" srclang="en-US">
@@ -1595,7 +1595,7 @@
 				<seg>Features nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:diagramabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:diagram" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>diagram</seg>
 			</tuv>
@@ -1603,7 +1603,7 @@
 				<seg>Siqinchasqa    \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:diagram" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:diagramabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>diagram</seg>
 			</tuv>
@@ -1627,7 +1627,7 @@
 				<seg>Rimanakuykuna    \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/plugins.properties:state_disabled" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:multi-process-status-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -1635,7 +1635,7 @@
 				<seg>Sikisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:multi-process-status-2" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/plugins.properties:state_disabled" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -1683,7 +1683,7 @@
 				<seg>Discuss Nightly on IRC</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>DNS</seg>
 			</tuv>
@@ -1691,7 +1691,7 @@
 				<seg>DNS nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>DNS</seg>
 			</tuv>
@@ -1715,20 +1715,20 @@
 				<seg>DNS nisqa machkasqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:documentabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>document</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Kaskasqarapikuna ,Qillqasqa     \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:document" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>document</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Kaskasqarapikuna ,Qillqasqa    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:documentabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>document</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Kaskasqarapikuna ,Qillqasqa     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/dom/dom.properties:execcommandcutcopydeniednotinputdriven" srclang="en-US">
@@ -1739,7 +1739,7 @@
 				<seg>document.execCommand('cut'/'copy') nisqan manachaskisqachu ukhumantapacha mana waqyasqa kaspa qawanapatamanta chikan tukupay haykuq.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-domain" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns-domain" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Domain:</seg>
 			</tuv>
@@ -1747,7 +1747,7 @@
 				<seg>Lliwtukipasqapuni:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns-domain" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-domain" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Domain:</seg>
 			</tuv>
@@ -1851,20 +1851,20 @@
 				<seg>Chusaq siqinchasqan haywasqa  getElementById(). nisqaman .\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:extensions-enabled" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Enabled</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Kichasqa.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/plugins.properties:state_enabled" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enabled</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Kichasqa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:extensions-enabled" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enabled</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Kichasqa.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:multi-process-status-1" srclang="en-US">
@@ -1891,20 +1891,20 @@
 				<seg>Chaykama kichasqakuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlenclosed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>enclosed</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Kichaywisqanapura  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlenclosedabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>enclosed</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Kichaywisqanapura   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlenclosed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>enclosed</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Kichaywisqanapura  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:quicknav_entry" srclang="en-US">
@@ -1915,20 +1915,20 @@
 				<seg>haykunakuna\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:entry" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>entry</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Haykuna   \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:entryabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>entry</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Haykuna    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:entry" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>entry</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Haykuna   \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-environment-data-section" srclang="en-US">
@@ -1939,20 +1939,20 @@
 				<seg>Muyuyninpi imanisqakuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:equationabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>equation</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>yupaychiqirichiy   \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:equation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>equation</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>yupaychiqirichiy  \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:equationabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>equation</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>yupaychiqirichiy   \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/dom/dom.properties:removedfullscreenelement" srclang="en-US">
@@ -2299,20 +2299,20 @@
 				<seg>\u0020Imakaq  qallariy  \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:flatequation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>flat equation</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>\u0020Panpallanpi yupaychiqirichiy  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:flatequationabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>flat equation</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>\u0020Panpallanpi yupaychiqirichiy   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:flatequation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>flat equation</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>\u0020Panpallanpi yupaychiqirichiy  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:footerabbr" srclang="en-US">
@@ -2331,7 +2331,7 @@
 				<seg>Tukupaysuti   \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:formabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:form" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>form</seg>
 			</tuv>
@@ -2339,7 +2339,7 @@
 				<seg>Mañakunarapi  \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:form" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:formabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>form</seg>
 			</tuv>
@@ -2459,14 +2459,6 @@
 				<seg>Siqinchakuykuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gridcell" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>gridcell</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Tawakuchu                     \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gridcellabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>gridcell</seg>
@@ -2475,12 +2467,12 @@
 				<seg>Tawakuchu   \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gripabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gridcell" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>grip</seg>
+				<seg>gridcell</seg>
 			</tuv>
 			<tuv xml:lang="quy">
-				<seg>Hapina     \u0020</seg>
+				<seg>Tawakuchu                     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:grip" srclang="en-US">
@@ -2489,6 +2481,14 @@
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Hapina    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gripabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>grip</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Hapina     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:hidebuttonaccesskey" srclang="en-US">
@@ -2635,7 +2635,7 @@
 				<seg>Haywaq</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-hostname" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:hostname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hostname</seg>
 			</tuv>
@@ -2643,7 +2643,7 @@
 				<seg>Haywaqpasutin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:hostname" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-hostname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hostname</seg>
 			</tuv>
@@ -2723,7 +2723,7 @@
 				<seg>ID</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-idle" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:idle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Idle</seg>
 			</tuv>
@@ -2731,7 +2731,7 @@
 				<seg>Mana imaruwaq., Qasikaq, Mana kuyuriq.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:idle" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-idle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Idle</seg>
 			</tuv>
@@ -2899,7 +2899,7 @@
 				<seg>URI nisqas mana imapaq .%S. nisqapis pantarparin qipichakuyninkuna.\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup-table-column" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns-lookup-table-column" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>IPs</seg>
 			</tuv>
@@ -2907,7 +2907,7 @@
 				<seg>IPs nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns-lookup-table-column" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup-table-column" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>IPs</seg>
 			</tuv>
@@ -3059,20 +3059,20 @@
 				<seg>tupachinakuna\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:list" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>list</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Qatiqatisuti, Qatiqati   \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>list</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>qatiqatisuti \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:list" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>list</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Qatiqatisuti, Qatiqati   \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listboxabbr" srclang="en-US">
@@ -3195,20 +3195,20 @@
 				<seg>ltr nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-madruwb" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>madruwb</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>madruwb nisqa \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-madruwbabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>madruwb</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>madruwb nisqa  \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:notation-madruwb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>madruwb</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>madruwb nisqa \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:main" srclang="en-US">
@@ -3411,20 +3411,20 @@
 				<seg>Imaymana taqikaqkuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:menupopupabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>menu popup</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Kutitiqraqkaq taqi     \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:menupopup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>menu popup</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Kutitiqraqkaq taqi    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:menupopupabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>menu popup</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Kutitiqraqkaq taqi     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-quit-button" srclang="en-US">
@@ -3435,7 +3435,7 @@
 				<seg>{ menu-quit.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:messages-received" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-messages-received" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Messages Received</seg>
 			</tuv>
@@ -3443,7 +3443,7 @@
 				<seg>Taripaywillanakuna chaskisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-messages-received" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:messages-received" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Messages Received</seg>
 			</tuv>
@@ -3539,14 +3539,6 @@
 				<seg>Imaymanapaq wasituqukuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:notifybarnotnowbuttonaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>N</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>N nisqa kunkawaki</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:nothanksbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
@@ -3555,23 +3547,15 @@
 				<seg>N nisqa kunkawaki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:modified-prefs-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:notifybarnotnowbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Name</seg>
+				<seg>N</seg>
 			</tuv>
 			<tuv xml:lang="quy">
-				<seg>Suti</seg>
+				<seg>N nisqa kunkawaki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:extensions-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Name</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Suti</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:locked-prefs-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:app-basics-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
 			</tuv>
@@ -3587,7 +3571,23 @@
 				<seg>Suti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:app-basics-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:extensions-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Suti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:modified-prefs-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Suti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:locked-prefs-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
 			</tuv>
@@ -3707,7 +3707,7 @@
 				<seg>No decoders for some of the requested formats: %S nisqa\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:no-plugins-are-installed-label" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/plugins.properties:nopluginsareinstalled_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No installed plugins found</seg>
 			</tuv>
@@ -3715,7 +3715,7 @@
 				<seg>Manan kanchu chay plugins nisqa hapichisqakuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/plugins.properties:nopluginsareinstalled_label" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:no-plugins-are-installed-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No installed plugins found</seg>
 			</tuv>
@@ -3795,20 +3795,20 @@
 				<seg>Kunanqa manan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:nousername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No username</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>huykuqpa mana sutiyuq</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:nousernameplaceholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No username</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Mana sutiyuq haykuqpa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:nousername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No username</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>huykuqpa mana sutiyuq</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:numeratorabbr" srclang="en-US">
@@ -3851,14 +3851,6 @@
 				<seg>taqruy\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Allinpuni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
@@ -3867,12 +3859,12 @@
 				<seg>Allinmi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateon" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>on</seg>
+				<seg>OK</seg>
 			</tuv>
 			<tuv xml:lang="quy">
-				<seg>rawrachiy \u0020</seg>
+				<seg>Allinpuni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:onaction" srclang="en-US">
@@ -3881,6 +3873,14 @@
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>rawrachiy\u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>on</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>rawrachiy \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:open-fenceabbr" srclang="en-US">
@@ -3923,20 +3923,20 @@
 				<seg>imankichana  \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listboxoptionabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>option</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>imakaq aqllay \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listboxoption" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>option</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Munaspa   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listboxoptionabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>option</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>imakaq aqllay \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:app-basics-os" srclang="en-US">
@@ -3947,20 +3947,20 @@
 				<seg>OS nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outline" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>outline</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Patapatan    \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outlineabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>outline</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Patapatan     \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>outline</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Patapatan    \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outlineitem" srclang="en-US">
@@ -4403,20 +4403,20 @@
 				<seg>Imakaqkuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:progressbar" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>progress bar</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Wasapaqsiqi  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:progressbarabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>progress bar</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Wasapaqsiqi   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:progressbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>progress bar</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Wasapaqsiqi  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-keys-header" srclang="en-US">
@@ -4427,20 +4427,20 @@
 				<seg>Kikinpa kaqnin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:propertypage" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>property page</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Qatiqatiraphi kaqninkunapa    \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:propertypageabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>property page</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Qatiqatiraphi kaqninkunapa     \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:propertypage" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>property page</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Qatiqatiraphi kaqninkunapa    \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:check_error-2152398920" srclang="en-US">
@@ -4483,7 +4483,7 @@
 				<seg>sayanchaq \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobutton" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobuttonabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>radio button</seg>
 			</tuv>
@@ -4491,7 +4491,7 @@
 				<seg>Wayrawasipa ñitinan    \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobuttonabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>radio button</seg>
 			</tuv>
@@ -4507,20 +4507,20 @@
 				<seg>Wayrawasipa ñitinan   \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiomenuitem" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>radio menu item</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Wayra wasipa imakaq  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiomenuitemabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>radio menu item</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Wayra wasipa imakaq   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiomenuitem" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>radio menu item</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Wayra wasipa imakaq  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:gpu-ram" srclang="en-US">
@@ -4555,14 +4555,6 @@
 				<seg>ñawinchanallapaq \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-received" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Received</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Chaskisqa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:received" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Received</seg>
@@ -4571,7 +4563,15 @@
 				<seg>Chaskisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:refresh" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-received" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Received</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Chaskisqa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
@@ -4579,7 +4579,7 @@
 				<seg>Kunanmankutichiy</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-refresh" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
@@ -4651,20 +4651,20 @@
 				<seg>Wikapaypuni kay qallariyta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:crashes-id" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Report ID</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>ID nisqa willaymanta.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/crashreporter/aboutcrashes.ftl:id-heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report ID</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>ID nisqapa willay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:crashes-id" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report ID</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>ID nisqa willaymanta.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/dom/dom.properties:fullscreendeniedsubdocfullscreen" srclang="en-US">
@@ -4771,7 +4771,7 @@
 				<seg>Kaqmanta qatiq qallariy</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns-lookup-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Resolve</seg>
 			</tuv>
@@ -4779,7 +4779,7 @@
 				<seg>Allipachiy.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:about-networking-dns-lookup-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:dns-lookup-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Resolve</seg>
 			</tuv>
@@ -4875,20 +4875,20 @@
 				<seg>suytuallchana \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>row</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Qatiqatisiqi     \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:row" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>row</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Qatiqatisiqi    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>row</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Qatiqatisiqi     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowheader" srclang="en-US">
@@ -4963,7 +4963,7 @@
 				<seg>Chaykamalla qawanapatapi ñawinchaq</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlscriptedabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlscripted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>scripted</seg>
 			</tuv>
@@ -4971,7 +4971,7 @@
 				<seg>qatiqatikamaqlla \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlscripted" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlscriptedabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>scripted</seg>
 			</tuv>
@@ -5019,7 +5019,7 @@
 				<seg>Siqi kuyuq  chutapaypa kichasqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -5027,7 +5027,7 @@
 				<seg>Machkay \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -5051,7 +5051,7 @@
 				<seg>Seccomp nisqapi qaytu tupanachina</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:section" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:sectionabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>section</seg>
 			</tuv>
@@ -5059,7 +5059,7 @@
 				<seg>Kitichay   \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:sectionabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:section" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>section</seg>
 			</tuv>
@@ -5115,20 +5115,20 @@
 				<seg>Apachiy</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separatorabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>separator</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Taqana, Rakina, Taqataqa     \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separator" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>separator</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Taqana, Rakina, Taqataqa    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separatorabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>separator</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Taqana, Rakina, Taqataqa     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:quicknav_separator" srclang="en-US">
@@ -5203,20 +5203,20 @@
 				<seg>sanpa  chutaypi siqinchaykuna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:slider" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>slider</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Qawachikuq  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:sliderabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>slider</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Qawachikuq   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:slider" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>slider</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Qawachikuq  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutTelemetry.ftl:about-telemetry-slow-sql-section" srclang="en-US">
@@ -5387,20 +5387,20 @@
 				<seg>\u0020"type" nisqa kaqninsi "%1$S"nisqapi kikinchasqa  mana chaskichikunchu .pantarparinsi qipichakuyninkuna.   \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:spinbuttonabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>spin button</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Yapapakuqñitina/pisiyaqñitina   \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:spinbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>spin button</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Yapapakuqñitina/pisiyaqñitina  \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:spinbuttonabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>spin button</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Yapapakuqñitina/pisiyaqñitina   \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:mathmlsquarerootabbr" srclang="en-US">
@@ -5475,20 +5475,20 @@
 				<seg>Lliwkaq,  Tukupay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statusbar" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>status bar</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Taqi taqyaq     \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statusbarabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>status bar</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Taqi taqyaq      \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statusbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>status bar</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Taqi taqyaq     \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/dom/dom.properties:onbeforeunloadstaybutton" srclang="en-US">
@@ -5555,7 +5555,7 @@
 				<seg>ID del subsys nisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:suffixes-label" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/plugins.properties:suffixes_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Suffixes</seg>
 			</tuv>
@@ -5563,7 +5563,7 @@
 				<seg>Chupanchasqasiqikuna.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/plugins.properties:suffixes_label" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:suffixes-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Suffixes</seg>
 			</tuv>
@@ -5611,20 +5611,20 @@
 				<seg>Huk XMLHttpRequest síncrono nisqa kikin qaytupin mana imapaq kachkan tukupay haykuqpa pantay yanapay ruwaypi kaqtin .http://xhr.spec.whatwg.org/ nisqata asway yanapakuypaq qawariy.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>tab</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>qichipha, qichipa,qawana, kichana    \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetababbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>tab</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>qichipha, qichipa,qawana, kichana     \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>tab</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>qichipha, qichipa,qawana, kichana    \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:table" srclang="en-US">
@@ -5643,20 +5643,20 @@
 				<seg>Taqrukuna \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetablist" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>tab list</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Qichipakunaq qatiqatisutin   \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetablistabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>tab list</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Qichipakunaq qatiqatisutin    \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetablist" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>tab list</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Qichipakunaq qatiqatisutin   \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:tableabbr" srclang="en-US">
@@ -5731,20 +5731,20 @@
 				<seg>pataraq imakaqnin \u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textcontainerabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>text container</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Taqipatara    \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textcontainer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>text container</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Taqipatara   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textcontainerabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>text container</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Taqipatara    \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:text-copied" srclang="en-US">
@@ -6047,20 +6047,20 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Tupaykunaq haykunanpa  kichasqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:treetableabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>tree table</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Sachapa runkupatan   \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:treetable" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>tree table</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Sachapa runkupatan  \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:treetableabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>tree table</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Sachapa runkupatan   \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutSupport.ftl:page-title" srclang="en-US">
@@ -6671,20 +6671,20 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Hukuchaq kuyuyninpa haykunan kichasqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespace" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>white space</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Illaq  \u0020</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespaceabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>white space</seg>
 			</tuv>
 			<tuv xml:lang="quy">
 				<seg>Illaq   \u0020</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespace" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>white space</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Illaq  \u0020</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/plugins.properties:widevine_description" srclang="en-US">
@@ -7183,7 +7183,7 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Pichaytaq kichariytaq</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -7207,7 +7207,7 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Ñawpa yaykusqa t\'aqwiriyta pichay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -7479,7 +7479,7 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Jap\'ichisqa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -7487,7 +7487,7 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Kichay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -7607,14 +7607,6 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Watiqmanta chaqnanay web raphita</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="quy">
-				<seg>Raqpay</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -7624,6 +7616,14 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="quy">
+				<seg>Raqpay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -8039,7 +8039,7 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Ñawpa yaykusqa t\'aqwiriyniyki picharpakun.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
@@ -8047,7 +8047,7 @@ about { -brand-short-name }, check out our &lt;a data-l10n-name="support-link"&g
 				<seg>Derechosniyki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
@@ -8112,7 +8112,7 @@ Browse. Erase. Repeat.</seg>
 				<seg>T'inkiypata direccioninta kikinchay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -8120,7 +8120,7 @@ Browse. Erase. Repeat.</seg>
 				<seg>URLs kaqkunata sapanchaykuy</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>

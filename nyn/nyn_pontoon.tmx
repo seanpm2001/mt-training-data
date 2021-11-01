@@ -1,7 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-10-01T00:56:12.347233">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-11-01T00:54:48.517877">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Nkaayenzire ngu abo abarikubarabanisamu babarugyemu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute to { $lang }</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Tugume nitukundana obwire bwoona.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Ninza kwija kutayaya.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Involved</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Eihanga ryeitu ryiine obusingye</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-return-to-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Languages</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Mbwenu nu turekye kuruha omu kukora gye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-form-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for { $lang } updates:</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Okuhwerana nikureta entunguka.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Kubi okor'eyaki, kurungi orikugyimanya?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
+the teams updated via email. If you want to contribute, please provide your email below.</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Okwikiriza nikukira byoona.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Ekitumbisa kikye kitumbya ekiihuro kyona.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Kunda mutaahi waawe, nk'oku oyekunda.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will be in touch with more information as it becomes available.</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Ekirungi nikwo omuntu weena kugyeza omurimo gwe, akaba nigwo yaayehimbisizamu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Abebembezi barekye obushomankuzi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've successfully signed up for contributing to { $language }. Thank you.</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Muhwerahwerane emitwaro yaanyu, mubone kuhikiiriza mutyo ekiragiro.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>abnormality</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Mazire obwiire bwingi ntarikwija aha.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>add-on</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Kwonka ku muraabe nimurumana, mwaryana, mwerinde mutamaranaho.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>aggregate</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Tihariho izooba erirabaire nk'eryo omu gaaribandiize.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>aggregate</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Nkaayenzire ngu abo abarikubarabanisamu babarugyemu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All Hands</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Abeire nashomerahi?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>alternate text</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Obwesigwa buhwire, omu bantu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>appear</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Yebuuze ah'abandi ekyotayetegyereza.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>appearance</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Tindikwija kugumisiriza okundabyamu amaisho otyo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attack</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Atugyizire ati; mutsibe gye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attacker</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Okwikiriza kwawe kurahi, Kandi amatsiko gaawe gari omur'oha.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attack Site</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Munywani w'omuntu amukunda omu mbeera zoona.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attendee</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Nomanya muringo ki, eyokutangira ruzaaro?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>authenticate</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Ogira embabazi, nawe arazigirirwa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>authenticated</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Amaizi nog'omugasho muhango omumibiri yeitu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>autoplay</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Akatubuza ati; nimugyemuka nkahi?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>back out</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Kunatehiremu, nkamushanga nagambira aha siimu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>black box</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Abagore b'eizooba eri boona bashemeire.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="nyn">
+				<seg>Itwe nk'abanyayuganda twiine kukwatanisa kubiinga obworo.</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>
