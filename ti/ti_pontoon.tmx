@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-12-01T00:58:05.545137">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-01-01T01:00:51.184805">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -129,6 +129,14 @@
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ተወሳኺ ቛንቛ ኣእቱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-add-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add new custom accent "{ $inputValue }"</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ሓድሽ ላሃጃ ኣእቱ "{ $inputValue }"</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-add-voice" srclang="en-US">
@@ -1353,20 +1361,20 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ወልቃዊ ሓበሬታ ቀይር</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="ti">
-				<seg>ኢመይል</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ኢ-መይል</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ኢመይል</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-already-used" srclang="en-US">
@@ -1385,20 +1393,20 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ናይ ኢመይል መዝገብ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="ti">
-				<seg>እንግሊዝ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>እንግሊዥኛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>እንግሊዝ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-to-download" srclang="en-US">
@@ -1633,7 +1641,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ጀርመን</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -1641,7 +1649,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ተሳተፍ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -1878,7 +1886,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>Help reach { $hours } hours in { $language } with a personal goal</seg>
 			</tuv>
 			<tuv xml:lang="ti">
-				<seg>ሓገዝ{ hours } ሰዓታትኣብ { $language } ብናይ ግሊ ሸቶ</seg>
+				<seg>ሓገዝ{ $hours } ሰዓታትኣብ { $language } ብናይ ግሊ ሸቶ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-text" srclang="en-US">
@@ -2039,6 +2047,14 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>እቶም ድምጾም ዝወፈዩ ሰባት ስሞም ከም ዘይፍለጥን ብሕትታዊነቶምን ከም ዚሕሎ ብኸመይ ከተረጋግጽ ትኽእል?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-help-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How would you describe your accent?</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ላሃጃኻ ብኸመይ ትገልጾ?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hu" srclang="en-US">
@@ -2417,6 +2433,14 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ቛንቛ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ቛንቓ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -2561,7 +2585,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>እተቐድሐ ሊንክ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -2569,7 +2593,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ስማዕ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -2801,6 +2825,14 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ሚዶው ማሪ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mni" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Meetei Lon</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ሚተይ ሎን</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-form-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Message</seg>
@@ -2994,6 +3026,14 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ቛንቛ ኣደ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need some help with accent?</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ኣብ ላሃጃ ሓገዝ የድሊ ድዩ?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-q" srclang="en-US">
@@ -3915,6 +3955,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ምሉእ ሓሳባት</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-no-numbers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence should not contain numbers</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ሙልእ ሓሳባት ቑጽሪ ክህልዎ የብሉን</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-metadata-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence text</seg>
@@ -4075,7 +4123,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ሲናላ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
 			</tuv>
@@ -4083,7 +4131,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ዓቐን</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
 			</tuv>
@@ -4155,7 +4203,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>እስጳኒሽ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -4163,7 +4211,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ተዛረብ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -4271,6 +4319,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>ምቕራጽ ጀምር</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-placeholder-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start typing to describe your accent</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ልሃጃኻ ምግላጽ ምጽሓፍ ጀምር</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:stats" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Stats</seg>
@@ -4311,20 +4367,20 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>ሓበሬታ ሃብ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="ti">
-				<seg>ክሊፕስ ኣረክብ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ቀረጻታት ኣረክብ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ክሊፕስ ኣረክብ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:subscribe" srclang="en-US">
@@ -4742,6 +4798,14 @@ We want to make voice data freely and publicly available, and make sure the data
 				<seg>ሰለስተ ጥራይ ተሪፈናኻ!</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tig" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tigre</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ትግራይት</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ti" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tigrinya</seg>
@@ -4860,6 +4924,14 @@ We want to make voice data freely and publicly available, and make sure the data
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ተርክሽ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turkmen</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ቱርክመን</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:tw" srclang="en-US">
@@ -5038,7 +5110,7 @@ We want to make voice data freely and publicly available, and make sure the data
 				<seg>ቨነሽያን</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -5046,7 +5118,7 @@ We want to make voice data freely and publicly available, and make sure the data
 				<seg>ሕታም</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -5295,20 +5367,20 @@ Look to this page as a reference hub for other open source voice datasets and, a
 				<seg>ዌልሽ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="ti">
-				<seg>ሓበሬታኻ ብጥንቃቐ ኸም እንሕዞ ንመባጻዕ ። ኣብታ &lt;privacyLink&gt;ናይ ምስጢር ምልክታ&lt;/privacyLink&gt; ዘሕለፋ ዝያዳ ኣንብብ።</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ሓበሬታኹም ብጥንቃቐ ከም ንሕዞ ቃል ንኣትወልኩም። ዝያድ ንምንባብ ኣብታ &lt;privacyLink&gt;ናይ ምስጢርነት ምልክታ&lt;/privacyLink&gt; ተወከሱ።</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>ሓበሬታኻ ብጥንቃቐ ኸም እንሕዞ ንመባጻዕ ። ኣብታ &lt;privacyLink&gt;ናይ ምስጢር ምልክታ&lt;/privacyLink&gt; ዘሕለፋ ዝያዳ ኣንብብ።</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-headline" srclang="en-US">
@@ -5407,20 +5479,20 @@ Look to this page as a reference hub for other open source voice datasets and, a
 				<seg>መንነት እቶም ኣብ ናይ ኮመን ቮይስ ሓበሬታ ዘለዉ ተዛረብቲ "ክውስን" ኣይክእልን ኢየ ኽብል ከለኹ እንታይ ማለት ኢዩ?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>What is Common Voice?</seg>
-			</tuv>
-			<tuv xml:lang="ti">
-				<seg>"ኮመን ቮይስ" እንታይ እዩ?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
 			<tuv xml:lang="ti">
 				<seg>ኮመን ቮይስ እንታይ እዩ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="ti">
+				<seg>"ኮመን ቮይስ" እንታይ እዩ?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-ask" srclang="en-US">

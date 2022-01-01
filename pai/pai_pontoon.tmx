@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-12-01T00:56:45.451524">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-01-01T00:59:11.885100">
 	</header>
 	<body>
 		<tu tuid="fennec:mobile/android/base/android_strings.dtd:pref_media_autoplay_allow" srclang="en-US">
@@ -406,14 +406,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>64-bit</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/debugger.properties:sourcetabsclosealltabsaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>a</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>a</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:devtools/client/debugger.properties:breakpointmenuitemdeleteallaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>a</seg>
@@ -423,6 +415,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 			</tuv>
 		</tu>
 		<tu tuid="firefox:devtools/client/debugger.properties:breakpointmenuitemdeleteall2accesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>a</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>a</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:devtools/client/debugger.properties:sourcetabsclosealltabsaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>a</seg>
 			</tuv>
@@ -446,7 +446,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Add bookmarks to this folder to see them displayed on the Bookmarks Toolbar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:alert" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:alert" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>alert</seg>
 			</tuv>
@@ -454,7 +454,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>ipeekjanchu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:alert" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:alert" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>alert</seg>
 			</tuv>
@@ -542,14 +542,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>c</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:closecmdaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>C</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>C</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/places/places.dtd:filecloseaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>C</seg>
@@ -558,7 +550,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>C</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorcustomcancel" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:closecmdaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>C</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>C</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/pdfviewer/viewer.properties:print_progress_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -566,7 +566,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕput</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/pdfviewer/viewer.properties:print_progress_close" srclang="en-US">
+		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorcustomcancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -606,7 +606,39 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:browser-window-close-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/pdfviewer/viewer.properties:document_properties_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:fullscreenclosetooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:closecmdlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/pdfviewer/viewer.properties:error_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -622,7 +654,23 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:browser-window-close-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ini:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/alerts/alert.properties:closebuttontitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -646,47 +694,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/tabbrowser.properties:tabsclose" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/places.dtd:filecloselabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:uitourinfopanelclose" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -702,7 +710,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ini:close" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:uitourinfopanelclose" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -710,47 +718,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/pdfviewer/viewer.properties:error_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:closecmdlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:fullscreenclosetooltip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/pdfviewer/viewer.properties:document_properties_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ŕ´amch</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/alerts/alert.properties:closebuttontitle" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/places/places.dtd:filecloselabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -766,6 +734,38 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/chrome/browser/tabbrowser.properties:tabsclose" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ŕ´amch</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:close-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -774,7 +774,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-button-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:ui-tour-info-panel-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -798,7 +798,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´amch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:ui-tour-info-panel-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-button-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -838,14 +838,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ŕ´ap %S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/webconsole.properties:webconsoleclosekey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>CmdOrCtrl+W</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>CmdOrCtrl+W</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:devtools/client/debugger.properties:sourcetabsclosetabkey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>CmdOrCtrl+W</seg>
@@ -855,6 +847,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 			</tuv>
 		</tu>
 		<tu tuid="firefox:devtools/client/toolbox.properties:toolboxclosetoolboxkey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>CmdOrCtrl+W</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>CmdOrCtrl+W</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:devtools/client/webconsole.properties:webconsoleclosekey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>CmdOrCtrl+W</seg>
 			</tuv>
@@ -926,6 +926,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Customize Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:closewindowaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>d</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>d</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/textcontext.dtd:deletecmdaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>d</seg>
@@ -942,39 +950,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>d</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:closewindowaccesskey" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:deletecmdkey" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>d</seg>
+				<seg>D</seg>
 			</tuv>
 			<tuv xml:lang="pai">
-				<seg>d</seg>
+				<seg>D</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorcontextcopyrequestdataaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>D</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>D</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:deletecmdaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>D</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>D</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/places.properties:cmddeletesinglepageaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>D</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>D</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/places.properties:cmddeletemultiplepagesaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>D</seg>
 			</tuv>
@@ -990,7 +974,23 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>D</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:deletecmdkey" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/places/places.properties:cmddeletemultiplepagesaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>D</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>D</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/places/places.properties:cmddeletesinglepageaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>D</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>D</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:deletecmdaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>D</seg>
 			</tuv>
@@ -1038,23 +1038,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Del</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/editMenuOverlay.dtd:deletecmdlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ujiñ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:deletecmdlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ujiñ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/textcontext.dtd:deletecmdlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ujiñ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:devtools/client/memory.properties:snapshotiodelete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -1070,7 +1062,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ujiñ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/memory.properties:snapshotiodelete" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/editMenuOverlay.dtd:deletecmdlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ujiñ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:deletecmdlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -1230,39 +1230,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>maat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1278,7 +1246,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1286,7 +1254,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1295,6 +1271,30 @@ be temporary, and you can try again later.&lt;/li&gt;
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1510,39 +1510,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/extensions.properties:tabhidecontrolledlearnmore" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/extensions.properties:homepagecontrolledlearnmore" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/aboutStudies.properties:learnmore" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:discopane-notice-learn-more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/main-window/autocomplete.ftl:autocomplete-import-logins-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:devtools/client/accessibility.ftl:accessibility-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1558,28 +1534,20 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:processhangadd-onlearn-moretext" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/newtab/asrouter.ftl:cfr-whatsnew-permission-prompt-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/aboutPocket.ftl:pocket-panel-signup-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
 			<tuv xml:lang="pai">
 				<seg>Terabum Ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:devtools/client/accessibility.ftl:accessibility-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/extensions.properties:newtabcontrolledlearnmore" srclang="en-US">
@@ -1590,7 +1558,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/extensions.properties:tabhidecontrolledlearnmore" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/aboutStudies.properties:learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1598,7 +1566,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/notification.dtd:learnmorenoellipsis" srclang="en-US">
+		<tu tuid="firefox:devtools/startup/aboutDevTools.ftl:features-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1606,7 +1574,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:browsing-picture-in-picture-learn-more" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:processhangadd-onlearn-moretext" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:forms-breach-alerts-learn-more-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1622,7 +1598,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:browser-containers-learn-more" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:browsing-picture-in-picture-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1630,15 +1606,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:play-drm-content-learn-more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:do-not-track-learn-more" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/notification.dtd:learnmorenoellipsis" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1734,7 +1702,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:forms-breach-alerts-learn-more-link" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:browser-containers-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1774,7 +1742,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/startup/aboutDevTools.ftl:features-learn-more" srclang="en-US">
+		<tu tuid="firefox:browser/browser/newtab/asrouter.ftl:cfr-whatsnew-permission-prompt-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -1806,6 +1774,38 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:discopane-notice-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/main-window/autocomplete.ftl:autocomplete-import-logins-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:do-not-track-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:play-drm-content-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum ŕpo</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/notification.dtd:learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more…</seg>
@@ -1822,47 +1822,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum ŕpo…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorheaderslearnmore" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn More</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum Ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:contentblockingbreakagereportviewlearnmore" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn More</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum Ŕpo</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:getusermediasharescreenlearnmorelabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn More</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum Ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:emenotificationsdrmcontentdisabledlearnmorelabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn More</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum Ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/places.properties:lockpromptinfobuttonlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn More</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Terabum Ŕpo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:unsignedaddonsdisabledlearnmorelabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -1878,7 +1838,47 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum Ŕpo</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorheaderslearnmore" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum Ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/places/places.properties:lockpromptinfobuttonlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum Ŕpo</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.dtd:identitylearnmore" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum Ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:contentblockingbreakagereportviewlearnmore" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum Ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:unsignedaddonsdisabledlearnmorelabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Terabum Ŕpo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:emenotificationsdrmcontentdisabledlearnmorelabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -1894,7 +1894,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum Ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:identity-learn-more" srclang="en-US">
+		<tu tuid="firefox:browser/browser/newtab/onboarding.ftl:onboarding-button-label-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -1902,7 +1902,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum Ŕpo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/newtab/onboarding.ftl:onboarding-button-label-learn-more" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:identity-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -1918,7 +1918,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum Ŕpo…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:flashhanghelpbuttonlabel" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:crashedpluginsmessagelearnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More…</seg>
 			</tuv>
@@ -1926,7 +1926,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Terabum Ŕpo…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:crashedpluginsmessagelearnmore" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:flashhanghelpbuttonlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More…</seg>
 			</tuv>
@@ -2086,7 +2086,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>{ menu-quit.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -2094,7 +2094,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -2126,12 +2126,28 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Mozilla Developer Network</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/migration.ftl:source-name-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 			<tuv xml:lang="pai">
 				<seg>Mozilla Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/profile/bookmarks.inc:firefox_heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Mozil Firefox</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
@@ -2150,22 +2166,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Mozil Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/profile/bookmarks.inc:firefox_heading" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Mozil Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla VPN</seg>
@@ -2182,7 +2182,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>{ $name } ({ $version })</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:navigation" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:navigation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>navigation</seg>
 			</tuv>
@@ -2190,7 +2190,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>saal japaach</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:navigation" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:navigation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>navigation</seg>
 			</tuv>
@@ -2254,7 +2254,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>baar myaab yamch</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/aboutReader.properties:readerviewcloseaccesskey" srclang="en-US">
+		<tu tuid="firefox:devtools/client/debugger.properties:breakpointmenuitemdeleteselfaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>R</seg>
 			</tuv>
@@ -2278,7 +2278,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>R</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/debugger.properties:breakpointmenuitemdeleteselfaccesskey" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/aboutReader.properties:readerviewcloseaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>R</seg>
 			</tuv>
@@ -2342,7 +2342,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>baarr kyuch´chu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -2350,7 +2350,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>ŕmeech</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -2374,7 +2374,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>waachŕit</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:separator" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separator" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>separator</seg>
 			</tuv>
@@ -2382,7 +2382,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>chapayt ujinchu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separator" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:separator" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>separator</seg>
 			</tuv>
@@ -2414,7 +2414,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>baarr estaad</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/newtab/onboarding.ftl:onboarding-fxa-title" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:syncbrandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sync</seg>
 			</tuv>
@@ -2422,7 +2422,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Sync</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:syncbrandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/browser/newtab/onboarding.ftl:onboarding-fxa-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sync</seg>
 			</tuv>
@@ -2518,7 +2518,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>U</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/protectionsPanel.ftl:protections-panel-content-blocking-breakage-report-view-collection-url-label" srclang="en-US">
+		<tu tuid="firefox:browser/browser/protectionsPanel.ftl:protections-panel-content-blocking-breakage-report-view-collection-url" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>URL</seg>
 			</tuv>
@@ -2534,7 +2534,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/protectionsPanel.ftl:protections-panel-content-blocking-breakage-report-view-collection-url" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.dtd:contentblockingbreakagereportviewcollectionurllabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>URL</seg>
 			</tuv>
@@ -2542,7 +2542,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.dtd:contentblockingbreakagereportviewcollectionurllabel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/protectionsPanel.ftl:protections-panel-content-blocking-breakage-report-view-collection-url-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>URL</seg>
 			</tuv>
@@ -2558,7 +2558,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>VK_F3</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-close-key" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/places/places.dtd:cmdclosekey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -2574,31 +2574,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-close-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/clearSiteData.ftl:clear-site-data-close-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/languages.ftl:languages-close-key" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -2614,7 +2590,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-window-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:close-dialog" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -2630,6 +2606,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>w</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-close-key" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>w</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
@@ -2638,7 +2622,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-close-key" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/languages.ftl:languages-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -2646,7 +2630,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:close-dialog" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-window-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -2654,7 +2638,23 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/places.dtd:cmdclosekey" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/clearSiteData.ftl:clear-site-data-close-key" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -2934,7 +2934,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Tñur web wi tkat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -2942,7 +2942,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Tubspach</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -3062,20 +3062,20 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Wawchul wak sal ñmbaamum m´uu ñwak kabyuk trchech chuha tawinch paa wak ik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_topsite_summary" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Enable to autocomplete more than 450 popular URLs in the address bar.</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Nmakchum 450 chayoomm chublwiich paa katee uchu URLs wachu tñurchuhal.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_user_list_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enable to autocomplete more than 450 popular URLs in the address bar.</seg>
 			</tuv>
 			<tuv xml:lang="pai">
 				<seg>Mnmakchum 450 chayoomm chublwich paa katee URLs tñur chmichu hal chmii.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_topsite_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enable to autocomplete more than 450 popular URLs in the address bar.</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Nmakchum 450 chayoomm chublwiich paa katee uchu URLs wachu tñurchuhal.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_block_content_summary2" srclang="en-US">
@@ -3342,20 +3342,20 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Myeemik chmwiwuha myok majanuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_subitem_manage_sites" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Manage sites</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Waachu numtrcheech</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_autocomplete_manage_sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage sites</seg>
 			</tuv>
 			<tuv xml:lang="pai">
 				<seg>Waachu ñumtrcheech</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_subitem_manage_sites" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage sites</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Waachu numtrcheech</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_performance_block_webfonts_summary" srclang="en-US">
@@ -3502,7 +3502,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Chubowu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -3510,7 +3510,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Sol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -3638,15 +3638,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ñulyomuk tkryeechu USB/Wi-Fi nyaam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="pai">
-				<seg>Ujiñ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -3662,7 +3654,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ujiñ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="pai">
+				<seg>Ujiñ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
