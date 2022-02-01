@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-01-01T00:58:30.739497">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-02-01T00:56:18.793294">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -123,12 +123,28 @@
 				<seg>Поладомс</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add a language you want to contribute to</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Полатт кяль конань эса тон ёрат лездомс</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-additional-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Additional Language</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Лия кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Language</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Полатт кяль</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
@@ -139,12 +155,36 @@
 				<seg>Поладомс кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-add-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>&lt;addLink&gt;Тяни поладыть сяда лама валрисьмот!&lt;/addLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-add-accent" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add new custom accent "{ $inputValue }"</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Сувафтомс од корхтама "{ $inputValue }"</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Поладомс валрисьмот</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-add-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Поладомс &lt;wikipediaLink&gt;эрти панжада лисьмаста&lt;/wikipediaLink&gt; валрисьмот</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-add-voice" srclang="en-US">
@@ -161,6 +201,14 @@
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Адыгеянь кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A few bytes</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аф лама байтта</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:af" srclang="en-US">
@@ -219,6 +267,22 @@
 				<seg>Лемфтема даннайхне, кода кизотне, аля/ава ломань, корхтафкссь цебярьгофтсазь аудиоданнайхнень, конат эрявить ломанень корхтамань шарьхкодемаса. Тонь тев тиемань лемце (имя пользователя) и эл. почтаце мзярдовок аф сувафтовихть максф даннайхнень ёткс и эсь мяльцень коряс кочкасак: лихтемс ломань инголи лемцень али сонь кадомс кяшфста</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-approve" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Approve</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кемокстамс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аф вии фталдонь увф аф прябалась, аньцек аф эрявихть тага вайгяльхть, сяс мес машинонь алгоритмонди улихть кода марямс валхт, конат ашет сёрматф текстса. Кда марявихть башка валхт, конат ашет текстть эса, клипсь аф кондясти. Сидеста тя эрьси мзярда кулеви телевизор эли кие-бди корхни маласа.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Arabic</seg>
@@ -233,6 +297,14 @@
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Арагононь кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Молят?&lt;strong&gt;[кие-бди серьгяди]&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hy-am" srclang="en-US">
@@ -344,7 +416,7 @@
 				<seg>Background Noise</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Фталдонь шум</seg>
+				<seg>Фталдонь гайф</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-title" srclang="en-US">
@@ -441,6 +513,14 @@
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>&lt;bold&gt;Лезтт тейнек &lt;/bold&gt; мумс сяда лама лия вайгяльда</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:bs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bosnian</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Босниянь кяль</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:both-speak-and-listen" srclang="en-US">
@@ -724,7 +804,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Кемокстайть</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -732,7 +812,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Пякстамс</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -787,7 +867,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Common Voice -- те Мозилла-ть мялец коряс машинатненди лезксшинь максомась афкуксонь ломанькс корхтамать шарьхкодемаса</seg>
+				<seg>Common Voice — тя Мозилла-ть мялец коряс машинатненди лезксшинь максомась афкуксонь ломанькс корхтамать шарьхкодемаса</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-description" srclang="en-US">
@@ -832,12 +912,28 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Кулхцондомань журнал</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-button-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Confirm</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кемокстамс</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-goal" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Confirm Goal</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Кемекстамс сатфкснень</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-sentences-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Confirm New Sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кемокстайть од валрисьмотнень</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:connect-gravatar" srclang="en-US">
@@ -880,7 +976,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Поладомс</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Лездомс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -888,20 +992,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Максомс лезкс</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Лездомс</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Лездомс</seg>
+				<seg>Максомс лезкс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
@@ -968,6 +1064,22 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Лезксонь максыхне сёрмадсазь эсь вайгяльснон, лувомок максф валрисьмотнень</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кукит</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кукит</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:kw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cornish</seg>
@@ -984,6 +1096,38 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Корсиканонь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-could-not-add" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Could not add language</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аш кода поладомс кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-failed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Could not change settings. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тев тиематнень ашесть полафта . Тяряфтт тага весть.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-err-remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Could not remove language</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аш кода нардамс кяльть</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-err-lang-not-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Could not remove language: language not found</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аш кода нардамс кяльть: кяльсь ашезь мув</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:n-clips-pluralized" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count } clips</seg>
@@ -998,6 +1142,38 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>{ $count }кофт</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-rejected-by-you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $countOfInvalidated } rejected by you</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $countOfInvalidated } ашеть кемокста</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-already-reviewed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $countOfReviewed } sentences are already reviewed. Great job!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $countOfReviewed } валрисьмот ванфольхть ни. Пяк цебярь!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-sentences-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $countOfSentences } sentences found.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $countOfSentences } валрисьмот мувсть.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-unreviewed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $countOfUnreviewed } sentences are unreviewed. If you want, you can also review your sentences now before submitting them.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $countOfUnreviewed } валрисьмот апак ватт. Улендяряй мяльце тон тяни тага маштат эсь валрисьмотнень ваномс сувафтомада инголе.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:x-weeks-short" srclang="en-US">
@@ -1129,6 +1305,22 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Нардамс профильть</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete selected sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Нардамс кочкаф валрисьмотнень</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-deleting" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Deleting selected sentences…</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кочкаф валрисьмотненть нардамась моли...</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:dv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dhivehi</seg>
@@ -1201,7 +1393,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Аф мусак эсь кяльцень кочкафкснень ёткста? Вешк сонь Кяльхть лопаса</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1209,7 +1401,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Таргамс</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1441,6 +1633,22 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Эльбятькссь { $code }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-err-fetching" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error while fetching rejected sentences. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мрдафтф валрисьмотнень аноклакшневомста лиссь эльбятькс. Тяряфтт тага весть.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-err-fetching" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error while fetching your sentences. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тонь валрисьмотнень аноклакшневомста лиссь эльбятькс. Тяряфтт тага весть.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:myv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erzya</seg>
@@ -1489,6 +1697,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Лисемс и нардамс клипнень</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-err-failed-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Failed to delete selected sentences… Please try again!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аш кода нардамс кочкаф валрисьмотнень... Тяряфтт тага весть!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>FAQ</seg>
@@ -1513,6 +1729,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Ава</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-filtered" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Filtered sentences due to requirements failing (please submit fixed versions as new sentences):</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Правилатнень коряс фильтраяфтф валрисьмотне аф ётайхть (прважайть видептьф валрисьмотнень верзияснон кода од валрисьмотнень)</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:finish-editing" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish editing first?</seg>
@@ -1535,6 +1759,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Васеда шумордость сёрмадомать</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish Review</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Шумордамс ваномать</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:fi" srclang="en-US">
@@ -1670,7 +1902,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Get Involved</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Сувамс тевонь тиихнень ёткс</seg>
+				<seg>Кундамс марстонь тевс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:get-started-goals" srclang="en-US">
@@ -1713,12 +1945,20 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Сатфкст</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:gom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Goan Konkani</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Конкани кяль</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:go-discourse" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to Discourse</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Ётамс дискурсияс &gt; Сувамс «Discourse» пяльксти</seg>
+				<seg>Ётамс дискуссияс &gt; Сувамс «Discourse» пяльксти</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:go-languages-page" srclang="en-US">
@@ -1894,7 +2134,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Лезода машинатненди шарьхкодемс афкуксонь корхтайть, сёматк эсь вайгяльсот текстт</seg>
+				<seg>Лездода машинатненди шарьхкодемс афкуксонь корхтайть, сёрматк эсь вайгяльсот текстт { $link }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-helpus" srclang="en-US">
@@ -2057,6 +2297,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Кода карматада вайгялень максыть лиятнень эзда информациянц сёлгома, аф няфтема?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кода</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-how-to" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How-to</seg>
@@ -2105,6 +2353,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Исландиянь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that these sentences are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мон кемокстан ня валрисьмотне сявфт &lt;wikipediaLink&gt;эрти панжеда лисьмаста&lt;/wikipediaLink&gt;, моньге ули мярьговома синь тонгоманди.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.</seg>
@@ -2121,6 +2377,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Аф праян фкя мяльс</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кда сёрмадомась лоткафтови мезенкса-бди, эста тясть сява сонь мяльс, аньцек сявомс эста, мзярда сембе текстсь кармай марявома.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
@@ -2129,12 +2393,60 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Кда сёрмадомась лоткафтови мезенкса-бди, эта тясть сява сонь мяльс, аньцек сявомс эста, мзярда сембе текстсь кармай марявома.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-5-2" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Кда сёрмадомась лоткафтови мезенкса-бди, эта тясть сява сонь мяльс, аньцек сявомс эста, мзярда сембе текстсь кармай марявома.</seg>
+				<seg>Кда валрисьмось тиф критериятнень вяре каршес, люпштак &amp;quot;Мрдафтомс&amp;quot; тяштенять кержи ширеса. Кафтолдондярят - нолдак сонь вакска, мольхть сай валрисьмонди.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence does not meet the above criteria, click the "Reject" button. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кда валрисьмось тиф критериятнень вяре каршес, люпштак "Ёрдамс" тяштенять кержи ширеса. Кафтолдондярят - нолдак сонь вакска, мольхть сай валрисьмонди.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence meets the criteria, click the "Approve" button.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кда валрисьмось тиф критериятнень коряс люпштак "Кемокстамс" тяштенять.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence meets the criteria, click the &amp;quot;Approve&amp;quot; button on the right.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кда валрисьмось тиф критериятнень коряс люпштак&amp;quot;Кемокстамс&amp;quot; тяштенять виде ширеса.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-process-notice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If your language is not listed here, you can request it through &lt;languageProcessLink&gt;this process&lt;/languageProcessLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ашить му эсь кяльцень тяста? Ули кода вешфкс кучемс &lt;languageProcessLink&gt;тя процессть&lt;/languageProcessLink&gt; вельде.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ашель ляда валрисьмот ваноманди? Лезтт тейнек кочкамс сяда лама валрисьмода!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ашель ляда валрисьмот ваноманди? Лезтт тейнек кочкамс сяда лама валрисьмода!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ig" srclang="en-US">
@@ -2159,6 +2471,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Мон аф молян каршек сянди, кода тинь нолдасасть информациять Mozilla-нь эсь тевонь Политикаса &lt;privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Includes mp3s and related sentences, may take some time to prepare</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ащи mp3 файлань и мархтост сотнеф валрисьмотнень эзда, эряви пингсь анокламонза</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:indicates-required" srclang="en-US">
@@ -2191,6 +2511,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Ёрат содамс сяда лама и кадомс путфкс тя проектти?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-ui-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interface Language</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Интерфейсонь кяль</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ia" srclang="en-US">
@@ -2393,6 +2721,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Ватт сатфкснень мельгя, конат тиевихть профильса и лезтт тейнек вайгялень кочкафксонь сяда цебярьста тиемаса</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:km" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Khmer</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кхмеронь кяль</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:quc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>K'iche'</seg>
@@ -2425,6 +2761,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Коми-зырянонь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:knn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Konkani (Devanagari)</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Конкани (девангари) кяль</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ko" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Korean</seg>
@@ -2449,14 +2793,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Киргизонь кяль</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Кяль</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -2466,6 +2802,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -2495,6 +2839,22 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Кяльхть</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-last-update" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last Update: { $lastUpdate }</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мекольце одкстомомась: { $lastUpdate }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-last-update-never" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last Update: never</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мекольце одкстомомась: мзярдонга ашель</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:lv" srclang="en-US">
@@ -2649,6 +3009,30 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Таргави...</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading rejected sentences…</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мрдафтф валрисьмотне аноклакшневихть...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading sentences…</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмотне аноклакшневихть...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading your sentences…</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тонь валрисьмотне аноклакшневихть...</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:localization" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Localization</seg>
@@ -2663,6 +3047,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Ётафтф эсь кяльс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-login-err-failed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Login failed</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сувама ваcтть эльбятьксоц</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:login-identity" srclang="en-US">
@@ -2753,12 +3145,28 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Майхтилинь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the sentence meets the following criteria:</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Варжак лацкаста эли аф тиф валрисьмотне критериятнень коряс:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the sentence meets the following criteria:</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Варжак лацкаста эли аф тиф валрисьме критериятнень коряс:</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:rich-data" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Лемфтома демографиянь даннаень максомста пяшкодесть синь вельф. Нолдамда инголе минь синь тисаськ лемфомокс</seg>
+				<seg>Лемфтома демографиянь даннаень максомста пяшкодесть синь вельф. Нолдамда инголе минь синь тисаськ лемфтомокс.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:mg" srclang="en-US">
@@ -2857,6 +3265,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Луга-маринь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mni" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Meetei Lon</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Манипури кяль</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-form-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Message</seg>
@@ -2894,7 +3310,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Ашет &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; сёрматфксть ушетксса.</seg>
+				<seg>Ашет &lt;strong&gt;'A'&lt;/strong&gt; али &lt;strong&gt;'The'&lt;/strong&gt; сёрматфксть ушетксса.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
@@ -2986,7 +3402,7 @@ recognition open to everyone.</seg>
 				<seg>Mozilla is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. Common Voice is a public resource available to everyone and Mozilla teams and developers around the world are already using it on our own projects as well.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Mozilla-ть вельде мяльс коря тиемс Интернетть шарьхкодевикс и панжадокс эрь ломанти. Тянкса тейнек сави тиихнень келилгофтомс мяльснон тевтиемань ширде тяфтама проектонь вельде, кода Common Voice. Кода содаф, вайгялень шарьхкотьфти технологиятне тушендыхть нишань путфкснень (приложениятнень) эзда шири, но сембе сяка синдейст эрявихть ваномс тевс нолдайхнень фкя лаца. Тя лувови оцю путфксокс лама кялень тонафнемаса, эрь кодама корхтафксонь ванфтомаса и вайгялень технологиянь тиемаса и ваномаса. Common Voice - тя сембонди шарьхкодеви и кядь видеса ресурс, кона эрязста нолдави тевс Mozilla- нь тиихнень и ломанень кочкафкснень мархта сембе масторса минцень эсь проектоньконь эса.</seg>
+				<seg>Mozilla-ть вельде мяльс коря тиемс Интернетть шарьхкодевикс и панжадокс эрь ломанти. Тянкса тейнек сави тиихнень келилгофтомс мяльснон тевтиемань ширде тяфтама проектонь вельде, кода Common Voice. Кода содаф, вайгялень шарьхкотьфти технологиятне тушендыхть нишань полаткснень (приложениятнень) эзда шири, но сембе сяка синдейст эрявихть ваномс тевс нолдайхнень фкя лаца. Тя лувови оцю путфксокс лама кялень тонафнемаса, эрь кодама корхтафксонь ванфтомаса и вайгялень технологиянь тиемаса и ваномаса. Common Voice - тя сембонди шарьхкодеви и кядь видеса ресурс, кона эрязста нолдави тевс Mozilla- нь тиихнень и ломанень кочкафкснень мархта сембе масторса минцень эсь проектоньконь эса.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:mycroft-title" srclang="en-US">
@@ -2994,7 +3410,7 @@ recognition open to everyone.</seg>
 				<seg>Mycroft Ai</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Ашезь мув</seg>
+				<seg>Эсь тиф интеллект Mycroft</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:mycroft-description" srclang="en-US">
@@ -3014,12 +3430,28 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>Монь валрисьмоне/азфоне</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>My Sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Монь валрисьмоне/азфоне</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>n</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>а</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>А</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:not-available-abbreviation" srclang="en-US">
@@ -3123,7 +3555,7 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>[No ‘a’ in the original text]</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>[Васенце  текстса аш  "а"]</seg>
+				<seg>[Васенце текстса аш ‘а‘]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:gravatar_not_found" srclang="en-US">
@@ -3142,6 +3574,14 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>Микрофонць аф муви</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-none-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No rejected sentences found!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Фкявок ёрдаф валрисьме ашезь мув!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:nb-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Norwegian Bokmål</seg>
@@ -3156,6 +3596,22 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Норвегиянь Нюнорсконь кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-no-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No sentences found!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Фкявок валрисьме ашезь мув!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-no-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмот ванома аш. &lt;addLink&gt;Тяни полатк сяда лама валрисьмотнень!&lt;/addLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:visibility-overlay-note" srclang="en-US">
@@ -3187,7 +3643,7 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. &lt;br/&gt;&lt;br/&gt;If you prefer to review other people's voice contributions, click on the play icon. You’ll help confirm that recordings match the sentences written on screen.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Тяни, мзярда содат сяда лама Common Voice-ть колга, мес ба аф тяряфтомс? Люпштак микрофононь тяштенять, штоба азамс валрисьмотнень кайгиста. &lt;br/&gt;&lt;br/&gt; Кда мяльце видеста ваномс и петемс лия ломанень вайгялень сёрматфкснень, эста люпштак нолдамань тяштенять. Тянь мархта кемокстасак, што вайгялень сёрматфкссь фкя лацонь валрисьмотнень мархта, конат няфтьфт экранца</seg>
+				<seg>Тяни, мзярда содат сяда лама Common Voice-ть колга, мес ба аф тяряфтомс? Люпштак микрофононь тяштенять, штоба азомс валрисьмотнень кайгиста. &lt;br/&gt;&lt;br/&gt; Кда мяльце видеста ваномс и петемс лия ломанень вайгялень сёрматфкснень, эста люпштак нолдамань тяштенять. Тянь мархта кемокстасак, што вайгялень сёрматфкссь фкя лацонь валрисьмотнень мархта, конат няфтьфт экранца</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-desktop" srclang="en-US">
@@ -3197,7 +3653,7 @@ to make innovative apps for devices and the web. Read a sentence to help machine
 contributors to improve the quality. It’s that simple!</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Тяни сави кучемс эсь вайгяльцень тейнек, штоба лездомс тиемс сембонди сатовикс кялень кочкафкс (даннайхть), конатнень тевс нолдалезь эрь шарьхкодись  тяниень пингть приложенияннь и сайтонь тиемаса. &lt;lineBreak&gt;&lt;/lineBreak&gt; Азонтт валхт и башка валзюлмот, штоба лездомс машинатненди шарьхкодемс, кода корхтайхть афкуксонь ломаттне. Цебярьста ватт лия лездыхнень тевснон мельгя, штоба тевсь тиеволь сядонга лац. Тя аф стака!</seg>
+				<seg>Тяни сави кучемс эсь вайгяльцень тейнек, штоба лездомс тиемс сембонди сатовикс кялень кочкафкс (даннайхть), конатнень тевс нолдалезь эрь шарьхкодись тяниень пингть полатксонь (приложениянь) и сайтонь тиемаса. &lt;lineBreak&gt;&lt;/lineBreak&gt; Азонтт валхт и башка валзюлмот, штоба лездомс машинатненди шарьхкодемс, кода корхтайхть афкуксонь ломаттне. Цебярьста ватт лия лездыхнень тевснон мельгя, штоба тевсь тиеволь сядонга лац. Тя аф стака!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:number-of-voices" srclang="en-US">
@@ -3270,6 +3726,14 @@ contributors to improve the quality. It’s that simple!</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Шра лангонь компьютерса, тяряфтость таргамс мекольцеть...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-ph-one-per-line" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>One sentence per line</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Фкя валрисьме китьксс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
@@ -3386,7 +3850,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Папьяментонь (Арубань) кяль</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -3394,7 +3858,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Ялгат (партнерхт)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -3407,7 +3871,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[Part of the text can’t be heard]</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Текстть пяльксоц аф маряви</seg>
+				<seg>[Текстть пяльксоц аф маряви]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ps" srclang="en-US">
@@ -3458,6 +3922,62 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Нолдамс/Лоткафтомс</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-add-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please add a source.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Полатт лисьма, коста валрисьмотне сявфт.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-add-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please add sentences.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Поладыть валрисьмот.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please check the &lt;howToLink&gt;guidelines&lt;/howToLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ваность &lt;howToLink&gt;ветямовалхнень&lt;/howToLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-confirm-pd" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please confirm that these sentences are public domain.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кемокстак ня валрисьмотне сявфольхть эрти панжада лисьмаста.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-select-lang" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please select a language.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кочкак кяль.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please select a language to review sentences.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кочкак кяльть валрисьмонь ваноманди.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-login-err-try-again" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тяряфтт тага весть.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:pl" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Polish</seg>
@@ -3495,7 +4015,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Privacy</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Приватнайши</seg>
+				<seg>Эсь тев тиема</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy-title" srclang="en-US">
@@ -3546,6 +4066,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Профилень содамошись цебярьготьфтсыне аудиоданнайхнень тевс нолдамаснон</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile: { $username }</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Профильсь:{ $username }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-meter-in-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Progress</seg>
@@ -3560,6 +4088,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Панджабинь кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:quy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Quechua Chanka</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кечуа Чанка кяль</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle" srclang="en-US">
@@ -3584,6 +4120,22 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Содак сяда лама «Минь колганк» лопаса</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-ph-read-how-to" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read our How-to if unsure how to attribute</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кафтолдондярят кода видеста поладомс валрисьмот - лувк минь лезкс Кода</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-ready" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $readyCount } sentences ready for submission!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $readyCount } валрисьмот анокт сувафтоманди!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-contribute-card-header" srclang="en-US">
@@ -3666,20 +4218,20 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[Сёрмадомась лоткафтовсь мекольце валть лангс]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Вайгялень сёрмадомат</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Сёрматфне</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Вайгялень сёрмадомат</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
@@ -3714,12 +4266,44 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Одкстоптомс</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-reject" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reject</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мрдафтомс</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Мрдафтф валрисьмот/азфт</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rejected Sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Мрдафтф валрисьмот/азфт</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-rejected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $rejectedSentences } rejected sentences.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $rejectedSentences } мрдафтф валрисьмода.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-remove-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>remove</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>нардамс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:remove" srclang="en-US">
@@ -3794,6 +4378,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Одукс сёрмадомс клипть</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-reset-skipped" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reset skipped sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валхтомс вакска нолдаф валрисьмотнень.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return</seg>
@@ -3858,6 +4450,54 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Семботь ваномац</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Семботь ваномац</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-review-failure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review could not be saved. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ваномать аш кода ванфтомс. Тяряфтт тага весть меле.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-modal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ⓘ Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>ⓘ Ванондомань критериятне</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Ванондомань критериятне</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewed sentences not submitted, are sure?</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тон афкукс ёрат кадомс ванф валрисьмотнень апак прважак?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-review-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;reviewLink&gt;Review now!&lt;/reviewLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>&lt;reviewLink&gt;Тяни ватт!&lt;/reviewLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips here as you go</seg>
@@ -3872,6 +4512,22 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Ванк видеста сёрмадомать и кда эряви одукс сёрматк клипть</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмотнень ваномс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмотнень ваномс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-submit-title" srclang="en-US">
@@ -3920,6 +4576,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>л</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>S</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Л</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sah" srclang="en-US">
@@ -4018,6 +4682,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Сявф</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select Language</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Кочкамс кяль</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-sign-up" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Send sign up link</seg>
@@ -4034,12 +4706,92 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Валрисьмонь пуромкс</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-number-of-words" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence must contain between 1 and 14 (inclusive) words</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Эрявихть валрисьмотне 1-14 (-ти самс) валхнень мархта.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sentences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentences</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Валрисьмот</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-added-by-you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } added by you</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $sentences } поладыть</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-uploading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences are being uploaded. This can take several minutes depending on the number of sentences added. Please do not close this website.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмотне тонгокшневихть. Эряви мзярошка минутат. Пингсь ащи тянь эзда мзяра валрисьмода полаткшневихть. Тят сёлга тя интернет лопать.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-no-abbreviations" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence should not contain abbreviations</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аф эрявихть валрисьмотне кирьфтафкснень (абрревиатуратнень) мархта.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-no-numbers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence should not contain numbers</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аф эрявихть валрисьмот цифратнень мархта.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-no-symbols" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence should not contain symbols</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Аф эрявихть валрисьмотне символхнень мархта.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences not submitted, are you sure you want to leave?</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тон афкукс ёрат лисемс и кадомс валрисьмотне апак прважак?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-are-you-sure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences not submitted, are you sure you want to leave?</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тон афкукс ёрат лисемс и кадомс валрисьмотнень апак прважак?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-err-failed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences failed</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $sentences }  валрисьмот ашесть ёта</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-reviewed-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>валрисьмода ванфольхть. Сюкпря!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-metadata-link" srclang="en-US">
@@ -4072,6 +4824,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Путомс няевиксшить</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тев тиемат</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
@@ -4143,7 +4903,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[Should be ‘dinosaurs’]</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>[Улема, динозаврат]</seg>
+				<seg>[Улема, ‘динозаврат‘]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
@@ -4151,7 +4911,15 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[Should be “We are”]</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Улема "Минь"</seg>
+				<seg>[Улема "Минь"]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-show-all-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show all skipped sentences again</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тага няфтемс сембе вакска нолдаф валрисьмотнень.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:show-ranking" srclang="en-US">
@@ -4218,6 +4986,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Сингалонь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Size</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Оцюлма</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
@@ -4226,12 +5002,12 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Оцюлма</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Size</seg>
+				<seg>Skip</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Оцюлма</seg>
+				<seg>Нолдамс вакска</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
@@ -4290,6 +5066,22 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Верце Сорбонь кяль</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Лисьма: { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source:  { $source }</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Лисьма:  { $source }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:es" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Spanish</seg>
@@ -4298,20 +5090,20 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Испанонь кяль</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Speak</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Корхтамс</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Сёрмадома</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Корхтамс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-speakers" srclang="en-US">
@@ -4377,7 +5169,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Speech-to-text (STT)</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Кортамась текстса (STT)</seg>
+				<seg>Корхтамась текстс (STT)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sst-explanation" srclang="en-US">
@@ -4412,6 +5204,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Ушетт печатлама, штоба азондомс эсь корхтамацень колга</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Statistics</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Лувомась</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
@@ -4436,28 +5236,68 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Лама ши</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>&lt;strong&gt;[Лакшторф]&lt;/strong&gt;оцю динозаврат&lt;strong&gt;[лакшторф]&lt;/strong&gt;-риасста.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>&lt;strong&gt;[Кшняма]&lt;/strong&gt; Оцюдонга-оцю динозаврат &lt;strong&gt;[козома]&lt;/strong&gt; Триасста.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submission: { $batchId }</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Прважама: { $batchId }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-err-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submission Error</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Прважамонь эльбятькс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сувафтомс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сувафтомс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сувафтомс</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Кучемс</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Сувафтомс</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Сувафтомс</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
@@ -4468,6 +5308,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Прважамс пеняцяма вал</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сувафтомс клипть</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
@@ -4476,12 +5324,12 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Прважамс клипть</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-result" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
+				<seg>Submitted sentences. { $duplicates } sentences were rejected as duplicates.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Сувафтомс клипть</seg>
+				<seg>Сувафтф валрисьмотне. { $duplicates } валрисьмот мрдафтфольхть кода дубликатт.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:subscribe" srclang="en-US">
@@ -4522,6 +5370,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Шведонь кяль</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-usage" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмонь кемокстаманди тяемс сурхнень эса виде шири. Тяемс кержи шири сонь ёрдаманди. Тяемс вяри вакска нолдаманди. &lt;strong&gt;Тят юкста прважамс тонь ваномацень.&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:syr" srclang="en-US">
@@ -4633,7 +5489,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Terms</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Термитт</seg>
+				<seg>Тевс нолдамань условияньке</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:th" srclang="en-US">
@@ -4665,7 +5521,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Сюкпря сёрматфкснень инкса!&lt;lineBreak&gt;&lt;/lineBreak&gt;Тяни одукс колхцонтт-ватт и сувафтыть эсь сёрматфнень алу.</seg>
+				<seg>Сюкпря сёрматфкснень инкса!&lt;lineBreak&gt;&lt;/lineBreak&gt;Тяни одукс кулхцонтт-ватт и сувафтыть эсь сёрматфнень алу.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-text" srclang="en-US">
@@ -4691,7 +5547,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>The bumblebee sped by.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Праможсь лийкстась вакска.</seg>
+				<seg>Прамежсь лийкстась вакска.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-clip-graveyard-text" srclang="en-US">
@@ -4734,6 +5590,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Common Voice-ста даннаень таргамась сотф &lt;licenseLink&gt;CC0&lt;/licenseLink&gt; лицензиять мархта &lt;datasetLink&gt;-са &lt;/datasetLink&gt; лопаса. Тон тяфта жа, кда ули мяльце, сувафтт кой-мзяра тевонь тиемань путфкс, конат тейть няевихть и лувовихть панжадокс.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Common Voice Sentence Collector has collected { $sentenceCount } sentences in { $languageCount } languages!</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Common Voice-ть Валрисьмонь Кочкамась кочкась { $sentenceCount } валрисьме { $languageCount } кяльса!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-validated-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The count of voice recording hours that have been validated by 2 out of 3 users with a vote of “Yes”. These mark progress toward the overall project 10k hours goal.</seg>
@@ -4774,6 +5638,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Триасань оцюдонга-оцю динозаврат.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Оцюдонга-оцю динозаврат Триасста&lt;strong&gt;[морафтф фкя вайгяльса]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-4-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic. Yes.</seg>
@@ -4782,12 +5654,20 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Триасань оцюдонга-оцю динозаврат. Виде</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Оцюдонга-оцю дино&lt;strong&gt;[козома]&lt;strong&gt; Триасста.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-is-goal-assistant-a" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The goal of the Common Voice dataset is to enable anyone in the world to build speech recognition, speaker recognition, or any other type of application that requires voice data. A voice assistant is just one of many types of applications you could use the dataset to build.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>«Common Voice» даннаень кочкафксть сатфксонза ащихть сянь эса, штоба лездомс эрь ломанти тиемс вайгялень шарьхкодемань механизмат али кодама-бди полаткст, конатнень тиемаснонды эрявихть вайгялень кочкаф даннайхть. Вайгяльса лезды механизмась- тя фкя лама лия типнень ёткста  приложениясь, конань тиемс эрявихть даннайхть</seg>
+				<seg>«Common Voice» даннаень кочкафксть сатфксонза ащихть сянь эса, штоба лездомс эрь ломанти тиемс вайгялень шарьхкодемань механизмат али кодама-бди полаткст, конатнень тиемаснонды эрявихть вайгялень кочкаф даннайхть. Вайгяльса лезды механизмась- тя фкя лама лия типнень ёткста  полаткссь (приложениясь), конань тиемс эрявихть даннайхть</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-when-release2-a" srclang="en-US">
@@ -4804,6 +5684,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Ломань инголи лихневихть и няфтевихть кодама кяльса мархтот тиф вайгялень коряс сёрматфксне</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-language-translated-warning" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The pages for this language might not be fully translated. You can help out with translation &lt;pontoonLinkLink&gt;on Pontoon&lt;/pontoonLinkLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тя кяльть лопанзон, улема, ашезь ётафта педа-пес. Тейть ули кода лездомс ётафтомать мархта.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:de-identified-explanation" srclang="en-US">
@@ -4838,6 +5726,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Сёрматфкссь пяк нюрьхкяня</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-volume-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Морафтыхнень вайгяльснон серьсна ули аф фкя. Аф кондясти аньцек кда вайгяльть серенза сяшкава вии, шта сёрмадомась лоткай (сидеста), эли сяшкава лафча мянь текстть лангс аф ваномста аш кода шарьхкодемс мезсь азфоль .</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-section-in-progress-new-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>These languages are currently under community development. The progress bars indicate how far each language is in the process of &lt;localizationGlossaryLink&gt;website localization&lt;/localizationGlossaryLink&gt; and &lt;sentenceCollectionGlossaryLink&gt;sentence collection&lt;/sentenceCollectionGlossaryLink&gt;.</seg>
@@ -4870,6 +5766,54 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Валрисьмоса мялень колай и аф цебярь валхт</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмоть эса аш грамматикань ширде эльбятькст.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисмоть эса аш грамматикань ширде эльбятькст.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be speakable.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмось морафтови.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be speakable.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмось морафтови.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмоть эса аш видеста сёрмадомань коряс эльбятькст.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Валрисьмоть эса аш видеста сёрмадомань коряс эльбятькст.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:error-content-503" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The site will be back up as soon as possible. For the latest information, please join the &lt;matrixLink&gt;Matrix community chat&lt;/matrixLink&gt; or visit &lt;githubLink&gt;GitHub&lt;/githubLink&gt; or &lt;discourseLink&gt;our Discourse forums&lt;/discourseLink&gt; to submit and monitor site experience issues.</seg>
@@ -4883,7 +5827,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>«TED-LIUM» корпуссь кочкаф «TED» сайтста масф аудио корхтаматнень и синь транскрипцияснон эзда</seg>
+				<seg>«TED-LIUM» корпуссь кочкаф «TED» сайтста максф аудио корхтаматнень и синь транскрипцияснон эзда</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-10k-hours-a" srclang="en-US">
@@ -4899,7 +5843,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Тя сегментсь шарфтф башка тевонь нолдамань лангс, кона цебярьгофтсы цифтать  и «виде»/«аф» шарьхкодематнень</seg>
+				<seg>Тя сегментсь шарфтф башка тевонь нолдамань лангс, кона цебярьгофтсы цифрать  и «виде»/«аф» шарьхкодематнень</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:localization-explanation" srclang="en-US">
@@ -4924,6 +5868,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Илядсь колма!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tig" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tigre</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тигре кяль</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ti" srclang="en-US">
@@ -5006,6 +5958,22 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-in-review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $totalInReview } sentences in review.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $totalInReview } валрисьмот ванондомаса.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-total" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $totalSentences } total sentences.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сембоц { $totalSentences } валрисьмода.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-card-body" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.</seg>
@@ -5051,7 +6019,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Turkmen</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>туркань</seg>
+				<seg>Туркменонь кяль</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:tw" srclang="en-US">
@@ -5100,6 +6068,30 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Шархькодемс лезксонь максомань критериятнень</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-err-unexpected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unexpected response returned from server</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Серверста лиссь апак учт эльбятькс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-left-for-you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $unreviewedSentencesByYou } sentences left for you to review.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $unreviewedSentencesByYou } валрисьмот лядсть ваноманди.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-updating" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Updating…</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Одкстомомась моли...</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-aborted" srclang="en-US">
@@ -5196,6 +6188,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Сембоц част ванф</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-validated" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $validatedSentences } validated sentences.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>{ $validatedSentences } кемокстаф валрисьмода.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-paragraph" srclang="en-US">
@@ -5321,7 +6321,7 @@ data is required.</seg>
 We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Вайгялень шарьхкодемань технологиясь одкстоптсы машинатнень мархта марстонь тевть,  аньцек тяниень пингонь нолдави систематне пяк питнихть и патент мархтот. Common Voice -  Mozilla-нь инициативань пялькс, кона покоди вайгялень шарьхкодемань технологиятнень цебярьгофтомаснон лангса и кона няеви, панжада сембонди. Common Voice - тя марс кочкаф вайгялень сюлма, кона максы эрь ломанти вишкста и тёждяста тонафнемс вайгялень марс кочкаф полаткснень (приложениятнень) малав сембе кяльхнень эса. Минь кочкатама вайгялень коряс кепотькст аф аньцек содаф и сидеста васьфневи кяльхнень коряс, но и аф пяк содаф и шуроста васьфневи кяльхнень коряс, коса корхтайда аф пяк лама. Эрь кодама кялень коряс вайгялень кочкафксонь максомась тиихненди, тевс нолдайхненди, башка пуромксненди сави петемс и пяшкодемс аф сатыкснень эсь тевснон вельде. Common Voice даннайхнень пяшкодемста минь тяфта жа тихтяма эрявикс механизмат кялень шарьхкодемать коряс. Синь кармайхть улема сембонди няевикст, панжатот, Deep Speech лем ала.</seg>
+				<seg>Вайгялень шарьхкодемань технологиясь одкстоптсы машинатнень мархта марстонь тевть,  аньцек тяниень пингонь нолдави систематне пяк питнихть и патент мархтот. Common Voice -  Mozilla-нь инициативань пялькс, кона покоди вайгялень шарьхкодемань технологиятнень цебярьгофтомаснон лангса и кона няеви, панжада сембонди. Common Voice - тя марс кочкаф вайгялень сюлма, кона максы эрь ломанти вишкста и тёждяста тонафнемс вайгялень марс кочкаф полаткснень (приложениятнень) малав сембе кяльхнень эса. Минь кочкатама вайгялень коряс кепотькст аф аньцек содаф и сидеста васьфневи кяльхнень коряс, но и аф пяк содаф и шуроста васьфневи кяльхнень коряс, коса корхтайда аф пяк лама. Эрь кодама кялень коряс вайгялень кочкафксонь максомась тиихненди, тевс нолдайхненди, башка пуромксненди сави петемс и пяшкодемс аф сатыкснень эсь тевснон вельде. Common Voice даннайхнень пяшкодемста минь тяфта жа тихтяма эрявикс механизмат кялень шарьхкодемать коряс. Синь кармайхть улема сембонди няевикст, панжадот, Deep Speech лем ала.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:voices-online" srclang="en-US">
@@ -5337,7 +6337,7 @@ We're not only collecting voice samples  in widely spoken languages but also i
 				<seg>Volume</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Кайгиксши</seg>
+				<seg>Вайгялень серец</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vot" srclang="en-US">
@@ -5407,20 +6407,20 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>Mozilla-са минь пуроптама оцю полга вайгяль текнологиянь коряс. Ёратама сяда тов содамс одкстопнематнень, од лисьмотнень колга, тага кода сёрматфсь тевс нолдави.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Mozilla-са минь пуроптама оцю полга вайгяль текнологиянь коряс. Ёратама сяда тов содамс одкстопнематнень, од лисьмотнень колга, тага кода сёрматфсь тевс нолдави.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Минь Мозилласа тихтяма кялень технологиянь коряс ломанень пуромкс. Минь мяленьке, штоба тинь содалесть сембе од кулятнень, од лисмопрятнень, а тяфта жа  тяфтама даннайхнень тевс нолямаснон</seg>
+				<seg>Минь Mozilla-са тихтяма кялень технологиянь коряс ломанень пуромкс. Минь мяленьке, штоба тинь содалесть сембе од кулятнень, од лисмопрятнень, а тяфта жа  тяфтама даннайхнень тевс нолямаснон</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Минь Mozilla-са тихтяма кялень технологиянь коряс ломанень пуромкс. Минь мяленьке, штоба тинь содалесть сембе од кулятнень, од лисьмопрятнень а тяфта жа тяфтама даннайхнень тевс нолямаснон.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-a" srclang="en-US">
@@ -5484,15 +6484,7 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
-				<seg>Макстама вал ванфтомс информацияце лац. Морафтк сяда тов &lt;privacyLink&gt;"Информациянь ванфтома"&lt;/privacyLink&gt; пяльксса.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="mdf">
-				<seg>Макстама вал ванфтомс информацияце лац. Морафтк сяда тов &lt;privacyLink&gt;"Информациянь ванфтома"&lt;/privacyLink&gt; пяльксса.</seg>
+				<seg>Макстама вал цебярьста ваномс информациять мельге. Сяда крхкаста ванк &lt;privacyLink&gt;"Кяшф сёрматфксть"&lt;/privacyLink&gt; эса.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
@@ -5501,6 +6493,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Макстама вал цебярьста ваномс информациять мельгя. Сяда крхкаста ванк &lt;privacyLink&gt;Кяшф сёрматфксть эса&lt;/privacyLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Макстама вал ванфтомс информацияце лац. Морафтк сяда тов &lt;privacyLink&gt;"Информациянь ванфтома"&lt;/privacyLink&gt; пяльксса.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-headline" srclang="en-US">
@@ -5679,6 +6679,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>Мзярда карматада нолдама «Common Voice» максовикс даннайхть лия кяльса?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-from-where" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Where are these &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; sentences from?</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Коста сявфольхть ня &lt;wikipediaLink&gt;эрти панжада лисьмаста&lt;/wikipediaLink&gt; валрисьмотне?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-where-src-from-2-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Where does the source text come from?</seg>
@@ -5791,6 +6799,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>и</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-approve-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Y</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>И</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
@@ -5879,6 +6895,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>Тон ёрат таргамс &lt;b&gt;{ $size }&lt;/b&gt;</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тейть ули кода тага клавиатурань пунятнень тевс нолдамс: { sc-review-form-button-approve-shortcut } кемокстаманди, { sc-review-form-button-reject-shortcut } ёрдаманди, { sc-review-form-button-skip-shortcut } вакска нолдаманди</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:username-optin-public" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can choose to make your username public or anonymous.</seg>
@@ -5895,12 +6919,44 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>Лезтт аф фкя лацонь даннаень тиемаса, тиемок профиль Common Voice-са и лездомок эсь вайгяльцень мархта</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-not-added" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not added any languages yet.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тон мзярс ашеть полада фкявок кяль.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-lang-not-selected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тон ашеть кочка кяльть. Мольхть Профильс&lt;/profileLink&gt; кялень кочкаманди.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-must-allow-microphone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Эряви максомс микрофонти нолдавомань видексшить</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-skipped-decription" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You previously skipped sentences while reviewing. Resetting skipped sentences will show all skipped sentences again. This is independent of the language.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Сяда инголе валрисьмотнень ванондомда тон нолдать синь вакска. Синь валхтомста тон тага синь няят. Тя кяльть эзда аф ащихть.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тонь корхтафксоце тя кода валхнень азондсайть. Сон ащи сянь эзда коса эрять, кодама кяльса корхтать и стак тов. Ули кода тяштемс эрь кодама информация тянь колга, конань арьсят эрявикс.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:keep-info" srclang="en-US">
@@ -5959,6 +7015,14 @@ progress updates and newsletters about Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="mdf">
 				<seg>Кармат получсема тяфтама кулянь сёрмат, коса азови «Common Voice»-нь проектть сатфксонзон колга.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-your-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your languages:</seg>
+			</tuv>
+			<tuv xml:lang="mdf">
+				<seg>Тонь кяльхне:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:your-languages" srclang="en-US">
