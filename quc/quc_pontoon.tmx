@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-02-01T00:57:09.493735">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-03-01T01:12:57.220668">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -815,20 +815,20 @@ your address, birthday, or family names.</seg>
 				<seg>Ub'i' taq achib'il kemk'at</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Change password for this site</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Uk'exik retokib'al chech we uk'olib'al web'</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:change-pw-site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change password for this site</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chak'exa' le aretok'ib'al rech we uk'olib'al web'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change password for this site</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uk'exik retokib'al chech we uk'olib'al web'</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:link-change-primary" srclang="en-US">
@@ -1496,7 +1496,7 @@ You’re receiving this alert because you’re the verified owner of this email 
 				<seg>Firefox Lockwise</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:product-name" srclang="en-US">
+		<tu tuid="firefox-monitor-website:email-strings.ftl:product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
@@ -1504,7 +1504,7 @@ You’re receiving this alert because you’re the verified owner of this email 
 				<seg>Firefox Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:product-name" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
@@ -1827,20 +1827,20 @@ monitors known data breaches for your personal info. We’re linking it to Firef
 				<seg>Jas kchakun { -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:create-strong-passwords" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How to create strong passwords</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Jas uwinaqirisaxik kowilal taq retokib'al</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-1-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How to create strong passwords</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Jas uwinaqirisax nim uchuq'ab'il taq retokib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:app.ftl:create-strong-passwords" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to create strong passwords</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Jas uwinaqirisaxik kowilal taq retokib'al</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:error-invalid-unsub" srclang="en-US">
@@ -4624,7 +4624,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uq\'atexik taq tz\'ib\' rech web\'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -4632,7 +4632,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uq\'atexik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -4784,6 +4784,22 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uchupik chi\'l ujaqik</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
@@ -4798,22 +4814,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chayuju\' le b\'anatal kanoq rech nik\'onem</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_add_example" srclang="en-US">
@@ -4936,7 +4936,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ch\'ab\'al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4944,7 +4944,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Chaweta\'maj nik\'aj chik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5056,7 +5056,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Le teren chi uloq</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -5064,7 +5064,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ja\'i\'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -5120,7 +5120,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Utzijik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -5128,7 +5128,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ujaqik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -5248,14 +5248,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uya\'ik chi jumul uchuq\'ab\' wokk\'olib\'al web\'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Relesaxik</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5265,6 +5257,14 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Relesaxik</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5328,7 +5328,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Chattzalija pa taq ajawatal taq wokk\'olib\'al web\' pa %1$s aninaq. Xew chacha\' \"Uya\'ik pa umajib\'al q\'axwach\" pa le %1$s cholokib\'al.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -5336,7 +5336,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uk\'olik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -5656,7 +5656,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Jas k\'ak\'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -5664,7 +5664,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Je\'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -5688,20 +5688,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Le atzukub\'al rech b\'anatal kanoq xchupisaxik.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your Rights</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Taq aya\'talil</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Taq Aya\'talil</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Rights</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Taq aya\'talil</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_search_title" srclang="en-US">
@@ -6296,7 +6296,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -6304,7 +6304,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>

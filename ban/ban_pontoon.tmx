@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-02-01T00:52:36.707566">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-03-01T01:06:01.197445">
 	</header>
 	<body>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_no_realm_message" srclang="en-US">
@@ -83,6 +83,14 @@
 				<seg>Puyung</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_httpsonly_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue to HTTP Site</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>Lanturang ka Situs HTTP</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_file_not_found_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>File Not Found</seg>
@@ -99,7 +107,7 @@
 				<seg>Mawali (Kanikayang)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
 			</tuv>
@@ -107,7 +115,7 @@
 				<seg>Kasorot</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
 			</tuv>
@@ -429,10 +437,26 @@
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
+				<seg>attendee</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>pamilet</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
 				<seg>autoplay</seg>
 			</tuv>
 			<tuv xml:lang="ban">
 				<seg>putar otomatis</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>black box</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>kotak selem</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -461,6 +485,14 @@
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
+				<seg>certificate authority</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>sertifikasi otoritas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
 				<seg>channel</seg>
 			</tuv>
 			<tuv xml:lang="ban">
@@ -469,10 +501,50 @@
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
+				<seg>cipher</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>kruna sereg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clipboard</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>papan klip</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clockwise</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>pateh sareng jaum jam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
 				<seg>context</seg>
 			</tuv>
 			<tuv xml:lang="ban">
 				<seg>Daging</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>contribute</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>ngemang</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>contribute</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>uah</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -497,6 +569,54 @@
 			</tuv>
 			<tuv xml:lang="ban">
 				<seg>sampun usak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>disinformation</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>disinformasi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>installation</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>instalasi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>L10n</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>L10n</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>lingga tangan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>signer</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>palingga tangan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turbo Mode</seg>
+			</tuv>
+			<tuv xml:lang="ban">
+				<seg>Mode Turbo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
