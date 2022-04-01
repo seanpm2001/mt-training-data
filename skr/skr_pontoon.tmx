@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-03-01T01:13:32.908370">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-04-01T01:23:35.863057">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -17,6 +17,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>2019 سال چھیکڑی  ریلیز</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>٢ تھی ڳئے۔  شاباش جاری رکھو!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-no-votes" srclang="en-US">
@@ -67,12 +75,28 @@
 				<seg>کھاتہ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;accuracyLink&gt;See more on accuracy criteria.&lt;/accuracyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>&lt;accuracyLink&gt;درستی معیار بارے ٻیا ݙیکھو،&lt;/accuracyLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ace" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Acehnese</seg>
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>اسینی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; بھلا انہاں  جملہ درستی نال الایا؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
@@ -131,7 +155,7 @@
 				<seg>وادھوں زبان</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -139,7 +163,7 @@
 				<seg>زبان شامل کرو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -347,6 +371,22 @@
 				<seg>اوسط</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-is-it-valid-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A voice clip is marked "valid" when a user gives it a Yes vote.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڄݙݨ ورتݨ آلا "جیا" ووٹ ݙیندے تاں صوتی کلپ تے "ٹھیک" ہووݨ دا نشان لڳدے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avoid too much background noise - it should be easy to hear you.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بیک گراؤنڈ شور کنوں پرہیز کروــ ایہ تہاݙے سݨݨ کیتے سوکھ ہووݨی چاہیدی ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:awards" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Awards</seg>
@@ -459,6 +499,14 @@
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; کلپ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>&lt;bold&gt; ساݙی مدد کرو&lt;/bold&gt; ٻیاں آوازاں لبھو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:bs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bosnian</seg>
@@ -537,6 +585,38 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>بریات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lose-goal-progress-warning" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By editing your goal, you may lose your existing progress.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے مقصد وچ تبدیلی کرݨ نال، تساں آپݨی موجود پیش رفت کنوں محروم تھی سڳدے ہو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-privacy-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ای میلاں وصول کرݨ دی چوݨ نال تساں ایہ بیاں ݙیندے پئے ہوسو جو  تساں موزلا دی  &lt;privacyLink&gt;رازداری پالیسی&lt;/privacyLink&gt; دی تفصیل دے مطابق انہاں معلومات بارے موزلا دے اختیارات نال متفق ہو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-no-identify" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;b&gt;You agree&lt;/b&gt; to not attempt to determine the identity of speakers in the Common Voice dataset</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>&lt;b&gt;تساں متفق ہو&lt;/b&gt; جو تساں کامن وائس ڈیٹا سیٹ وچ مقررین دی سُن٘ڄاݨ دا تعین کرݨ دی کوشش کائناں کریسو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کامن وائس ورتݨ نال تساں ساݙیاں &lt;termsLink&gt;شرطاں&lt;/termsLink&gt; تے &lt;privacyLink&gt; رازداری نوٹس&lt;/privacyLink&gt; نال متفق ہوسو</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-cancel" srclang="en-US">
@@ -723,6 +803,14 @@
 				<seg>بند کرو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collecting sentences from the public domain, or writing new ones for the public domain.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عوامی ڈومیناں کنوں جملے کٹھے کرݨ، یا عوامی ڈومین کیتے نویں لکھݨ۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-home-collect-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Collect sentences</seg>
@@ -755,6 +843,22 @@
 				<seg>Common Voice ڈیٹاسیٹ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:home-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کامن وائس مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے موزِلّا دا موہری ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is part of Mozilla's initiative to help teach machines how real people speak.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے کامن وائس  موزِلّا دا موہری ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Community participation and decision making.</seg>
@@ -768,7 +872,7 @@
 				<seg>Community Playbook</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>برادری پلے بک</seg>
+				<seg>برادری پَلے بیک</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-button-text" srclang="en-US">
@@ -819,6 +923,14 @@
 				<seg>رابطہ فارم</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:content-license-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Content available under a &lt;licenseLink&gt;Creative Commons license&lt;/licenseLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>&lt;licenseLink&gt;تخلیقی کامنز لائسنس&lt;/licenseLink&gt; دے تحت مواد دستیاب ہے</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
@@ -827,7 +939,7 @@
 				<seg>جاری</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -835,7 +947,7 @@
 				<seg>حصہ پاؤ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -1091,6 +1203,14 @@
 				<seg>ڈیٹا سیٹس</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈیٹا سیٹس</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-date" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Date</seg>
@@ -1209,6 +1329,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>اڄݨ تائیں کامن وائس تے آپݨی زبان نہوے ݙیہدے پئے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:missing-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t see your language reflected in the Dataset? To request a language head over to our Languages page.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا تساں آپݨی زبان دا عکس ڈیٹاسیٹ وچ نہوے ݙیہدے؟زبان دی سربراہی کرݨ دی ارداس کرݨ کیتے ساݙے زباناں ورقے تے ون٘ڄو۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
@@ -1347,7 +1475,7 @@
 				<seg>پروفائل وچ تبدیلی کرو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1355,7 +1483,7 @@
 				<seg>ای میل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1379,7 +1507,7 @@
 				<seg>ای میل سبسکرپشناں</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1387,7 +1515,7 @@
 				<seg>انگریزی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1400,7 +1528,7 @@
 				<seg>Enter Email to Download</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>ڈاؤن کرݨ کیتے ای میل درج کرو</seg>
+				<seg>ڈاؤن لوڈ کرݨ کیتے ای میل درج کرو</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-enter-email" srclang="en-US">
@@ -1587,6 +1715,14 @@
 				<seg>مثال دے طور تے</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-section-launched-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>For these launched languages the website has been successfully &lt;localizationGlossaryLink&gt;localized&lt;/localizationGlossaryLink&gt;, and has enough &lt;sentenceCollectionGlossaryLink&gt;sentences collected&lt;/sentenceCollectionGlossaryLink&gt; to allow for ongoing &lt;speakLink&gt;Speak&lt;/speakLink&gt; and &lt;listenLink&gt;Listen&lt;/listenLink&gt; contributions.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>انہاں شروع تھیوݨ آلیاں زباناں کیتے ویب سائٹ کوں کامیابی نال &lt;localizationGlossaryLink&gt; مقامی &lt;/localizationGlossaryLink&gt; کیتا ڳیا ہے ، تے وافر تعداد وچ&lt;speakLink&gt;ٻولݨ&lt;/speakLink&gt; تے &lt;listenLink&gt;سُݨݨ&lt;/listenLink&gt; دیاں ونگاراں کو جاری رکھݨ کیتے &lt;sentenceCollectionGlossaryLink&gt;جملے کٹھے&lt;/sentenceCollectionGlossaryLink&gt;  کیتے ڳئے ہن۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:fr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>French</seg>
@@ -1755,6 +1891,14 @@
 				<seg>{ $name } تے ون٘ڄو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-7" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;governanceLink&gt;Read more about how we're governed&lt;/governanceLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>&lt;governanceLink&gt;اساں حکمومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو &lt;/governanceLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-grammar-or-spelling" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Grammatical / spelling error</seg>
@@ -1785,6 +1929,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>زبردست&lt;/recordIcon&gt;&lt;/recordIcon&gt;تساں آپݨاں اڳلا کلپ رکاڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سوہݨا کم!&lt;playIcon&gt;&lt;/playIcon&gt; تساں تیار ہوو تاں ولدا سݨو</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:el" srclang="en-US">
@@ -1843,6 +1995,14 @@
 				<seg>بھلا تساں ساݙیاں شرطاں پڑھ گھدیاں ہن؟</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-card-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Having an account is not required to contribute, though it is helpful.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ونگاراں کیتے کھاتہ ہووݨ ضروری کائنی، بے شک مددگار ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:he" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hebrew</seg>
@@ -1857,6 +2017,30 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>مدد</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-first-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $locale } وچ کامن وائس دا پہلا ہدف حصہ بݨاوݨ وچ مدد کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشیناں کوں سکھاوݨ وچ مدد کرو جو اصل لوک کین٘ویں الیندن، { $link } تے آپݨی آواز دان کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-helpus" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us build a community around voice technology, stay in touch via email.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>صوتی ٹیکنالوجی دے آہروں ٻاہروں برادری اُسارݨ وچ ساݙی مدد کرو، ای میل واٹوں ساݙے نال جُڑے راہوو۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:help-make-dataset" srclang="en-US">
@@ -2024,7 +2208,7 @@
 				<seg>How can we effectively grow a language on Common Voice?</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیںن٘</seg>
+				<seg>اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیں؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-q" srclang="en-US">
@@ -2081,6 +2265,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>میں فقرے کین٘ویں شامل کر سڳداں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I know whether to approve a voice clip?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میکوں کین٘ویں پتہ لڳسی جو صَوتی کلپ کوں منظور کرݨے یا کائناں؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-quality" srclang="en-US">
@@ -2155,12 +2347,28 @@
 				<seg>میں متفق ہاں</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-do-want-native-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I am a non-native speaker and I speak with an accent, do you still want my voice?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ میݙی ماء ٻولی کائنی۔ میں ایندا لہجہ الینداں، بھلا تہاکوں ہݨ وی میݙی آواز دی لوڑ ہے؟</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:is" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Icelandic</seg>
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>آئی لینڈی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میں ای میلاں وصو ل کر چاہساں جیندے وچ کامن وائس بارے مقاصد یاد دہانیاں، میݙی پیش رفت اپ ڈیٹاں تے خبر نامے وغیرہ شامل ہوون۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-disagree" srclang="en-US">
@@ -2171,12 +2379,28 @@
 				<seg>میں راضی کائنی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If a clip is rejected by 2 people, it is released in a different subset of the dataset.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جے ہک کلپ کوں ٢ لوک مسترد کر ݙیندے ہن تاں اوں کوں ڈیٹاسیٹ دے ٻئے ذیلی سیٹ وچ ریلیز کیتا ویندے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ig" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Igbo</seg>
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>اگبو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'm okay with you handling this info as you explain in Mozilla's &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جی۔ویں جو تساں موزلا دی &lt;privacyLink&gt;رازداری پالیسی&lt;/privacyLink&gt; وچ وضاحت کریندے ہو میں ایں ڄاݨکاری کوں سمبھالݨ وچ ٹھیک ہاں۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:indicates-required" srclang="en-US">
@@ -2201,6 +2425,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>تھیندا پئے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-welcome-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interested in learning more and contributing to the project?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا تساں ٻیا ڄاݨݨ تے ایں منصوبے وچ حصہ پاوݨ وچ دلچسپی رکھدے ہو؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-ui-language" srclang="en-US">
@@ -2403,6 +2635,14 @@
 				<seg>پروفائل واٹوں آپݨی پیش رفت تے نظر رکھو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile and help our voice data be more accurate.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پروفائل نال آپݨی پیش رفت تے ٹریک رکھو تے ساݙی وائس ڈیٹا دی درستی کیتے ساݙی مدد کرو۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:km" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Khmer</seg>
@@ -2475,6 +2715,14 @@
 				<seg>کرغیز</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>زبان</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -2484,14 +2732,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="skr">
-				<seg>زبان</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -2635,7 +2875,7 @@
 				<seg>لنک نقل تھی ڳیا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -2643,7 +2883,7 @@
 				<seg>سݨو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -2819,6 +3059,14 @@
 				<seg>مائتھیلی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>یقینی بݨاؤ جو تساں ٻولݨ شروع کرݨ کنوں پہلے پلیٹ فارم ریکاڈنگ کریندا پیا ہے، تے ایہ جو  ایہ صرف تہاݙے ختم کرݨ دے بعد رک ویندا ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
@@ -2939,6 +3187,14 @@
 				<seg>سنیہا</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Mismatched content]</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>[غیر مماثل مواد]</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
@@ -2995,6 +3251,14 @@
 				<seg>موسی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:default-tagline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Common Voice is an initiative to help teach machines how real people speak.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>موزِلّا کامن وائس مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے موہری ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mutual accountability.</seg>
@@ -3011,7 +3275,17 @@
 				<seg>مائی کرافٹ آئی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mycroft-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mycroft is the world’s first open source assistant.
+Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Raspberry Pi.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مائیکروسافٹ دنیا دا پہلا کھلا ماخذ معاون ہے۔ 
+مائیکروسافٹ ہر جاء تے چلدے۔ ڈیسک ٹاپ کمپیوٹر تے، آٹوموبائل وچ، یا رسبیری پائی تے وی۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -3019,7 +3293,7 @@
 				<seg>میݙے جملے</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -3059,7 +3333,7 @@
 				<seg>ناں</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -3067,7 +3341,7 @@
 				<seg>مقامی زبان</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -3139,6 +3413,14 @@
 				<seg>نیاس</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
@@ -3147,12 +3429,12 @@
 				<seg>کو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>No</seg>
+				<seg>[No ‘a’ in the original text]</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>کو</seg>
+				<seg>[اصل عبارت وچ کوئی  ‘a’  کائنی]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:gravatar_not_found" srclang="en-US">
@@ -3201,6 +3483,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>کوئی جملے کائنی لبھے!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-note" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Note: You will still need to select between Speak or Listen to change contribution type.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نوٹ: ونگار دی قسم وٹاوݨ کیتے تہاکوں سݨݨ یا ٻولݨ وچوں ہک شئے چُݨݨی پوسی۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-no" srclang="en-US">
@@ -3307,6 +3597,14 @@
 				<seg>آئی او ایس تے رکارڈنگ فعال رکھݨ کیتے سفاری نال حصہ پاؤ، تھورائت ہوساں۔۔۔</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:join-newsletter" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Optionally join on our email list for updates and new information about the project.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں منصوبے بارے تازہ خبراں تے نویں ڄاݨکاری کیتے ساݙی ای میل تندیر وچ اختیاری طور تے شامل تھیوو۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:other" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other</seg>
@@ -3345,6 +3643,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>ٻئے وائس ڈیٹاسیٹس</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Our governance is founded on the pillars of:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ساݙی حکمرانی دی بݨیاد انہاں تھمبیاں تے ہے:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:overall-accuracy" srclang="en-US">
@@ -3467,6 +3773,14 @@
 				<seg>ذاتی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-dashboard-card-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Personal dashboards keep you up-to-date with individual and community progress.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ذاتی ڈیش بورڈ تہاکوں انفرادی تے اجتماعی پیشرفت بارے آگاہی ݙیندن۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-last-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
@@ -3555,6 +3869,14 @@
 				<seg>پرتگیزی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-us-explain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پلے دباؤ، سݨو تے ساکوں ݙسو: بھلا انہاں ہیٹھلا جملہ ٹھیک الایا ہے؟</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:toggle-play-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Press { shortcut-play-toggle } to toggle play mode</seg>
@@ -3563,7 +3885,7 @@
 				<seg>پلے موڈ کوں ٹوگل کرݨ کیتے { shortcut-play-toggle } دباؤ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-privacy" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
 			</tuv>
@@ -3571,7 +3893,7 @@
 				<seg>رازداری</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
 			</tuv>
@@ -3603,7 +3925,7 @@
 				<seg>پرو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -3611,7 +3933,7 @@
 				<seg>پروفائل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -3699,6 +4021,14 @@
 				<seg>ساݙے تعارفی ورقہ تے ٻیا پڑھو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-ph-read-how-to" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read our How-to if unsure how to attribute</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جے تہاکوں انتساب کرݨ کائنی آندا تاں ساݙا کین٘ویں کروں پڑھو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read the sentence carefully - don’t miss, change or add words.</seg>
@@ -3755,6 +4085,14 @@
 				<seg>بھلا تساں جملیاں دی تصدیق کرݨ دی مدد کیتے تیار ہو؟</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info-sub-with-challenge" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ای میلاں وصول کرو جنہاں وچ کامن وائس بارے چیلنج تے مقصد یاددہانیاں، پیش رفت اپ ڈیٹاں تے خبر نامے ہوون</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:recorded-clips" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recorded Clips</seg>
@@ -3779,6 +4117,14 @@
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; چھیکڑی!</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ریکارڈنگاں</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
@@ -3787,12 +4133,12 @@
 				<seg>ریکارڈنگز</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
+				<seg>Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>ریکارڈنگاں</seg>
+				<seg>وائس کلپ رکاڈ کرواوݨ ساݙے اوپن ڈیٹاسیٹ دی تعمیر دا ہک لازمی حصہ ہے: کجھ آکھسن جو ایہ چسکولا حصہ وی ہے۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle-label" srclang="en-US">
@@ -3827,7 +4173,7 @@
 				<seg>مسترد کرو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
@@ -3835,7 +4181,7 @@
 				<seg>مسترد تھئے جملے</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
@@ -3987,7 +4333,7 @@
 				<seg>زباناں تے واپس ون٘ڄو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -3995,7 +4341,7 @@
 				<seg>نظرثانی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -4033,6 +4379,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>نظرثانی معیار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewed sentences not submitted, are sure?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نظرثانی تھئے جملے جمع کائنی تھئے، تہاکوں پک ہے؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-review-now" srclang="en-US">
@@ -4219,6 +4573,14 @@
 				<seg>انٹرنیٹ تے انہاں کوں ڳولو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:compare-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>See how your progress compares to other contributors all over the world.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨی پیش رفت دا پوری دنیا دے ٻئے ونگارواں نال موازنہ کرو۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:languages-show-less" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>See Less</seg>
@@ -4232,7 +4594,7 @@
 				<seg>See More</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>ٻئے ݙیکھو</seg>
+				<seg>ٻیا ݙیکھو</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:select-language" srclang="en-US">
@@ -4267,6 +4629,14 @@
 				<seg>سائن اپ لنک پٹھو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فقریاں دا مجموعہ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
@@ -4275,12 +4645,12 @@
 				<seg>فقریاں دا مجموعہ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-number-of-words" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Sentence Collection</seg>
+				<seg>Sentence must contain between 1 and 14 (inclusive) words</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>فقریاں دا مجموعہ</seg>
+				<seg>جملے وچ ١ تے ١٤(ݙون٘ہیں شامل) دے درمیان لفظ ہووݨ ضروری ہے۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sentences" srclang="en-US">
@@ -4331,7 +4701,7 @@
 				<seg>جملے وچ علامتاں نئیں ہووݨے چاہیدے</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-are-you-sure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-prompt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentences not submitted, are you sure you want to leave?</seg>
 			</tuv>
@@ -4339,7 +4709,7 @@
 				<seg>جملے جمع کائنی تھئے، بھلا تہاکوں پک ہے جو تساں چھوڑݨ چاہندے ہو؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-prompt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-are-you-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentences not submitted, are you sure you want to leave?</seg>
 			</tuv>
@@ -4353,6 +4723,22 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>{ $sentences } جملے ناکام تھئے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-reviewed-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $sentences }جملے نظرثانی تھئے۔ تہاݙا تھورا!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-sentences-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences that have been validated are exported on Wednesdays, and are available after the next release.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جہڑے جملے تصدیق تھی ویندن او ٻُدھ کوں ایکسپورٹ تھیندن تے اڳلی ریلیز وچ دستیاب ہوندن۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-metadata-link" srclang="en-US">
@@ -4489,6 +4875,14 @@
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>سسلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-stay-in-touch-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سائن اپ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sign-up-account" srclang="en-US">
@@ -4643,6 +5037,14 @@
 				<seg>افسوس، کامن وائس مٹھا چلدا پئے۔ تہاݙا دلچسپی دا تھورا۔</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-something-went-wrong" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, something went wrong</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>افسوس، کجھ خرابی تھی ڳئی</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-source" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Source: { $sentenceSource }</seg>
@@ -4739,6 +5141,14 @@
 				<seg>(Speech-to-text (STT</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sst-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speech-to-text (STT) technologies convert voice data into text.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>(Speech-to-text (STT  ٹیکنالوجی وائس ڈیٹا کوں عبارت وچ تبدیل کریندیاں ہن۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:splits" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Splits</seg>
@@ -4827,7 +5237,7 @@
 				<seg>جمع کرواݨ وچ خرابی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -4843,7 +5253,7 @@
 				<seg>جمع کرواؤ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -4859,7 +5269,7 @@
 				<seg>رپورٹ جمع کرواؤ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -4867,7 +5277,7 @@
 				<seg>کلپ جمع کرواؤ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -4955,6 +5365,14 @@
 				<seg>تاجک</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہک لفظ پڑھݨ کیتے ٻہوں واری کوشش تھیندی پئی ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tamil</seg>
@@ -5003,20 +5421,20 @@
 				<seg>تیلگو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Terms</seg>
-			</tuv>
-			<tuv xml:lang="skr">
-				<seg>ٹرماں</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>شرطاں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Terms</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ٹرماں</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:th" srclang="en-US">
@@ -5035,6 +5453,14 @@
 				<seg>تہاݙا کھاتیہ تصدیق کرݨ تے تھورا۔ ہݨ تساں آپݨی پروفائل بݨاؤ۔</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-submit-msg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رکارڈنگ کیتے تہاݙا تھورا!&lt;lineBreak&gt;&lt;/lineBreak&gt; نظرثانی کرو، ہݨ ہیٹھاں آپݨے کلب جمع کرواؤ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
@@ -5044,12 +5470,28 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>{ $lang } وچ حصہ پاوݨ  کیتے  دلچسپی گھنݨ تے تہاݙا شکریہ۔ اساں ساری زباناں دی تیاری تے لان٘چ کیتے ݙاڈھا پورہیا کریندے پئے ہیں۔ تے  ٹیماں کوں ایمیل نال  اپ ڈیٹاں ݙیسوں۔ جے تساں آپݨاں حصہ پاوݨ چاہندے تاں ہیٹھیاں آپݨاں ای میل لکھو۔</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-8-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The bumblebee sped by.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-offensive-speech-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The clip has disrespectful or offensive language.</seg>
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>کلپ وچ بے عزتی آلی یا توہین آمیز زبان ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Common Voice Dataset contains hundreds of thousands of voice samples that help developers build voice recognition tools.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کامن وائس ڈیٹاسیٹ وچ لکھاں  آواز دے نمونے ہن جہڑے ڈِویلپراں کوں آواز سُن٘ڄاݨُو آوزار بݨاوݨ کیتے مدد ݙیندے ہن۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-recorded-explanation" srclang="en-US">
@@ -5140,6 +5582,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ایہ رکاڈنگ ٻہوں چھوٹی ہائی۔</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-section-in-progress-new-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>These languages are currently under community development. The progress bars indicate how far each language is in the process of &lt;localizationGlossaryLink&gt;website localization&lt;/localizationGlossaryLink&gt; and &lt;sentenceCollectionGlossaryLink&gt;sentence collection&lt;/sentenceCollectionGlossaryLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ زباناں اڄݨ  برادری ترقی دے تحت ہن. پیشرفت پٹی ایں ڳالھ دی نشاندہی کریندی ہے جو ہر زبان &lt;localizationGlossaryLink/&gt; ویب سائٹ مقامیت &lt;localizationGlossaryLink&gt;    تے &lt;sentenceCollectionGlossaryLink/&gt; جملہ کٹھے کرݨ &lt;sentenceCollectionGlossaryLink&gt; دے عمل وچ اڄݨ کتی دور ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:file_too_large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The selected file is too large</seg>
@@ -5164,7 +5614,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>جملے وچ بے عزتی آلی یا توہین آمیز زبان ہے۔</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
@@ -5172,7 +5622,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>جملے دی گرائمر درست ہووݨ ضروری ہے۔</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
@@ -5196,7 +5646,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -5204,7 +5654,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>جملے دے ہجے درست ہووݨ ضروری ہن۔</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -5226,6 +5676,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>ویب سائٹ عبارت اوں زبان وچ ترجمہ تھی ویندی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:localization-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This is our process for translating and adapting our content for many locales (languages).</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ ساݙے ٻہوں سارے مقامیاوݨ(زباناں)  کیتے ساݙا مواد قبول کرݨ تے ترجمہ کرݨ دا عمل ہے۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-three-more-instruction" srclang="en-US">
@@ -5292,6 +5750,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ٹوکی پونا</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-yes-votes-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>To make it into the Common Voice dataset, a voice clip must be validated by two separate users.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں کوں کامن وائس ڈیٹاسیٹ وچ شامل کرݨ کیتے، وائس کلپ کوں ݙو ان٘ج ان٘ج ورتݨ آلیاں کنوں تصدیق کراوݨاں پوسی۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:top-contributors" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Top Contributors</seg>
@@ -5300,7 +5766,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>اہم معاونین</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -5308,7 +5774,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>کل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -5484,6 +5950,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ورتݨ ناں</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Users validate the accuracy of donated clips, checking that the speaker read the sentence correctly.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ورتݨ آلے دان تھئے کلپاں دی درستی دی تصدیق کریندن۔ ایہ پڑتال کریندن جو ٻولݨ آلا جملہ ٹھیک پڑھدا پئے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-using-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Using Common Voice</seg>
@@ -5572,7 +6046,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ونیتی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -5580,7 +6054,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ورشن</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -5612,6 +6086,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ظاہر</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen-queue-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice clips are entered into a submission queue that readies them for listening.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>صوتی کلپ جمع کراوݨ آلی قطار وچ درج کیتے ویندن، جہڑی انہاں کوں سݨݨ کیتے تیار کریندی ہے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-contrib-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice Contribution</seg>
@@ -5626,6 +6108,16 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>وائس ڈیٹاسیٹ، ڈاؤن لوڈ کیتے تیار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-start" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
+technology for our machines. But to create voice systems, an extremely large amount of voice
+data is required.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آواز فطری ہے ، آواز انسان ہے۔ ایں کیتے اساں آپنی مشیناں   کیتے قابل  استعمال وائس  ٹیکنالوجی  پیدا کرݨ وچ مگن ہیں۔ پر وائس  سسٹم  بناوݨ کیتے  ہک ٻہوں مقدار وچ آواز  ڈیٹا  دی ضرورت ہے.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:voices-online" srclang="en-US">
@@ -5684,6 +6176,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>مدد کیتے ساݙے وڈیو تشریح ساز ݙیکھو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اساں آوازاں دا آزاد تے عوامی طور تے دستیاب ڈیٹاسیٹ بݨیندے پئے ہیں جیکوں ہر کوئی تقریر فعال تھئی ایپاں دے ذریعے ورت سڳدے۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
@@ -5724,6 +6224,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ویب سائٹ دی مقامیت</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We calculate hours by estimating the average length of each recording, and then multiplying that number by the total number of recordings across all languages.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اساں گھنٹیاں دا حساب ہر رکارڈنگ دی اوسط لمباݨ دا اندازہ لاتے کریندے ہیں، وت ایں عدد کوں یکیاں زباناں وچ رکارڈنگ دی کل تعداد نال ضرب ݙیندے ہیں۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We could not fetch the stats. Please try again later.</seg>
@@ -5738,6 +6246,26 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>اساں تہاݙے کیتے او ورقہ کائنی لبھ سڳے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any audio clips for you to listen to.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اساں تہاݙے سُݨݨ کیتے کوئی آڈیو کلپ کائنی گھن سڳے۔
+سوہݨا، ولدا بعد وچ کوشش کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اساں تہاݙے ٻولݨ کیتے کوئی جملے کائنی گھن سڳے۔
+سوہݨا، ولدا بعد وچ کوشش کرو۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-interval-weekly" srclang="en-US">
@@ -5796,6 +6324,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ویلش</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اساں وعدہ کریندے ہیں جو تہاݙی ڄاݨکاری دی بھال کریسوں ۔ ساݙے &lt;/privacyLink&gt;رازداری نوٹس &lt;/privacyLink&gt; وچ ٻیا پڑھو۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
@@ -5804,12 +6340,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>اساں وعدہ کریندے ہیں جو تہاݙی ڄاݨکاری دی بھال کریسوں ۔ ساݙے &lt;/privacyLink&gt;رازداری نوٹس &lt;/privacyLink&gt; وچ ٻیا پڑھو۔</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-headline" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+				<seg>We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>اساں وعدہ کریندے ہیں جو تہاݙی ڄاݨکاری دی بھال کریسوں ۔ ساݙے &lt;/privacyLink&gt;رازداری نوٹس &lt;/privacyLink&gt; وچ ٻیا پڑھو۔</seg>
+				<seg>اساں آوازاں دا کھلا ماخذ، کثیر لسانی ڈیٹاسیٹ بݨیندے پئے ہیں جیکوں ہر کوئی تقریر فعال تھئی ایپاں دے ذریعے ورت سڳدے۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:error-title-503" srclang="en-US">
@@ -5836,6 +6372,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>اساں ہر ٣ مہینے بعد ڈیٹاسیٹ ریلیز کریندے ہیں۔</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're receiving a lot of traffic and are currently investigating the issues.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اساں ٻہوںساری ٹریفک وصول کریندے پئے ہیں تے رولیاں بارے تحقیقاں کریندے پئے ہیں۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-platform-not-supported" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We’re sorry, your platform is not currently supported.</seg>
@@ -5858,6 +6402,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-success-content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will be in touch with more information about how to add your language to Common Voice very soon.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی زبان کوں اساں ٻہوں جلدی کامن وائس وچ کین٘ویں شامل کروں، ایں اساں ٻئی ڄاݨکاری کیتے تہاݙے نال رابطے وچ راہسوں۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
@@ -5884,7 +6436,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>کامن وائس تے کہڑی زبان ہے؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -5892,7 +6444,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Common Voice کیا ہے؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -5914,6 +6466,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>تساں کہڑی قسم دا ہدف بݨاوݨ چاہندے ہو؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-quality-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What level of audio quality is required for a voice clip to be used in the dataset?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈیٹاسیٹ وچ ورتݨ کیتے آوازکلپ دے کہڑی سطح دے صوتی معیار دی لوڑ ہے؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:whats-inside" srclang="en-US">
@@ -5938,6 +6498,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-no-votes-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جہڑے ویلے ہک ورتݨ آلا صوتی کلپ کوں مسترد کریندے تاں او قطار وچ واپس آویندے۔ جے ݙوجھی واری مسترد تھیندے تاں صوتی کلپ غستان ٹور ݙتا ویندے۔</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-when-release2-q" srclang="en-US">
@@ -6020,6 +6588,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>تہاکوں ہک زبان کیتے ٻہوں سارے مختلف آلاوݨ آلیاں دی لوڑ کیوں ہے؟</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-10k-hours-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why is 10,000 validated hours the per language goal for capturing audio?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آڈیو کیپچر کیتے ہر زبان کیتے الائے ہوئے ١٠٠٠ تصدیق تھئے گھنٹے کیوں لوڑ ہن؟</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-mission-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is Common Voice part of the Mozilla mission?</seg>
@@ -6068,7 +6644,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>جیا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -6076,7 +6652,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>جیا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -6124,6 +6700,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>تساں</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-modal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You are about to initiate a download of &lt;size&gt;{ $size }GB&lt;/size&gt;, proceed?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں &lt;size&gt;{ $size }GB&lt;/size&gt; دا ڈاؤن لوڈ شروع کرݨ آلے ہی ہو، اڳوں تے ودھوں؟</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You are prepared to initiate a download of &lt;b&gt;{ $size }&lt;/b&gt;</seg>
@@ -6138,6 +6722,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>تساں آپݨاں ورتݨ ناں عوامی یا گمنام کرݨ چُݨ سڳدے ہو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں ویب سائٹ شامل کر سڳدے ہو، مثال دے طور تے "کامن وائس"۔ https://commonvoice.mozilla.org/</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-not-added" srclang="en-US">
@@ -6188,6 +6780,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>تساں ساݙے پہلے ہدف ٹوٹے وچ حصہ پیندے پئے ہو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-assembling-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your files are being assembled. Please check again later.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙیاں فائلاں جُڑدیاں پیاں ہن۔ سوہݨا، ولدا بعد وچ پڑتال کرو۔</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-your-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your languages:</seg>
@@ -6234,6 +6834,2822 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="skr">
 				<seg>{ $total } وچوں زپ ؀{ $offset }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-use-cases-access-content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access Content</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مواد تائیں رسائی کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Action step</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عمل مرحلہ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add account name</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کھاتہ ناں شامل کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-install-extension-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add { -brand-name-relay } to { -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } تے { -brand-name-relay } شامل کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-agree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Agree</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>متفق</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-copy-confirmation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Alias copied to clipboard</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں کلپ بورڈ تے نقل تھی ڳیا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-option-all" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سارے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-apply" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Apply</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>لاگو کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-button-save-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Apply your chosen settings.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨیاں چُݨیاں ہوئیاں ترتیباں لاڳو کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-sign-out-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you sure you want to sign out?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا تہاکوں پک ہے جو تساں سائن آؤٹ تھیوݨ چاہندے ہو؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-size-limit-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attachment size increase</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نتھی سائز ودھارا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-footer-back-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Back</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پچھوں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-empty-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Be sure to check back here — we’re always working on great new features to make { -brand-name-relay } even better.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اتھ ولدا واپس چیک کرݨ یقینی بݨاؤ — اساں  ہمیشاں نویاں خصوصیات تے کم کریندے ہاں تاں جو { -brand-name-relay } بیا چنگا بݨے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-label-none" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Block all</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سارے بلاک کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-blocked" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Blocked</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بلاک تھی ڳیا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Block, forward, and reply</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بلاگ، اڳوں تے، تے جواب ݙیوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-blocking" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>blocking</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بلاک کرݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-category-option-disabled-aliases-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Blocking aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بلاک کرݨ آلے عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:popover-custom-alias-explainer-promotional-block-checkbox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Block promotional emails</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشہوری ای میلاں بلاک کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-promo-email-blocking-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Block Promotional Emails</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشہوری ای میلاں بلاک کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-label-promotionals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Block promotions</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشہوریاں بلاک کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-image-alt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-account(capitalization: "uppercase") } Avatar</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-account(capitalization: "uppercase") } اواتار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:bento-button-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox } apps and services</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } ایپ تے خدمتاں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-browser } for Desktop</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈیسک ٹاپ کیتے { -brand-name-firefox-browser }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-mobile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-browser } for Mobile</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>موبائل کیتے { -brand-name-firefox-browser }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-makes-tech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox } is tech that fights for your online privacy.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } او ٹیکنالوجی ہے جہڑی تہاݙی آن لائن رازداری کیتے بھِڑدی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-lockwise" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-lockwise }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-lockwise }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-monitor" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-monitor }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-monitor }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:logo-alt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:meta-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-size-limit-snippet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay } can now forward emails up to 25MB, including…</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ { -brand-name-firefox-relay } ٢٥ ایم بی تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول ۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-size-limit-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay } can now forward emails up to 25MB, including attachments.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ { -brand-name-firefox-relay } ٢٥ ایم بی تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول نتھیاں۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-size-limit-snippet-var" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay } can now forward emails up to { email-size-limit }, including…</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول ۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-size-limit-description-var" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay } can now forward emails up to { email-size-limit }, including attachments.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول نتھیاں۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:logo-premium-alt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay-premium }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-blocked-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this alias.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جہڑے ویلے تساں ایں عرفی ناں کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-forwarded-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this alias.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں جہڑے ویلے عرفی ناں کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:logo-mozilla-alt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-mozilla }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-mozilla }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-vpn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-mozilla-vpn }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-mozilla-vpn }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:fx-pocket" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-pocket }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-pocket }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-bounced-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } couldn’t deliver your email.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-added" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } extension added!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ایکسٹنشن شامل تھئی!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-description-all" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } is blocking all emails sent to this alias.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں عرفی ناں کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-firefox-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } is even better in { -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-description-none" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } is not blocking any emails for this alias.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں عرفی ناں کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-reason-delay" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } might be taking longer than usual to forward your messages</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙے سنیہے اڳوں تے پٹھݨ کیتے { -brand-name-relay } معمول کنوں ودھ ویلا گھندا پئے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-forward-some-snippet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay-premium } allows you to block only promotional emails…</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay-premium } تہاکوں صرف پروموشنل ای میلاں بلاک کرݨ دی اجازت ݙینیدی ہے۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } Settings</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ترتیباں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-footer-relay-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-relay } Terms</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ٹرماں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-free-feature-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browser extension</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>براؤزر ایکسٹنشن</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-feature-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browser extension</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>براؤزر ایکسٹنشن</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>منسوخ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-4-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Can I reply to messages using my { -brand-name-relay } alias?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا میں آپݨے { -brand-name-relay } عرفی ناں ورت تے سنیہاں دا جواب ݙے سڳداں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-browser-support-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Can I use { -brand-name-relay } on other browsers or my mobile device?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:hero-image-copy-trust" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Can you even trust this company with your personal email?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-meta-status-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check whether all { -brand-name-relay } systems are currently operational.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پڑتال کرو بھلا سارے { -brand-name-relay } نظام ہݨ چلݨ آلے ہن۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-perks-perk-custom-domain-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Choose your own custom domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں کسٹم ڈومین چُݨو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-chrome" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Chrome</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کروم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-footer-clear-all-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear all</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سارے صاف کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-click-to-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click to copy</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نقل کرݨ کیتے کلک کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-close-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بند کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:popover-custom-alias-explainer-close-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بند کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:bento-button-close-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close menu</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مینیو بند کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-data-notification-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Coming soon to { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } تے جلدی آندا پئے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-settings-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Configure { -brand-name-firefox-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay } کنفیگر کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-footer-link-support-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact support</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سہارے نال رابطہ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-meta-contact-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact us</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ساݙے نال رابطہ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-contact" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact us</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ساݙے نال رابطہ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جاری</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue, I’ll download the extension later</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue, I’ll register my custom domain later</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جاری رکھو، میں آپݨی کسٹم ڈومین بعد وچ رجسٹر کریساں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-control-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Control what emails you get</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-welcome-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Control what emails you get:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Control your aliases from the dashboard</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈیشبورڈ کنوں آپݨے عرفی ناں کنٹرول کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-copied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copied!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نقل تھی ڳیا!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-counter-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count } new announcements.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $count } نویں اعلان۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:how-it-works-step-2-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create a new alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نواں عرفی ناں بݨاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-custom-alias-picker-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create a new custom alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نواں کسٹم عرفی ناں بݨاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Created:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بݨیا:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-perks-perk-unlimited-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create unlimited email aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بے انت ای میل عرفی ناں تخلیق کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create your first alias, you have three ways …</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں پہلا عرفی ناں تخلیق کرو، تہاݙے کول ترائے طریقے ہن۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-domain-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create your unique and custom email domain.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨی نویکلی تے کسٹم ای میل ڈومین بݨاؤ۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-custom-alias-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Creating aliases using your custom domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی کسٹم ڈومین ورت تے عرفی ناں تخلیق کریندا پئے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-category-option-critical-only-aliases" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Critical-only aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>صرف ضروری عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-category-option-domain-based-aliases-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Custom aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کسٹم عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Custom domain for sharing aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مٹاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-delete-alias" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete this alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ عرفی ناں مٹاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-disable-forwarding-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Disable email forwarding for this alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-disagree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Disagree</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اختلاف</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-header-button-close-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فارغ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-dismiss" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فارغ  کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-csat-answer-dissatisfied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dissatisfied</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>غیر تسلی بخش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-question-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Does { -brand-name-relay } have a clean and simple presentation?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا { -brand-name-relay } وچ سادہ تے ستھری پیش کش ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-email-storage-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Does { -brand-name-relay } store my emails?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:how-it-works-step-1-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download the { -brand-name-relay } extension for { -brand-name-firefox }.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-how-it-works-step-1-body-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download the { -brand-name-relay } extension for { -brand-name-firefox }.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-question-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Do you feel { -brand-name-relay } is trustworthy?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا تساں محسوس کریندے جو { -brand-name-relay } بھروسے دے قابل ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit the label for this alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-custom-alias-picker-form-prefix-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>e.g. "coffee"</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مثال دے طور تے "کافی"</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-subdomain-email-not-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email address with subdomain could not be created, try something else</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-stat-label-aliases-used" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email aliases used</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ورتیل ای میل عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-warning-collection-off-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email alias label function is disabled</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ای میل عرفی ناں لیبل عمل غیرفعال تھی ڳیا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-domain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email Domain:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ای میل ڈومین:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-stat-label-blocked" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Emails Blocked</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بلاک تھیاں ای میلاں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-stat-label-forwarded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Emails Forwarded</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اڳوں تے پٹھیاں ای میلاں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-enable-forwarding-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enable email forwarding for this alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-data-notification-header-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enable new features</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نویاں خصوصیات فعال کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-custom-alias-picker-form-prefix-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter alias prefix</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں سابقہ درج کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-save-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Failed to save, please try again.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-footer-link-faq-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>FAQ</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عمومی سوالات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-faq" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>FAQ</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عمومی سوالات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-footer-link-feedback-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Feedback</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فیڈبیک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox account</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس کھاتہ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox-browser" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Browser</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس براؤزر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox-lockwise" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Lockwise</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس لاک وائز</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox-monitor" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Monitor</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس مانیٹر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox-relay" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Relay</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس رِیلے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-firefox-relay-premium" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Relay Premium</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فائرفوکس رِیلے پریمیئم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-first-emailed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>First emailed:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پہلی ای میل تھئی:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-forwarded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Forwarded</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اڳوں تے پٹھ ݙتا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-forward-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Forward emails to:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کوں ای میل اڳوں تے پٹھو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-forwarding" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>forwarding</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اڳوں تے پٹھݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-category-option-active-aliases-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Forwarding aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اڳوں تے پٹھݨ آلے عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-free-price" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Free</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مفت</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-footer-link-faq-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Frequently asked questions</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اکثر پچھے ون٘ڄݨ آلے سوالات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Frequently Asked Questions</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اکثر پچھے ون٘ڄݨ آلے سوالات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-use-cases-gaming" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gaming</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کھیݙݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-use-cases-gaming-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gaming</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کھیݙݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:popover-custom-alias-explainer-generate-button-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Generate a custom alias manually</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کسٹم عرفی ناں دستی جنریٹ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-custom-alias-picker-form-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Generate Alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں جنریٹ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:popover-custom-alias-explainer-generate-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Generate custom alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کسٹم عرفی ناں جنریٹ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-how-it-works-step-1-body" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Generate email aliases automatically wherever you enter your email address online.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل عرفی ناں جنریٹ کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-generate-new-alias" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Generate New Alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نواں عرفی ناں جنریٹ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-generate-unlimited-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Generate unlimited email aliases:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بے انت ای میل عرفی ناں جنریٹ کرو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get a custom domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کسٹم ڈومین گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-register-subdomain-headline-aliases" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get a custom domain for your aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get a custom domain for your aliases:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-firefox-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:vpn-promo-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-name-mozilla-vpn }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-mozilla-vpn } گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-free-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-button-download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-name-relay } Extension</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-chrome-extension-button-download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-name-relay } Extension</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-meta-help-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get help using { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ورتݨ نال مدد گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-help-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get help using { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ورت تے مدد گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-meta-contact-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get in touch about { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } بارے رابطے وچ راہوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-contact-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get in touch about { -brand-name-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay-premium } بارے رابطہ وچ راہوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-welcome-button-start" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Started</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>شروع کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-install-chrome-extension-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get the { -brand-name-relay } extension</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-get-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get the { -brand-name-relay } extension for { -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-install-extension-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get the { -brand-name-relay } extension for { -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-chrome-extension-get-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get the { -brand-name-relay } extension for { -brand-name-google-chrome }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-google-chrome } کیتے { -brand-name-relay } ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:how-it-works-step-1-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get the extension</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایکسٹنشن گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-upgrade" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get unlimited aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بے انت عرفی ناں گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-create-domain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get your email domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨی ای میل ڈومین گھنو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:logo-github-alt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>GitHub logo</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>GitHub لوگو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-footer-link-feedback-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Give feedback</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>فیڈبیک ݙیوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-good-news" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Good News!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>خوشخبری!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-google-chrome" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Google Chrome</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>گوگل کروم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-button-dashboard" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to Dashboard</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈیش بورڈ تے ون٘ڄو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-data-notification-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to Settings</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ترتیباں تے ون٘ڄو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-meta-help-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help and support</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مدد تے سہارا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-help" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help and support</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مدد تے سہارا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-header-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help &amp; Tips</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مدد تے گُر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-details-hide" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hide Details</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تفصیلاں لُکاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:home-hero-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hide your real email address to help protect your identity</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨی سُن٘ڄاݨ دی حفاظت کیتے آپݨاں اصل ای میل پتہ لُکاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-tab-archive-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تاریخ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-home" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Home</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مُکھ پناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-detect-promotional-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does { -brand-name-relay } detect if an email is Promotional or not?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } کوں کین٘ویں پتہ لڳدے جو ایہ ای میل پروموشنل ہے یا کائناں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-how-it-works-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How it works</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ کین٘ویں کم کریندے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:how-it-works-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How It Works</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ کین٘ویں کم کریندے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-csat-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How satisfied are you with your { -brand-name-firefox-relay } experience?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں آپݨے { -brand-name-firefox-relay } تجربے نال کتی مطمئن ہو؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:popover-custom-alias-explainer-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to create custom aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کسٹم  عرفی ناں کین٘ویں تخلیق کروں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-question-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How would you feel if you could no longer use { -brand-name-relay }?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جے تساں { -brand-name-relay } کوں کافی عرصے کنوں نہ ورت سڳے ہوو تاں تساں کیا محسوس کریسو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I’m not getting messages from my aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-question-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Is { -brand-name-relay } easy to use?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا { -brand-name-relay } ورتݨ کیتے سوکھا ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-i-wouldnt-care" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I wouldn’t care</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میں خیال کائناں رکھیساں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-saved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Label saved!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>لیبل محفوظ تھی ڳیا!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-rename-alias-saved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Label saved!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>لیبل محفوظ تھی ڳیا!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-footer-learn-more-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ٻیا سِکھو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-data-notification-body-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ٻیا سِکھو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-footer-legal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Legal</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>قنونی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Limited-time only: Unlimited aliases for { $monthly_price } per month</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ وچ بے انت عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-price-highlight" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Limited time pricing</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>محدود ویلے دی قیمت</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:made-by-mozilla" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Made by { -brand-name-mozilla }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-mozilla } ولوں بݨیا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-hero-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make protecting your inbox easier with { -brand-name-firefox-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:how-it-works-step-3-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage your aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں عرفی ناں منیج کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-manage-fxa" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage your { -brand-name-firefox-account(capitalization: "uppercase") }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں { -brand-name-firefox-account(capitalization: "uppercase") } منیج کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-headline-manage-domain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage your domain aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے ڈومین عرفی ناں منیج کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-menu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Menu</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مینیو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-reason-spam" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Messages are going into spam</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سنیہے سپیم وچ ویندے پئے ہن</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-price" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $monthly_price }/month</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $monthly_price }/month</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-mozilla" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>موزلّا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-mozilla-privacy-pack" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Privacy Pack</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>موزلّا رازداری پیک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-mozilla-vpn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla VPN</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>موزلّا وی پی این</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-csat-answer-neutral" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Neutral</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>غیر جانبدار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-trigger-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>News</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>خبراں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-tab-new-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>News</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>خبراں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-option-none" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>None</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کوئی وی کائنی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-forwarded-note" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Note:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نوٹ:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-label-not-forwarding" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not forwarding</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اڳوں تے  نہ پٹھݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-not-likely" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not likely</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>امکان کائنی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:hero-image-copy-control-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Now &lt;em&gt;you’re in control&lt;/em&gt; of what’s arriving to your inbox!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جہڑا کجھ تہاݙے انباکس وچ آندا پئے تساں  ہُݨ اُوندے&lt;em&gt;تساں کنٹرول وچ ہو&lt;/em&gt;!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-welcome-subheadline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Now you can control what hits your inbox, one email at a time.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں کنٹرول کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-subheadline-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Now you can &lt;strong&gt;control&lt;/strong&gt; what hits your inbox, one email at a time.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں&lt;strong&gt;کنٹرول&lt;/strong&gt; کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-use-cases-offline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offline</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آف لائن</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:label-open-menu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open menu</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مینیو کھولو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-custom-alias-picker-form-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Or, create a custom alias manually</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>یا، کسٹم عرفی ناں دستی تخلیق کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-delete-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Permanently delete this alias?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ عرفی ناں پکّا پکّا مٹاؤں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-acceptable-use-answer-b-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please review our &lt;a href="{ $url }" { $attrs }&gt;Terms of Service&lt;/a&gt; for more information.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سوہݨا، ٻئی ڄاݨکاری کیتے ساݙیاں &lt;a href="{ $url }" { $attrs }&gt;خدمت دیاں شرطاں&lt;/a&gt; تے نظرثانی کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-pocket" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Pocket</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پاکٹ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-premium" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Premium</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پریمیئم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:setting-label-collection-heading-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رازداری</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-footer-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رازداری</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-privacy-notice-update-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy Notice Update</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رازداری نوٹس اپ ڈیٹ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:avatar-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پروفائل</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-label-forwarding" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ profile-label-forwarding }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ profile-label-forwarding }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-category-option-promo-blocking-aliases" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Promo-blocking aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشہوریاں روکݨ آلے عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-forward-some-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Promotional email blocking</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشہوری ای میل بلاک کرݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-option-promotionals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Promotionals</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پروموشنل</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:vpn-promo-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Protect your online data and choose a VPN subscription plan that works for you.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے آن لائن ڈیٹا دی حفاظت کرو تے وی پی این سبسکرپشن منصوبہ چُݨو جہڑا تہاݙے کیتے کم کریندے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:how-it-works-subheadline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Protect your personal identity everywhere you use the { -brand-name-firefox-browser }.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨی ذاتی سُن٘ڄاݨ دی حفاظت کرو جتھ وی تساں { -brand-name-firefox-browser } ورتو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-hero-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Protect your real email address to help control your inbox</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-generate-new-alias-menu-random" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Random Alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رینڈم عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-category-option-relay-aliases-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Random aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رینڈم عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-acceptable-use-answer-measure-rate-limit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rate-limiting the number of aliases that can be generated in one day</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہک ݙین٘ہ وچ جنریٹ تھئے عرفی نان٘واں دی تعداد دی شرح کوں محدود کرݨ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Register Domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈومین رجسٹڑ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Register your custom domain now:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میݙی کسٹم ڈومین ہݨ رجسٹر کرو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-relay" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Relay</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رِیلے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:brand-name-relay-premium" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Relay Premium</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رِیلے پریمیئم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-footer-release-notes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Release Notes</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ریلیز نوٹس</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-warning-reminder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remember, you can only register one domain. You won’t be able to change it later.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>یاد رکھو، تساں صرف ہک ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-reply-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reply to emails without giving away your real address</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-reply-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reply to emails without giving away your real address:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-feature-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reply to forwarded emails</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-reply-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reply to your emails</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی ای میلاں دا جواب</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-acceptable-use-answer-measure-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Requiring a { -brand-name-firefox-account(capitalization: "uppercase") } with a verified email address</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-acceptable-use-answer-measure-unlimited-payment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Requiring payment for a user to create more than five aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کہیں ورتݨ آلے کیتے پنج کنوں ودھ عرفی ناں بݨاوݨ کیتے ضروری رقم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-reset" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reset</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ولدا ٹھیک کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-csat-answer-satisfied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Satisfied</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تسلی بخش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-button-save-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>محفوظ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:vpn-promo-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save 50% with a full year subscription</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>پورے سال دی سبسکرپشن نال ٥٠٪ بچاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-register-subdomain-button-search" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڳولو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-filter-search-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں ڳولو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-choose-subdomain-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈومین ڳولو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-choose-subdomain-input-placeholder-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search your new domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨی نویں ڈومین ڳولو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-faq-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>See more FAQs about { -brand-name-firefox-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-alias-tip-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select “Generate New Alias” to create your first alias.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨاں پہلا عرفی ناں خلقݨ کیتے "نواں ناں جنریٹ کرو" چُݨو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-meta-status-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Service status</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>خدمت حیثیت</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ترتیباں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-error-save-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings change failed</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ترتیباں تبدیلی وچ ناکامی تھئی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-use-cases-shopping" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Shopping</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>خریداری</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-use-cases-shopping-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Shopping</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>خریداری</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-details-show" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show Details</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تفصیلاں ݙکھاؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-sign-back-in-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign back in with your aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>آپݨے عرفی نان٘واں نال ولدا سائن ان تھیوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-sign-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign In</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سائن ان</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:home-hero-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign In</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سائن ان</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-sign-out" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign Out</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سائن آؤٹ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-sign-out-relay" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign Out of { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } توں سائن آؤٹ تھیوو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:nav-profile-sign-up" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سائن اپ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:email-size-limit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $size } { $unit }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $size } { $unit }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>چھوڑو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-use-cases-social-networks-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Social Networks</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سماجی نیٹ ورک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-use-cases-social-networks" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Social Networks</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سماجی نیٹ ورک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-somewhat-disappointed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Somewhat disappointed</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کجھ مون٘جھا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:hero-image-copy-protect-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>… so you can &lt;strong&gt;protect your real email&lt;/strong&gt; from tracking and spam.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>… ایں سانگے تساں سپیم تے ٹریک تھیوݨ کنوں &lt;strong&gt; آپݨی اصلی ای میل دی حفاظت&lt;/strong&gt;کر سگدے ہو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-welcome-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;span&gt;Welcome,&lt;/span&gt; { $email }!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>&lt;span&gt;ست بسم اللہ،&lt;/span&gt; { $email }!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:forwarded-email-footer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Stop email forwarding and manage settings for all aliases here.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اتھ سارے عرفی نان٘واں کنوں ای میل بھیڄݨ کنوں روکو تے ترتیباں منیج کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-strongly-agree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Strongly agree</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ݙاڈھا متفق</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-strongly-disagree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Strongly disagree</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ݙاڈھا اختلاف</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:hero-image-copy-unique-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;Use a unique relay address&lt;/strong&gt; for every new account …</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہر نویں کھاتے کیتے&lt;strong&gt;نویکلا رِیلے پتہ ورتو&lt;/strong&gt;۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-label-generate-new-alias-menu-custom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>@{ $subdomain } Alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>@{ $subdomain } عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-subdomain-not-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Subdomain could not be created, try something else</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-available" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $subdomain } is available!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $subdomain } دستیاب ہے!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $subdomain } is now your email domain!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $subdomain } ہݨ تہاݙی ای میل ڈومین ہے!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-success-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success!</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کامیابی!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:tips-footer-link-support-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Support</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سہارا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-reason-turned-off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The alias might have forwarding turned off</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں اڳوں تے پٹھݨ بند کر ݙتا ہوسی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-install-chrome-extension-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using aliases even easier.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-chrome-extension-get-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email aliases even easier.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ای میل عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-firefox-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes creating aliases even easier.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں بݨاوݨ کوں ݙاڈھا سوکھا کریندی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-install-extension-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes using email aliases even easier.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں ای میل ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-get-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The { -brand-name-relay } extension for { -brand-name-firefox } makes using email aliases even easier.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں ای میل ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-reason-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The email forwarded has an attachment larger than { email-size-limit }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are a few reasons you might not be receiving emails forwarded through your aliases. These reasons include:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کجھ وجوہات ہن جو تہاکوں تہاݙے عرفی نان٘واں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-reason-not-accepted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The site doesn’t accept aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ سائٹ عرفی ناں قبول کائنی کریندی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:forwarded-email-header-from" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This message was forwarded from { $display_email } by { $linked_origin }.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:whatsnew-feature-sign-back-in-snippet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>To create a new alias when you’re asked for your email, open…</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>نواں عرفی ناں خلقݨ کیتے، ڄڈݨ تہاݙے کولوں ای میل دا پُچھیجے تاں، کھولو۔۔۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-faq-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Top questions about { -brand-name-firefox-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay } بارے اہم سوالات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-download-install-chrome-extension-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try { -brand-name-relay } for { -brand-name-google-chrome }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-google-chrome } کیتے { -brand-name-relay } اَزماؤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-feature-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unlimited email aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بے انت ای میل عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-unsure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unsure</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کچ پک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-upgrade-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade { -brand-name-relay }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-upgrade-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade { -brand-name-relay } to get unlimited email addresses and your own email domain.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بے انت ای میل پتے تے آپݨی ای میل ڈومین گھنݨ کیتے { -brand-name-relay } اپ گریڈ کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-upgrade-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade for even more features.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-perks-cta-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade now</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-hero-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade now</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-pack-upgrade-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade Now</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ہݨ اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-perks-cta-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade to { -brand-name-firefox-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay-premium } تے اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-upgrade-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade to { -brand-name-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay-premium } تے اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-upgrade-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade to { -brand-name-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay-premium } تے اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:forwarded-email-footer-premium-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade to { -brand-name-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay-premium } تے اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:forwarded-email-header-premium-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade to { $premium_link } to get unlimited aliases and a custom email domain.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کسٹم ای میل ڈومین تے بے انت عرفی ناں گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-pack-upgrade-headline-html" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upgrade to &lt;strong&gt;{ -brand-name-firefox } { -brand-name-relay-premium }&lt;/strong&gt; to get more aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ٻئے عرفی ناں گھنݨ کیتے &lt;strong&gt;{ -brand-name-firefox } { -brand-name-relay-premium }&lt;/strong&gt; تے اپ گریڈ کرو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-free-feature-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Up to 5 email aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>٥ تائیں ای میل عرفی ناں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-domain-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use a custom domain for sharing aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-domain-title-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use a custom domain for sharing aliases:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-use-cases-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use { -brand-name-relay } email aliases anywhere</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کہیں وی جاء تے { -brand-name-relay } ای میل عرفی ناں ورتو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-very-disappointed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very disappointed</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ݙاڈھا مون٘جھا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-csat-answer-very-dissatisfied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very Dissatisfied</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ݙاڈھا غیرتسلی بخش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-option-very-likely" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very likely</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>غالباً</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:survey-csat-answer-very-satisfied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very Satisfied</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>ݙاڈھا تسلی بخش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-label-privacy-notice-update-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>View Privacy Notice</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>رازداری نوٹس ݙیکھو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Welcome to { -brand-name-firefox } { -brand-name-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } { -brand-name-relay-premium } وچ ست بسم اللہ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:multi-part-onboarding-premium-welcome-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Welcome to { -brand-name-relay-premium }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay-premium } وچ ست بسم اللہ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-1-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What about spam?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سپیم بارے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-acceptable-use-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What are the acceptable uses of { -brand-name-relay }?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-subdomain-characters-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What characters can I use to create a subdomain?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-8-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What data does { -brand-name-firefox-relay } collect?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:profile-promo-email-blocking-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What emails do you want to block?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں کہڑیاں ای میلاں بلاک کرݨ چاہندے ہو؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-longevity-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What happens if Mozilla shuts down the { -brand-name-firefox-relay } service?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-unsubscribe-domain-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What happens to my custom domain if I unsubscribe from { -brand-name-relay-premium }?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم ݙٌڈومین نال کیا تھیسی؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-what-is-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is a { -brand-name-relay } alias?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } عرفی ناں کیا ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-promotional-email-blocking-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is promotional email blocking?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>مشہوری ای میل بلاک کرݨ کیا ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-use-cases-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When should I use { -brand-name-relay } aliases?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-availability-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Where is { -brand-name-relay } available?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-relay } کتھ دستیاب ہے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-mozmail-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why did my aliases start to use the domain “mozmail.com?”</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میݙے عرفی نان٘واں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-perks-headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why upgrade to { -brand-name-firefox-relay-premium }?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-2-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why won’t a site accept my { -brand-name-relay } alias?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>میݙے { -brand-name-relay } عرفی ناں ایہ سائٹ قبول کیوں نیں کیتے؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-attachments-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Will { -brand-name-firefox-relay } forward emails with attachments?</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-feature-intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>With { -brand-name-firefox } { -brand-name-relay-premium } you can:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox } { -brand-name-relay-premium } نال تساں کر سڳدے ہو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:onboarding-premium-title-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>With { -brand-name-firefox-relay-premium } you can:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-delete-confirmation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, I want to delete this alias.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جیا، میں ایہ عرفی ناں مٹاوݨ چاہندا ہاں۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:modal-domain-register-confirmation-checkbox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, I want to register @{ $subdomain }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-choose-subdomain-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can make up any address @{ $subdomain }</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-premium-cannot-change-subdomain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You cannot change your subdomain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تساں آپݨی سب ڈومین نہوے وٹا سڳدے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-subdomain-characters-answer-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can only use lower-case English letters, numbers, and hyphens to create a subdomain.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین خلقݨ کیتے تساں صرف چھوٹی اے بی سی، ہندسے تے ہائفن ورت سڳدے ہو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-premium-check-subdomain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must be a premium subscriber to check a subdomain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-premium-set-create-subdomain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must be a premium subscriber to create subdomain aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین عرفی ناں تخلیق کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-premium-set-make-aliases" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must be a premium subscriber to make more than { $number } aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>{ $number }کنوں ودھ عرفی ناں بݨاوݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-premium-set-subdomain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must be a premium subscriber to set a subdomain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین مقرر کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:error-subdomain-select" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must select a subdomain before creating a subdomain aliases</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>سب ڈومین عرفی ناں خلقݨ کنوں پہلے سب ڈومین چُݨݨ ضروری ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:settings-error-save-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your changes to settings were not saved due to a connection error. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>کنکشن خرابی پاروں ترتیباں وچ تہاݙیاں تبدیلیاں محفوظ کائنی تھیاں۔ سوہݨا، ولدا کوشش کرو۔</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:premium-promo-pricing-free-price" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your current Free plan</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙا حالیہ مفت منصوبہ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-register-subdomain-example-address" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>yourdomain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی ڈومین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:banner-choose-subdomain-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your domain is:</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی ڈومین ہے:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:success-subdomain-registered" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your domain @{ $subdomain } has been created</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی { $subdomain }@ تخلیق تھی ڳئی ہے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:faq-question-missing-emails-answer-reason-blocked" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your email provider is blocking your alias</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙا ای میل فراہم کرݨ آلا تہاݙے عرفی ناں بلاک کریندا پئے</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-feature-3-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>youremail@yourdomain.mozmail.com</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>youremail@yourdomain.mozmail.com</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:landing-pricing-premium-feature-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your own email domain</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙی آپݨی ای میل ڈومین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-relay-website:app.ftl:success-settings-update" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your settings have been updated</seg>
+			</tuv>
+			<tuv xml:lang="skr">
+				<seg>تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -6473,7 +9889,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>compact - recommend deprioritize</seg>
 			</tuv>
 			<tuv xml:lang="skr">
-				<seg>کمپیکٹ ـ ترجیخ ہٹاوݨ دی صلاح ݙیوݨ</seg>
+				<seg>کمپیکٹ ـ ترجیح ہٹاوݨ دی صلاح ݙتی ویندی ہے</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

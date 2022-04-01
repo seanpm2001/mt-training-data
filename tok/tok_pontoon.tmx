@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-03-01T01:14:22.670986">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-04-01T01:24:19.424474">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -104,7 +104,7 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o { $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; ona li toki pona anu seme?</seg>
+				<seg>o { $actionType } e &lt;playIcon&gt;&lt;/playIcon&gt;. kalama ni li toki pona e toki ni anu seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
@@ -112,7 +112,7 @@
 				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o { $actionType } &lt;recordIcon&gt;&lt;/recordIcon&gt;, o toki e linja ni</seg>
+				<seg>o { $actionType } e &lt;recordIcon&gt;&lt;/recordIcon&gt;, o kalama e toki ni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-stop-instruction" srclang="en-US">
@@ -128,7 +128,7 @@
 				<seg>{ $actionType } submit when ready</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o { $actionType } la sina o pana.</seg>
+				<seg>sina pini la o pana e pali kepeken ni.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-add" srclang="en-US">
@@ -163,20 +163,20 @@
 				<seg>toki sin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add Language</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>o pana e toki sin</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>o pana e toki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Language</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o pana e toki sin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-add-more" srclang="en-US">
@@ -240,7 +240,7 @@
 				<seg>A few bytes</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>suli lili Bytes</seg>
+				<seg>ni li lili sama suli Byte mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:af" srclang="en-US">
@@ -272,7 +272,7 @@
 				<seg>All</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ale</seg>
+				<seg>toki ale</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-addsen-item-1" srclang="en-US">
@@ -280,7 +280,7 @@
 				<seg>All sentences you submit must be under &lt;wikipediaLink&gt;Public Domain (CC-0) license&lt;/wikipediaLink&gt;. To support the inclusion of work not under public licence, we have created a &lt;cc0WaiverLink&gt;Contributions Agreement template&lt;/cc0WaiverLink&gt; for works where the copyright owner would like to contribute the material to Common Voice.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen ale sina o kepeken &lt;wikipediaLink&gt;nasin pana CC0&lt;/wikipediaLink&gt;. sina pana e sitelen pi nasin pana ni ala la, o kepeken &lt;cc0WaiverLink&gt;nasin pana ante ni&lt;/cc0WaiverLink&gt;. ni la sina ken pana e sitelen pi jan ale ala.</seg>
+				<seg>sitelen ale sina o kepeken &lt;wikipediaLink&gt;nasin pana CC0&lt;/wikipediaLink&gt;. sina wile pana e sitelen pi nasin pana ni ala la, jan pali pi sitelen ni li ken ante e nasin pana kepeken &lt;cc0WaiverLink&gt;nasin ni&lt;/cc0WaiverLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-privacy-a" srclang="en-US">
@@ -304,7 +304,7 @@
 				<seg>Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. sina pana e ona la, nimi sina en nimi pi poki lipu sina li lon ala poka pi pali sina. sina ken len anu len ala e nimi sina.</seg>
+				<seg>sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. ijo ala li ken lukin e nimi sina lon poka pi sona sina. sina wile la sina ken len e nimi sina.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-approve" srclang="en-US">
@@ -504,7 +504,7 @@
 				<seg>Basque</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki Esukala</seg>
+				<seg>toki Esuka</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-description" srclang="en-US">
@@ -552,7 +552,7 @@
 				<seg>[‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>[kalama la jan ken toki e nimi "kili" e nimi "loje" sama nimi "kiri" en nimi "roje"]</seg>
+				<seg>[kalama la jan ken toki e nimi "kili" e nimi "loje" sama nimi "kiri" sama nimi "roje"]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count-pluralized" srclang="en-US">
@@ -560,7 +560,7 @@
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen</seg>
+				<seg>kalama &lt;bold&gt;{ $count }&lt;/bold&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-title-new" srclang="en-US">
@@ -616,7 +616,7 @@
 				<seg>Build a custom goal</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o wile pali sin</seg>
+				<seg>o wile pali mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:build-profile" srclang="en-US">
@@ -689,7 +689,7 @@
 Recognition engines that use this data to improve their accuracy.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina pana e sona sina la, kalama sina li kama pona mute tawa ilo kute. ona li kepeken sona ni la, ona li kama kute pi pona mute.</seg>
+				<seg>sina pana e sona sina la, kalama sina li pona mute tawa pali ni: ilo li ken kute pona e jan ale.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-terms" srclang="en-US">
@@ -697,7 +697,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina kepeken ilo Common Voice la &lt;termsLink&gt;lawa kepeken&lt;/termsLink&gt; en &lt;privacyLink&gt;nasin pi len sona&lt;/privacyLink&gt; o pona tawa sina.</seg>
+				<seg>sina kepeken ilo Common Voice la, sina o toki e ni: &lt;termsLink&gt;lawa kepeken&lt;/termsLink&gt; en &lt;privacyLink&gt;nasin pi len sona&lt;/privacyLink&gt; li pona tawa sina.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-cancel" srclang="en-US">
@@ -761,7 +761,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt; o lukin lili</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt; o weka lukin e toki mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:see-more" srclang="en-US">
@@ -769,7 +769,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt; o lukin mute</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt; o pana lukin e toki mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-cn" srclang="en-US">
@@ -817,7 +817,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Click</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pilin</seg>
+				<seg>pilin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-description" srclang="en-US">
@@ -841,7 +841,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Clips recorded</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen</seg>
+				<seg>kalama</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-uploaded" srclang="en-US">
@@ -849,7 +849,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Clips Uploaded</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen pana</seg>
+				<seg>sina pana e kalama</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-goal-text" srclang="en-US">
@@ -857,7 +857,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Clips validated</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen pona</seg>
+				<seg>kalama pona</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-you-recorded" srclang="en-US">
@@ -905,7 +905,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Collect sentences</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o kulupu e sitelen</seg>
+				<seg>o pana e sitelen</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-other-comment" srclang="en-US">
@@ -1120,7 +1120,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>Contribution Experience</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sona pi nasin pali</seg>
+				<seg>nasin pali</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak-text" srclang="en-US">
@@ -1131,20 +1131,20 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>jan li toki uta e sitelen, li awen e ona.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>ilo pi sona lipu sina</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>ilo jo pi sona sina</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo pi sona lipu sina</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:resource-coqui-info" srclang="en-US">
@@ -1272,7 +1272,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>Create a Custom Goal</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pali e wile pali sin</seg>
+				<seg>o pana e wile pali sina</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-title" srclang="en-US">
@@ -1384,7 +1384,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>Delete my recordings</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o weka e kalama awen mi</seg>
+				<seg>o weka e kalama ale mi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-delete" srclang="en-US">
@@ -1416,7 +1416,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>Dhivehi</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki Tipeki</seg>
+				<seg>toki Sipeki</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language" srclang="en-US">
@@ -1483,7 +1483,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>toki sina li lon ala kulupu sona la, sina ken pana e ona lon lipu toki.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1491,7 +1491,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>o kama jo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1600,7 +1600,7 @@ sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?</se
 				<seg>During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina luka e nena "o pana" la mi toki ala e ni: pali sina li pona ala pona. sina ken pali e ijo sin luka.</seg>
+				<seg>ni la sina luka e nena "o pana" la ilo li toki ala e ni: pali sina li pona ala pona. ilo li pana taso e pali sin luka.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:nl" srclang="en-US">
@@ -1646,7 +1646,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>o ante e lipu sina</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1654,7 +1654,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>nimi pi poki lipu sina</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1686,7 +1686,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>lipu wile pi poki lipu sina</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1694,7 +1694,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>toki Inli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1803,7 +1803,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Exit &amp; Delete clips</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pini, o weka e kalama awen</seg>
+				<seg>o pini, o weka e pali</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-findpd-partner-2" srclang="en-US">
@@ -1875,7 +1875,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Finish editing first?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>wan la, o pini e ante sina anu seme?</seg>
+				<seg>ante sina li pini ala. o awen pali anu seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-continue" srclang="en-US">
@@ -1883,7 +1883,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Finish recording</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pini kalama</seg>
+				<seg>o awen pali</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-title" srclang="en-US">
@@ -1891,7 +1891,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Finish recording first?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>wan la, o pini e kalama awen anu seme?</seg>
+				<seg>pali kalama li pini ala. o awen pali anu seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-submit" srclang="en-US">
@@ -1955,7 +1955,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>For these launched languages the website has been successfully &lt;localizationGlossaryLink&gt;localized&lt;/localizationGlossaryLink&gt;, and has enough &lt;sentenceCollectionGlossaryLink&gt;sentences collected&lt;/sentenceCollectionGlossaryLink&gt; to allow for ongoing &lt;speakLink&gt;Speak&lt;/speakLink&gt; and &lt;listenLink&gt;Listen&lt;/listenLink&gt; contributions.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki ni la, lipu ni li &lt;localizationGlossaryLink&gt;ante toki ale&lt;/localizationGlossaryLink&gt;, li jo e &lt;sentenceCollectionGlossaryLink&gt;sitelen mute&lt;/sentenceCollectionGlossaryLink&gt;. ni la, jan li ken &lt;speakLink&gt;toki&lt;/speakLink&gt; li ken &lt;listenLink&gt;kute&lt;/listenLink&gt;.</seg>
+				<seg>toki ni la, ilo ni li &lt;localizationGlossaryLink&gt;ante toki ale&lt;/localizationGlossaryLink&gt;, li jo e &lt;sentenceCollectionGlossaryLink&gt;sitelen mute&lt;/sentenceCollectionGlossaryLink&gt;. ni la, jan li ken &lt;speakLink&gt;toki&lt;/speakLink&gt; li ken &lt;listenLink&gt;kute&lt;/listenLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:fr" srclang="en-US">
@@ -2030,7 +2030,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>toki Tosi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -2038,7 +2038,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>o kama, o pali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -2059,7 +2059,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Get started with goals</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o open e pali suli sina</seg>
+				<seg>o pana e wile pali sina</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:get-started-speech" srclang="en-US">
@@ -2099,7 +2099,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Goals</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>wile suli</seg>
+				<seg>wile pali sina</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:gom" srclang="en-US">
@@ -2243,7 +2243,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Have you read our Terms?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina lukin ala lukin e lawa kepeken pi ilo ni?</seg>
+				<seg>sina pali la o lukin e lawa kepeken pi ilo ni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-card-header" srclang="en-US">
@@ -2299,7 +2299,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Help reach { $hours } hours in { $language } with a personal goal</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken wile pali sina</seg>
+				<seg>wile mi la kalama pi tenpo suli { $hours } o lon { $language }. tawa ni la o pana e wile pali sina!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-text" srclang="en-US">
@@ -2363,7 +2363,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Help us get to { $goal }</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pali e ijo { $goal }</seg>
+				<seg>o pali tawa ni: ijo li { $goal }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:help-us-title" srclang="en-US">
@@ -2435,7 +2435,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Home</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>tawa lipu sinpin</seg>
+				<seg>lipu open</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-recorded" srclang="en-US">
@@ -2467,7 +2467,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>How ?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>nasin seme?</seg>
+				<seg>nasin li seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance" srclang="en-US">
@@ -2595,7 +2595,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>How-to</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>nasin seme</seg>
+				<seg>nasin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-title" srclang="en-US">
@@ -2627,7 +2627,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>I agree</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>mi wile</seg>
+				<seg>ni li pona</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-do-want-native-q" srclang="en-US">
@@ -2667,7 +2667,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>I do not agree</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>mi wile ala</seg>
+				<seg>ni li pona ala</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate-content-4" srclang="en-US">
@@ -2678,7 +2678,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -2686,7 +2686,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>kalama li pakala mute la, o weka e ona. sina ken kute e sitelen ale pi kalama ni la, o pona e ona. pakala lili la ni li awen lon.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -2731,7 +2731,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>lipu ni li jo ala e ijo la, o kepeken pilin pona sina. sina sona ala la, o kepeken nena 'o weka'.</seg>
+				<seg>lipu ni li jo ala e ijo la, o kepeken pilin pona sina. sina sona ala la, o kepeken nena 'mi sona ala'.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate-content-1" srclang="en-US">
@@ -2758,7 +2758,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>toki sina lon ala ni la, sina ken wile e ona &lt;languageProcessLink&gt;kepeken nasin ni&lt;/languageProcessLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-6" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
@@ -2766,7 +2766,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>sitelen sin li lon ala la, o kama jo, o pana e ona sin!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-6" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
@@ -2779,7 +2779,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>If you think the pronunciation makes it &lt;strong&gt;impossible to understand&lt;/strong&gt;, or there’s a &lt;strong&gt;lot of background noise&lt;/strong&gt;, or there are &lt;strong&gt;other people speaking too&lt;/strong&gt;, then you should reject the clip. &lt;accuracyLink&gt;See more information in our accuracy criteria&lt;/accuracyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina &lt;strong&gt;ken ala sona&lt;/strong&gt; e toki tan nasin kalama, tan &lt;strong&gt;kalama monsi mute&lt;/strong&gt;, tan &lt;strong&gt;toki pi jan ante&lt;/strong&gt; la, o weka e kalama. &lt;accuracyLink&gt;o lukin e sona pi kalama pona&lt;/accuracyLink&gt;.</seg>
+				<seg>sina ken ala sona e toki, tan &lt;strong&gt;nasin kalama&lt;/strong&gt;, tan &lt;strong&gt;kalama jaki mute&lt;/strong&gt;, tan &lt;strong&gt;toki pi jan ante&lt;/strong&gt; la, o weka e kalama. &lt;accuracyLink&gt;o lukin e sona pi kalama pona&lt;/accuracyLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ig" srclang="en-US">
@@ -2803,7 +2803,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>I'm okay with you handling this info as you explain in Mozilla's &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ni li pona: ilo li jo e sona mi kepeken &lt;privacyLink&gt;nasin pi sona len&lt;/privacyLink&gt; tan kulupu Mozilla</seg>
+				<seg>ni li pona: ilo li jo e sona mi kepeken &lt;privacyLink&gt;nasin pi len sona&lt;/privacyLink&gt; pi kulupu Mozilla</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-info" srclang="en-US">
@@ -2899,7 +2899,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Is the clip valid?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen li pona ala pona?</seg>
+				<seg>kalama ni li pona ala pona?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-is-goal-assistant-q" srclang="en-US">
@@ -2963,7 +2963,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Join the Common Voice mailing list</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o kama jo e lipu tan ilo Common Voice</seg>
+				<seg>kulupu CommonVoice li ken pana e lipu tawa mi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-just-unsure-title" srclang="en-US">
@@ -3142,14 +3142,6 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>toki Kukusa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>toki</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -3159,6 +3151,14 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>toki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3419,7 +3419,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Login Identity</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>nimi lon sina</seg>
+				<seg>nasin nimi pi sijelo sina</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:login-to-get-started" srclang="en-US">
@@ -3475,7 +3475,7 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.</seg>
+				<seg>toki ni la kalama ante ala li li wile e kute. sina wile la, o pona e ni o pana e kalama sin sina.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:lg" srclang="en-US">
@@ -3518,20 +3518,20 @@ kulupu kalama li jo e kalama awen pona &lt;b&gt;{ $valid }&lt;/b&gt; lon toki &l
 				<seg>o lukin e ni: ilo li kute ala kute? sina pini la ilo li pini ala pini?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Make sure the sentence meets the following criteria:</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>o lukin: sitelen li ni ala ni:</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>sitelen li pona tan ni:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the sentence meets the following criteria:</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin: sitelen li ni ala ni:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:rich-data" srclang="en-US">
@@ -3749,9 +3749,9 @@ stifles innovation. So we’ve launched Common Voice, a project to help make voi
 and accessible to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
-mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
-jan ale li ken kepeken ona.</seg>
+				<seg>kulupu esun suli li pali len li kulupu e kalama mute li pana ala e kalama ni tawa jan ante.
+ni li ike li ken ala e ni: jan li lon kulupu esun suli ala li pali e ilo sin pona. tan ni la mi open
+e pali Common Voice. jan ale o ken pali e ilo kute pona o ken kepeken ilo pona.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-mobile" srclang="en-US">
@@ -3849,20 +3849,20 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lon ilo Raspberry Pi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>My Sentences</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>sitelen mi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>sitelen ale mi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>My Sentences</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sitelen mi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-vote-no" srclang="en-US">
@@ -3897,7 +3897,7 @@ sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lo
 				<seg>nimi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -3905,7 +3905,7 @@ sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lo
 				<seg>toki mama</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -3934,7 +3934,7 @@ sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lo
 				<seg>Need to download your data?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina wile kama jo e sona sina anu seme?</seg>
+				<seg>sina wile kama jo e sona sina e pali sina la:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ne-np" srclang="en-US">
@@ -3990,7 +3990,7 @@ sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lo
 				<seg>No</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ala</seg>
+				<seg>ike</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
@@ -4070,7 +4070,7 @@ sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lo
 				<seg>Note: You will still need to select between Speak or Listen to change contribution type.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".</seg>
+				<seg>o sona e ni: awen la, sina wile ante e nasin pali la, sina o luka e nena "o toki" anu "o kute".</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-no" srclang="en-US">
@@ -4104,9 +4104,9 @@ to make innovative apps for devices and the web. Read a sentence to help machine
 contributors to improve the quality. It’s that simple!</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina ken pana e kalama toki sina. ni la mi ken pali e kulupu sona open li ken open e ona tawa jan ale.
-ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
-o pona e ona. ni li pona a!</seg>
+				<seg>sina ken pana e kalama toki sina. mi kulupu e kalama mute ni li pana e ni tawa jan ale.
+ni la jan li ken pali e ilo. sina kalama e toki la ilo li kama ken sona e kalama toki sina.
+sina kute e toki pi jan ante la ilo li sona e ni tan sina: toki li pona ala pona. nasin li pona a!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:number-of-voices" srclang="en-US">
@@ -4122,7 +4122,7 @@ o pona e ona. ni li pona a!</seg>
 				<seg>Numbers. There should be no digits in the source text because they can cause problems when read aloud. The way a number is read depends on context and might introduce confusion in the dataset. For example, the number “2409” could be accurately read as both “twenty-four zero nine” and “two thousand four hundred nine”.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.</seg>
+				<seg>nanpa la, o pana ala e sitelen nanpa lon sitelen pana. ona li ken pakala e toki jan. nimi nanpa li ken ante lon toki ante lon tenpo ante. ni li ken nasa tawa ilo.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:oc" srclang="en-US">
@@ -4146,7 +4146,7 @@ o pona e ona. ni li pona a!</seg>
 				<seg>Off</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ala</seg>
+				<seg>toki</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-offensive-language" srclang="en-US">
@@ -4170,7 +4170,7 @@ o pona e ona. ni li pona a!</seg>
 				<seg>On</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>wile</seg>
+				<seg>toki ala</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-addlang-text" srclang="en-US">
@@ -4178,7 +4178,7 @@ o pona e ona. ni li pona a!</seg>
 				<seg>Once logged in you can select your languages from the profile section.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina kama kepeken sijelo ilo la, sina ken kepeken toki wile sina lon lipu jan.</seg>
+				<seg>sina kama kepeken sijelo ilo la, sina ken pana e ni lon lipu jan: sina sona e toki seme.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-platform-not-supported-desktop" srclang="en-US">
@@ -4194,7 +4194,7 @@ o pona e ona. ni li pona a!</seg>
 				<seg>One sentence per line</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen wan taso lon linja wan</seg>
+				<seg>toki wan taso o lon linja wan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
@@ -4422,7 +4422,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Personal</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ijo sina</seg>
+				<seg>sina la</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-dashboard-card-header" srclang="en-US">
@@ -4446,7 +4446,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>wan taso li lon!</seg>
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt; pali wan taso li awen lon!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-play-toggle-label" srclang="en-US">
@@ -4478,7 +4478,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Please check the &lt;howToLink&gt;guidelines&lt;/howToLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o lukin e &lt;howToLink&gt;lipu nasin pona&lt;/howToLink&gt;.</seg>
+				<seg>o lukin e &lt;howToLink&gt;lipu pi nasin pona&lt;/howToLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-confirm-pd" srclang="en-US">
@@ -4494,7 +4494,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Please select a language.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o kepeken toki</seg>
+				<seg>sina kepeken toki seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-select-language" srclang="en-US">
@@ -4553,14 +4553,6 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>o luka e nena { shortcut-play-toggle } la, o kute. luka sin la, o kute ala.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Privacy</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>nasin pi sona len</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
@@ -4569,12 +4561,20 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>sona len</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nasin pi sona len</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy Policy</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>nasin sona pi ilo ni</seg>
+				<seg>nasin pi len sona li pona tawa mi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-3" srclang="en-US">
@@ -4593,7 +4593,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>ike suli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -4601,7 +4601,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>lipu jan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -4702,7 +4702,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Read More</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o lukin mute</seg>
+				<seg>o suli e toki</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:read-more-about" srclang="en-US">
@@ -4758,7 +4758,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Ready to do { $count } more?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina ken ala ken pali e kalama sin { $count }?</seg>
+				<seg>sina wile ala wile pali lon kalama { $count } sin?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ready-to-record" srclang="en-US">
@@ -4766,7 +4766,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Ready to donate your voice?</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina wile ala wile pana e toki uta sina?</seg>
+				<seg>o pana e kalama uta sina!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ready-to-validate" srclang="en-US">
@@ -4782,7 +4782,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o kama jo e lipu ale ni: ijo pi wile sina, pali sin, en sona sin, en lipu sin pi ilo Common Voice.</seg>
+				<seg>lipu li sama ni: pali sina li pona. sina wile pali mute. ijo sin li kama lon kulupu Common Voice.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:recorded-clips" srclang="en-US">
@@ -4806,7 +4806,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; wan taso li lon!</seg>
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; pali wan taso li awen lon!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
@@ -4838,7 +4838,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>awen pi kalama toki li suli mute tawa sona open mi. ni li musi tawa jan.</seg>
+				<seg>pali pi kalama uta li suli mute tawa pali ni. ni li musi kin tawa jan mute.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle-label" srclang="en-US">
@@ -4854,7 +4854,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Record your voice</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o awen e toki uta sina</seg>
+				<seg>o pali e kalama sin kepeken toki uta sina</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-refresh-button" srclang="en-US">
@@ -4894,7 +4894,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>{ $rejectedSentences } rejected sentences.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen weka { $rejectedSentences } li lon.</seg>
+				<seg>sitelen { $rejectedSentences } li weka.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-findpd-text-2" srclang="en-US">
@@ -5041,12 +5041,12 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>o tawa lipu pi toki ale</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o kute</seg>
+				<seg>o lukin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
@@ -5057,12 +5057,12 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>o pona</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-link" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o lukin</seg>
+				<seg>o kute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-review-failure" srclang="en-US">
@@ -5129,7 +5129,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>o pona e sitelen</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5137,7 +5137,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>o lukin e sitelen</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5254,7 +5254,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Saved</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ona li awen</seg>
+				<seg>ni li awen</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-search-input" srclang="en-US">
@@ -5278,7 +5278,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Search for them on the Internet</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o alasa e ona kepeken ilo sona linja</seg>
+				<seg>o alasa e ona kepeken kulupu ilo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:compare-progress" srclang="en-US">
@@ -5294,7 +5294,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>See Less</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o lukin lili</seg>
+				<seg>o lili e toki</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:languages-show-more" srclang="en-US">
@@ -5302,7 +5302,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>See More</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o lukin mute</seg>
+				<seg>toki mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:select-language" srclang="en-US">
@@ -5326,7 +5326,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>Select Language</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o kepeken toki</seg>
+				<seg>sitelen ni li lon toki seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-sign-up" srclang="en-US">
@@ -5374,7 +5374,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>{ $sentences } added by you</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina pana e sitelen { $sentences }</seg>
+				<seg>sina pana e sitelen { $sentences }.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-uploading" srclang="en-US">
@@ -5425,7 +5425,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>jan tu o pona e sitelen la, sitelen li pana tawa kulupu sona Common Voice. sina pali e nasin pona pi toki sina &lt;languageGuidelinesLink&gt;lon lipu ni&lt;/languageGuidelinesLink&gt;. sitelen &lt;licenseLink&gt;o tawa jan mute, o open&lt;/licenseLink&gt;. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken &lt;waiverLink&gt;lipu ni&lt;/waiverLink&gt;, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-prompt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-are-you-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentences not submitted, are you sure you want to leave?</seg>
 			</tuv>
@@ -5433,7 +5433,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>sina pana ala e sitelen. sina wile ala wile weka?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-are-you-sure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-prompt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentences not submitted, are you sure you want to leave?</seg>
 			</tuv>
@@ -5497,7 +5497,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>len ala len</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5505,7 +5505,7 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>nasin ilo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5609,6 +5609,14 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>toki Sisijanu</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-stay-in-touch-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o pali e sijelo ilo</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sign-up-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign up for an account</seg>
@@ -5673,14 +5681,6 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>suli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Skip</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>mi sona ala</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
@@ -5689,12 +5689,20 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>mi sona ala</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi sona ala, o pana e toki ante</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-feedback" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip Submission Feedback</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o toki ala e toki lili pi pali pona tawa mi</seg>
+				<seg>sina pali la ilo o toki ala toki e toki lili pi pali pona tawa sina?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sk" srclang="en-US">
@@ -5769,12 +5777,20 @@ sina ken lukin e sitelen lon &lt;githubLink&gt;lipu pi ilo GitHub&lt;/githubLink
 				<seg>mi pakala. ilo Common Voice li pakala lili. sina pona tan wile kama sina.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-something-went-wrong" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, something went wrong</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ijo li pakala.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-source" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Source: { $sentenceSource }</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen li tan: { $sentenceSource }</seg>
+				<seg>sitelen li tan ni: { $sentenceSource }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-source" srclang="en-US">
@@ -5914,7 +5930,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>Start recording</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o open e awen kalama</seg>
+				<seg>o open e ilo kute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-placeholder-2" srclang="en-US">
@@ -6045,7 +6061,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>o pana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -6053,7 +6069,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>o pana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -6074,7 +6090,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pana e kalama awen</seg>
+				<seg>o pana e pali</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
@@ -6138,7 +6154,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina luka tawa poka pi sitelen pini la, sina pona e sitelen. sina luka tawa poka pi sitelen open la, sina ike e sitelen. sina luka tawa sewi la, sina weka e sitelen. o sona e ni: o pana e sona sina!</seg>
+				<seg>sina luka tawa poka pi sitelen pini (→) la, sina pona e sitelen. sina luka tawa poka pi sitelen open (←) la, sina ike e sitelen. sina luka tawa sewi (↑) la, sina weka e sitelen. o sona e ni: o pana e sona sina!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:syr" srclang="en-US">
@@ -6202,7 +6218,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>Tap</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>o pilin</seg>
+				<seg>pilin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:tt" srclang="en-US">
@@ -6234,7 +6250,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>Tell us what you'd like to download:</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina wile kama jo e seme:</seg>
+				<seg>sina wile kama jo e seme?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:te" srclang="en-US">
@@ -6274,7 +6290,7 @@ mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama to
 				<seg>Thanks for confirming your account, now let's build your profile.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina pona e lipu sina. ni la o pali e lipu sina</seg>
+				<seg>sina pali e sijelo sina. tenpo ni la o lipu e ijo sina.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-language-select-card-body" srclang="en-US">
@@ -6504,7 +6520,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>The recording was too long.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen li suli mute la, ona li pakala.</seg>
+				<seg>pakala la kalama li tenpo suli ike.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-quiet" srclang="en-US">
@@ -6520,7 +6536,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>The recording was too short.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen li lili mute la, ona li pakala.</seg>
+				<seg>pakala la kalama li tenpo lili ike.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-volume-description" srclang="en-US">
@@ -6571,20 +6587,20 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>sitelen li jo e nimi ike.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The sentence must be grammatically correct.</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>toki ni o lon nasin.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>toki ni o kepeken nasin toki pona.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>toki ni o lon nasin.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
@@ -6603,7 +6619,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>toki ni o ken tawa kalama uta.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -6611,7 +6627,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>sitelen lili ale o pona nasin lon nimi ale pi toki ni.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -6712,7 +6728,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Tigre</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki Tike</seg>
+				<seg>toki Sikawi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ti" srclang="en-US">
@@ -6720,7 +6736,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Tigrinya</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki Tikinja</seg>
+				<seg>toki Sikinja</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:today" srclang="en-US">
@@ -6728,7 +6744,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Today</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>tenpo suno ni</seg>
+				<seg>tenpo ni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-recorded-progress" srclang="en-US">
@@ -6787,20 +6803,20 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>jan pi pali suli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Total</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>ale</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ale</seg>
+				<seg>ale la</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Total</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sitelen pi jan ale</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:total-approved" srclang="en-US">
@@ -6832,7 +6848,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>{ $totalSentences } total sentences.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen ale { $totalSentences }.</seg>
+				<seg>sitelen { $totalSentences } li lon.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-card-body" srclang="en-US">
@@ -6896,7 +6912,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Turkmen</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>toki Timense</seg>
+				<seg>toki Tumense</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:tw" srclang="en-US">
@@ -6912,7 +6928,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Typically megabytes</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>suli Megabytes</seg>
+				<seg>ni li suli sama suli Megabyte mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:uby" srclang="en-US">
@@ -6976,7 +6992,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>{ $unreviewedSentencesByYou } sentences left for you to review.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen { $unreviewedSentencesByYou } li lon tawa lukin sina.</seg>
+				<seg>sina ken lukin e sitelen { $unreviewedSentencesByYou }.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-updating" srclang="en-US">
@@ -6984,7 +7000,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Updating…</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>ilo li kama sin…</seg>
+				<seg>ilo li sin e sona…</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-aborted" srclang="en-US">
@@ -7088,7 +7104,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>{ $validatedSentences } validated sentences.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sitelen pona { $validatedSentences } li lon.</seg>
+				<seg>sitelen { $validatedSentences } li pona.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-paragraph" srclang="en-US">
@@ -7096,7 +7112,7 @@ kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina 
 				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>sina lukin e pona pi kalama toki la ni li suli sama. kute la o pali e kulupu sona open pi kalama toki jan.</seg>
+				<seg>sina lukin e pona pi kalama toki la ni li suli sama tawa pali ni. o kute o pona e kulupu pi kalama toki.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:validations" srclang="en-US">
@@ -7210,8 +7226,8 @@ for our machines. But to create voice systems, developers need an extremely larg
 data.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama toki li suli li jan. ilo ken kute e kalama toki jan la ni li pona tawa mi.
-sona pi kalama toki suli mute li lon taso la mi ken pali e ni.</seg>
+				<seg>kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona mute.
+taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-start" srclang="en-US">
@@ -7221,8 +7237,8 @@ technology for our machines. But to create voice systems, an extremely large amo
 data is required.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
-sona suli pi kalama toki mute li lon la, mi ken pali e ilo toki kalama.</seg>
+				<seg>kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona.
+taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-a" srclang="en-US">
@@ -7250,7 +7266,7 @@ mi kama jo e kalama toki tan toki ale. ni la mi kama jo e toki pi jan mute ala. 
 				<seg>Voices Online Now</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>jan lon tenpo ni</seg>
+				<seg>jan pi mute ni li pali lon tenpo poka</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-validation-title" srclang="en-US">
@@ -7345,7 +7361,7 @@ wile la, o toki lon &lt;discourseLink&gt;ilo Discourse&lt;/discourseLink&gt;, o 
 				<seg>mi pona e ike e pakala ale.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -7353,7 +7369,7 @@ wile la, o toki lon &lt;discourseLink&gt;ilo Discourse&lt;/discourseLink&gt;, o 
 				<seg>lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -7417,6 +7433,26 @@ o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common V
 				<seg>mi ken ala alasa e lipu ni tawa sina</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any audio clips for you to listen to.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi ken ala pana e kalama awen tawa sina. sina ken ala kute e ona.
+tenpo kama la o sin.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi ken ala pana e sitelen tawa sina. sina ken ala toki e ona.
+tenpo kama la o sin.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-interval-weekly" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Weekly</seg>
@@ -7430,7 +7466,7 @@ o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common V
 				<seg>Weekly Goal</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>wile pali pi tenpo esun ale</seg>
+				<seg>wile pali pi tenpo suno 7 ale</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-languages-fetch-error" srclang="en-US">
@@ -7489,20 +7525,20 @@ o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common V
 				<seg>mi wile e toki tan tenpo pona sina. kalama ante en nimi ante li pona la, musi pi awen kalama li pona nanpa wan. ni la, o lili e sitelen sina, o pona e sitelen sina.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi &lt;privacyLink&gt;nasin sona mi&lt;/privacyLink&gt;</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>mi kepeken sona sina la mi kepeken pona. o lukin e &lt;privacyLink&gt;lipu nasin pi sona len&lt;/privacyLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi &lt;privacyLink&gt;nasin sona mi&lt;/privacyLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-headline" srclang="en-US">
@@ -7566,7 +7602,7 @@ o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common V
 				<seg>We've run out of clips to validate in this language...</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kalama awen pi toki ni li lon ala. ni la sina ken ala pona e ona.</seg>
+				<seg>kalama ante ala li lon toki ni...</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state" srclang="en-US">
@@ -7881,20 +7917,20 @@ o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common V
 				<seg>p</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="tok">
-				<seg>pona</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>wile</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>pona</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
@@ -8110,7 +8146,7 @@ o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common V
 				<seg>Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>nasin kalama toki sina li ken kama ante tan ma mama sina, tan toki ante sina, tan ijo ante mute. o pana e sona ni: sina pilin e ni: ona li suli tawa sona pi nasin kalama sina.</seg>
+				<seg>nasin kalama toki sina li ken ante tan ma mama sina, tan toki ante sina, tan ijo ante mute. o pana e sona ni: sina pilin e ni: ona li suli tawa sona pi nasin kalama sina.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:keep-info" srclang="en-US">
@@ -8216,7 +8252,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>tenpo suno ni la mi wile e kalama awen { $goalValue }. tan pali sina la ilo Common Voice li jo e ona &lt;goalPercentage&gt;&lt;/goalPercentage&gt;!</seg>
+				<seg>tenpo suno ni la mi wile e kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni &lt;goalPercentage&gt;&lt;/goalPercentage&gt;!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-help-validation" srclang="en-US">
@@ -8224,7 +8260,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>tenpo suno ni la mi wile e kalama pona { $goalValue }. tan pali sina la ilo Common Voice li jo e ona &lt;goalPercentage&gt;&lt;/goalPercentage&gt;!</seg>
+				<seg>tenpo suno ni la mi wile e pona kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni &lt;goalPercentage&gt;&lt;/goalPercentage&gt;!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-title" srclang="en-US">
@@ -8241,6 +8277,830 @@ progress updates and newsletters about Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="tok">
 				<seg>poki lipu ZIP #{ $offset } tan { $total }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_confirmation_authenticity" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s could not verify the authenticity of the application. Do you want to proceed with autofilling the selected credentials?</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo %1$s li ken ala pona e ilo. sina pana ala pana e nimi sina?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s is produced by Mozilla.</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>%1$s li tan kulupu Mozilla.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_no_realm_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s is requesting your username and password.</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>%1$s li wile e nimi sina e nimi open sina.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%2$s is requesting your username and password. The site says: “%1$s”</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>%2$s li wile e nimi sina e nimi open sina. lipu li toki e ni: "%1$s"</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/awesomebar/src/main/res/values/strings.xml:mozac_browser_awesomebar_edit_suggestion" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Accept and edit suggestion</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o kama jo, o ante</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/awesomebar/src/main/res/values/strings.xml:mozac_browser_awesomebar_edit_suggestion" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Accept and edit suggestion</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o kama jo, o ante</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo pi kepeken sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_ons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo pi kepeken sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons Manager</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lawa pi kepeken sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_login_add_username_headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add username to saved password?</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sina pana ala pana e nimi tawa nimi open ni?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o ken</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_before_unload_dialog_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you sure?</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sina wile ala wile?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_back" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Back</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o tawa pini</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_choose_a_color" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Choose a color</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o jo e kule</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka ale</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/browser-toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka ale</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_collapse_credit_cards_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collapse suggested credit cards</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin lili e lipu mani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_collapse_logins_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collapse suggested logins</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin lili e nimi open mute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dark</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>pimeja</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark_color_scheme_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dark color scheme</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nasin lukin pimeja</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Deny</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o ken ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t save</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o awen ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_update" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t update</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o sin ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_before_unload_dialog_body" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Do you want to leave this site? Data you have entered may not be saved</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sina weka ala weka tan lipu ni? sona sina li ken awen ala.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_search_term_count_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%d sites</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu %d</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_private_browsing_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enable private browsing</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o wile e nasin len</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_expand_credit_cards_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Expand suggested credit cards</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin mute e lipu mani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_expand_logins_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Expand suggested logins</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin mute e nimi open</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/migration/src/main/res/values/strings.xml:mozac_support_migration_complete_notification_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox is updated - and improved!</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo Firefox li kama sin, li pona mute!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/migration/src/main/res/values/strings.xml:mozac_support_migration_ongoing_notification_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox will be ready in a moment…</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo Firefox li open lon tenpo kama lili...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_font_size_decrease_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Font size decrease</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sitelen li kama lili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_font_size_increase_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Font size increase</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sitelen li kama suli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_forward" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Forward</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o tawa kama</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to settings</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o tawa lipu wile</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_content_description_input_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Label for entering a text input field</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nimi pi poki sitelen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_before_unload_leave" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leave</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Light</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>suno</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light_color_scheme_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Light color scheme</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nasin lukin suno</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_progress_loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o awen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_manage_credit_cards" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage credit cards</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o ante e lipu mani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_manage_logins" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage logins</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o ante e nimi open</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_menu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>More options</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu pi wile mute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection_name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nimi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_never_save" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Never save</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ala la o awen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_private_tab_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New private tab</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>poki sin pi nasin len</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New tab</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>poki sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_confirmation_no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/qr/src/main/res/values/strings.xml:mozac_feature_qr_scanner_no_camera" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No camera available on device</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo sina li jo ala e ilo lukin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_neg_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No thanks</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi wile ala e ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_no_username" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>(No username)</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>(nimi li lon ala)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>pona</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_password_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nimi open</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_error_empty_password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password field must not be empty</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o pana e nimi open</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password for %1$s</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nimi open tawa ni: %1$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_no_more_dialogs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Prevent this page from creating additional dialogs</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o ken ala e lipu lili sin tan lipu ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private %s</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>%s pi nasin len</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/qr/src/main/res/values/strings.xml:mozac_feature_qr_scanner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>QR scanner</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ilo lukin pi leko sona</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_bookmarks_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recent bookmarks</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu awen pi tenpo poka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_refresh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Refresh</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tab_menu_item_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_visited_menu_item_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_menu_item_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o weka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_positive_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Resend data</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>pana</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Resend data to this site?</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o pana ala pana sin e sona tawa lipu ni?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_exit_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to previous app</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o tawa ilo pini</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_sans_serif_font" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sans serif</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>linja lili ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_sans_serif_font_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sans Serif font</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nasin sitelen pi linja lili ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_save_confirmation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o awen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_login_save_headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save this login?</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o awen ala awen e nimi open ni?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_search_suggestions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search %1$s</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin e %1$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search logins</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o lukin e nimi open</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_select_collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select collection</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o wile e kulupu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_selected_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Selected</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ijo lawa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_sephia" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sepia</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>loje lili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_sepia_color_scheme_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sepia color scheme</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nasin lukin pi loje lili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_serif_font" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Serif</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>linja lili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_serif_font_desc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Serif font</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nasin sitelen pi linja lili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_share_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share link</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o pana e nimi nasin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o kama</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_site_info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Site information</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sona lipu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/webnotifications/src/main/res/values/strings.xml:mozac_feature_notification_channel_name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Site notifications</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sona sin tan lipu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%s (Private)</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>%s (nasin len)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_before_unload_stay" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Stay</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_stop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Stop</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o pini</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_saved_logins" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Suggested logins</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nimi open pi lipu ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_alert_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The page at %1$s says:</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu %1$s li toki:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tracking Protection has blocked trackers</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu li weka e lipu lukin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tracking Protection is off for this site</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu ni la weka pi lipu lukin li lon ala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_on_no_trackers_blocked" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tracking Protection is on</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>lipu li ken ala lukin e sona sina</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_error_unknown_cause" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to save login</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi ken ala awen e nimi open</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_unlock_application" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unlock %1$s</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o open e %1$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_update_confirmation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/migration/src/main/res/values/strings.xml:mozac_support_migration_complete_notification_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update complete</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>sin li pini kama</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/migration/src/main/res/values/strings.xml:mozac_support_migration_ongoing_notification_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update in progress</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi kama jo e sin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_login_update_headline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update this login?</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>o sin ala sin e nimi open ni?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_username_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Username</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>nimi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_confirmation_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Verification failed</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>mi ken ala pona e ilo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_confirmation_yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="tok">
+				<seg>pana</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -8264,7 +9124,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>aggregate</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kulupu wan</seg>
+				<seg>kulupu pi ijo mute</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -8272,7 +9132,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>aggregate</seg>
 			</tuv>
 			<tuv xml:lang="tok">
-				<seg>kulupu pi ijo mute</seg>
+				<seg>kulupu wan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-03-01T01:11:04.061404">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-04-01T01:21:43.201649">
 	</header>
 	<body>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description" srclang="en-US">
@@ -51,6 +51,14 @@
 				<seg>%1$d hilpekîn hatin bijartin</seg>
 			</tuv>
 		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_multi_select_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$d selected</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>%1$d hatin bijartin</seg>
+			</tuv>
+		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
@@ -60,14 +68,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmarks_multi_select_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%1$d selected</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>%1$d hatin bijartin</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
 			</tuv>
@@ -397,14 +397,6 @@
 				<seg>Xwe li sazkariyên cîhaza te adabte dike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_add" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Tevlî bike</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
@@ -414,6 +406,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Tevlî bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
@@ -461,14 +461,6 @@
 				<seg>Tevlî malperên sereke bû!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add folder</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Peldankê tevlî bike</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder_fragment_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add folder</seg>
@@ -477,7 +469,15 @@
 				<seg>Peldankê tevlî bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_add_new_collection" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add folder</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Peldankê tevlî bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add new collection</seg>
 			</tuv>
@@ -485,7 +485,7 @@
 				<seg>Koleksiyona nû tevlî bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_add_new_collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add new collection</seg>
 			</tuv>
@@ -525,6 +525,14 @@
 				<seg>Pêvek</seg>
 			</tuv>
 		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_addons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Pêvek</seg>
+			</tuv>
+		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
@@ -541,15 +549,7 @@
 				<seg>Pêvek</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_addons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add-ons</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Pêvek</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons Manager</seg>
 			</tuv>
@@ -557,7 +557,7 @@
 				<seg>Rêvebera pêvekan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons Manager</seg>
 			</tuv>
@@ -733,14 +733,6 @@
 				<seg>Hemû çerez (dibe ku hin malper xera bibin)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Destûrê bide</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
@@ -749,7 +741,7 @@
 				<seg>Destûrê bide</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -757,7 +749,15 @@
 				<seg>Destûrê bide</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Destûrê bide</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -837,14 +837,6 @@
 				<seg>%1$s, bila mîkrofona te bi kar bîne?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_allowed2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow audio and video</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Destûrê bide deng û vîdyoyê</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_allowed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow audio and video</seg>
@@ -853,12 +845,12 @@
 				<seg>Destûrê bide deng û vîdyoyê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:enhanced_tracking_protection_allowed" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_allowed2" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Allowed</seg>
+				<seg>Allow audio and video</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>Destûrgirtî</seg>
+				<seg>Destûrê bide deng û vîdyoyê</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_phone_feature_allowed" srclang="en-US">
@@ -867,6 +859,14 @@
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Destûr hat dayîn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:enhanced_tracking_protection_allowed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allowed</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Destûrgirtî</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_allow_in_private_browsing" srclang="en-US">
@@ -1189,7 +1189,7 @@
 				<seg>Bingeh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_blocked3" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_blocked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio and video</seg>
 			</tuv>
@@ -1197,7 +1197,7 @@
 				<seg>Deng û vîdyoyê asteng bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_blocked" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_blocked3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio and video</seg>
 			</tuv>
@@ -1213,7 +1213,7 @@
 				<seg>Deng û vîdyoyê tenê di daneya hucreyî de asteng bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_block_audio2" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_block_audio" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio only</seg>
 			</tuv>
@@ -1221,7 +1221,7 @@
 				<seg>Tenê dengan asteng bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_block_audio" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_block_audio2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio only</seg>
 			</tuv>
@@ -1269,7 +1269,7 @@
 				<seg>Çerezên ku torên reklamê û şirketên analîtîkê ji bo şopandina gera di navbera malperên cuda de bi kar tînin asteng dike.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_description_2" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_description_3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Blocks fewer trackers. Pages will load normally.</seg>
 			</tuv>
@@ -1277,7 +1277,7 @@
 				<seg>Hindiktir şopîneran asteng dike. Rûpel ew ê bi awayê normal vebin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_description_3" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_description_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Blocks fewer trackers. Pages will load normally.</seg>
 			</tuv>
@@ -1301,20 +1301,20 @@
 				<seg>Zêdetir şopîneran, reklaman û pencereyên vebûnok asteng dike. Rûpel zûtir vedibin, lê dibe ku hin taybetî nexebitin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_bookmark" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Bookmark</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Favorî</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_bookmark" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Tevlî favoriyan bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_bookmark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bookmark</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Favorî</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_created_snackbar" srclang="en-US">
@@ -1485,7 +1485,7 @@
 				<seg>Kamera vekirî ye</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_cancel" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1493,7 +1493,15 @@
 				<seg>Betal bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1509,62 +1517,6 @@
 				<seg>Betal bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pair_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_install_addon_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -1573,7 +1525,7 @@
 				<seg>Betal bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_negative" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1589,7 +1541,55 @@
 				<seg>Betal bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pair_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Betal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1677,7 +1677,7 @@
 				<seg>Rûkara xwe hilbijêre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_clear_dialog" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
 			</tuv>
@@ -1685,7 +1685,7 @@
 				<seg>Paqij bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_clear_dialog" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
 			</tuv>
@@ -1765,7 +1765,7 @@
 				<seg>Bigire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1781,14 +1781,6 @@
 				<seg>Bigire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Bigire</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_close_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -1797,7 +1789,15 @@
 				<seg>Bigire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Bigire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1869,14 +1869,6 @@
 				<seg>Moda xwînerê bigire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close tab</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Hilpekînê bigire</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_close_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close tab</seg>
@@ -1886,6 +1878,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_crash_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close tab</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Hilpekînê bigire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close tab</seg>
 			</tuv>
@@ -2089,7 +2089,7 @@
 				<seg>Kontrolkirina eyarên proxya gerokê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cookies" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -2097,7 +2097,7 @@
 				<seg>Kûkî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cookies" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -2113,7 +2113,7 @@
 				<seg>Çerezên ji malperên ku nehatine ziyaretkirin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_toolbar_long_press_popup_copy" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_copy_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
@@ -2121,7 +2121,7 @@
 				<seg>Kopî bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_copy_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_toolbar_long_press_popup_copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
@@ -2201,7 +2201,7 @@
 				<seg>Dosye nehate vekirin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_channel" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_crashes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Crashes</seg>
 			</tuv>
@@ -2209,7 +2209,7 @@
 				<seg>Têkçûn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_crashes" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_channel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Crashes</seg>
 			</tuv>
@@ -2265,7 +2265,7 @@
 				<seg>Çerezên şopandinê yên nav-malperî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cryptominers" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:etp_cryptominers_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cryptominers</seg>
 			</tuv>
@@ -2273,7 +2273,7 @@
 				<seg>Kankerên krîpto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:etp_cryptominers_title" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cryptominers" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cryptominers</seg>
 			</tuv>
@@ -2345,7 +2345,7 @@
 				<seg>%d navnîşan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_dark_theme" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dark</seg>
 			</tuv>
@@ -2353,7 +2353,7 @@
 				<seg>Tarî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_dark_theme" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dark</seg>
 			</tuv>
@@ -2433,39 +2433,7 @@
 				<seg>Motora lêgerînê ya jixweber</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_positive" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Jê bibe</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Jê bibe</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_delete_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Jê bibe</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_delete_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Jê bibe</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2481,7 +2449,7 @@
 				<seg>Jê bibe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_positive" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2490,6 +2458,38 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_item" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Jê bibe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_positive" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Jê bibe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_positive" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Jê bibe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_delete_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Jê bibe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2561,7 +2561,7 @@
 				<seg>Koleksiyonê jê bibe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_folder_snackbar" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_deletion_snackbar_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deleted %1$s</seg>
 			</tuv>
@@ -2577,7 +2577,7 @@
 				<seg>%1$s hate jêbirin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_deletion_snackbar_message" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_folder_snackbar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deleted %1$s</seg>
 			</tuv>
@@ -2737,7 +2737,7 @@
 				<seg>Navê cîhazê nabe vala bimîne.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled_section" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -2745,7 +2745,7 @@
 				<seg>Neçalak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled_section" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -2777,7 +2777,23 @@
 				<seg>Girêdanê qut bike</seg>
 			</tuv>
 		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_close_tabs_banner_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Bigire</seg>
+			</tuv>
+		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Bigire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_negative_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -2794,22 +2810,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_grid_view_banner_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Bigire</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_close_tabs_banner_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Bigire</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_negative_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -2849,7 +2849,7 @@
 				<seg>Destûrê nede</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_doorhanger_save_dont_save" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t save</seg>
 			</tuv>
@@ -2857,7 +2857,7 @@
 				<seg>Tomar neke</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_doorhanger_save_dont_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t save</seg>
 			</tuv>
@@ -2937,7 +2937,7 @@
 				<seg>Daxistin hate sekinandin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_downloads" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -2945,7 +2945,7 @@
 				<seg>Daxistinên te</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_downloads" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -3049,7 +3049,7 @@
 				<seg>%d hilpekîn hatin bijartin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_edit" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_edit_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -3065,7 +3065,7 @@
 				<seg>Sererast bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -3073,7 +3073,7 @@
 				<seg>Sererast bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_edit_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -3097,7 +3097,7 @@
 				<seg>Favoriyan sererast bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit_bookmark_fragment_title" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_edit_bookmark" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit bookmark</seg>
 			</tuv>
@@ -3105,7 +3105,7 @@
 				<seg>Favoriyan sererast bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_edit_bookmark" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit_bookmark_fragment_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit bookmark</seg>
 			</tuv>
@@ -3241,7 +3241,7 @@
 				<seg>Gava mertal bû rengê mor, tê vê wateyê ku %s’ê şopîner asteng kirine. Ji bo agahiyên zêdetir, bitepîne.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tracking_protection_exceptions" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_exceptions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exceptions</seg>
 			</tuv>
@@ -3257,7 +3257,7 @@
 				<seg>Istisna</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_exceptions" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tracking_protection_exceptions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exceptions</seg>
 			</tuv>
@@ -3417,7 +3417,7 @@
 				<seg>Girêdanê ji panoyê bîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_find_in_page" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_find_in_page" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find in page</seg>
 			</tuv>
@@ -3433,7 +3433,7 @@
 				<seg>Di rûpelê de bibîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_find_in_page" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_find_in_page" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find in page</seg>
 			</tuv>
@@ -3733,14 +3733,6 @@
 				<seg>Min fêm kir</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_grid_view_banner_positive_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Go to settings</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Here sazkariyan</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
@@ -3749,7 +3741,7 @@
 				<seg>Here sazkariyan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -3757,7 +3749,15 @@
 				<seg>Here sazkariyan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_grid_view_banner_positive_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to settings</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Here sazkariyan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -3837,14 +3837,6 @@
 				<seg>Pêborînê veşêre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Highlighted</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Berbiçavkirî</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
@@ -3853,7 +3845,15 @@
 				<seg>Berbiçavkirî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_browsing_history_title" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Highlighted</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Berbiçavkirî</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_history" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -3861,7 +3861,7 @@
 				<seg>Raborî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_history" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_browsing_history_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -4141,7 +4141,7 @@
 				<seg>Derbarê şandina hilpekînan de agahiyan bistîne…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_explanation_learn_more" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_learn_more_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4165,7 +4165,7 @@
 				<seg>Zêdetir bizane</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_explanation_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4173,7 +4173,7 @@
 				<seg>Zêdetir bizane</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_learn_more_link" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4253,7 +4253,7 @@
 				<seg>Agahiyên lîsanskirinê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_light_theme" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Light</seg>
 			</tuv>
@@ -4261,7 +4261,7 @@
 				<seg>Ronî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_light_theme" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Light</seg>
 			</tuv>
@@ -4437,7 +4437,7 @@
 				<seg>Medya</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4445,7 +4445,7 @@
 				<seg>Menû</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4525,14 +4525,6 @@
 				<seg>Sernav hewce ye</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_name_hint" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Name</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Nav</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection_name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
@@ -4542,6 +4534,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Nav</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_name_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
 			</tuv>
@@ -4645,15 +4645,7 @@
 				<seg>Hilpekîna veşartî ya nû vebû</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New tab</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Hilpekîna nû</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_tab" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_open_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -4669,7 +4661,15 @@
 				<seg>Hilpekîna nû</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_open_new_tab" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New tab</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Hilpekîna nû</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -4869,6 +4869,14 @@
 				<seg>Cot</seg>
 			</tuv>
 		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Girtî</seg>
+			</tuv>
+		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
@@ -4878,14 +4886,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_off" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Off</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Girtî</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -4917,7 +4917,7 @@
 				<seg>Moda derhêl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_ok" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -4925,7 +4925,7 @@
 				<seg>Baş e</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_ok" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -4965,14 +4965,6 @@
 				<seg>Kevntir</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_on" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Vekirî</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_sync_logins_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
@@ -4982,6 +4974,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Vekirî</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -5021,14 +5021,6 @@
 				<seg>Firefoxê ji ser kombersa xwe veke û here ser rûpela &lt;b&gt;https://firefox.com/pair&lt;/b&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_pbm_action_open" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Veke</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
@@ -5038,6 +5030,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Veke</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_pbm_action_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -5125,7 +5125,7 @@
 				<seg>Di sepanê de veke? Dibe ku çalakiyên te veşartî nemînin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_open_in_new_tab_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_open_in_new_tab_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open in new tab</seg>
 			</tuv>
@@ -5133,7 +5133,7 @@
 				<seg>Di hilpekîna nû de veke</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_open_in_new_tab_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_open_in_new_tab_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open in new tab</seg>
 			</tuv>
@@ -5237,28 +5237,20 @@
 				<seg>Pirtûkxaneyên çavkaniya azad ên em bi kar tînin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_open_tabs" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open tabs</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Hilpekînan veke</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_title_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open tabs</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Hilpekînên vekirî</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_header_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open tabs</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Hilpekînên vekirî</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_open_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Hilpekînan veke</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_tabs_2" srclang="en-US">
@@ -5269,7 +5261,15 @@
 				<seg>Hilpekînên vekirî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_tabs_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_title_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Hilpekînên vekirî</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open Tabs</seg>
 			</tuv>
@@ -5277,7 +5277,7 @@
 				<seg>Hilpekînên vekirî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_title" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_tabs_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open Tabs</seg>
 			</tuv>
@@ -5401,14 +5401,6 @@
 				<seg>Bizeliqîne û here</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_pause" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Pause</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Bisekinîne</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_pause" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pause</seg>
@@ -5417,7 +5409,15 @@
 				<seg>Bisekinîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:permissions_header" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_pause" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Pause</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Bisekinîne</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Permissions</seg>
 			</tuv>
@@ -5425,7 +5425,7 @@
 				<seg>Destûr</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:permissions_header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Permissions</seg>
 			</tuv>
@@ -6261,6 +6261,14 @@
 				<seg>Fonta Sans Serifê</seg>
 			</tuv>
 		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_save_to_collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Tomar bike</seg>
+			</tuv>
+		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:current_session_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
@@ -6277,30 +6285,6 @@
 				<seg>Tomar bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_custom_search_engine_edit_button_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Save</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Tomar bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_save" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Save</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Tomar bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_save_to_collection" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Save</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Tomar bike</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_doorhanger_save_confirmation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
@@ -6310,6 +6294,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_save_confirmation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Tomar bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_custom_search_engine_edit_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Tomar bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -6405,7 +6405,7 @@
 				<seg>Li koleksiyonê tomar bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_item_save" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:save_to_collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save to collection</seg>
 			</tuv>
@@ -6413,7 +6413,7 @@
 				<seg>Li koleksiyonê tomar bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:save_to_collection" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_item_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save to collection</seg>
 			</tuv>
@@ -6477,20 +6477,20 @@
 				<seg>Lêgerîn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_search_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Lê bigere</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Lêgerîn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_search_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Lê bigere</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:a11y_search_icon_content_description" srclang="en-US">
@@ -6605,7 +6605,7 @@
 				<seg>Girêdana ewle</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -6613,7 +6613,7 @@
 				<seg>Girêdana ewle pêk nehat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -6637,7 +6637,7 @@
 				<seg>Tiştên nû bibîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_select" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_select_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select</seg>
 			</tuv>
@@ -6645,7 +6645,7 @@
 				<seg>Hilbijêre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_select_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_select" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select</seg>
 			</tuv>
@@ -6901,14 +6901,6 @@
 				<seg>Sazkarî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Sazkarî</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -6918,6 +6910,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Sazkarî</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6949,7 +6949,15 @@
 				<seg>Parve bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_header_2" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Parve bike</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_share_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -6965,7 +6973,7 @@
 				<seg>Parve bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_share_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_header_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -6982,14 +6990,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Parve bike</seg>
-			</tuv>
-		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -7029,7 +7029,7 @@
 				<seg>Wêneyê parve bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_share_link" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_share_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share link</seg>
 			</tuv>
@@ -7037,7 +7037,7 @@
 				<seg>Girêdanê parve bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_share_link" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_share_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share link</seg>
 			</tuv>
@@ -7189,7 +7189,7 @@
 				<seg>Lêgerîna dengî nîşan bide</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sign_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
 			</tuv>
@@ -7205,7 +7205,7 @@
 				<seg>Têkeve</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sign_in" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
 			</tuv>
@@ -7317,20 +7317,20 @@
 				<seg>Danezanên malperê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_site_permissions" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Site permissions</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Destûrên malperê</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_site_permissions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Site permissions</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Destûrên malperan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_site_permissions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Site permissions</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Destûrên malperê</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_top_site_removed" srclang="en-US">
@@ -7405,20 +7405,20 @@
 				<seg>%s (Veşartî)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Standard (default)</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Standard (jixweber)</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_default_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Standard (default)</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Standard (heyî)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Standard (default)</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Standard (jixweber)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_finish" srclang="en-US">
@@ -7493,7 +7493,7 @@
 				<seg>ji daxwazkarê daneyên bêsînor tomar bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_strict" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_strict_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Strict</seg>
 			</tuv>
@@ -7501,7 +7501,7 @@
 				<seg>Tund</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_strict_option" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_strict" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Strict</seg>
 			</tuv>
@@ -7677,7 +7677,7 @@
 				<seg>Bi hesabê xwe yê Firefoxê favorî, raborî û zêdetirî wan senkronîze bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_synced_tabs" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:synced_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Synced tabs</seg>
 			</tuv>
@@ -7685,7 +7685,7 @@
 				<seg>Hilpekînên senkronîzekirî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:synced_tabs" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_synced_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Synced tabs</seg>
 			</tuv>
@@ -7781,7 +7781,7 @@
 				<seg>Hilpekîn hate stendin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tabs</seg>
 			</tuv>
@@ -7789,7 +7789,7 @@
 				<seg>Hilpekîn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tabs</seg>
 			</tuv>
@@ -8165,7 +8165,7 @@
 				<seg>Naverokên şopandinê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tracking_protection_settings" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tracking_protection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tracking Protection</seg>
 			</tuv>
@@ -8173,7 +8173,7 @@
 				<seg>Parastina ji Şopandinê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tracking_protection" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tracking_protection_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tracking Protection</seg>
 			</tuv>
@@ -8371,7 +8371,7 @@
 				<seg>Vegerîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_deleted_undo" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_undo_deletion" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>UNDO</seg>
 			</tuv>
@@ -8379,7 +8379,7 @@
 				<seg>VEGERÎNE</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_undo_deletion" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_deleted_undo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>UNDO</seg>
 			</tuv>
@@ -8411,20 +8411,20 @@
 				<seg>Kilîda %1$s’ê veke</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_biometric_prompt_message" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unlock to view your saved logins</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>ji bo hesabên xwe yên tomarkirî bibînî, kilîdê veke</seg>
-			</tuv>
-		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_saved_logins_enter_pin_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unlock to view your saved logins</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Ji bo hesabên xwe yên tomarkirî bibînî, kilîdê veke</seg>
+			</tuv>
+		</tu>
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_biometric_prompt_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unlock to view your saved logins</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>ji bo hesabên xwe yên tomarkirî bibînî, kilîdê veke</seg>
 			</tuv>
 		</tu>
 		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_biometric_prompt_message_pin" srclang="en-US">
@@ -8595,7 +8595,7 @@
 				<seg>Guherto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_message_bookmarks_view" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_view" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>View</seg>
 			</tuv>
@@ -8603,7 +8603,7 @@
 				<seg>Bibîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_view" srclang="en-US">
+		<tu tuid="android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_message_bookmarks_view" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>View</seg>
 			</tuv>
@@ -9575,7 +9575,7 @@ Motorên dengnasînê yên ku van daneyan bi kar tînin jî ew ê baştir bibin.
 				<seg>Dengên ku te piştrast kirine</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -9583,7 +9583,7 @@ Motorên dengnasînê yên ku van daneyan bi kar tînin jî ew ê baştir bibin.
 				<seg>Bigire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -9715,20 +9715,20 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Bidomîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Beşdarî bike</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Piştgiriyê bidin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Beşdarî bike</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
@@ -10163,7 +10163,7 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Profîlê sererast bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -10171,7 +10171,7 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Emaîl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -10429,20 +10429,20 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Almanî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Get involved</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Tevlî me bibin</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Tev lê bibin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get involved</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Tevlî me bibin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
@@ -11245,7 +11245,7 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Kirgizî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -11261,7 +11261,7 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Ziman</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -11397,7 +11397,7 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Lînk hat kopîkirin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -11405,7 +11405,7 @@ Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?</s
 				<seg>Guhdarî bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -11808,7 +11808,7 @@ Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser
 				<seg>Nav</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -11816,7 +11816,7 @@ Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser
 				<seg>Zimanê zikmakî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -11864,7 +11864,7 @@ Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser
 				<seg>Nias</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -11872,7 +11872,7 @@ Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser
 				<seg>Na</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -12133,7 +12133,7 @@ kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!</seg>
 				<seg>Papiamento (Aruba)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -12141,7 +12141,7 @@ kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!</seg>
 				<seg>Hevkar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -12253,7 +12253,7 @@ kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!</seg>
 				<seg>Profesyonel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -12261,7 +12261,7 @@ kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!</seg>
 				<seg>Profîl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -13176,20 +13176,20 @@ Ji bo ku naskirina dengan hê gerdûnîtir be, em nimûneyên dengan yên bi zim
 				<seg>Raporekê bişîne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Tomaran bişîne</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Klîban bişîne</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Tomaran bişîne</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:subscribe" srclang="en-US">
@@ -14181,7 +14181,7 @@ bişîne yan jî beşdarî civaka &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;ê 
 				<seg>Nasnameya axiverên komdaneya Common Voiceê "nikare bê diyarkirin", ev tê çi wate yê?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -14189,7 +14189,7 @@ bişîne yan jî beşdarî civaka &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;ê 
 				<seg>Common Voice çi ye?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -14839,12 +14839,12 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Favorî, raborî û şîfreyên xwe bîne Firefoxa vê amûrê.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_cancel_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>Betal bike</seg>
+				<seg>Betal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_cancel" srclang="en-US">
@@ -14855,12 +14855,12 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Betal bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_cancel_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>Betal</seg>
+				<seg>Betal bike</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_cancel_active_downloads_accept" srclang="en-US">
@@ -14943,7 +14943,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Kûkiyên ji aliyê beralîkirinên malperên tên naskirin ve hatine bicîkirin paqij dike.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_close_button_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -14951,7 +14951,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Bigire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_button_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_close_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -15111,7 +15111,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>%d malper</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_search_term_count_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_search_group_sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%d sites</seg>
 			</tuv>
@@ -15119,7 +15119,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>%d malper</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_search_group_sites" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_search_term_count_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%d sites</seg>
 			</tuv>
@@ -15223,20 +15223,20 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Firefox bixweber rê li şirketan digire ku bi dizî li dora te tevnegerin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_body" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox can close tabs you haven’t viewed over the past month.</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Firefox dikare hilpekînên te meha borî venekirine bigire.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_auto_close_message_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox can close tabs you haven’t viewed over the past month.</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>Firefox dikare hilpekînên ku te mehekê venekirine bigire.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_body" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox can close tabs you haven’t viewed over the past month.</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Firefox dikare hilpekînên te meha borî venekirine bigire.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_description" srclang="en-US">
@@ -15263,7 +15263,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Malperên têkildar bi hev re kom bikin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_header" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_header_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help improve Firefox</seg>
 			</tuv>
@@ -15271,7 +15271,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Alîkariya pêşxistina Firefoxê bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_header_1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help improve Firefox</seg>
 			</tuv>
@@ -15375,7 +15375,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Niha hêsantir e ku vegerî ciyê lê mayî.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump back in</seg>
 			</tuv>
@@ -15383,7 +15383,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>vegere</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump back in</seg>
 			</tuv>
@@ -15415,7 +15415,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Paşê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_learn_more_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pocket_stories_feature_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -15431,7 +15431,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Zêdetir bizane</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pocket_stories_feature_learn_more" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_learn_more_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -15551,20 +15551,20 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Girtî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Baş e</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_invalid_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
 				<seg>BAŞ E</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Baş e</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_on" srclang="en-US">
@@ -15805,14 +15805,6 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Ji bo sepandina guhertinan ji sepanê tê derketin…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recent_bookmarks" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recent bookmarks</seg>
-			</tuv>
-			<tuv xml:lang="kmr">
-				<seg>Bijareyên dawiyê</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_bookmarks_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recent bookmarks</seg>
@@ -15821,7 +15813,15 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Bijareyên dawiyê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_bookmarked" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recent_bookmarks" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recent bookmarks</seg>
+			</tuv>
+			<tuv xml:lang="kmr">
+				<seg>Bijareyên dawiyê</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_bookmarked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently bookmarked</seg>
 			</tuv>
@@ -15829,7 +15829,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Bijareyên dawî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_bookmarked" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_bookmarked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently bookmarked</seg>
 			</tuv>
@@ -15933,7 +15933,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Vegere lêgerînên xwe yên dawiyê yên ji serûpel û hilpekînan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_save_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_menu_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -15941,7 +15941,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Tomar bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_menu_save" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_save_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -16093,7 +16093,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Daneyên têkildarî taybetiyên %1$sê ku tu bi kar tînî bi Leanpluma em xizmeta bazara mobîl jê dikirin re parve dike.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_show_all" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_show_all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show all</seg>
 			</tuv>
@@ -16101,7 +16101,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Gişî nîşan bide</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_show_all" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_show_all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show all</seg>
 			</tuv>
@@ -16333,7 +16333,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Maweya duhefteyî gelekî dirêj e</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_time_too_short_option_1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_time_too_short_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The two-week time period is too short</seg>
 			</tuv>
@@ -16341,7 +16341,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Maweya duhefteyî gelekî kin e</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_time_too_short_option" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:inactive_tabs_survey_time_too_short_option_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The two-week time period is too short</seg>
 			</tuv>
@@ -16471,7 +16471,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Piştrastkirin têk çû</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_login_hostname_invalid_text_1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_login_hostname_invalid_text_3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Web address must contain "https://" or "http://"</seg>
 			</tuv>
@@ -16479,7 +16479,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>Di navnîşana webê de divê "https://" an jî "http://" hebe.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_login_hostname_invalid_text_3" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_login_hostname_invalid_text_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Web address must contain "https://" or "http://"</seg>
 			</tuv>
@@ -16572,7 +16572,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>aggregate</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>komkirin</seg>
+				<seg>komkirî</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -16580,7 +16580,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>aggregate</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>komkirî</seg>
+				<seg>komkirin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -17196,7 +17196,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>raporkirin</seg>
+				<seg>rapor</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -17204,7 +17204,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="kmr">
-				<seg>rapor</seg>
+				<seg>raporkirin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
