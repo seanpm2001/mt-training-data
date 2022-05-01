@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-04-01T01:24:03.787428">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-05-01T01:55:29.641912">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -123,6 +123,22 @@
 				<seg>ܐܡܢܐ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܬܦ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute to { $lang }</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܬܦ ܥܡ { $lang }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:status-contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute Your Voice</seg>
@@ -233,6 +249,14 @@
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܦܪܢܣܝܬ݂</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Involved</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܬܦ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:el" srclang="en-US">
@@ -387,7 +411,7 @@
 				<seg>ܫܡܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -395,7 +419,7 @@
 				<seg>ܠܫܢܐ ܐܬܪܢܝܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -419,7 +443,7 @@
 				<seg>ܐ݇ܚܪ݇ܢܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -427,7 +451,7 @@
 				<seg>ܫܘܬܦܝ̈ܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -481,6 +505,22 @@
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܕܥܪ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:return-to-cv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-return-to-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Languages</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܕܥܪ ܥܠ ܠܫܢ̈ܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-submit-save" srclang="en-US">
@@ -563,12 +603,36 @@
 				<seg>ܐܡܪ ܗܕܝܐ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܕܪ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܕܪ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Success</seg>
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܟܫܝܪܘܬܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sv-se" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swedish</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܣܘܝܕܝܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:syr" srclang="en-US">

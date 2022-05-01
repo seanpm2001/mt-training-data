@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-04-01T01:17:51.345824">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-05-01T01:50:29.067392">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -853,20 +853,20 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Дауам итергә</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
-			</tuv>
-			<tuv xml:lang="ba">
-				<seg>Ҡатнашыу</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="ba">
 				<seg>Булышлыҡ итеү</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="ba">
+				<seg>Ҡатнашыу</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
@@ -2329,14 +2329,6 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>Ҡырғыҙса</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="ba">
-				<seg>Тел</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -2346,6 +2338,14 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="ba">
+				<seg>Тел</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3983,7 +3983,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Испанса</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -3991,7 +3991,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Һөйләү</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -4106,20 +4106,20 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Көн бер рәттән</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="ba">
-				<seg>Яҙылырға</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
 			<tuv xml:lang="ba">
 				<seg>Ебәреү</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="ba">
+				<seg>Яҙылырға</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
@@ -4130,7 +4130,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Хисапламаны ебәрергә</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -4138,7 +4138,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>Яҙыуҙы ебәрергә</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -5056,20 +5056,20 @@ Common Voiceтың күп телле базаһы әлеге ваҡытта ас
 				<seg>Валлийса</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="ba">
-				<seg>Һеҙҙең мәғлүмәт менән һаҡлы рәүештә эш итергә һүҙ бирәбеҙ. Беҙҙең &lt;privacyLink&gt;Хосусилыҡ сәйәсәте&lt;/privacyLink&gt; тураһында күберәк уҡығыҙ.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="ba">
 				<seg>Һеҙҙең мәғлүмәттәр менән һаҡсыл эш итергә вәғәҙә итәбеҙ. Был турала беҙҙең  &lt;privacyLink&gt;Хосусилыҡ хаҡындағы аңлатмабыҙҙы &lt;/privacyLink&gt; ентекле уҡығыҙ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ba">
+				<seg>Һеҙҙең мәғлүмәт менән һаҡлы рәүештә эш итергә һүҙ бирәбеҙ. Беҙҙең &lt;privacyLink&gt;Хосусилыҡ сәйәсәте&lt;/privacyLink&gt; тураһында күберәк уҡығыҙ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-headline" srclang="en-US">
@@ -5168,7 +5168,7 @@ Common Voiceтың күп телле базаһы әлеге ваҡытта ас
 				<seg>Common Voice мәғлүмәттәр йыйынтығында мин ораторҙың «шәхесен билдәләй» алмайым, был нимә аңлата?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -5176,7 +5176,7 @@ Common Voiceтың күп телле базаһы әлеге ваҡытта ас
 				<seg>Нимә ул Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -5815,7 +5815,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>contribute</seg>
 			</tuv>
 			<tuv xml:lang="ba">
-				<seg>бүлешеү</seg>
+				<seg>ҡатнашыу</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -5823,15 +5823,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>contribute</seg>
 			</tuv>
 			<tuv xml:lang="ba">
-				<seg>ҡатнашыу</seg>
-			</tuv>
-		</tu>
-		<tu tuid="terminology:common:" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>corrupt</seg>
-			</tuv>
-			<tuv xml:lang="ba">
-				<seg>боҙоу</seg>
+				<seg>бүлешеү</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -5840,6 +5832,14 @@ progress updates and newsletters about Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ba">
 				<seg>боҙолған</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupt</seg>
+			</tuv>
+			<tuv xml:lang="ba">
+				<seg>боҙоу</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
