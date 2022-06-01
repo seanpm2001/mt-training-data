@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-05-01T01:55:29.641912">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-06-01T01:53:46.995551">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -25,6 +25,14 @@
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܡܡܠܠܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-additional-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Additional Language</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܠܫܢܐ ܐܚܪܢܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-age" srclang="en-US">
@@ -83,6 +91,14 @@
 				<seg>ܗܘܐ ܫܘܬܦܐ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:benefits" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Benefits</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܥܠܠܬܐ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:cancel-avatar-clip-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>CANCEL</seg>
@@ -113,6 +129,14 @@
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contact" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܐܣܪܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:continue" srclang="en-US">
@@ -160,7 +184,7 @@
 				<seg>{ $count }mo</seg>
 			</tuv>
 			<tuv xml:lang="syr">
-				<seg>ܝܪܚ̈ܐ</seg>
+				<seg>ܝܪ̈ܚܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:x-weeks-short" srclang="en-US">
@@ -168,7 +192,7 @@
 				<seg>{ $count }wk</seg>
 			</tuv>
 			<tuv xml:lang="syr">
-				<seg>ܫܒ̈ܬܐ</seg>
+				<seg>ܫܒ݂̈ܘܥܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:x-years-short" srclang="en-US">
@@ -192,15 +216,7 @@
 				<seg>Donate your voice</seg>
 			</tuv>
 			<tuv xml:lang="syr">
-				<seg>ܗܲܒ݇ܠ ܩܠܘܟܘܢ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="syr">
-				<seg>ܐܝܡܝܠ</seg>
+				<seg>ܫܟܢ ܩܠܘܟܘܢ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
@@ -211,7 +227,15 @@
 				<seg>ܐܓܪܬܐ ܐܠܝܩܛܪܘܢܝܬܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܐܝܡܝܠ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -219,7 +243,7 @@
 				<seg>ܐܢܓܠܣ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -251,12 +275,28 @@
 				<seg>ܦܪܢܣܝܬ݂</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-gender-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gender</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܓܢܣܐ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get Involved</seg>
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܫܘܬܦ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Goals</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܢܝ̈ܫܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:el" srclang="en-US">
@@ -323,12 +363,36 @@
 				<seg>ܢܛܪ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:rw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kinyarwanda</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܬܠܘܓܘ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܠܫܢܐ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܠܫܢ̈ܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:link-copied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Link Copied</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܢܣܟ ܐܣܘܪܐ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
@@ -440,10 +504,18 @@
 				<seg>Other</seg>
 			</tuv>
 			<tuv xml:lang="syr">
-				<seg>ܐ݇ܚܪ݇ܢܐ</seg>
+				<seg>ܐܚܪܢܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-play-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -451,7 +523,7 @@
 				<seg>ܫܘܬܦܝ̈ܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -465,6 +537,14 @@
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܦܪܣܐܝܼܬ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-play-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Play/Stop</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܓܡ/ܟܠܝ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
@@ -483,12 +563,28 @@
 				<seg>ܨܠܡܐ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>r</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:show-wall-of-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read More</seg>
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܩܪܝ ܝܬܝܪ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record/Stop</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܟܬܒ/ܟܠܝ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-required" srclang="en-US">
@@ -523,20 +619,28 @@
 				<seg>ܕܥܪ ܥܠ ܠܫܢ̈ܐ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ru" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Russian</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܪܘܣܢܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>s</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܥ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-submit-save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
 			<tuv xml:lang="syr">
-				<seg>ܚܡܝ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-submit-saved" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Saved</seg>
-			</tuv>
-			<tuv xml:lang="syr">
-				<seg>ܦܝܫܐ ܚܡܝ</seg>
+				<seg>ܐܚܕ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:languages-show-less" srclang="en-US">
@@ -571,6 +675,22 @@
 				<seg>ܦܣܩܐ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sign-up-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for an account</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܟܬܒ ܚܘܫܒܢܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscription-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign up for email updates</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
@@ -603,7 +723,15 @@
 				<seg>ܐܡܪ ܗܕܝܐ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:home-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak up, contribute here!</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -611,7 +739,7 @@
 				<seg>ܫܕܪ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -713,6 +841,318 @@
 			</tuv>
 			<tuv xml:lang="syr">
 				<seg>ܠܫܢܘܟ݂ܘܢ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>abnormality</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܢܘܙܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>add-on</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܬܘܣܦܬܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>aggregate</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܟܘܢܫܐ ܕ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>aggregate</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܟܘܢܫܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All Hands</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܟܢܫܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>alternate text</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܟܬ̣ܝܒ̣ܬܐ ܚܠܦܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>appear</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܕܡܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>appearance</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܕܡܘܬܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attack</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܨܦܚ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attacker</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܨܦܘܚܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attack Site</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܒܢܝܢܐ ܕܨܘܦܚܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attendee</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܬܦܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>authenticate</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܪܘܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>authenticated</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܪܝܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>autoplay</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܦܠܚܬܐ ܝܬܢܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>back out</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܕܥܪ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>black box</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܐܢܐ ܟܘܡܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܒܪܝ ܝܕܥܐ ܕܟܬܒܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܝܕܥܐ ܕܟܬܒܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>boolean</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܛܝܡܐ ܡܠܝܠܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>boot</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܛܪܕ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>breakpoint</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܢܘܩܙܐ ܕܟܠܝܬܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bug report</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܛܒܐ ܕܥܠܬܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>certificate authority</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܠܛܢܐ ܕܫܪܘܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>channel</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܐܒܘܒܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cipher</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܛܟ݂ܣܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clipboard</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܟܘܪܣܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clockwise</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܠܩܘܪܒܐ ܫܥܬ݂ܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>compact</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܙܥܘܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>compact - recommend deprioritize</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܙܥܘܪ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>context</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܡܪܕܝܬܐ ܕܡܠܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>contribute</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܬܦ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>contribute</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܫܘܬܦ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupt</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܬܒܝܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupt</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܬܒܝܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupted</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܬܒܝܪܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>counterclockwise</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܒܗܘܦܟ݂ ܡܝ݂ܠ ܫܥܬ݂ܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cryptominer</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܥܩܘܪܐ ܕܙܘܙܐ ܪ̈ܩܡܝܐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>debug</seg>
+			</tuv>
+			<tuv xml:lang="syr">
+				<seg>ܬܪܨ</seg>
 			</tuv>
 		</tu>
 	</body>

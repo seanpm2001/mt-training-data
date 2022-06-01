@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-05-01T01:54:01.791271">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-06-01T01:52:17.306327">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -331,6 +331,14 @@
 				<seg>ꯕꯨꯔꯌꯥꯠ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-privacy-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯏꯃꯦꯜꯁꯤꯡ ꯐꯪꯅꯕꯥ ꯈꯟꯗꯨꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯣꯖꯤꯂꯥꯒꯤ &lt;privacyLink&gt;&gt;ꯑꯔꯣꯟꯕ ꯊꯧꯔꯥꯡ&lt;/privacy Link&gt;ꯗꯥ ꯄꯅꯈ꯭ꯔꯤꯕꯥ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯃꯣꯖꯤꯂꯥꯅꯥ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯑꯁꯤ ꯍꯦꯟꯗꯜ ꯇꯧꯕꯗꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯣꯀꯦ ꯍꯥꯏꯅꯥ ꯍꯥꯏꯔꯤ꯫</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:why-profile-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
@@ -628,14 +636,6 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯦꯝꯒꯠꯂꯨ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="mni">
-				<seg>ꯏꯃꯦꯜ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
@@ -644,7 +644,15 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ꯏꯃꯦꯜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯏꯃꯦꯜ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -652,7 +660,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ꯏꯪꯂꯤꯁ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -914,6 +922,14 @@ Recognition engines that use this data to improve their accuracy.</seg>
 			</tuv>
 			<tuv xml:lang="mni">
 				<seg>ꯃꯇꯦꯡ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯑꯁꯦꯡꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯅꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯃꯦꯁꯤꯟꯁꯤꯡꯗꯥ ꯇꯝꯕꯤꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ, ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯗꯨ ꯈꯨꯗꯣꯜ ꯇꯧꯕꯤꯌꯨ꯫</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:help-make-dataset" srclang="en-US">
@@ -1260,7 +1276,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ꯀꯌ꯭ꯔꯒꯤꯁ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -1268,7 +1284,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ꯂꯣꯟ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -1386,6 +1402,14 @@ Recognition engines that use this data to improve their accuracy.</seg>
 			</tuv>
 			<tuv xml:lang="mni">
 				<seg>ꯂꯨꯒꯥꯟꯗ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Luxembourgish</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯂꯨꯁꯦꯝꯕꯧꯔꯒꯤꯁ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:mk" srclang="en-US">
@@ -1550,7 +1574,7 @@ recognition open to everyone.</seg>
 				<seg>ꯐꯪꯗꯕ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -1558,7 +1582,7 @@ recognition open to everyone.</seg>
 				<seg>ꯌꯦꯜꯍꯧ ꯂꯣꯟ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -1636,6 +1660,17 @@ recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="mni">
 				<seg>ꯅꯣꯔꯋꯦꯖꯤꯌꯥꯟ ꯅꯥꯏꯅꯣꯔ꯭ꯁꯛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Now you can donate your voice to help us build an open-source voice database that anyone can use
+to make innovative apps for devices and the web. Read a sentence to help machines learn how real people speak. Check the work of other
+contributors to improve the quality. It’s that simple!</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯍꯧꯖꯤꯛꯇꯤ ꯑꯗꯣꯝꯅꯥ ꯑꯗꯣꯝꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯍꯦꯛꯇꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯑꯣꯄꯟ-ꯁꯣꯔꯁ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯕꯦꯖ ꯑꯃꯥ ꯁꯦꯝꯒꯠꯄꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯑꯗꯣꯃꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯄꯤꯕꯥ ꯌꯥꯔꯦ꯫
+ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯋꯦꯕꯀꯤꯗꯃꯛ ꯑꯅꯧꯕꯥ ꯑꯦꯄꯁꯤꯡ ꯁꯦꯃꯒꯠꯅꯕꯥ꯫ ꯃꯦꯁꯤꯟꯁꯤꯡꯅꯥ ꯑꯁꯦꯡꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯅꯥ ꯀꯔꯝꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯈꯪꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯋꯥꯍꯩ ꯑꯃꯥ ꯄꯥꯕꯤꯌꯨ꯫ ꯑꯇꯣꯞꯄꯒꯤ ꯊꯕꯛꯁꯤꯡ ꯌꯦꯡꯁꯤꯟꯕꯤꯌꯨ꯫ ꯑꯐꯕ ꯆꯥꯡ ꯍꯦꯟꯅꯕꯥ ꯁꯔꯨꯀ ꯌꯥꯔꯤꯕꯁꯤꯡ ꯌꯥꯎꯔꯤ ꯫ ꯃꯁꯤ ꯌꯥꯝꯅꯥ ꯂꯥꯏꯕꯛ ꯐꯕꯅꯤ!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:number-of-voices" srclang="en-US">
@@ -1788,6 +1823,14 @@ recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="mni">
 				<seg>ꯄꯟꯖꯥꯕꯤ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:quy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Quechua Chanka</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯀ꯭ꯌꯆꯨꯑ ꯆꯥꯟꯀꯥ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle" srclang="en-US">
@@ -2126,7 +2169,7 @@ recognition open to everyone.</seg>
 				<seg>ꯁ꯭ꯄꯦꯅꯤꯁ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -2134,7 +2177,7 @@ recognition open to everyone.</seg>
 				<seg>ꯋꯥ ꯉꯥꯡꯉꯨ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -2182,7 +2225,15 @@ recognition open to everyone.</seg>
 				<seg>ꯁꯦꯠꯇꯣꯛꯅꯕ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Status Page</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯂꯃꯥꯏ ꯊꯥꯛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -2190,7 +2241,7 @@ recognition open to everyone.</seg>
 				<seg>ꯄꯤꯁꯤꯟꯕ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -2551,6 +2602,14 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="mni">
 				<seg>ꯑꯩꯈꯣꯢꯅ ꯋꯥꯁꯛꯂꯤ ꯃꯗꯨꯗꯤ ꯅꯍꯥꯛꯀꯤ ꯑꯀꯨꯞꯄ ꯋꯥꯔꯣꯜꯁꯤꯡ ꯆꯦꯛꯁꯤꯟꯅ ꯊꯝꯅꯕ ꯫ ꯍꯦꯟꯅ ꯄꯥꯔꯣ ꯑꯩꯈꯣꯏꯒꯤ&lt;privacyLink&gt;ꯑꯔꯣꯟ-ꯑꯊꯨꯞ ꯈꯪꯍꯟꯕ&lt;/privacyLink&gt; ꯫</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're receiving a lot of traffic and are currently investigating the issues.</seg>
+			</tuv>
+			<tuv xml:lang="mni">
+				<seg>ꯑꯩꯈꯣꯏꯅꯥ ꯇ꯭ꯔꯥꯐꯤꯛ ꯀꯌꯥ ꯑꯃꯥ ꯐꯪꯂꯤ ꯑꯃꯁꯨꯡ ꯍꯧꯖꯤꯛ ꯋꯥꯐꯃꯁꯤꯡ ꯑꯁꯤ ꯊꯤꯖꯤꯜꯂꯤ ꯫</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
