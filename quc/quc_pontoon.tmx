@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-06-01T01:52:58.297294">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-07-01T01:50:46.955713">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -517,6 +517,14 @@ your personal info, you can mark breaches as resolved.</seg>
 				<seg>Kk'utun pa { $breachCount } eta'matal taq retztaqan.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:data-classes.ftl:appointments" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Appointments</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Taq riqoj ib'</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:data-classes.ftl:apps-installed-on-devices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Apps installed on devices</seg>
@@ -543,6 +551,15 @@ your address, birthday, or family names.</seg>
 				<seg>Jun kowilal retokib'al kukoj jun xolanem rech nim tz'ib' chi'l nitz' tz'ib', nim ucholajil taq tz'ib', chi'l taq ajilab'al. Man ruk'a'am ta winaqilal q'alaljisanem pacha' le akemriqonib'al, ralaxb'al, chi'l kib'i' taq ajupaja.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pins" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A strong PIN does not contain personal info, such as your date of birth 
+or address. It should be a number only you know and can’t be easily guessed.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Jun kowoilal PIN man ruk'a'am ta winaqilal q'alajisanem pacha' rajilab'alil q'ij rech alaxb'al on kemriqonib'al. Rajawaxik jun ajilab'al le xew at ateta'manaq le man kax ta uriqik.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:data-classes.ftl:audio-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Audio recordings</seg>
@@ -567,12 +584,44 @@ your address, birthday, or family names.</seg>
 				<seg>Taq avatar</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-hist-pw-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avoid reusing passwords</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chawetzelaj ukojik taq retokib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-phone-num-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avoid sharing your phone number</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chawetzelaj ukomonexik le rajilab'al ach'aweb'al.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-address-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avoid using addresses in passwords</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Makoj taq kemriqonib'al pa taq retokib'al</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:avoid-personal-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Avoid using personal info in passwords</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Makoj winaqilal q'alajisanem pa taq retokib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-dob-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avoid using personal info in PINs</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chawetzelaj ukojik winaqilal q'alajisanem pa PINs</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:website-breach-blurb" srclang="en-US">
@@ -613,6 +662,16 @@ your address, birthday, or family names.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Rajilab'alil taq je'lal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-dob" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Because your date of birth is easy to find in public records, 
+it’s best to avoid using it in passwords and PINs. People who 
+know your birthday could also very easily guess your PIN.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Rumal chi man k'ax ta uriqik le rajilab'al q'ij rech alaxb'al pa taq cholajital ub'antajik, are utz kawetzelaj ukojik pa taq retokib'al chi'l PINs. Le e winaq le keta'am le awalaxb'al man k'ax ta uriqik le a PIN kkib'ano.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:ad-unit-6-before-you-complete" srclang="en-US">
@@ -855,20 +914,20 @@ your address, birthday, or family names.</seg>
 				<seg>Ub'i' taq achib'il kemk'at</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:change-pw-site" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Change password for this site</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Chak'exa' le aretok'ib'al rech we uk'olib'al web'</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change password for this site</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Uk'exik retokib'al chech we uk'olib'al web'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:app.ftl:change-pw-site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change password for this site</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chak'exa' le aretok'ib'al rech we uk'olib'al web'</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:link-change-primary" srclang="en-US">
@@ -887,7 +946,7 @@ your address, birthday, or family names.</seg>
 				<seg>Xk'olotaj taq k'exonem</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-subhead" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:change-pw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change your password</seg>
 			</tuv>
@@ -895,7 +954,7 @@ your address, birthday, or family names.</seg>
 				<seg>Chak'exa' le aretokib'al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:change-pw" srclang="en-US">
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-subhead" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change your password</seg>
 			</tuv>
@@ -1023,6 +1082,14 @@ including sensitive breaches.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chawinaqirisaj jun kemb'i'aj</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-sec-qa-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create unique answers for security questions</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>chawinaqirisaj utukelal tzalijisab'al wachaj chech taq chajital k'otb'al chi'aj</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:create-unique-pw" srclang="en-US">
@@ -1205,6 +1272,15 @@ fraud, but hackers could use this data to impersonate or profile them.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>La k'o rajawaxik kinb'ano we k'o jun retztaqan xajtajik ojer kanoq, xuquje' we ojer kemb'i'aj wa'?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t hand out personal data if you don’t have to. If you are asked to 
+enter or give out your email address, ZIP code, or phone number, you can say no.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Maya' le awinaqilal q'alajisanem we man rajawaxik taj. We xuquje' kta chi  awech                                              chatz'ib'aj on chaya' loq le akemriqonib'al, Rajilab'alil rulewal, on rajilab'al ch'aweb'al. utz kab'ij ja'i'</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:download-firefox-banner-button" srclang="en-US">
@@ -1646,7 +1722,7 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Firefox Private Network</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:product-name-relay" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:brand-relay" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Relay</seg>
 			</tuv>
@@ -1654,7 +1730,7 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Firefox Relay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:brand-relay" srclang="en-US">
+		<tu tuid="firefox-monitor-website:email-strings.ftl:product-name-relay" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Relay</seg>
 			</tuv>
@@ -1718,14 +1794,6 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Chariqa' { -brand-fpn }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:promo-lockwise-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Get { -brand-lockwise }</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Chariqa' { -brand-lockwise }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-3-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get { -brand-lockwise }</seg>
@@ -1734,7 +1802,15 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Chariqa' { -brand-lockwise }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:vpn-promo-cta" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:promo-lockwise-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-lockwise }</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chariqa' { -brand-lockwise }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:app.ftl:vpn-banner-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get { -brand-mozilla-vpn }</seg>
 			</tuv>
@@ -1742,7 +1818,7 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Chariqa' { -brand-mozilla-vpn }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:vpn-banner-cta" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:vpn-promo-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get { -brand-mozilla-vpn }</seg>
 			</tuv>
@@ -1961,20 +2037,20 @@ monitors known data breaches for your personal info. We’re linking it to Firef
 				<seg>Umajib'al URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does { -product-name } treat sensitive sites?</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Jas kub'an le { -product-name } chech taq nim ucholajiñ uk'olib'al web'?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does { -product-name } treat sensitive sites?</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Jas kub'an { -product-name } chech  taq wokk'olib'al rech na'b'alil</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does { -product-name } treat sensitive sites?</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Jas kub'an le { -product-name } chech taq nim ucholajiñ uk'olib'al web'?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:faq3" srclang="en-US">
@@ -2025,20 +2101,20 @@ monitors known data breaches for your personal info. We’re linking it to Firef
 				<seg>Jas kchakun { -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-1-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How to create strong passwords</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Jas uwinaqirisax nim uchuq'ab'il taq retokib'al</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:create-strong-passwords" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How to create strong passwords</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Jas uwinaqirisaxik kowilal taq retokib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-1-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to create strong passwords</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Jas uwinaqirisax nim uchuq'ab'il taq retokib'al</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:error-invalid-unsub" srclang="en-US">
@@ -2384,6 +2460,16 @@ soon as they have been discovered and verified.</seg>
 				<seg>Chab'ana' chech le aretokib'al chi jalan ub'antajik chi'l utukelal</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make this password unique and different from any others you use. 
+A good strategy to follow is to combine two or more unrelated 
+words to create an entire passphrase.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chab'ana' utukelal chech we retokib'al xuquje' jalan chi kiwach e nik'aj chik le kawaj.                                          Jun utz ub'e'al chech uterenexik are uxolik keb' on nik'aj chik le man kjunamataj taj                                      taq tzij chech uwinaqirisaxik jun tz'aqat retokib'al rech cholaj tzij.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:create-strong-passwords-desc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make your passwords strong, secure, and hard to guess.</seg>
@@ -2414,6 +2500,15 @@ soon as they have been discovered and verified.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chawilawachij kemriqonib'al rech taqoqxa'nib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-sec-qa" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Many websites ask the same questions. If one answer gets exposed, the 
+information is out. Create long, random answers and store them somewhere safe.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>E k'i taq uk'olib'al web' junam le k'otb'al chi'aj kkito. We kq'alajin jun, le q'alajisanem kb'ek. chawinaqirisaj nim, xolotalik chi'l chak'olo' pa alawi' chajib'al.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:data-classes.ftl:marital-statuses" srclang="en-US">
@@ -3573,6 +3668,14 @@ The breach dashboard is only available with an account.</seg>
 				<seg>Xk'is uq'ijol le kemchak</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-4-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Set up two-factor authentication (2FA)</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chajeqeb'a' keb' ub'antajik uya'b'al usaqil tzij (2FA)</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:data-classes.ftl:sexual-fetishes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sexual fetishes</seg>
@@ -3985,6 +4088,14 @@ what steps to take.</seg>
 				<seg>Makoj chi le retokib'al k'o k'axk'olil chi rij, chak'exa' pa ronojel jawi' akojom wi.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pins-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Strengthen the security of your PINs</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chakowirisaj le uchajinem le taq PINs awech</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:pwt-section-headline" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Stronger Passwords = Better Protection</seg>
@@ -4233,6 +4344,23 @@ what steps to take.</seg>
 				<seg>Chak'amb'ejaj { -brand-fpn }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-moz-vpn-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try { -brand-mozilla-vpn }</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chak'amb'ejaj { -brand-mozilla-vpn }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-phone-num" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try to avoid giving out your phone number when signing up for new 
+accounts or services. If a phone number isn’t required, don’t enter it.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chawetzelaj uya'ik rajilab'alil ach'aweb'al are taq katz'ib'aj awib' pa k'ak' taq kemb'i'aj on pataninem. We man kajawataj ta le rajilab'alil ch'aweb'al, maya'o.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:remove-fxm-blurb" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turn off { -product-name } alerts. Your { -brand-fxa } will remain active, and you may receive 
@@ -4274,7 +4402,7 @@ other account-related communications.</seg>
 				<seg>Le uk'exb'alil jun retztaqan rech uk'olib'al web', man k'o taq retokib'al kk'exik.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:email-unsub-link" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:unsub-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unsubscribe</seg>
 			</tuv>
@@ -4282,7 +4410,7 @@ other account-related communications.</seg>
 				<seg>Uchupik utz'ib'axik ib'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:unsub-button" srclang="en-US">
+		<tu tuid="firefox-monitor-website:email-strings.ftl:email-unsub-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unsubscribe</seg>
 			</tuv>
@@ -4338,6 +4466,31 @@ other account-related communications.</seg>
 				<seg>Taq retztaqan man q'atutal taj</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-2-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update other logins using the same password</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chak'ak'arisaj nik'aj chi taq umajixik kemchak ruk' ukojik xa jun retokib'al.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-4-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update software and apps regularly</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Nima amaq'el chak'ak'arisaj taq software chi'l taq kojkemchak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Updating your smartphone apps, browsers, and operating systems makes your 
+devices more secure. These updates fix bugs, software vulnerabilities, and security problems.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chak'ak'arisaj le sak'aj ch'aweb'al, taq nik'onel, chi'l taq wokchakub'al kub'an chech                                   wiqkemchakub'al are chi qas chajitalik. We taq k'ak'arisanem kub'an usuk'maxik taq k'axk'olil, ukowilal taq softwares, chi'l taq chajinem chi uwach k'axk'olil.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:ad-unit-4-shop-online" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use an email mask whenever you shop online. Get the confirmation sent to your real email and then easily turn the mask off anytime later.</seg>
@@ -4353,6 +4506,40 @@ logins so you can access them across all your devices.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chakojo' jun ilawachinel retokib'al chech uwinaqirisaxik ukowilal, utukelal retokib'al.  Le Ilawachinelab' rech retokib'al kkik'ol pa chajinem ronojel taq umajixik taq kemchak pa ronojel taq awiqkemchakub'al.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-3-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use a password manager to take your passwords everywhere</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chakojo' jun retokib'al rech k'amal b'e chech ruk'axik taq retokib'al apawi'je'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-ip-subhead" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use a service that masks your IP address</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chakojo' pataninem le kuch'uq le kemriqonib'al rech IP</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-3-non-fx" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use { -brand-lockwise } to keep track of all your different 
+passwords and access them securely from your phone or tablet.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chakojo' { -brand-lockwise } chech uterene'xik na ronojel le jalajoj                                                                    taq retokib'al chech chajital okem pa le ach'aweb'al on alaj kematz'ib'.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-3-fx" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use { -brand-lockwise } to securely access the passwords you’ve saved in 
+{ -brand-name } from anywhere — even outside of the browser.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chakojo'{ -brand-lockwise } chech chajital okem pa taq retokib'al le ak'olom                                                       { -brand-name }pa apawi'je —pane' man chi upam ta le nik'onel.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:ad-unit-5-use-on-phone" srclang="en-US">
@@ -4385,6 +4572,15 @@ logins so you can access them across all your devices.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Uk'olib'al web' rech kojonel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-hist-pw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use unique, strong passwords for every account. If one password gets 
+exposed in a data breach, you’ll only need to update that one login.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chakojo' utukelal, kowilal taq retokib'al chech jujunal kemb'i'aj. We k'o jun retokib'al kq'alajinik pa jun retz taqan, xew rajawaxik kak'arisaj le jun amajin wi kemchak.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:ad-unit-5-privately-sign-in" srclang="en-US">
@@ -4845,6 +5041,35 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Xriqitaj le aq'alajisanem pa jun k'ak' retztaqan rech juq'attzij.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-moz-vpn-update" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Internet Protocol address (IP address) can reveal your location and internet service provider. A service 
+like { -brand-mozilla-vpn } hides your IP address and location for your entire device.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Le kemriqonib'al rech le akemk'atz (Kemriqonib'al IP) kkowinik kuk'ut le ak'olib'al chi'l le ya'l pataninem rech kemk'atz. Jun pataninem pacha' { -brand-mozilla-vpn } krowaj le kemk'atz rech IP chi'l k'olib'al chech ronojel le awiqkemchakub'al.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-ip-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Internet Protocol address (IP address) pinpoints your location 
+and internet service provider. A service like { -brand-fpn } 
+masks your IP address to hide your location.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Le kemriqonib'al rech le akemk'atz (Kemriqonib'al IP) kuk'ut le ak'olib'al chi'l le ya'l a kemk'atz chi'l le ya'l patanib'al rech kemk'atz, Jun patanib'al pacha' { -brand-fpn } Kuch'uq le kemriqonib'al rech IP chech rowaxik le ak'olib'al.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-ip-non-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Internet Protocol address (IP address) pinpoints your location 
+and internet service provider. With a virtual private network (VPN), you can hide your location 
+and mask your IP address.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Le kemriqonib'al rech le akemk'atz (Kemriqonib'al IP) kuk'ut le ak'olib'al chi'l le ya'l akemk'atz. Ruk' jun kemk'at rech echeb'alil pa kemk'atz (VPN), Utz kawowaj le ak'olib'al xuquje' kach'uq le akemriqonib'al rech IP.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:vpn-banner-title-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your location can be tracked if you don’t use a VPN.</seg>
@@ -4981,7 +5206,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>+ Uya\'ik winaqirisam URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -4989,7 +5214,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uya\'ik winaqirisam URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -5269,14 +5494,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uchupik chi\'l ujaqik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
@@ -5285,7 +5502,15 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Chayuju\' le b\'anatal kanoq rech nik\'onem</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uchupik b\'antal kanoq rech nik\'onel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -5293,12 +5518,12 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="quc">
-				<seg>Uchupik b\'antal kanoq rech nik\'onel</seg>
+				<seg>Uchupik nik\'ob\'al rech b\'antal kanoq</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_add_example" srclang="en-US">
@@ -5421,7 +5646,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ch\'ab\'al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5437,7 +5662,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Chaweta\'maj nik\'aj chik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5733,14 +5958,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Uya\'ik chi jumul uchuq\'ab\' wokk\'olib\'al web\'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Relesaxik</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5750,6 +5967,14 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Relesaxik</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -6173,20 +6398,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Le atzukub\'al rech b\'anatal kanoq xchupisaxik.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your Rights</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Taq aya\'talil</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Taq Aya\'talil</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Rights</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Taq aya\'talil</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_search_title" srclang="en-US">
@@ -6247,7 +6472,7 @@ Utzukuxik. Uyujik. Ukamulixik.</seg>
 				<seg>Chawelesaj uwach le ukemriqonib'al kemwiqb'al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -6255,7 +6480,7 @@ Utzukuxik. Uyujik. Ukamulixik.</seg>
 				<seg>Winaqirisam URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -6781,7 +7006,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -6789,7 +7014,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>

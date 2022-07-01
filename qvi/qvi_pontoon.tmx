@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-06-01T01:52:58.649832">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-07-01T01:50:47.357283">
 	</header>
 	<body>
 		<tu tuid="firefox:dom/chrome/layout/css.properties:pesupportsconditioninparenseof" srclang="en-US">
@@ -91,14 +91,6 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -107,7 +99,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -123,6 +115,14 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -131,7 +131,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -315,7 +315,7 @@
 				<seg>{ main-context-menu-page-save.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -323,7 +323,7 @@
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -355,6 +355,14 @@
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -371,15 +379,7 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -395,7 +395,7 @@
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -507,44 +507,12 @@
 				<seg>{ $title } - { -brand-full-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/extensions/extensions.properties:notificationdownloaderrorretry" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Try again</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Kutin shinana</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/extensions/extensions.properties:notificationinstallerrorretry" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Try again</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Kutin shinana</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/netError.dtd:retrylabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try Again</seg>
 			</tuv>
 			<tuv xml:lang="qvi">
 				<seg>Kutin shinana</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/extensions/extensions.properties:notificationinstallerrorretrytooltip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Try downloading and installing this add-on again</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Kutin shinay urahuchina aparinata llamitinkina kay imashka.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/extensions/extensions.properties:notificationdownloaderrorretrytooltip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Try downloading this add-on again</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Kutin shinay urahuchina aparinata kay imashka.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:security/manager/chrome/pipnss/pipnss.properties:certunknown" srclang="en-US">
