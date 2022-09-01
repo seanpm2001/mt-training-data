@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-08-01T01:54:58.002020">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-09-01T01:49:51.969113">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -468,7 +468,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Կղիպերտոն կղզիք</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing-search-banner-close-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:close-button-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -476,7 +476,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Փակել</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:close-button-label" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing-search-banner-close-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -820,7 +820,23 @@ downloaded and is ready to be installed.</seg>
 				<seg>Նիշն գտեալ չէ:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -836,23 +852,23 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -876,23 +892,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -900,7 +900,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox եւ Firefox տարբերանշանքն են ապրանանիշք Mozilla Foundation֊ի</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -1452,14 +1452,6 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -1468,12 +1460,12 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
+				<seg>Mozilla</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
-				<seg>Mozilla Firefox</seg>
+				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
@@ -1485,6 +1477,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Mozilla Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -1900,20 +1900,20 @@ downloaded and is ready to be installed.</seg>
 				<seg>Խնդրել զներդիրս</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing-search-placeholder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search the Web</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Խնդրել յոստայնի:</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search the Web</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Խնդրել յոստայնի</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing-search-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search the Web</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Խնդրել յոստայնի:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:nssfailure2-title" srclang="en-US">
