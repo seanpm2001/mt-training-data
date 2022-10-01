@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-09-01T01:47:45.086334">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-10-01T02:09:46.936857">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -25,6 +25,22 @@
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>2 gwrys &lt;playIcon&gt;&lt;/playIcon&gt;, splann!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-no-votes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>≥ 2 No votes</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>≥ 2 raglevow Na</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-yes-votes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>≥ 2 Yes votes</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>≥ 2 raglevow Ya</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ab" srclang="en-US">
@@ -171,6 +187,14 @@
 				<seg>Keworra Yeth</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-add-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add new custom accent "{ $inputValue }"</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Keworra poslev a-vusur nowydh "{ $inputValue }"</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-addsen-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add new sentences</seg>
@@ -273,6 +297,22 @@
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Amharek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-demographic-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Kedhlow-usyer dihanow, kepar ha bloodh, genedh ha poslev, a wra gweres gwellhe an kedhlow son usys dhe drenya kewerder a jynnys aswon kows. Nevra ny vydh dha hanow-usyer hag ebost kelmys gans dha gedhlow danvenys ha ty a yll dewis dhe wul dhe'th hanow-usyer bos po poblek po privedh.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-approve" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Approve</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Komendya</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ar" srclang="en-US">
@@ -497,6 +537,14 @@
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Bengalek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Klypp</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-title-new" srclang="en-US">
@@ -765,6 +813,14 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Kurdek Kresek</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:change-email-setings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change your email via Settings under Login Identity</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Chanjya dha ebost der an Dewisyow yn-dann Honanieth Omgelmi</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:see-less" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
@@ -842,7 +898,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Chuvash</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Chouvash</seg>
+				<seg>Chuvash</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:cv" srclang="en-US">
@@ -850,7 +906,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Chuvash</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Chuvash</seg>
+				<seg>Chouvash</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-clear-modal" srclang="en-US">
@@ -876,6 +932,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Klyckyowgh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-clip-graveyard" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clip Graveyard</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Bedhros Klyppys</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:clips" srclang="en-US">
@@ -918,7 +982,7 @@ clip recordings.</seg>
 				<seg>Klyppys dilysys</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -926,7 +990,7 @@ clip recordings.</seg>
 				<seg>Degea</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -982,12 +1046,30 @@ clip recordings.</seg>
 				<seg>Data Common Voice keffrys ha pub sett data aral a-ugh.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice Dataset</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Kedhelsett Common Voice</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-firefox-a" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice has unlimited potential and we are indeed exploring speech interfaces in many Mozilla products, including Firefox.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Yma potencyal heb finweth dhe Common Voice hag yth eson fest ow hwithra ynterfassow lev yn meur a askorrasow Mozilla, Firefox y'ga mysk.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-my-lang-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is a crowdsourcing platform, and the languages were all added by volunteers.
+We would love for you to add your language! &lt;languageRequestLink&gt;Ask about adding your language.&lt;/languageRequestLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Common Voice yw leuren routhkuntel, hag oll an yethow a veu keworrys gans bodhogyon.
+Ni a garsa ty dhe geworra dha yeth! &lt;languageRequestLink&gt;Govyn a-dro dhe geworra dha yeth.&lt;/languageRequestLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:home-title" srclang="en-US">
@@ -1166,28 +1248,28 @@ clip recordings.</seg>
 				<seg>Prevyans Kevri</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Cookies</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Cookies</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Pastiow</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Cookies</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Cookies</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:kw" srclang="en-US">
@@ -1228,6 +1310,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Ny allas dilea an yeth</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:n-clips-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count } clips</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>klypp</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-submitted" srclang="en-US">
@@ -1342,6 +1432,22 @@ clip recordings.</seg>
 				<seg>Skostell</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-release-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dataset Release</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dyllans Kedhelsett</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Kedhelsettys</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
@@ -1364,6 +1470,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Dedhyas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:days" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Days</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dydh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-delete-data" srclang="en-US">
@@ -1486,7 +1600,7 @@ clip recordings.</seg>
 				<seg>A ny welowgh agas yeth war Common Voice hwath?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1494,7 +1608,7 @@ clip recordings.</seg>
 				<seg>Iskarga</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1598,6 +1712,22 @@ clip recordings.</seg>
 				<seg>A vynn'ta Kewsel, Goslowes po an dhew?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:browse-file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drag and drop or &lt;browseWrap&gt;Browse&lt;/browseWrap&gt;</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Halya ha droppya po &lt;browseWrap&gt;Peuri&lt;/browseWrap&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ha ty ow kevri, dasliv kevrohow a vydh hepkorys wosa ty dhe glyckya 'Danvon'. Kevri a wra pesya yn tidro gans an nessa sett a 5 rekordyans po dilysans.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:nl" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dutch</seg>
@@ -1654,28 +1784,36 @@ clip recordings.</seg>
 				<seg>Ebost</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Ebost</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Ebost</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Ebost</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ebost</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ebost</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-already-used" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email is already used for a different account</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Usys yw an ebost ma seulabrys rag akont aral</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscriptions" srclang="en-US">
@@ -1694,23 +1832,23 @@ clip recordings.</seg>
 				<seg>Sowsnek</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Sowsnek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Sowsnek</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Sowsnek</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Sowsnek</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1838,7 +1976,7 @@ clip recordings.</seg>
 				<seg>Kwytya &amp; dilea an klyppys</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit Form</seg>
 			</tuv>
@@ -1846,7 +1984,7 @@ clip recordings.</seg>
 				<seg>Kwytya an furvlen</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit Form</seg>
 			</tuv>
@@ -2110,6 +2248,14 @@ clip recordings.</seg>
 				<seg>Kemeres rann</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get involved</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Bos rann</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get Involved</seg>
@@ -2124,6 +2270,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Kemeres rann</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:glossary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Glossary</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Gerva</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-reached" srclang="en-US">
@@ -2350,6 +2504,14 @@ clip recordings.</seg>
 				<seg>Gweresowgh dhyn ow trehevel kemeneth a-dro dhe deknegieth gows, kestevowgh der ebost.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-make-dataset" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us build a high quality, publicly open dataset</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Gweres dhyn drehevel kedhelsett ughel y gwalita hag ygor dhe'n poblek</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us find others to donate their voice!</seg>
@@ -2478,20 +2640,20 @@ clip recordings.</seg>
 				<seg>Fatla?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-q" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How can I get the Common Voice data?</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Fatel allav vy kerghes an kedhlow Common Voice?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-get-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How can I get the Common Voice data?</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Fatel allav vy kerghes an data Common Voice?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How can I get the Common Voice data?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Fatel allav vy kerghes an kedhlow Common Voice?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-q" srclang="en-US">
@@ -2550,12 +2712,28 @@ clip recordings.</seg>
 				<seg>Fatel wrav rekordya klypp lev a gwalita ughel?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-privacy-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do you ensure anonymity and privacy of the people who donated their voices?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Fatel wrewgh surha privetter ha bos dihanow an dus a argevros aga levow?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How to Cite</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Fatla Dervyn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-help-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How would you describe your accent?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Fatel wrussys deskrifa dha boslev?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hu" srclang="en-US">
@@ -2668,6 +2846,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Drog yw genev, ny wonn pyth esowgh ow hwilas.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'm okay with you handling this info as you explain in Mozilla's &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Da lowr ov genowgh ow tyghtya an kedhlow ma dell wrewgh styrya yn &lt;privacyLink&gt;Polisi Privetter&lt;/privacyLink&gt; Mozilla</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:indicates-required" srclang="en-US">
@@ -2926,6 +3112,14 @@ clip recordings.</seg>
 				<seg>Kazakh</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:max-file-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $kb }kb max</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>{ $kb }kb po le</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:keep" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep</seg>
@@ -2972,6 +3166,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Gwitha an rekordyansow</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:keep-track" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress and metrics across multiple languages.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Holya dha avonsyans ha metryks a-dreus lies yeth.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-explanation" srclang="en-US">
@@ -3094,7 +3296,7 @@ clip recordings.</seg>
 				<seg>Yeth</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3118,7 +3320,7 @@ clip recordings.</seg>
 				<seg>Yeth</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3196,6 +3398,22 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Lonchys</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:leaderboard-visibility" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaderboard Visibility</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Gweladewder Bordh Ledyoryon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-playbook" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to take part</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dyski fatel vos rann anodho</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-learn-more" srclang="en-US">
@@ -3318,28 +3536,28 @@ clip recordings.</seg>
 				<seg>Kevren kopies</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Goslowowgh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Goslowowgh</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Goslowes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Listen</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Goslowowgh</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Listen</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Goslowowgh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-goal-type-listen" srclang="en-US">
@@ -3524,6 +3742,14 @@ clip recordings.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Maithili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:rich-data" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Gwra dhe'th kedhlow danvenys bos mar rych dell yw possybyl dre ri dhyn kedhlow demografek dihanow. Ni a wra dhe'n kedhlow oll bos dihanow kyns y vos poblek.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:mg" srclang="en-US">
@@ -3742,6 +3968,16 @@ recognition open to everyone.</seg>
 				<seg>Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-different-speakers-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most speech databases are trained with an overrepresentation of certain demographics which results in a bias towards &lt;articleLink&gt;male and middle class&lt;/articleLink&gt;. Accents and dialects that tend to be under-represented in training data sets are typically associated with groups of people who are already marginalised. Many machines also struggle to understand female voices.
+This is why in our voice database we want variety!</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>An brassa rann a gedhelsettys yw trenys gans gordhiskwedhyans a nebes demografegow may sew ragvreus war-tu ha &lt;articleLink&gt;gwer ha'n renkas kres&lt;/articleLink&gt;. Poslevow ha rannyethow hag yw skylldhiskwedhys yn kedhelsettys trenya yw yn tipek kelmys gans bagasow a dus hag yw amalekhes seulabrys. Ynwedh yma kudyn gans lies jynn konvedhes levow benel.
+Hemm yw prag y fynnyn dyffrans y'gan kedhelsett!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:default-tagline" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Common Voice is an initiative to help teach machines how real people speak.</seg>
@@ -3756,6 +3992,14 @@ recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Mozilla re ros dhodho ev y honen an ober a witha an wias ygor ha hedhadow dhe bubonen. Rag y wul, res yw dhyn ri gallos dhe dhisplegyoryon wias dre ragdresow kepar ha Common Voice. Gans an lesans a deknegiethow gwias dres towlennow arbennek, ni a grys bos res dhedha servya pub usyer oll yn ekwal. Ni a wel odhom a voy yethow, lesyethow ha demografegow ha tus ow trehevel hag ow previ teknegiethow lev. Yma hwans dhe Mozilla gweles kesrosewyth yagh ha byw. Henn a styr ri dhe dhisplegyoryon nowydh hedhas dhe dhata lev may hyllons drehevel ragdresow nowydh hag yntanus. Common Voice a vydh asnodh poblek a wra gweres bagasow Mozilla ha displegyoryon a-dro dhe'n bys.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-mission-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. Common Voice is a public resource available to everyone and Mozilla teams and developers around the world are already using it on our own projects as well.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Sakrys yw Mozilla dhe surhe bos an wi ygor ha hedhadow rag pubonan. Rag gul henna, res yw dhyn galosegi gwrioryon wi dre ragdresow kepar ha Common Voice. Ha teknegiethow lev ow lesa dres usadow pur danow, ni a grys res yw dhedha servya pub usyer yn ekwal. Henna a styr kevarghewi yn moy a yethow hag eshe poslevow ha demografegow diwyrs yn-dann dhrehevl ha previ teknegiethow lev. Common Voice yw asnodh poblek kavadow dhe bubonan hag yma parys ha displegyoryon Mozilla orth y usya seulabrys a-dro dhe'n bys y'gan ragdresow agan honan maga ta.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
@@ -3846,6 +4090,30 @@ recognition open to everyone.</seg>
 				<seg>Yeth Teythyek</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need some help with accent?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yw res dhis gweres gans poslev?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need some help with variants?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yw res dhis gweres gans varyansow?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need to download your data?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yw res dhis iskarga dha gedhlow?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ne-np" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Nepali</seg>
@@ -3902,6 +4170,14 @@ recognition open to everyone.</seg>
 				<seg>Nias</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Na veu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
@@ -3918,20 +4194,20 @@ recognition open to everyone.</seg>
 				<seg>Na veu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Na veu</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Na</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:gravatar_not_found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No gravatar found for your email</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ny gevir Gravatar rag dha ebost</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-no-mic-found" srclang="en-US">
@@ -3990,6 +4266,14 @@ recognition open to everyone.</seg>
 				<seg>Norgaghek (Nynorsk)</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-note" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Note: You will still need to select between Speak or Listen to change contribution type.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Noten: Res vydh dhis sewis ynttra Kewsel po Goslowes rag chanjya eghen kevri.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:notfound-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Not found</seg>
@@ -4020,6 +4304,14 @@ recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Ny vynnav, meur ras</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-variant-default-value" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No variant selected</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Nyns eus varyans dewisys</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-desktop" srclang="en-US">
@@ -4133,6 +4425,22 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Unn lavar an linen</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:join-newsletter" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Optionally join on our email list for updates and new information about the project.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dre dhewis, gwra junya agan rol ebost rag nowedhyansow ha kedhlow nowydh a-dro dhe'n ragdres.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demographic-deidentified-clarity-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dre dhewis, ny vydh kedhlow demografek (r.e. bloodh, genedh, yeth ha poslev) danvenys poblek war dha brofil ha ny vydh kelmys dhe'th akont y'n kedhelsett. Klyppys son unnik a vydh kelmys gans kedhlow demografek rag an acheson a dielvennans moy kewar - rag ensampel, possybyl yw hwithrer dhe vynnes medra patron trenyans orth tregh demografek komparek.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:other" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other</seg>
@@ -4157,6 +4465,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Yeth Aral</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-validation-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other people validate those voice clips.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Tus erel a wra dilysa an klyppys lev na.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-other-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other voice datasets…</seg>
@@ -4179,6 +4495,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Kedhelsettys Lev Erel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:overall-hr-total" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Overall Hr. Total</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Somm Ourys</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:status-title" srclang="en-US">
@@ -4243,6 +4567,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Pashto</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-contrib-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>People come and contribute their voices.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Tus a dheu rag kevri aga levow.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:fa" srclang="en-US">
@@ -4469,6 +4801,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Profil</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Profil</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
@@ -4477,12 +4817,12 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Profil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:improve-audio" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Profile</seg>
+				<seg>Profile information improves the audio data used in training speech recognition accuracy.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Profil</seg>
+				<seg>Kedhlow profil a wellha an kedhlow son usys rag trenya kewerder aswon kows.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-profile-title" srclang="en-US">
@@ -4589,6 +4929,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Parys dhe argevri dha lev?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ready-to-validate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to help validate sentences?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Parys dhe weres dilysa lavarow?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info-sub-with-challenge" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.</seg>
@@ -4691,6 +5039,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Dasnowedhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-reject" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reject</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Denagha</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-remove-button" srclang="en-US">
@@ -4845,22 +5201,6 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Dehweles dhe'n yethow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Dasweles</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Dasweles</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -4870,6 +5210,22 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dasweles</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dasweles</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -4917,7 +5273,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Dasweles Lavarow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -4925,7 +5281,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Dasweles Lavarow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5125,6 +5481,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Hwilas gorthebow</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:compare-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>See how your progress compares to other contributors all over the world.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Gweles fatel wra dha avonsyans keheveli orth kevrenegoryon a-dro dhe'n bys.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:languages-show-less" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>See Less</seg>
@@ -5221,6 +5585,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>{ $sentences } keworrys genes</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences are collected for people to read aloud.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Kuntellys yw lavarow rag tus dh'aga lenna.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-metadata-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence text</seg>
@@ -5277,7 +5649,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Setswana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5285,7 +5657,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Settyansow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5373,6 +5745,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Omrolya rag akont</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscription-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for Common Voice newsletters, goal reminders and progress updates</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Omrolyewgh rag kofheansow amkan, nowedhyansow avonsyans ha lytherow nowodhow Common Voice</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscription-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>sign up for email updates</seg>
@@ -5413,14 +5793,6 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Siswati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Size</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Braster</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
@@ -5429,12 +5801,12 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Braster</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Skip</seg>
+				<seg>Size</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Hepkor</seg>
+				<seg>Braster</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
@@ -5451,6 +5823,22 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Hepkor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Hepkor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-feedback" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip Submission Feedback</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Hepkor Dasliv Kevrohow</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sk" srclang="en-US">
@@ -5499,6 +5887,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Somali</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-language-req-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Someone asks for a language to be added.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Nebonan a wovyn rag yeth dhe vos keworrys.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:dsb" srclang="en-US">
@@ -5557,6 +5953,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Diharesow! Yth eson ow processya agan restrennow son, gwrewgh assaya arta a verr spys.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Pennfenten: { $sentenceSource }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-source" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Source:  { $source }</seg>
@@ -5597,7 +6001,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Spaynek (Chile)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -5605,7 +6009,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Kewsel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -5701,6 +6105,18 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>&lt;speechBlogLink&gt;Omvyskowgh gans aswon kows&lt;/speechBlogLink&gt;</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speech is often the most natural way we communicate with each other and voice technologies are bringing that convenience to our computers and mobile devices. We want to empower developers to build amazing voice recognition applications like real-time translators and voice-enabled digital assistants. But right now most of the voice data required to build these kinds of apps is expensive and proprietary. We hope the Common Voice dataset will give developers what they need to innovate and make speech technology available in their own language.
+
+To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yn fenowgh yth yw kows fordh an moyha naturek may hyllyn keskomunya an eyl gans y gila hag yma teknegieth lev ow tri an es ma dh'agan jynnys-amontya ha devisyow gwayadow. Ni a vynn galosegi displegyoryon dhe dhrehevel towlennow aswon lev marthys kepar ha treylellow termyn gwir ha darbaroryon bysyel dre lev. Mes lemmyn brassa rann an kedhlow lev res rag drehevel an eghen ma a appys yw kostek ha perghenogel. Govenek a'gan beus y hwra an kedhelsett Common Voice ri dhe dhisplegyoryon an pyth yw res dhedha rag nowedhi ha gul dhe deknegieth kows bos kavadow y'ga yeth aga honan.
+
+Rag gul dhe aswon lev bos moy ollvysel hogen, ni a wra kuntel samplow lev yn yethow kewsys yn kemmyn keffrys hag an re gans poblans byghanna a gowsoryon hag yw yn fenowgh goservys gans gonisyow aswon lev kenwerthel. Dyllo kedhelsett diwyrs a levow a wra galosegi displegyoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sst" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speech-to-text (STT)</seg>
@@ -5723,6 +6139,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Dalleth rekordya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-placeholder-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start typing to describe your accent</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dalleth jynnskrifa rag deskrifa dha boslev</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
@@ -5757,22 +6181,6 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Folen Studh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Danvon</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Danvon</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
@@ -5797,6 +6205,22 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Danvon</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Danvon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Danvon</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
@@ -5805,7 +6229,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Danvon derivas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -5813,7 +6237,7 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Danvon klyppys</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -6021,6 +6445,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Korpus TED-LIUM</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tell us what you'd like to download:</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Lavar dhyn pyth a vynn'ta iskarga:</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:te" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Telugu</seg>
@@ -6077,6 +6509,14 @@ Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh a
 				<seg>Thai</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:thanks-for-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thanks for confirming your account, now let's build your profile.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Meur ras a afydhya dha akont, lemmyn gwren drehevel dha brofil.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-submit-msg" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
@@ -6109,6 +6549,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Meur ras a'gas les ow kevri dhe'n versyon { $lang }. Ni a ober yn kales rag dhe bareusi pub yeth rag dyllans ha ri an nowodhow diwettha dhe barys der ebost. Mars eus hwans dhis kevri, gwrewgh entra agas ebost a-woles.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-success-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you! You’ve sent a new language enquiry</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Meur ras! Ty re dhanvonas govyn yeth nowydh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:toward-goal" srclang="en-US">
@@ -6117,6 +6565,22 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Henn yw &lt;goalPercentage&gt;&lt;/goalPercentage&gt; war-tu ha amkan { $goalType } Common Voice hedhyw. Meur ras</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-and-deepspeech-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech. The first version of Deep Speech was released in November 2017 and has continued to evolve ever since. Together with the Common Voice dataset, we believe this open source voice recognition technology should be available to everybody. It’s our hope these technologies will enable developers to build a wave of innovative products and services.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>An kedhelsett Common Voice a gessen jynn aswon lev pennfenten ygor Mozilla Deep Speech. An kynsa gwersyon a Deep Speech a veu dyllys yn mis Du 2017 hag a besyas esplegya a-dhia an termyn na. War-barth gans an kedhelsett Common Voice, ni a grys y talvia an teknegieth aswon lev pennfenten ygor bos kavadow dhe bubonan. Govenek a'gan beus y hwra an teknegiethow ma galosegi displegyoryon dhe dhrehevel tonn a askorrasow ha gonisyow nowydh.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Common Voice dataset is available for download under the &lt;licenseLink&gt;CC0&lt;/licenseLink&gt; license on &lt;datasetLink&gt;our Datasets page&lt;/datasetLink&gt;. You can also download several other publicly available datasets from the same page.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>An kedhelsett Common Voice yw kavadow dhe iskarga yn-dann gummyas &lt;licenseLink&gt;CC0&lt;/licenseLink&gt; war &lt;datasetLink&gt;agan folen Kedhelsettys&lt;/datasetLink&gt;. Ynwedh y hyllir iskarga nebes kedhelsettys poblek erel a'n keth folen.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:home-title" srclang="en-US">
@@ -6143,6 +6607,30 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kavadow lemmyn yw an sett data war agan &lt;downloadLink&gt;folen iskargansow&lt;/downloadLink&gt; yn-dann an leshyans &lt;licenseLink&gt;CC-0&lt;/licenseLink&gt;.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-is-goal-assistant-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The goal of the Common Voice dataset is to enable anyone in the world to build speech recognition, speaker recognition, or any other type of application that requires voice data. A voice assistant is just one of many types of applications you could use the dataset to build.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Amkan an kedhelsett Common Voice yw galosegi pubonan y'n bys dhe dhrehevel aswon lev, aswon kowser po py eghen a app pynag a res kedhlow lev. Nyns yw darbarer lev marnas onan a lies eghen a app a yll bos gwrys gans an kedhelsett.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-when-release2-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The multi-language version of the Common Voice dataset is currently undergoing community supported bundling and cleaning. If you would like to help us bring Common Voice to new languages, go check out the &lt;sentenceCollectorLink&gt;Sentence Collection Tool&lt;/sentenceCollectorLink&gt; for adding new sentences to the dataset, and Mozilla &lt;pontoonLink&gt;Pontoon&lt;/pontoonLink&gt; for translating the website itself. New languages are added to Common Voice for voice contribution when 5000 approved sentences have been collected.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yma an gwersyon liesyeth a'n kedhelsett Common Voice ow perthi fardella ha glanhe skoodhys gans an kemeneth lemmyn. Mar mynnses agan gweres dhe dhri Common Voice dhe yethow nowydh, gwra mires orth an &lt;sentenceCollectorLink&gt;Toul Kuntel Lavarow&lt;/sentenceCollectorLink&gt; rag keworra lavarow nowydh dhe'n kedhelsett ha &lt;pontoonLink&gt;Pontoon&lt;/pontoonLink&gt; Mozilla rag treylya an wiasva hy honan. Yethow nowydh yw keworrys dhe Common Voice rag kevrohow lev pan vo kuntellys 5000 lavar komendys.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings-and-locale-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The number of recordings and which languages you contribute to will be public.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Poblek vydh an niver a rekordyansow ha py yethow may hwre'ta kevri dhedha.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-long" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too long.</seg>
@@ -6191,6 +6679,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Re gott yw an rekordyans.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:file_too_large" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The selected file is too large</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Re vras yw an restren dhewisys</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-other-ted-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.</seg>
@@ -6205,6 +6701,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-localization-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The website text is translated into that language.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Tekst an wiasva yw treylys y'n yeth na.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-10k-hours-a" srclang="en-US">
@@ -6279,6 +6783,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Toki Pona</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-yes-votes-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>To make it into the Common Voice dataset, a voice clip must be validated by two separate users.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Rag bos yn kedhelsett Common Voice, res yw bos klypp lev dilysys gans dew user diblans.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
@@ -6309,6 +6821,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Treylya an wiasva</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-localize-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Translation of the Common Voice site happens on &lt;strong&gt;Pontoon&lt;/strong&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Treylyans an wiasva Common Voice yw gwrys dre &lt;strong&gt;Pontoon&lt;/strong&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ve" srclang="en-US">
@@ -6527,6 +7047,22 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>gwiryans</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-validation-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validation Progress</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Avonsyans Dilysa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-variants-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Varyansow yw furvow komparek a yeth - rag ensampel kevrennys gans an re ow triga yn ranndir po yn kemeneth. Treweythyow yth yns i gelwys rannyethow.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vec" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Venetian</seg>
@@ -6557,6 +7093,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Vietnamek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:view-goals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>View your progress against personal and project goals.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Gweles dha avonsyans erbynn amkanow personel ha ragdres.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:visible" srclang="en-US">
@@ -6621,6 +7165,26 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Teknegieth aswon lev a allsa domhwelhe an fordh mayth oberyn gans jynnow, mes kostek ha perghenogyl yw an systemow kavadow a-lemmyn. Common Voice yw ragdres dhe wul teknegieth aswon lev hedhadow dhe bubonen. Yma tus ow kevri aga levow dhe dhatabase kowrek a wra gasa dhe bubonen dyski dhe dowlennow gans lev gallosegys. Kavadow a vydh pub data lev dhe dhisplegyoryon.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Teknegieth aswon lev a wra chanjya yn tien an fordh may hwren kesoberi gans jynnys, mes an kevreythyow kavadow lemmyn yw kostek ha perghenogel. Common Voice yw rann ragdres Mozilla dhe wellhe teknegieth aswon lev ha gul dhedha bos mov hedhadow rag pubonan. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa den vyth dhe trenya apps gans levow yn es hag yn skav martesen yn pub yeth.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-a-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Mozilla Common Voice is an initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+
+We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yma teknegieth aswon lev ow tomhwelhe an fordh mayth oberyn gans jynnow, mes kostek ha perghenogel yw an systemow kavadow a-lemmyn. Common Voice Mozilla yw ragdres dhe wul teknegieth aswon lev gwell ha hedhadow dhe bubonen. Common Voice yw sel manylyon ollvysel kowrek a levow argevrys a wra gasa dhe bubonen trenya yn es hag yn skav apps gans levow martesen yn pub yeth.
+
+Nyns eson ni marnas ow kuntel samplow lev yn yethow kewsys yn kemmyn, mes ynwedh y'n re gans kemeneth byghanna a gowsoryon. Dyllo kedhelsett diwyrs a levow a wra kennertha displegoryon, omgemeryoryon ha kemenethow dhe dhyghtya an aswa ma aga honan.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:voices-online" srclang="en-US">
@@ -6743,6 +7307,22 @@ data is required.</seg>
 				<seg>Leelheans an Wiasva</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We calculate hours by estimating the average length of each recording, and then multiplying that number by the total number of recordings across all languages.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ni a reken ourys der akontya hirder kresek a bub rekordyans hag ena lieshe an niver ma gans an niver somm a rekordyansow a-dreus pub yeth oll.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-title-404" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t find that page for you</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ny yllir kavos an folen na ragos</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:nothing-to-validate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We don't have anything to validate in this language, help us fill the queue.</seg>
@@ -6773,6 +7353,14 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Amkan Seythennyek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-new-lang-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We launch the Common Voice site in this language.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ni a lonch an wiasva Common Voice y'n yeth ma.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:welcome-staff" srclang="en-US">
@@ -6815,14 +7403,6 @@ data is required.</seg>
 				<seg>Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan &lt;privacyLink&gt;argemmyn privetter&lt;/privacyLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan &lt;privacyLink&gt;argemmyn privetter&lt;/privacyLink&gt;.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
@@ -6837,6 +7417,22 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan &lt;privacyLink&gt;argemmyn privetter&lt;/privacyLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan &lt;privacyLink&gt;argemmyn privetter&lt;/privacyLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-release-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We release the dataset every 3 months.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ni a wra dyllo an kedhelsett pub 3 mis.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-2" srclang="en-US">
@@ -6927,12 +7523,12 @@ data is required.</seg>
 				<seg>Pyth yw yeth war Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Pyth yw Common Voice?</seg>
+				<seg>Pandr'yw Common Voice?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-q" srclang="en-US">
@@ -6943,12 +7539,12 @@ data is required.</seg>
 				<seg>Pandr'yw Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Pandr'yw Common Voice?</seg>
+				<seg>Pyth yw Common Voice?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-quality-q" srclang="en-US">
@@ -6957,6 +7553,14 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Pyth yw an nivel res a gwalita rag usya an son?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-quality-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What level of audio quality is required for a voice clip to be used in the dataset?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Py nivel a gwalita son yw res rag klypp lev dhe vos usys y'n kedhelsett?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:whats-public" srclang="en-US">
@@ -7023,14 +7627,6 @@ data is required.</seg>
 				<seg>Praga profil?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:why-profile-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Why a profile?</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Praga profil?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-why-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why a profile?</seg>
@@ -7039,12 +7635,36 @@ data is required.</seg>
 				<seg>Praga gwul profil?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why a profile?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Praga profil?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why Common Voice?</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Praga Common Voice?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-demographic" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why does this matter?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Prag yth yw hemma a vern?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-not-ask-read-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why don’t you ask people to read from books or Wikipedia articles in different languages?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Prag na wre'ta govyn orth tus dhe lenna a lyvrow po erthyglow Wikipedia yn yethow dyffrans?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-different-speakers-q" srclang="en-US">
@@ -7063,12 +7683,12 @@ data is required.</seg>
 				<seg>Prag yth yw 10,000 our an amkan rag kuntel son?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-mission-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-10k-hours-q" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Why is Common Voice part of the Mozilla mission?</seg>
+				<seg>Why is 10,000 validated hours the per language goal for capturing audio?</seg>
 			</tuv>
 			<tuv xml:lang="kw">
-				<seg>Prag yth yw Common Voice rann a Mozilla?</seg>
+				<seg>Prag yth yw 10,000 our dilysys an amkan rag pub yeth rag kuntel son?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-mission-q" srclang="en-US">
@@ -7079,7 +7699,15 @@ data is required.</seg>
 				<seg>Prag yth yw Common Voice rann an medras Mozilla?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-important-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-mission-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why is Common Voice part of the Mozilla mission?</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Prag yth yw Common Voice rann a Mozilla?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is it important?</seg>
 			</tuv>
@@ -7087,7 +7715,7 @@ data is required.</seg>
 				<seg>Prag yth yw posek?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-important-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is it important?</seg>
 			</tuv>
@@ -7167,20 +7795,20 @@ data is required.</seg>
 				<seg>Beu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Da</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Beu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Da</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
@@ -7231,6 +7859,14 @@ data is required.</seg>
 				<seg>Eus, yn tevri yma hwans dhyn a'gas lev! Rann a'n amkan a Common Voice yw kuntel kemmys lesyethow dyffrans dell yllyn, may hallo jynnow-amontya konvedhes dhe well &lt;bold&gt;pubonen&lt;/bold&gt; pan wrellons kowsel.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-do-want-native-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, we especially want your voice! Part of the aim of Common Voice is to gather as many different accents as possible so that voice recognition services work equally well for everyone. This means donations from non-native speakers are particularly important.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ea, ny a vynn dha lev yn arbennik! Rann an meder a Common Voice yw kuntel pygemmys poslevow dyffrans dell yllyn may hyll gonisyow aswon lev oberi yn ta yn kehaval rag pubonan. Hemma a styr bos kevrohow a gowsoryon anteythyek fest posek.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:yi" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yiddish</seg>
@@ -7271,6 +7907,14 @@ data is required.</seg>
 				<seg>Parys owgh dhe dhalleth iskargans a &lt;size&gt;{ $size }GB&lt;/size&gt;, a vynnowgh pesya?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:username-optin-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can choose to make your username public or anonymous.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ty a yll dewis gul dha hanow-usyer dhe vos poblek po dihanow.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-source-a2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can view our source sentences in &lt;dataLink&gt;this GitHub folder&lt;/dataLink&gt;.</seg>
@@ -7295,6 +7939,22 @@ data is required.</seg>
 				<seg>Res yw alowa hedhas dhe'n mikrofon.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dha boslev yw an fordh may hwre'ta leverel geryow. Y hyll bos furvys gans an tyller mayth es ta trigys ynno, yethow erel a wre'ta kewsel ha lies tra aral. Ty a yll kevrenna py kedhlow pynag a dybydh bos gwiw omma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:daily-goal-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your daily goal has been created</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dha amkan dedhyek re beu settys</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your download has started.</seg>
@@ -7309,6 +7969,22 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Yma dalleth dhe'gas iskargans.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-generic-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to a target segment</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yth esos ow kevri dhe tregh kosten</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-first-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to our first target segment</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Yth esos ow kevri dh'agan kynsa tregh kosten</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-email" srclang="en-US">
@@ -7333,6 +8009,22 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Dha Yethow</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:username-email-not-demographic" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your username and email will not be associated with the published data.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ny vydh dha hanow-usyer po ebost kelmys gans an kedhlow dyllys.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:weekly-goal-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your weekly goal has been created</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dha amkan seythenyek re beu settys</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-help-recording" srclang="en-US">
@@ -7551,7 +8243,7 @@ data is required.</seg>
 				<seg>+ Keworra URL a-vusur</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -7559,7 +8251,7 @@ data is required.</seg>
 				<seg>Keworra DAK a-vusur</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -7905,7 +8597,7 @@ data is required.</seg>
 				<seg>Kamera</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -7913,7 +8605,7 @@ data is required.</seg>
 				<seg>Hedhi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -8106,7 +8798,7 @@ data is required.</seg>
 				<seg>Toulys displegyer</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -8114,7 +8806,7 @@ data is required.</seg>
 				<seg>Dyllo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -8282,7 +8974,7 @@ data is required.</seg>
 				<seg>Dilea istori peuri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -8290,7 +8982,7 @@ data is required.</seg>
 				<seg>Dilea istori peuri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -8546,14 +9238,6 @@ data is required.</seg>
 				<seg>Yeth</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Dyski moy</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -8563,6 +9247,14 @@ data is required.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dyski moy</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -8754,20 +9446,20 @@ data is required.</seg>
 				<seg>Peuri privedh dres an kemmyn peskweyth ma\'n mynni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Sevel orth lettya</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Na</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Sevel orth lettya</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_no" srclang="en-US">
@@ -8866,7 +9558,7 @@ data is required.</seg>
 				<seg>Unn tapp a dhile dha istori peuri ha pastiow — ha lettya argemynnow rag agas holya a-derdro.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -8874,7 +9566,7 @@ data is required.</seg>
 				<seg>Ygeri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -9104,7 +9796,15 @@ data is required.</seg>
 				<seg>Dispryvya a-bell dre USB/Wi-Fi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Dilea</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -9113,14 +9813,6 @@ data is required.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Dilea</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -9144,7 +9836,7 @@ data is required.</seg>
 				<seg>Dilea</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -9248,7 +9940,7 @@ data is required.</seg>
 				<seg>Peuri salow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -9256,7 +9948,7 @@ data is required.</seg>
 				<seg>Gwitha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -9658,6 +10350,14 @@ data is required.</seg>
 				<seg>Herdhya peuri privedh dres an kemmyn. Lettya argemynnow ha dalgh aral a yll dha holya dres gwivaow ha poshe prys karga folennow.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_toolbar_delete_icon2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap here to trash it all — history, cookies, everything — and start fresh on a new tab.</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Tapp omma dh\'y dewlel oll y\'n atal — istori, pastiow, puptra — ha dalleth gans tabb yr nowydh.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_restart_app" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The application will quit to apply changes</seg>
@@ -9967,20 +10667,20 @@ data is required.</seg>
 				<seg>Eus hwans dhywgh bywhe profyansow hwilas?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="kw">
-				<seg>Ya</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="kw">
 				<seg>Pub cookie oll</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="kw">
+				<seg>Ya</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_yes" srclang="en-US">
@@ -10064,7 +10764,7 @@ data is required.</seg>
 				<seg>Dha ol bys a yll dialhwedha %1$s mar po DAK ygerys y\'n app seulabrys.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
@@ -10072,7 +10772,7 @@ data is required.</seg>
 				<seg>Dha Wiryow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
@@ -11014,7 +11714,7 @@ passyes, an error a allsa bos rag pols, ha hwi a yll assaya arta termyn aral.&lt
 				<seg>Pontoon gans Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="pontoon-intro:messages.properties:navigation-title" srclang="en-US">
+		<tu tuid="pontoon-intro:messages.properties:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pontoon Intro</seg>
 			</tuv>
@@ -11022,7 +11722,7 @@ passyes, an error a allsa bos rag pols, ha hwi a yll assaya arta termyn aral.&lt
 				<seg>Komendyans dhe Pontoon</seg>
 			</tuv>
 		</tu>
-		<tu tuid="pontoon-intro:messages.properties:title" srclang="en-US">
+		<tu tuid="pontoon-intro:messages.properties:navigation-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pontoon Intro</seg>
 			</tuv>
