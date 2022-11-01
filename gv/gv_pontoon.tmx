@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-10-01T02:08:38.069882">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-11-01T02:03:25.564309">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -51,6 +51,14 @@
 				<seg>Ta { -brand-short-name } geddyn cooney woish Mozilla as t'ad reirey tasht lught reill teishtyn (LRT).  Ta'n tasht TLRT cooney dy hickyraghey dy vel lughtyn reill lhiantyn rish cliaghtaghyn share bentyn rish sauçhys ymmydeyr.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-mozilla" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-short-name } is backed by the non-profit Mozilla, which administers a completely open certificate authority (CA) store. The CA store helps ensure that certificate authorities are following best practices for user security.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta { -brand-short-name } geddyn cooney woish Mozilla as t'ad reirey tasht lught reill teishtyn (LRT).  Ta'n tasht TLRT cooney dy hickyraghey dy vel lughtyn reill lhiantyn rish cliaghtaghyn share bentyn rish sauçhys ymmydeyr.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-connection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-short-name } uses the Mozilla CA store to verify that a connection is secure, rather than certificates supplied by the user’s operating system. So, if an antivirus program or a network is intercepting a connection with a security certificate issued by a CA that is not in the Mozilla CA store, the connection is considered unsafe.</seg>
@@ -59,7 +67,23 @@
 				<seg>Ta { -brand-short-name } gymmydey yn tasht LRT ec Mozilla dy yannoo shickyr dy vel kiangley sauçhey, ayns ynnyd jeh teishtyn voish coarys obbree yn ymmydeyr.  Myr shen, my vees claare noi veerysyn ny moggyl lhiettal kiangley lesh teisht sauçhys currit magh liorish LRT nagh vel ayns tasht LRT Vozilla, bee briwnys jeant nagh vel yn chiangley sauçhey.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-connection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-short-name } uses the Mozilla CA store to verify that a connection is secure, rather than certificates supplied by the user’s operating system. So, if an antivirus program or a network is intercepting a connection with a security certificate issued by a CA that is not in the Mozilla CA store, the connection is considered unsafe.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta { -brand-short-name } gymmydey yn tasht LRT ec Mozilla dy yannoo shickyr dy vel kiangley sauçhey, ayns ynnyd jeh teishtyn voish coarys obbree yn ymmydeyr.  Myr shen, my vees claare noi veerysyn ny moggyl lhiettal kiangley lesh teisht sauçhys currit magh liorish LRT nagh vel ayns tasht LRT Vozilla, bee briwnys jeant nagh vel yn chiangley sauçhey.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-symantec" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Certificates issued by GeoTrust, RapidSSL, Symantec, Thawte, and VeriSign are no longer considered safe because these certificate authorities failed to follow security practices in the past.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns teishtyn currit magh liorish GeoTrust, RapidSSL, Symantec, Thawte, ny VeriSign er yn oyr nagh ren ny lughtyn reill teisht shoh geiyrt er cliaghtaghyn sauçhys keayrt dy row.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-symantec" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Certificates issued by GeoTrust, RapidSSL, Symantec, Thawte, and VeriSign are no longer considered safe because these certificate authorities failed to follow security practices in the past.</seg>
 			</tuv>
@@ -147,6 +171,14 @@
 				<seg>gv,en-GB,en-US,en</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-code-prefix-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error code: &lt;a data-l10n-name="error-code-link"&gt;{ $error }&lt;/a&gt;</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Coad marranys: &lt;a data-l10n-name="error-code-link"&gt;{ $error }&lt;/a&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-code-prefix-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Error code: &lt;a data-l10n-name="error-code-link"&gt;{ $error }&lt;/a&gt;</seg>
@@ -171,7 +203,7 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -180,14 +212,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -243,6 +267,14 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -251,7 +283,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -259,7 +291,7 @@
 				<seg>She cowraghyn-keirdey Undinys Mozilla Firefox as jesheenys Firefox.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -331,6 +363,14 @@
 				<seg>Ta { $hostname } gymmydey teisht sauçhys camlaagagh.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $hostname } uses an invalid security certificate.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta { $hostname } gymmydey teisht sauçhys camlaagagh.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-downloading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;img data-l10n-name="icon"/&gt;Downloading update — &lt;label data-l10n-name="download-status"/&gt;</seg>
@@ -379,6 +419,14 @@
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -395,12 +443,12 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
+				<seg>Mozilla Firefox</seg>
 			</tuv>
 			<tuv xml:lang="gv">
-				<seg>Mozilla</seg>
+				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
@@ -412,14 +460,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -579,6 +619,14 @@
 				<seg>Jeeagh ny ta noa.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-unknown-issuer-intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Someone could be trying to impersonate the site and you should not continue.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Foddee dy vel peiagh ennagh lhiggey er dy nee adsyn yn ynnyd-eggey shoh as cha lhisagh oo goll er.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-unknown-issuer-intro" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Someone could be trying to impersonate the site and you should not continue.</seg>
@@ -619,6 +667,14 @@
 				<seg>Sync</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-untrusted-default" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate does not come from a trusted source.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns bun y teisht shoh.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-untrusted-default" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate does not come from a trusted source.</seg>
@@ -635,7 +691,23 @@
 				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr dy row eh hene-fo-screeuit.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-self-signed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because it is self-signed.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr dy row eh hene-fo-screeuit.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-cert-invalid" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because it was issued by an invalid CA certificate.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr dy row eh currit magh liorish teisht LRT camlaagagh.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-cert-invalid" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate is not trusted because it was issued by an invalid CA certificate.</seg>
 			</tuv>
@@ -651,6 +723,22 @@
 				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr dy row eh fo-screeuit jannoo ymmyd jeh algyrytym va mooghit er yn oyr nagh row yn algyrytym sauçhey.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-signature-algorithm-disabled" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because it was signed using a signature algorithm that was disabled because that algorithm is not secure.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr dy row eh fo-screeuit jannoo ymmyd jeh algyrytym va mooghit er yn oyr nagh row yn algyrytym sauçhey.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-expired-issuer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because the issuer certificate has expired.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr dy vel teisht yn giooteyder er jeet gys jerrey.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-expired-issuer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate is not trusted because the issuer certificate has expired.</seg>
@@ -660,6 +748,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-untrusted-issuer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because the issuer certificate is not trusted.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel treisht currit ayns yn teisht shoh er yn oyr nagh vel treisht currit ayns teisht yn giooteyder.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-untrusted-issuer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate is not trusted because the issuer certificate is not trusted.</seg>
 			</tuv>
@@ -763,7 +859,23 @@
 				<seg>Ta ynnydyn-eggey jarrooaghey quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } treishteil { $hostname } er yn oyr nagh vel fys ain quoi voish hooar ad nyn deisht, dy ren ad cur nyn ennym hene da'n teisht, ny nagh vel yn server cur magh ny teishtyn veanagh kiart.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-unknown-issuer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust { $hostname } because its certificate issuer is unknown, the certificate is self-signed, or the server is not sending the correct intermediate certificates.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta ynnydyn-eggey jarrooaghey quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } treishteil { $hostname } er yn oyr nagh vel fys ain quoi voish hooar ad nyn deisht, dy ren ad cur nyn ennym hene da'n teisht, ny nagh vel yn server cur magh ny teishtyn veanagh kiart.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-domain-mismatch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust this site because it uses a certificate that is not valid for { $hostname }.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta ynnydyn-eggey prowal quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } cur treisht ayns yn ynnyd shoh er yn oyr dy vel eh jannoo ymmyd jeh teisht nagh vel kiart son { $hostname }.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-domain-mismatch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust this site because it uses a certificate that is not valid for { $hostname }.</seg>
 			</tuv>
@@ -779,7 +891,23 @@
 				<seg>Ta ynnydyn-eggey prowal quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } cur treisht ayns yn ynnyd shoh er yn oyr dy vel eh jannoo ymmyd jeh teisht nagh vel kiart son { $hostname }.  Cha nel yn teisht shoh agh kiart son &lt;a data-l10n-name="domain-mismatch-link"&gt;{ $alt-name }&lt;/a&gt;</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-domain-mismatch-single" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust this site because it uses a certificate that is not valid for { $hostname }. The certificate is only valid for &lt;a data-l10n-name="domain-mismatch-link"&gt;{ $alt-name }&lt;/a&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta ynnydyn-eggey prowal quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } cur treisht ayns yn ynnyd shoh er yn oyr dy vel eh jannoo ymmyd jeh teisht nagh vel kiart son { $hostname }.  Cha nel yn teisht shoh agh kiart son &lt;a data-l10n-name="domain-mismatch-link"&gt;{ $alt-name }&lt;/a&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-domain-mismatch-single-nolink" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust this site because it uses a certificate that is not valid for { $hostname }. The certificate is only valid for { $alt-name }.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta ynnydyn-eggey prowal quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } cur treisht ayns yn ynnyd shoh er yn oyr dy vel eh jannoo ymmyd jeh teisht nagh vel kiart son { $hostname }.  Cha nel yn teisht shoh agh son { $alt-name }.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-domain-mismatch-single-nolink" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust this site because it uses a certificate that is not valid for { $hostname }. The certificate is only valid for { $alt-name }.</seg>
 			</tuv>
@@ -795,7 +923,23 @@
 				<seg>Ta ynnydyn-eggey prowal quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } cur treisht ayns yn ynnyd shoh er yn oyr dy vel eh jannoo ymmyd jeh teisht nagh vel kiart son { $hostname }.  Cha nel yn teisht shoh agh kiart son ny h-enmyn shoh: { $subject-alt-names }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-domain-mismatch-multiple" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust this site because it uses a certificate that is not valid for { $hostname }. The certificate is only valid for the following names: { $subject-alt-names }</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta ynnydyn-eggey prowal quoi t'ad lesh teishtyn.  Cha nel { -brand-short-name } cur treisht ayns yn ynnyd shoh er yn oyr dy vel eh jannoo ymmyd jeh teisht nagh vel kiart son { $hostname }.  Cha nel yn teisht shoh agh kiart son ny h-enmyn shoh: { $subject-alt-names }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates, which are issued by certificate authorities.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta ynnydyn-eggey jarrooaghey quoi t'ad lesh teishtyn ta currit magh liorish lughtyn-reill teishtyn.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-intro" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Websites prove their identity via certificates, which are issued by certificate authorities.</seg>
 			</tuv>

@@ -1,7 +1,456 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-10-01T02:06:21.082971">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-11-01T02:00:52.953606">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Ka bolomafara di</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute to { $lang }</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>bolomafara di  { $Bamanankan } dɛmɛlila</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Imɛyi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Imɛyi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>A bɛ na</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:return-to-cv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Segin ka ta Common Voice Kan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, Common Voice is running slowly. Thanks for your interest.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Hakɛto Common Voice ka suma. I ni ce I ka danaya  kɔsɔn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Ka lase</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
+the teams updated via email. If you want to contribute, please provide your email below.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>I ni ce I ka timinanjiya la { $langBamanankan } sankɔrɔtanni la. Anw bɛ cɛsirila walasa ka kanw bɛɛ lakodɔn ani ka ba‌arakɛɲɔgɔnw kunnafoni imɛyi fɛ. N'Aw b'a fɛ ka aw ka bólomafara lase, A y'aw  ka imayi sɛbɛn duguma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Anw bɛ ka jama kafo kan fɛɛrɛw  dɛmɛli kama ,Mozila la yan.An b'a fɛ kubariya kuraw kalama ani ka dɔn I b'ala ka kumakan labaara togoya min na.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>An bɛ layidu ta I ye k'An b'I kumakan latanga.Nin kalan walasa  k'I ka famuya jiidi An ka Gindo Sariyaw la.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Awɔ, Imɛyiw ci N'ma.N b'a fɛ ka kɛ Common Voice Project kunnafoniw kalama</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>abnormality</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>gìrigara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>account recovery key</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>kɔnti lasɔrɔli kile</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>add-on</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>farankan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>aggregate</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>jɛ̀kulu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>aggregate</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>jɛ̀kulu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All Hands</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Dɛmɛbaga Bɛɛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>alternate text</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>másalabolo wɛrɛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>appear</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>bánge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>appearance</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>yéko</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attack</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>kɛ̀lɛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attacker</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>kɛ̀lɛkɛla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attack Site</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Síti kɛlɛli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attendee</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>bólomafaradila</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>authenticate</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>tìɲɛtigiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>authenticated</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>A tìɲɛtigiyala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>autoplay</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>ka fɔ́ a yɛrɛ ye</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>back out</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>dànkari</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>backup authentication code</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Tangali tìɲɛtigiyali sɛbɛn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>black box</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>búwati finman</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>hákililajigingafe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>hákililajigingafe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>boolean</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Bulɛn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>boot</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>gɛ́n</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>breakpoint</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>jɔyɔrɔ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bug report</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Fili láselisɛbɛn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>certificate authority</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>tigiya sɛ́mɛntiyalan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>channel</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>sɛni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cipher</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>sayifɛri</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clipboard</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>pɛrɛsipapiye</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clockwise</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>mɔnturutatogo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>extension</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>ɛkisitansiyɔn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>external</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>kɛ́nɛmana</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fellow</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>sɛgɛsɛgɛlilaw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>open source</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>foroba</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>participation</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>bólomafaradi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>preference</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>sàgolata</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turbo Mode</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Jóona</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>unencrypted</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>ma kiripite</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>unresponsive</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>tɛ sɔn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>unsafe</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>faratima</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>validate</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>ka súgandi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>validity</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>latɛmɛli sariya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>version</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>suguya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Web Authentication</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>wɛbu tɛmɛli sariya</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

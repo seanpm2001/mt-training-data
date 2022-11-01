@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-10-01T02:12:39.988991">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-11-01T02:07:45.453359">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -17,6 +17,14 @@
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Զ֊{ -brand-full-name }֊է</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:fileaccessdenied-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access to the file was denied</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Հասանելիութիւն նշին ժխտեալ է:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:fileaccessdenied-title" srclang="en-US">
@@ -236,6 +244,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Արգելափակեալ երես</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:blockedbypolicy-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Blocked Page</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Արգելափակեալ երես</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-bo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bolivia</seg>
@@ -268,6 +284,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>{ -brand-product-name } Աւգնութիւն</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:csp-xfo-error-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-short-name } Can’t Open This Page</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>{ -brand-short-name } ոչ կարէ բանալ զայս էջ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:csp-xfo-error-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-short-name } Can’t Open This Page</seg>
@@ -282,6 +306,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>{ -brand-short-name } ջնջէ զպատմութիւն որոնմանց եւ դիտարկմանց քոց ընդ ելանելն քո ի ծրագրէ կամ ընդ փակելն զամենայն զծածուկ դիտարկման ներդիրս եւ պատուհանս։ Թեպէտ եւ այդ զքեզ կայից եւ մատակարարին համացանցայնոց ծառայութեանց քոց անանուն եւ անտես ոչ առնէ, դիւրացուցանէ տակաւին ի ծածուկ պահել զոր ինչ առնես առցանց յայղմէ ի համակարգչէս յայսմանէ աւգտողէ իմեքէ։</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-mozilla" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-short-name } is backed by the non-profit Mozilla, which administers a completely open certificate authority (CA) store. The CA store helps ensure that certificate authorities are following best practices for user security.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>{ -brand-short-name } հոգացեալ է ընդ հովանեաւ յոր զհետ շահութի չէ պնդեալ Mozilla֊է, որ կառավարէ զհամաւրէն բաց շտեմարան հաւաստագրող ատենից։  Այս շտեմարան աւգնէ երաշխաւորել, զի հաւաստագրող ատեանք ըստ ամենայնի պահպանեն զանվտանգութիւն աւգտատեարց։</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-mozilla" srclang="en-US">
@@ -404,6 +436,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Կենտրոնական Ափրիկէեան Հանրապետութիւն</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-details-cert-chain-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Certificate chain:</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Շղթայ վկայագրի՝</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-details-cert-chain-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Certificate chain:</seg>
@@ -516,6 +556,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Կոնգո (Քինշասա)</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:contentencodingerror-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Content Encoding Error</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Սխալ այղագրման բովանդակութեան</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:contentencodingerror-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Content Encoding Error</seg>
@@ -538,6 +586,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Պատճէնք</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:corruptedcontenterror-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Corrupted Content Error</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Սխալ բովանդակութեան եղծելոյ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:corruptedcontenterror-title" srclang="en-US">
@@ -612,14 +668,6 @@ downloaded and is ready to be installed.</seg>
 				<seg>Դանիա</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/updates/elevation.ftl:elevation-details-link-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Details</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Մանրամասունք</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:update-details" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Details</seg>
@@ -628,7 +676,23 @@ downloaded and is ready to be installed.</seg>
 				<seg>Մանրամասունք</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/updates/elevation.ftl:elevation-details-link-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Details</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Մանրամասունք</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:nssbadcert-sts-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Did Not Connect: Potential Security Issue</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Ոչ կապակցեցաւ․ հնարաւոր խնդիր անվտանգութեան</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:nssbadcert-sts-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Did Not Connect: Potential Security Issue</seg>
 			</tuv>
@@ -650,6 +714,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Ջիբուտի</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:notcached-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Document Expired</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Ժամկիտանց փաստաթուղթ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:notcached-title" srclang="en-US">
@@ -684,7 +756,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ներբեռնումն արդիացման — &lt;label data-l10n-name="download-status"/&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -692,7 +764,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ներբեռնմունք</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -812,6 +884,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Փիջի</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:filenotfound-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>File not found</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Նիշն գտեալ չէ:</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:filenotfound-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>File not found</seg>
@@ -820,31 +900,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Նիշն գտեալ չէ:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -860,31 +916,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -900,7 +932,55 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -908,7 +988,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox եւ Firefox տարբերանշանքն են ապրանանիշք Mozilla Foundation֊ի</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -1092,6 +1172,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Թաքուցեալ ներդիրք</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:malformeduri-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hmm. That address doesn’t look right.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Թուի թե հասցէն չէ ճիշդ։</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:malformeduri-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hmm. That address doesn’t look right.</seg>
@@ -1101,6 +1189,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:dnsnotfound-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hmm. We’re having trouble finding that site.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Հնար չէ գտանել զայս կայս:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:dnsnotfound-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hmm. We’re having trouble finding that site.</seg>
 			</tuv>
@@ -1122,6 +1218,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Հոնգ Կոնգ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $hostname } uses an invalid security certificate.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>{ $hostname } ի գործ ածէ զանվաւեր անվտանգութեան վկայագիր:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-intro" srclang="en-US">
@@ -1340,6 +1444,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Lockwise</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:captiveportal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log in to network</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Մտանել ի ցանցահիւս</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:captiveportal-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log in to network</seg>
@@ -1460,7 +1572,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -1468,7 +1580,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -1484,7 +1596,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -1492,7 +1604,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -1554,6 +1666,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Նեպալ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:networkprotocolerror-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Network Protocol Error</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Սխալ հաղորդակարգի ցանցահիւսի</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:networkprotocolerror-title" srclang="en-US">
@@ -1628,6 +1748,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Արտացանց եղանակ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:netoffline-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offline mode</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Արտացանց եղանակ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-om" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Oman</seg>
@@ -1644,6 +1772,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Վա՜յ։</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:generic-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Oops.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Վա՜յ։</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:privatebrowsingpage-open-private-window-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open a Private Window</seg>
@@ -1653,6 +1789,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:open-in-new-window-for-csp-or-xfo-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Site in New Window</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Բանալ զկայս ի նորում պատուհանի</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:open-in-new-window-for-csp-or-xfo-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open Site in New Window</seg>
 			</tuv>
@@ -1932,6 +2076,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Անվտանգ կապակցումն տապալեցաւ։</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:nssfailure2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Secure Connection Failed</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Անվտանգ կապակցումն տապալեցաւ։</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-sn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Senegal</seg>
@@ -1981,6 +2133,14 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:certerror-mitm-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Software is Preventing { -brand-short-name } From Safely Connecting to This Site</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Ծրագրաշար կանխէ  զ-{ -brand-short-name } յանվտանգ կապակցմանէ ընդ այս կայս:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:certerror-mitm-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Software is Preventing { -brand-short-name } From Safely Connecting to This Site</seg>
 			</tuv>
@@ -2148,12 +2308,28 @@ downloaded and is ready to be installed.</seg>
 				<seg>Տանզանիա</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:unknownprotocolfound-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The address wasn’t understood</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Հասցէն չէր ընկալելի</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:unknownprotocolfound-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The address wasn’t understood</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Հասցէն չէր ընկալելի</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-untrusted-default" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate does not come from a trusted source.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Վկայագիրն ոչ ելանէ ի վստահելի աղբերէ։</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-untrusted-default" srclang="en-US">
@@ -2172,7 +2348,23 @@ downloaded and is ready to be installed.</seg>
 				<seg>Վկայագիրն վստահելի չէ, զի ինքնաստորագրեալ է։</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-self-signed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because it is self-signed.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Վկայագիրն վստահելի չէ, զի ինքնաստորագրեալ է։</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-cert-invalid" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because it was issued by an invalid CA certificate.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Վկայագիրն վստահելի չէ, զի թողարկեալ է յանվավեր վկայագրող ատենէ։</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-cert-invalid" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate is not trusted because it was issued by an invalid CA certificate.</seg>
 			</tuv>
@@ -2188,12 +2380,36 @@ downloaded and is ready to be installed.</seg>
 				<seg>Վկայագիրն չէ վստահելի, զի արտունագիր թողարկողին սպառեալ է։</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-expired-issuer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because the issuer certificate has expired.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Վկայագիրն չէ վստահելի, զի արտունագիր թողարկողին սպառեալ է։</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-untrusted-issuer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate is not trusted because the issuer certificate is not trusted.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Վկայագիրն վստահելի չէ, զի թողարկող վկայագիրն չէ վստահելի։</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-untrusted-issuer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The certificate is not trusted because the issuer certificate is not trusted.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Վկայագիրն վստահելի չէ, զի թողարկող վկայագիրն չէ վստահելի։</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:nettimeout-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The connection has timed out</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կապակցումն ժամասպառեալ է</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:nettimeout-title" srclang="en-US">
@@ -2212,6 +2428,22 @@ downloaded and is ready to be installed.</seg>
 				<seg>Կապակցումն խզեցաւ:</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:netinterrupt-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The connection was interrupted</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կապակցումն խզեցաւ:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:netreset-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The connection was reset</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կապն վերագործարկեցաւ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:netreset-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The connection was reset</seg>
@@ -2228,6 +2460,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Հետեւեալ արդիացմունք տեղադրեցան:</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:redirectloop-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The page isn’t redirecting properly</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Այս էջ ոչ վերուղղորդէ պատշաճաբար</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:redirectloop-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The page isn’t redirecting properly</seg>
@@ -2242,6 +2482,22 @@ downloaded and is ready to be installed.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Միջնորդ սպասարկիչն մերժէ զկապակցմունս</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:proxyconnectfailure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The proxy server is refusing connections</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Միջնորդ սպասարկիչն մերժէ զկապակցմունս</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:deniedportaccess-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This address is restricted</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Այս հասցէ արգելափակեալ է:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:deniedportaccess-title" srclang="en-US">
@@ -2375,6 +2631,22 @@ update.</seg>
 				<seg>Չէ հնար կապակցել</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:connectionfailure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to connect</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Չէ հնար կապակցել</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:sslv3used-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to Connect Securely</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Անկարող անվտանգ կապակցել</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:sslv3used-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unable to Connect Securely</seg>
@@ -2384,6 +2656,14 @@ update.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:proxyresolvefailure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to find the proxy server</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Չէ հնար գտանել զմիջնորդ սպասարկչ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:proxyresolvefailure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unable to find the proxy server</seg>
 			</tuv>
@@ -2408,6 +2688,14 @@ update.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:unknownsockettype-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unexpected response from server</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Անակնկալ պատասխանի ի սպասարկչէ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:unknownsockettype-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unexpected response from server</seg>
 			</tuv>
@@ -2440,6 +2728,14 @@ update.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:unsafecontenttype-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unsafe File Type</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Անապահով տիպ նշի</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:unsafecontenttype-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unsafe File Type</seg>
 			</tuv>
@@ -2575,6 +2871,14 @@ update.</seg>
 				<seg>Վիետնամ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:nssbadcert-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Warning: Potential Security Risk Ahead</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Զգուշացումն․ հնարաւոր վտանգ յառաջոյ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:nssbadcert-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Warning: Potential Security Risk Ahead</seg>
@@ -2589,6 +2893,14 @@ update.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Վեբ զէջ լեզուի կարգաւորումք</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites prove their identity via certificates, which are issued by certificate authorities.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կայք հաստատեն զինքնութիւն իւրեանց ի ձեռն վկայագրաց, որք սահմանին ի հաւաստագրող ատենից։</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-intro" srclang="en-US">
@@ -2672,12 +2984,28 @@ and downloading the latest version:</seg>
 				<seg>Մարթ է ծանուցանել վարչին կայից զայսմ խնդրոյ։</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-symantec-distrust-admin" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You may notify the website’s administrator about this problem.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Մարթ է ծանուցանել վարչին կայից զայսմ խնդրոյ։</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:managed-notice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your browser is being managed by your organization.</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Դիտարկիչ քո կառավարի ի կազմակերպութենէ քումմէ։</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:clockskewerror-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Computer Clock is Wrong</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Ժամացոյց համակարգչի քոյ սխալ է։</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:clockskewerror-title" srclang="en-US">
@@ -2689,6 +3017,14 @@ and downloading the latest version:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutCertError.ftl:inadequatesecurityerror-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your connection is not secure</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կապակցումն քո չէ անվտանգ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:inadequatesecurityerror-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your connection is not secure</seg>
 			</tuv>
