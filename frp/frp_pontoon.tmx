@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2022-12-01T01:26:22.011310">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-01-01T01:20:00.363722">
 	</header>
 	<body>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-reduce-shortcut" srclang="en-US">
@@ -67,14 +67,6 @@
 				<seg>«)»</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateunpressedabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>( )</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>( )</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateuncheckedabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>( )</seg>
@@ -83,7 +75,15 @@
 				<seg>( )</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:nav-back-shortcut-alt" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:stateunpressedabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>( )</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>( )</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:devtools/client/sourceeditor.properties:indentlesscommandkey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[</seg>
 			</tuv>
@@ -91,7 +91,7 @@
 				<seg>[</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/sourceeditor.properties:indentlesscommandkey" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:nav-back-shortcut-alt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[</seg>
 			</tuv>
@@ -107,7 +107,7 @@
 				<seg>[…]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:picture-in-picture-toggle-shortcut" srclang="en-US">
+		<tu tuid="firefox:devtools/client/sourceeditor.properties:indentmorecommandkey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>]</seg>
 			</tuv>
@@ -115,7 +115,7 @@
 				<seg>]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/sourceeditor.properties:indentmorecommandkey" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:picture-in-picture-toggle-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>]</seg>
 			</tuv>
@@ -131,12 +131,12 @@
 				<seg>]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
+		<tu tuid="firefox:browser/langpack-metadata.ftl:langpack-contributors" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "" }</seg>
 			</tuv>
 			<tuv xml:lang="frp">
-				<seg>{ "" }</seg>
+				<seg>&lt;em:contirbutor&gt;Alexandre Raymond</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-enlarge-shortcut-alt2" srclang="en-US">
@@ -171,6 +171,14 @@
 				<seg>{ "" }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ "" }</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>{ "" }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:picture-in-picture-toggle-shortcut-alt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "}" }</seg>
@@ -187,22 +195,6 @@
 				<seg>%</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/alerts/alert.properties:actionbuttonlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>…</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>…</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/mac/intl.properties:intlellipsis" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>…</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/global-platform/unix/intl.properties:intlellipsis" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>…</seg>
@@ -212,6 +204,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/global-platform/win/intl.properties:intlellipsis" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>…</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/alerts/alert.properties:actionbuttonlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>…</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global-platform/mac/intl.properties:intlellipsis" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>…</seg>
 			</tuv>
@@ -283,6 +291,14 @@
 				<seg>p</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbuttonaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>P</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermsoptionalpermsallowaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
@@ -291,7 +307,7 @@
 				<seg>P</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:select-all" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:addons-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
@@ -307,14 +323,6 @@
 				<seg>V</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbuttonaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>A</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>P</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/pageInfo.ftl:close-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
@@ -323,7 +331,7 @@
 				<seg>A</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:addons-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:select-all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
@@ -427,7 +435,7 @@
 				<seg>Apondre un mârca-pâge</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-new2" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add New Container</seg>
 			</tuv>
@@ -435,7 +443,7 @@
 				<seg>Apondre un novél contenòr</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-new" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-new2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add New Container</seg>
 			</tuv>
@@ -539,15 +547,7 @@
 				<seg>Albanès</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:getusermediaallowlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pèrmetre</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-allow" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:refreshblockedgobutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -563,31 +563,7 @@
 				<seg>Pèrmetre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-listitem-allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pèrmetre</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pèrmetre</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:refreshblockedgobutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pèrmetre</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:lwthemeinstallrequestallowbutton2" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:getusermediaallowlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -603,6 +579,14 @@
 				<seg>Pèrmetre</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-listitem-allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pèrmetre</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statemultichoiceallow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
@@ -611,7 +595,7 @@
 				<seg>Pèrmetre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:flashactivateallow" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:midiallowlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -627,7 +611,31 @@
 				<seg>Pèrmetre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:midiallowlabel" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:flashactivateallow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pèrmetre</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:lwthemeinstallrequestallowbutton2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pèrmetre</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pèrmetre</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -683,7 +691,7 @@
 				<seg>Tèxto altèrnativo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:tracking-mode-always" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-page-override-option-always" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always</seg>
 			</tuv>
@@ -707,7 +715,7 @@
 				<seg>Tojòrn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-page-override-option-always" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:tracking-mode-always" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always</seg>
 			</tuv>
@@ -723,7 +731,7 @@
 				<seg>Tojòrn demandar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statecurrentprompt" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statemultichoicealwaysask" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always Ask</seg>
 			</tuv>
@@ -731,7 +739,7 @@
 				<seg>Tojòrn demandar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statemultichoicealwaysask" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statecurrentprompt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always Ask</seg>
 			</tuv>
@@ -1115,7 +1123,7 @@
 				<seg>Tornar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:media-bg-img" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-background" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background</seg>
 			</tuv>
@@ -1123,7 +1131,7 @@
 				<seg>Fond</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-background" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:media-bg-img" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background</seg>
 			</tuv>
@@ -1235,7 +1243,7 @@
 				<seg>Bèlize</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-bn" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-bengali" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bengali</seg>
 			</tuv>
@@ -1243,7 +1251,7 @@
 				<seg>Bengalès</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-bengali" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-bn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bengali</seg>
 			</tuv>
@@ -1307,7 +1315,7 @@
 				<seg>Blocar imâges de { $website }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-window2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block Lists</seg>
 			</tuv>
@@ -1315,7 +1323,7 @@
 				<seg>Listes de blocajo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-window2" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block Lists</seg>
 			</tuv>
@@ -1635,15 +1643,15 @@
 				<seg>A</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermssideloadcancelaccesskey" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>C</seg>
 			</tuv>
 			<tuv xml:lang="frp">
-				<seg>A</seg>
+				<seg>C</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermscancelaccesskey" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermssideloadcancelaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>C</seg>
 			</tuv>
@@ -1659,7 +1667,7 @@
 				<seg>A</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:copy" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-copy-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>C</seg>
 			</tuv>
@@ -1667,12 +1675,12 @@
 				<seg>C</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-copy-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermscancelaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>C</seg>
 			</tuv>
 			<tuv xml:lang="frp">
-				<seg>C</seg>
+				<seg>A</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-ca" srclang="en-US">
@@ -1683,7 +1691,39 @@
 				<seg>Canadâ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermssideloadcancellabel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-cancel-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:cancel-no-restart-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:button-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-button-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/extensions/formautofill/formautofill.properties:cancelbtnlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1692,6 +1732,78 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/pdfviewer/viewer.properties:print_progress_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/commonDialogs.properties:cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-device-name-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermscancellabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-macos-button-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/protectionsPanel.ftl:protections-panel-content-blocking-breakage-report-view-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-cmd-cancel-panel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-linux-button-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/clearSiteData.ftl:clear-site-data-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/siteDataSettings.ftl:site-data-button-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1715,127 +1827,7 @@
 				<seg>Anular</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorcustomcancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:button-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/extensions/formautofill/formautofill.properties:cancelbtnlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermscancellabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-device-name-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-button-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:cancel-no-restart-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/protectionsPanel.ftl:protections-panel-content-blocking-breakage-report-view-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-win-button-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/formAutofill.ftl:autofill-cancel-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-cancel-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/unknownContentType.properties:unknowncancellabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/dialogOverlay.dtd:cancelbuttonlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/commonDialogs.properties:cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/pdfviewer/viewer.properties:password_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/installer/override.properties:cancelbtn" srclang="en-US">
+		<tu tuid="firefox:browser/browser/newtab/newtab.ftl:newtab-topsites-cancel-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1851,7 +1843,7 @@
 				<seg>Anular</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/siteDataSettings.ftl:site-data-button-cancel" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextpermssideloadcancellabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1859,15 +1851,7 @@
 				<seg>Anular</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-cmd-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-cmd-cancel-panel" srclang="en-US">
+		<tu tuid="firefox:browser/installer/override.properties:cancelbtn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1891,7 +1875,7 @@
 				<seg>Anular</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-macos-button-cancel" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/dialogOverlay.dtd:cancelbuttonlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1899,23 +1883,7 @@
 				<seg>Anular</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/newtab/newtab.ftl:newtab-topsites-cancel-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/clearSiteData.ftl:clear-site-data-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Anular</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-linux-button-cancel" srclang="en-US">
+		<tu tuid="firefox:browser/pdfviewer/viewer.properties:password_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1924,6 +1892,46 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/printing/printDialogs.ftl:dialog-cancel-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/formAutofill.ftl:autofill-cancel-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/unknownContentType.properties:unknowncancellabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorcustomcancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-cmd-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Anular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-win-button-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -2099,14 +2107,6 @@
 				<seg>Vuidar les donâs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:close-button-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Fèrmar</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -2121,6 +2121,14 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Sarrar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:close-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Fèrmar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:close-button" srclang="en-US">
@@ -2139,7 +2147,7 @@
 				<seg>Fèrmar la tirèta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/notification.dtd:closenotificationtooltip" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/notification.ftl:close-notification-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close this message</seg>
 			</tuv>
@@ -2147,7 +2155,7 @@
 				<seg>Sèrrar ceti messajo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/notification.ftl:close-notification-message" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/notification.dtd:closenotificationtooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close this message</seg>
 			</tuv>
@@ -2259,15 +2267,7 @@
 				<seg>Copiâ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-copy" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Copy</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Copiar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:menu-copy" srclang="en-US">
+		<tu tuid="firefox:devtools/client/inspector.properties:inspectorcopyhtmlsubmenulabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
@@ -2283,23 +2283,7 @@
 				<seg>Copiar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:copy-buttonlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Copy</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Copiar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:devtools/client/inspector.properties:inspectorcopyhtmlsubmenulabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Copy</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Copiar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-copy-username-button-text" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:menu-copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
@@ -2315,7 +2299,31 @@
 				<seg>Copiar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:page-action-copy-url-panel" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:copy-buttonlabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copy</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Copiar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-copy-username-button-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copy</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Copiar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copy</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Copiar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browser.ftl:page-action-copy-url-urlbar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy Link</seg>
 			</tuv>
@@ -2323,7 +2331,7 @@
 				<seg>Copiar lo lim</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:page-action-copy-url-urlbar" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:page-action-copy-url-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy Link</seg>
 			</tuv>
@@ -2339,7 +2347,7 @@
 				<seg>Copiar la localisacion du lim</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:copy-buttontooltip" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:copy-buttontooltiptext2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy (%S)</seg>
 			</tuv>
@@ -2347,7 +2355,7 @@
 				<seg>Copiar (%S)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:copy-buttontooltiptext2" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:copy-buttontooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy (%S)</seg>
 			</tuv>
@@ -2683,7 +2691,7 @@
 				<seg>E</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-edit-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-edit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -2691,7 +2699,7 @@
 				<seg>Èditar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-edit-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-edit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -2867,7 +2875,7 @@
 				<seg>{ extensions-warning-update-security-label.value }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:full-screen-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:find-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>F</seg>
 			</tuv>
@@ -2875,7 +2883,7 @@
 				<seg>F</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:find-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:full-screen-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>F</seg>
 			</tuv>
@@ -3091,30 +3099,6 @@
 				<seg>Finès</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -3123,15 +3107,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3147,6 +3123,30 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -3155,7 +3155,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3164,6 +3164,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3227,12 +3235,28 @@
 				<seg>Firefox Monitor</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutLogging.ftl:profiler-brand-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Profiler</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Firefox Profiler</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Profiler</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Firefox Profiler</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Relay</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Firefox Relay</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:screenshots-brand-name" srclang="en-US">
@@ -3379,14 +3403,6 @@
 				<seg>Ganda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:general-tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>General</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>G·ènèrâl</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pane-general-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General</seg>
@@ -3395,7 +3411,15 @@
 				<seg>G·ènèrâl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ka" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:general-tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>G·ènèrâl</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-georgian" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Georgian</seg>
 			</tuv>
@@ -3403,7 +3427,7 @@
 				<seg>Jôrg·ien</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-georgian" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ka" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Georgian</seg>
 			</tuv>
@@ -3483,7 +3507,7 @@
 				<seg>Gort! Klaatu barada nikto!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-el" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-greek" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Greek</seg>
 			</tuv>
@@ -3499,7 +3523,7 @@
 				<seg>Grèco</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-greek" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-el" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Greek</seg>
 			</tuv>
@@ -3531,20 +3555,20 @@
 				<seg>Goarani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-gujarati" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Gujarati</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Guj·arati</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-gu" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Gujarati</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Gudj·arati</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-gujarati" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gujarati</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Guj·arati</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-gurmukhi" srclang="en-US">
@@ -3555,7 +3579,7 @@
 				<seg>Gumurqui</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:history-show-all-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:hide-app-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>H</seg>
 			</tuv>
@@ -3563,7 +3587,7 @@
 				<seg>H</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:hide-app-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:history-show-all-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>H</seg>
 			</tuv>
@@ -3611,6 +3635,14 @@
 				<seg>Hawayen</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-he" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hebrew</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Hèbròs</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-hebrew" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hebrew</seg>
@@ -3625,14 +3657,6 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Èbròs</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-he" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Hebrew</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Hèbròs</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help" srclang="en-US">
@@ -3739,7 +3763,7 @@
 				<seg>Reçua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/touchbar/touchbar.ftl:home" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/keys.properties:vk_home" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Home</seg>
 			</tuv>
@@ -3755,7 +3779,7 @@
 				<seg>Reçua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/keys.properties:vk_home" srclang="en-US">
+		<tu tuid="firefox:browser/browser/touchbar/touchbar.ftl:home" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Home</seg>
 			</tuv>
@@ -3963,7 +3987,7 @@
 				<seg>J</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ja" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-japanese" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Japanese</seg>
 			</tuv>
@@ -3979,7 +4003,7 @@
 				<seg>J·aponès</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-japanese" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ja" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Japanese</seg>
 			</tuv>
@@ -4075,7 +4099,7 @@
 				<seg>{ $kb } quilo-uitènes  ({ $bytes } uitènes)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-keyboard-shortcuts" srclang="en-US">
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenu-help-keyboard-shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keyboard Shortcuts</seg>
 			</tuv>
@@ -4083,7 +4107,7 @@
 				<seg>Racorsa de claviér</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenu-help-keyboard-shortcuts" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-keyboard-shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keyboard Shortcuts</seg>
 			</tuv>
@@ -4171,6 +4195,14 @@
 				<seg>Concani</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ko" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Korean</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Corèen</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-korean" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Korean</seg>
@@ -4185,14 +4217,6 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Corèyen</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ko" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Korean</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Corèen</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-kj" srclang="en-US">
@@ -4259,7 +4283,7 @@
 				<seg>Latgalien</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-la" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-latin" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Latin</seg>
 			</tuv>
@@ -4267,7 +4291,7 @@
 				<seg>Latin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-latin" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-la" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Latin</seg>
 			</tuv>
@@ -4316,6 +4340,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/places.ftl:places-library" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Library</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Bibliotèca</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/places.ftl:places-library3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Library</seg>
 			</tuv>
@@ -4547,7 +4579,7 @@
 				<seg>{ main-context-menu-page-save.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -4555,7 +4587,7 @@
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -4819,6 +4851,14 @@
 				<seg>Modar amont</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -4828,14 +4868,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -4875,6 +4907,14 @@
 				<seg>L’èquipa Mozilla Arpitan</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/langpack-metadata.ftl:langpack-creator" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>mozilla.org</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>L’èquipa Mozilla Arpitan</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:rally-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Rally</seg>
@@ -4891,7 +4931,7 @@
 				<seg>Mozilla VPN</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:window-new-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/translation.properties:translationoptionsneverforlanguageaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
 			</tuv>
@@ -4899,7 +4939,7 @@
 				<seg>N</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/translation.properties:translationoptionsneverforlanguageaccesskey" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:window-new-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
 			</tuv>
@@ -4995,7 +5035,7 @@
 				<seg>Nèpalès</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-page-override-option-never" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:tracking-mode-never" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Never</seg>
 			</tuv>
@@ -5011,7 +5051,7 @@
 				<seg>Jamés</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:tracking-mode-never" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-page-override-option-never" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Never</seg>
 			</tuv>
@@ -5051,20 +5091,20 @@
 				<seg>Novèla tirèta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:security-site-data-no" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Non</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/pageInfo.ftl:security-no-visits" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Nan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:security-site-data-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Non</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/pageInfo.ftl:saved-passwords-no" srclang="en-US">
@@ -5147,23 +5187,7 @@
 				<seg>Pas Ôra</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:not-set-date" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not specified</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pas spècifiâ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/pageInfo.ftl:page-info-not-specified" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not specified</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pas spècifiâ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:not-set-alternative-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Not specified</seg>
 			</tuv>
@@ -5179,6 +5203,22 @@
 				<seg>Pas spècifiâ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:not-set-alternative-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not specified</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pas spècifiâ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:not-set-date" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not specified</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pas spècifiâ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-add-type-number" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Number</seg>
@@ -5187,20 +5227,20 @@
 				<seg>Nombro</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:file-open-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>O</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>O</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:devtools/client/inspector.properties:inspectorpasteouterhtmlaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>O</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>F</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:file-open-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>O</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>O</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/pageInfo.ftl:media-object" srclang="en-US">
@@ -5219,7 +5259,7 @@
 				<seg>Occitan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-odia" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-or" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Odia</seg>
 			</tuv>
@@ -5227,7 +5267,7 @@
 				<seg>Odia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-or" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-odia" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Odia</seg>
 			</tuv>
@@ -5241,14 +5281,6 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Oj·ibwa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Accèptar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/dialogOverlay.dtd:okbuttonlabel" srclang="en-US">
@@ -5265,6 +5297,14 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>D’acôrd</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Accèptar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/places/places.properties:finduri-ageinmonths-isgreater" srclang="en-US">
@@ -5307,7 +5347,7 @@
 				<seg>Orang.e</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-organize-button-mac" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-organize-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Organize</seg>
 			</tuv>
@@ -5315,7 +5355,7 @@
 				<seg>Organisar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-organize-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-organize-button-mac" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Organize</seg>
 			</tuv>
@@ -5483,7 +5523,7 @@
 				<seg>Cllâ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:paste-buttonlabel" srclang="en-US">
+		<tu tuid="firefox:devtools/client/inspector.properties:inspectorpastehtmlsubmenulabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Paste</seg>
 			</tuv>
@@ -5491,7 +5531,7 @@
 				<seg>Gllètar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/inspector.properties:inspectorpastehtmlsubmenulabel" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-paste" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Paste</seg>
 			</tuv>
@@ -5515,7 +5555,7 @@
 				<seg>Gllètar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-paste" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:paste-buttonlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Paste</seg>
 			</tuv>
@@ -5651,14 +5691,6 @@
 				<seg>Pòrt</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-proxy-socks-port" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Port</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Pòrt</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-proxy-ssl-port" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Port</seg>
@@ -5668,6 +5700,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-proxy-ftp-port" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Port</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Pòrt</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-proxy-socks-port" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Port</seg>
 			</tuv>
@@ -5787,22 +5827,6 @@
 				<seg>Modalitâ de compatibilitâ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:pluginactivatealwaysaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>R</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>T</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:nav-reload-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>R</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>R</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:reader-mode-toggle-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>R</seg>
@@ -5812,6 +5836,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:crashedpluginsmessagereloadbuttonaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>R</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>R</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:pluginactivatealwaysaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>R</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>T</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:nav-reload-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>R</seg>
 			</tuv>
@@ -5859,20 +5899,12 @@
 				<seg>Adrèce univèrèla de rèfèrence:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/touchbar/touchbar.ftl:reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Reload</seg>
+				<seg>Relay</seg>
 			</tuv>
 			<tuv xml:lang="frp">
-				<seg>Rechargiér</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-proxy-reload" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Reload</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Rechargér</seg>
+				<seg>Relay</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserContext.ftl:main-context-menu-reload" srclang="en-US">
@@ -5889,6 +5921,22 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Rechargér</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-proxy-reload" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reload</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Rechargér</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/touchbar/touchbar.ftl:reload" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reload</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Rechargiér</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:crashedpluginsmessagereloadbuttonlabel" srclang="en-US">
@@ -5923,6 +5971,14 @@
 				<seg>Garar</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:about-logins-login-item-remove-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Revondre</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/applicationManager.ftl:app-manager-remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5945,14 +6001,6 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Garar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:about-logins-login-item-remove-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Revondre</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:webextremoveconfirmationmessage" srclang="en-US">
@@ -6275,7 +6323,7 @@
 				<seg>Sardo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-save-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-save-new-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -6283,7 +6331,7 @@
 				<seg>Sârvar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-save-new-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-save-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -6307,7 +6355,7 @@
 				<seg>Sârvar imâge sos...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-button-ok" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-save-changes-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save Changes</seg>
 			</tuv>
@@ -6315,7 +6363,7 @@
 				<seg>Sârvar les modificacions</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-save-changes-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/blocklists.ftl:blocklist-button-ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save Changes</seg>
 			</tuv>
@@ -6403,14 +6451,6 @@
 				<seg>Dèfinir la pâge de reçua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Set Home Page</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Dèfinir la reçua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Set Home Page</seg>
@@ -6419,7 +6459,15 @@
 				<seg>Dèfinir la reçua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/alert.ftl:alert-settings-title" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Set Home Page</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Dèfinir la reçua</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/alerts/alert.dtd:settingslabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6427,7 +6475,7 @@
 				<seg>Règllajos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/alerts/alert.dtd:settingslabel" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/alert.ftl:alert-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6443,20 +6491,20 @@
 				<seg>Règllajos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:permissions-notification-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings…</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Règllajos</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:browser-containers-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings…</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Règllajos...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:permissions-microphone-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings…</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Règllajos</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:history-clear-on-close-settings" srclang="en-US">
@@ -6467,7 +6515,7 @@
 				<seg>Règllajos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:permissions-microphone-settings" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:permissions-notification-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings…</seg>
 			</tuv>
@@ -6603,14 +6651,6 @@
 				<seg>Vêr en colones</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-show-original-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Show Original</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Vêre l'originâl</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationshoworiginalbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show Original</seg>
@@ -6619,12 +6659,12 @@
 				<seg>Vêre l'originâl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-password-reveal-checkbox-show" srclang="en-US">
+		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-show-original-button" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Show password</seg>
+				<seg>Show Original</seg>
 			</tuv>
 			<tuv xml:lang="frp">
-				<seg>Montrar la cllâ</seg>
+				<seg>Vêre l'originâl</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-password-reveal-checkbox" srclang="en-US">
@@ -6635,7 +6675,15 @@
 				<seg>Montrar la cllâ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationshowtranslationbutton" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutLogins.ftl:login-item-password-reveal-checkbox-show" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show password</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Montrar la cllâ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-show-translation-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show Translation</seg>
 			</tuv>
@@ -6643,7 +6691,7 @@
 				<seg>Vêre la traduccion</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-show-translation-button" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationshowtranslationbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show Translation</seg>
 			</tuv>
@@ -6723,14 +6771,6 @@
 				<seg>Malyajo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-monospace-size" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Size</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Talye</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-proportional-size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
@@ -6740,6 +6780,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/pageInfo.ftl:media-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Size</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Talye</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-monospace-size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
 			</tuv>
@@ -7051,6 +7099,14 @@
 				<seg>Suisse</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/newtab/onboarding.ftl:onboarding-fxa-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sync</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Sincronisar</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:syncbrandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sync</seg>
@@ -7065,14 +7121,6 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Sync</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/newtab/onboarding.ftl:onboarding-fxa-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sync</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Sincronisar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:tab-new-shortcut" srclang="en-US">
@@ -7131,20 +7179,20 @@
 				<seg>Tadj·ico</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tamil</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Tamilo</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-tamil" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tamil</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Tamìl</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tamil</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Tamilo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-tt" srclang="en-US">
@@ -7155,20 +7203,20 @@
 				<seg>Tataro</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-telugu" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Telugu</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Tègulu</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-te" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Telugu</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Tègoló</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-telugu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Telugu</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Tègulu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-text-header" srclang="en-US">
@@ -7203,7 +7251,7 @@
 				<seg>Codâjo de tèxto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-thai" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-thai" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thai</seg>
 			</tuv>
@@ -7219,7 +7267,7 @@
 				<seg>Taÿ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-thai" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-thai" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thai</seg>
 			</tuv>
@@ -7283,7 +7331,7 @@
 				<seg>Cèta aplicacion de malyâjo est hèrbèrgiê pèr:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-tibetan" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-bo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tibetan</seg>
 			</tuv>
@@ -7291,7 +7339,7 @@
 				<seg>Tibèten</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-bo" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-tibetan" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tibetan</seg>
 			</tuv>
@@ -7331,7 +7379,7 @@
 				<seg>Titro:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-content-title" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-content-title-default" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $title } - { -brand-full-name }</seg>
 			</tuv>
@@ -7339,7 +7387,7 @@
 				<seg>{ $title } - { -brand-full-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-content-title-default" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-content-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $title } - { -brand-full-name }</seg>
 			</tuv>
@@ -7403,7 +7451,7 @@
 				<seg>Ch·inès tradicionèl (Tayvan)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-options-preferences" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationoptionspreferenceslabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Translation preferences</seg>
 			</tuv>
@@ -7411,7 +7459,7 @@
 				<seg>Prèfèrences de traduccion</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationoptionspreferenceslabel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-options-preferences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Translation preferences</seg>
 			</tuv>
@@ -7467,14 +7515,6 @@
 				<seg>true</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationtryagainbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Try Again</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Rèprovar</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-try-again-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try Again</seg>
@@ -7489,6 +7529,14 @@
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Tornar a èprovar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/translation.dtd:translationtryagainbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try Again</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Rèprovar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/overrides/netError.dtd:retrylabel" srclang="en-US">
@@ -7603,7 +7651,7 @@
 				<seg>Imâge de tipo { $type } (animâ a { $frames } cadros)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:page-source-shortcut-safari" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:page-source-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>U</seg>
 			</tuv>
@@ -7611,7 +7659,7 @@
 				<seg>U</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:page-source-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:page-source-shortcut-safari" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>U</seg>
 			</tuv>
@@ -7659,20 +7707,20 @@
 				<seg>Enconyu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:security-view-unknown" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unknown</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>Enconyu</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:security/manager/chrome/pipnss/pipnss.properties:certunknown" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unknown</seg>
 			</tuv>
 			<tuv xml:lang="frp">
 				<seg>Encognu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:security-view-unknown" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unknown</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>Enconyu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/overrides/appstrings.properties:externalprotocolunknown" srclang="en-US">
@@ -7827,7 +7875,7 @@
 				<seg>J</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-paste-shortcut" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global/editMenuOverlay.dtd:pastecmdkey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>V</seg>
 			</tuv>
@@ -7835,7 +7883,7 @@
 				<seg>V</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/editMenuOverlay.dtd:pastecmdkey" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-paste-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>V</seg>
 			</tuv>
@@ -7899,7 +7947,7 @@
 				<seg>Vidèô</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-vietnamese" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-vi" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Vietnamese</seg>
 			</tuv>
@@ -7907,7 +7955,7 @@
 				<seg>Viètnamien</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-vi" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-languages-fallback-name-vietnamese" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Vietnamese</seg>
 			</tuv>
@@ -7947,7 +7995,7 @@
 				<seg>Vêr lo cèrtificâ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-view-button-mac" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-view-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Views</seg>
 			</tuv>
@@ -7955,7 +8003,7 @@
 				<seg>Vues</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-view-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-view-button-mac" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Views</seg>
 			</tuv>
@@ -7995,23 +8043,7 @@
 				<seg>Volapuco</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-close-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>w</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/clearSiteData.ftl:clear-site-data-close-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -8027,23 +8059,7 @@
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-close-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-window-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="frp">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -8059,7 +8075,39 @@
 				<seg>w</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-window-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-close-key" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>w</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/places.ftl:places-cmd-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/containers.ftl:containers-window-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="frp">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/connection.ftl:connection-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
