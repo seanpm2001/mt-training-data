@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-01-01T01:22:21.386883">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-02-01T01:25:27.425194">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -136,7 +136,7 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; a frase foi pronunciada com precisão?</seg>
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; as sentenças foram pronunciadas com precisão?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-instruction" srclang="en-US">
@@ -144,15 +144,7 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; as sentenças foram pronunciadas com precisão?</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt;e então leia a sentença em voz alta</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; a frase foi pronunciada com precisão?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
@@ -161,6 +153,14 @@
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; depois leia a frase em voz alta</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt;e então leia a sentença em voz alta</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-stop-instruction" srclang="en-US">
@@ -268,7 +268,7 @@ could include:</seg>
 				<seg>Idioma adicional</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -276,7 +276,7 @@ could include:</seg>
 				<seg>Adicionar idioma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -868,23 +868,23 @@ could include:</seg>
 				<seg>[Vogais átonas costumam ser pronunciadas no Brasil (menino, chapéu), mas não em Portugal (m'nino, ch'péu)]</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; clipes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; clipes</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count-pluralized" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; clipes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; clipes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
 			</tuv>
@@ -1051,7 +1051,7 @@ Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de 
 				<seg>&lt;b&gt;Why an email?&lt;/b&gt; We may need to contact you in the future about changes to the dataset, an email provides us a point of contact.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>&lt;b&gt;Por que um e-mail?&lt;/b&gt; Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.</seg>
+				<seg>&lt;b&gt;Por que um email?&lt;/b&gt; Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:why-email" srclang="en-US">
@@ -1059,7 +1059,7 @@ Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de 
 				<seg>&lt;b&gt;Why an email?&lt;/b&gt; We may need to contact you in the future about changes to the dataset, an email provides us a point of contact.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>&lt;b&gt;Por que um email?&lt;/b&gt; Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.</seg>
+				<seg>&lt;b&gt;Por que um e-mail?&lt;/b&gt; Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:lose-goal-progress-warning" srclang="en-US">
@@ -1511,7 +1511,7 @@ clip recordings.</seg>
 				<seg>Fechar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1519,7 +1519,7 @@ clip recordings.</seg>
 				<seg>Fechar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1583,7 +1583,7 @@ clip recordings.</seg>
 				<seg>Os dados do Common Voice mais todos os outros conjuntos de dados acima.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice Dataset</seg>
 			</tuv>
@@ -1591,7 +1591,7 @@ clip recordings.</seg>
 				<seg>Conjunto de dados do Common Voice</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice Dataset</seg>
 			</tuv>
@@ -1829,12 +1829,12 @@ Poderia nos dizer por que gostaria que suas gravações sejam apagadas?</seg>
 				<seg>Continuar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Contribuir</seg>
+				<seg>Contribua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
@@ -1853,12 +1853,12 @@ Poderia nos dizer por que gostaria que suas gravações sejam apagadas?</seg>
 				<seg>Contribuir</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Contribua</seg>
+				<seg>Contribuir</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
@@ -1874,7 +1874,7 @@ Poderia nos dizer por que gostaria que suas gravações sejam apagadas?</seg>
 				<seg>Contribute to { $lang }</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Contribuir com o { $lang }</seg>
+				<seg>Contribuir para { $lang }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-title" srclang="en-US">
@@ -1882,7 +1882,7 @@ Poderia nos dizer por que gostaria que suas gravações sejam apagadas?</seg>
 				<seg>Contribute to { $lang }</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Contribuir para { $lang }</seg>
+				<seg>Contribuir com o { $lang }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:status-contribute" srclang="en-US">
@@ -1957,7 +1957,7 @@ Poderia nos dizer por que gostaria que suas gravações sejam apagadas?</seg>
 				<seg>Cookies</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -1965,7 +1965,7 @@ Poderia nos dizer por que gostaria que suas gravações sejam apagadas?</seg>
 				<seg>Cookies</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -2825,20 +2825,20 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Editar perfil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-effective" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Efetivado em { DATETIME($date, month: "long", year: "numeric", day: "numeric") }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-effective" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Eficaz</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-effective" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Efetivado em { DATETIME($date, month: "long", year: "numeric", day: "numeric") }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-eligibility-title" srclang="en-US">
@@ -2857,30 +2857,6 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>E-mail</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>E-mail</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Email</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Email</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-form-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
@@ -2897,6 +2873,30 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>E-mail</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>E-mail</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Email</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-stay-in-touch-text-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;emailFragment&gt;Sign up&lt;/emailFragment&gt; to our mailing list to learn how you can take part in campaigns, events and co-design features on Common Voice.</seg>
@@ -2910,7 +2910,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Email is already used for a different account</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Este email já está sendo usado em outra conta</seg>
+				<seg>Este e-mail já está sendo usado em uma conta diferente</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-already-used" srclang="en-US">
@@ -2918,7 +2918,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Email is already used for a different account</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Este e-mail já está sendo usado em uma conta diferente</seg>
+				<seg>Este email já está sendo usado em outra conta</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscriptions" srclang="en-US">
@@ -2937,6 +2937,22 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Inscrições de emails</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Inglês</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Inglês</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
@@ -2959,30 +2975,6 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Inglês</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Inglês</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Inglês</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-to-download" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Enter Email to Download</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Informe um e-mail para baixar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-to-download" srclang="en-US">
@@ -2991,6 +2983,14 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Informe um email para baixar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-to-download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter Email to Download</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Informe um e-mail para baixar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account-enter-email" srclang="en-US">
@@ -3129,7 +3129,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>EXCETO SE FOR REQUERIDO POR LEI, A MOZILLA E AS PARTES DA MOZILLA NÃO SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, ESPECIAIS, INCIDENTAIS, CONSEQUENCIAIS, OU EXEMPLARES DECORRENTES OU DE QUALQUER MANEIRA RELATIVOS A ESTES TERMOS OU AO USO OU IMPOSSIBILIDADE DE USAR OS SERVIÇOS, INCLUINDO, SEM LIMITAÇÃO, DANOS DIRETOS E INDIRETOS POR PERDA DE AFEIÇÃO, PARADA DE TRABALHO, LUCROS PERDIDOS, PERDA DE DADOS E FALHA DE COMPUTADOR OU MAL FUNCIONAMENTO, INCLUSO SE AVISADO DA POSSIBILIDADE DE TAIS DANOS E INDEPENDENTEMENTE DA TEORIA (CONTRATO, DELITO OU DE OUTRA FORMA) SOBRE O QUALQUER RECLAMAÇÃO É BASEADA. A RESPONSABILIDADE COLETIVA DA MOZILLA E DAS PARTES DA MOZILLA SOB ESTE CONTRATO NÃO EXCEDERÁ US$ 500 (QUINHENTOS DÓLARES). ALGUMAS JURISDIÇÕES NÃO PERMITEM A EXCLUSÃO OU LIMITAÇÃO DE DANOS INCIDENTAIS, CONSEQUENCIAIS OU ESPECIAIS, POR ISSO ESTA EXCLUSÃO E LIMITAÇÃO PODEM NÃO SE APLICAR A VOCÊ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-translate-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit</seg>
 			</tuv>
@@ -3137,7 +3137,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Sair</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:help-translate-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit</seg>
 			</tuv>
@@ -3481,7 +3481,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>GB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-gender-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-gender" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Gender</seg>
 			</tuv>
@@ -3489,7 +3489,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Gênero</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-gender" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-gender-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Gender</seg>
 			</tuv>
@@ -4030,7 +4030,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Help us build a community around voice technology, stay in touch via email.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por email.</seg>
+				<seg>Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por e-mail.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-helpus" srclang="en-US">
@@ -4038,7 +4038,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Help us build a community around voice technology, stay in touch via email.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por e-mail.</seg>
+				<seg>Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por email.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:help-make-dataset" srclang="en-US">
@@ -4209,7 +4209,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Hill Mari</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:hi" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hi-in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hindi</seg>
 			</tuv>
@@ -4217,7 +4217,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Hindi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:hi-in" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hi" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hindi</seg>
 			</tuv>
@@ -4321,7 +4321,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Como posso obter os dados do Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-get-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How can I get the Common Voice data?</seg>
 			</tuv>
@@ -4329,7 +4329,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Como posso obter os dados do Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-get-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How can I get the Common Voice data?</seg>
 			</tuv>
@@ -4361,7 +4361,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Como o Common Voice calcula horas?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -4369,7 +4369,7 @@ O conjunto de dados atualmente consiste de &lt;b&gt;{ $valid }&lt;/b&gt; horas v
 				<seg>Como funciona o Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -5381,22 +5381,6 @@ e retornaremos o contrato!</seg>
 				<seg>Quirguiz</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Idioma</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Idioma</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -5414,6 +5398,22 @@ e retornaremos o contrato!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Idioma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Idioma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -5717,23 +5717,23 @@ e retornaremos o contrato!</seg>
 				<seg>Links para sites que podem nos ajudar a entender o idioma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Listen</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Ouvir</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Listen</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Ouvir</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Ouvir</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Ouvir</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -5765,14 +5765,6 @@ e retornaremos o contrato!</seg>
 				<seg>Lituano</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:loading" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Loading…</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Carregando…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:status-loading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading…</seg>
@@ -5787,6 +5779,14 @@ e retornaremos o contrato!</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Carga em andamento…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Carregando…</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-loading" srclang="en-US">
@@ -6013,7 +6013,7 @@ e retornaremos o contrato!</seg>
 				<seg>Certifique-se de que a plataforma esteja gravando antes de começar a falar e que ela só pare quando você terminar.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
@@ -6021,7 +6021,7 @@ e retornaremos o contrato!</seg>
 				<seg>Assegure que a frase atende aos seguintes critérios:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
@@ -6309,7 +6309,7 @@ e retornaremos o contrato!</seg>
 				<seg>[Foi gravado mais texto do que o necessário]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:status-more-soon" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-more-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>More languages coming soon!</seg>
 			</tuv>
@@ -6317,7 +6317,7 @@ e retornaremos o contrato!</seg>
 				<seg>Mais idiomas em breve!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-more-languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:status-more-soon" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>More languages coming soon!</seg>
 			</tuv>
@@ -6515,7 +6515,7 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um automóvel, ou em um Raspberry Pi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -6523,7 +6523,7 @@ Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um auto
 				<seg>Minhas frases</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -6755,7 +6755,7 @@ Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um auto
 				<seg>Não</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -6763,7 +6763,7 @@ Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um auto
 				<seg>Não</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -7739,6 +7739,14 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Privacidade</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Privacidade</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
@@ -7748,14 +7756,6 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-privacy-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Privacy</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Privacidade</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
 			</tuv>
@@ -7787,30 +7787,6 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Pro</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Profile</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Perfil</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Profile</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Perfil</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Profile</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Perfil</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
@@ -7820,6 +7796,30 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Perfil</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Perfil</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Perfil</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -8131,22 +8131,6 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>[Gravação interrompida antes do final da última palavra]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Gravações</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Gravações</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
@@ -8156,6 +8140,22 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Gravações</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Gravações</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
@@ -8251,7 +8251,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Rejeitar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
@@ -8259,7 +8259,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Frases rejeitadas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
@@ -8515,6 +8515,14 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Voltar para Idiomas</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Revisar</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -8537,14 +8545,6 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Revisão</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Revisar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-review-failure" srclang="en-US">
@@ -8627,7 +8627,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Revisar frases</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -8635,7 +8635,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Revisar frases</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -9179,7 +9179,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Tswana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -9187,7 +9187,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Configurações</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -9368,7 +9368,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Sign up for { $lang } updates:</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Registrar-se para atualizações em { $lang }:</seg>
+				<seg>Inscreva-se para receber novidades de { $lang }:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-form-title" srclang="en-US">
@@ -9376,7 +9376,7 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Sign up for { $lang } updates:</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Inscreva-se para receber novidades de { $lang }:</seg>
+				<seg>Registrar-se para atualizações em { $lang }:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-archive-single" srclang="en-US">
@@ -9419,14 +9419,6 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Tamanho</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Size</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Tamanho</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
@@ -9443,12 +9435,12 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Tamanho</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Skip</seg>
+				<seg>Size</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Pular</seg>
+				<seg>Tamanho</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
@@ -9460,6 +9452,14 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Pular</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -9675,23 +9675,23 @@ Você pode ver nossas frases de origem nesta &lt;githubLink&gt;pasta do GitHub&l
 				<seg>Espanhol (Chile)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Speak</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Falar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Speak</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Falar</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Falar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Falar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -9907,7 +9907,7 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Comece a digitar para descrever seu sotaque</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -9915,7 +9915,7 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Estatisticas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -10059,6 +10059,30 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Enviar</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Enviar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-form-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Enviar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Enviar</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
@@ -10083,30 +10107,6 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Enviar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-form-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Enviar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Enviar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Enviar</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
@@ -10115,20 +10115,20 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Enviar um relato</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Enviar clipes</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Enviar frases</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Enviar clipes</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
@@ -10160,7 +10160,7 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Subscribe</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Assinar</seg>
+				<seg>Inscrever-se</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:subscribe" srclang="en-US">
@@ -10168,7 +10168,7 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Subscribe</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Inscrever-se</seg>
+				<seg>Assinar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:success" srclang="en-US">
@@ -10419,7 +10419,7 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Rescisão: Podemos suspender ou encerrar seu acesso aos serviços a qualquer momento, por qualquer razão, vamos fazer todos os esforços razoáveis para notificar você através do e-mail associado com a sua conta ou da próxima vez que você tentar acessar o serviço. Independente de qualquer rescisão, todas as gravações que você submeter a Mozilla continuarão sendo acessíveis ao público.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
@@ -10427,7 +10427,7 @@ Para tornar o reconhecimento de voz ainda mais universal, estamos coletando amos
 				<seg>Termos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
@@ -11287,7 +11287,7 @@ Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de 
 				<seg>Total</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -11295,7 +11295,7 @@ Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de 
 				<seg>Total</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -12220,15 +12220,7 @@ ou junte-se a nós no &lt;slackLink&gt;Slack&lt;/slackLink&gt;.</seg>
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.</seg>
+				<seg>Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos manter contato, com novidades, novas fontes de dados e saber mais sobre como vocês estão usando esses dados.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
@@ -12244,7 +12236,15 @@ ou junte-se a nós no &lt;slackLink&gt;Slack&lt;/slackLink&gt;.</seg>
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos manter contato, com novidades, novas fontes de dados e saber mais sobre como vocês estão usando esses dados.</seg>
+				<seg>Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-explanatory-text" srclang="en-US">
@@ -12469,12 +12469,12 @@ para &lt;emailLink&gt;{ $email }&lt;/emailLink&gt; e entraremos em contato com v
 				<seg>Prometemos lidar com suas informações com cautela. Leia mais em nosso &lt;privacyLink&gt;Aviso de Privacidade&lt;/privacyLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Prometemos lidar com suas informações com cuidado. Saiba mais em nosso &lt;privacyLink&gt;Aviso de privacidade&lt;/privacyLink&gt;.</seg>
+				<seg>Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso &lt;privacyLink&gt;Aviso de Privacidade&lt;/privacyLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
@@ -12485,12 +12485,12 @@ para &lt;emailLink&gt;{ $email }&lt;/emailLink&gt; e entraremos em contato com v
 				<seg>Prometemos lidar com suas informações com cuidado. Saiba mais em nosso &lt;privacyLink&gt;Aviso de Privacidade&lt;/privacyLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-privacy" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso &lt;privacyLink&gt;Aviso de Privacidade&lt;/privacyLink&gt;.</seg>
+				<seg>Prometemos lidar com suas informações com cautela. Saiba mais em nosso &lt;privacyLink&gt;Aviso de Privacidade&lt;/privacyLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
@@ -12498,7 +12498,7 @@ para &lt;emailLink&gt;{ $email }&lt;/emailLink&gt; e entraremos em contato com v
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Prometemos lidar com suas informações com cautela. Saiba mais em nosso &lt;privacyLink&gt;Aviso de Privacidade&lt;/privacyLink&gt;.</seg>
+				<seg>Prometemos lidar com suas informações com cuidado. Saiba mais em nosso &lt;privacyLink&gt;Aviso de privacidade&lt;/privacyLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-headline" srclang="en-US">
@@ -12695,28 +12695,28 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>Nós entraremos em contato quando estiverem disponíveis mais informações sobre o seu idioma.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will be in touch with more information as it becomes available.</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Nós entraremos em contato com mais informações assim que estiverem disponíveis.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will be in touch with more information as it becomes available.</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Nós entraremos em contato com mais informações assim que estiverem disponíveis.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-updates-success-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will be in touch with more information as it becomes available.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Nós entraremos em contato assim que mais informações estiverem disponíveis.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We will be in touch with more information as it becomes available.</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Nós entraremos em contato com mais informações assim que estiverem disponíveis.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We will be in touch with more information as it becomes available.</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Nós entraremos em contato com mais informações assim que estiverem disponíveis.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-not-public" srclang="en-US">
@@ -12783,23 +12783,15 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>O que é um idioma no Common Voice?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>O que é Common Voice?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>What is Common Voice?</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>O que é Common Voice?</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>What is Common Voice?</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>O que é Common Voice?</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -12813,6 +12805,14 @@ suporte ou informações adicionais que você precisar.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>O que é o Common Voice?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>O que é Common Voice?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-ask" srclang="en-US">
@@ -12999,7 +12999,7 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>De onde vem o texto de origem?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-where-src-from-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-where-src-from-2-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Where does the source text come from?</seg>
 			</tuv>
@@ -13007,7 +13007,7 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>De onde vem o texto de origem?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-where-src-from-2-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-where-src-from-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Where does the source text come from?</seg>
 			</tuv>
@@ -13167,7 +13167,7 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>Por que é importante?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-important-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is it important?</seg>
 			</tuv>
@@ -13175,7 +13175,7 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>Por que é importante?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-important-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is it important?</seg>
 			</tuv>
@@ -13279,6 +13279,14 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>S</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Sim</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
@@ -13301,30 +13309,6 @@ suporte ou informações adicionais que você precisar.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Sim</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Sim</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-emails" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Sim, envie emails. Quero manter-me informado sobre o Projeto Common Voice.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
@@ -13335,12 +13319,20 @@ suporte ou informações adicionais que você precisar.</seg>
 				<seg>Sim, me envie e-mails. Quero me manter informado sobre o Projeto Common Voice.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Sim, me envie e-mails. Quero me manter informado sobre o progresso deste idioma no Common Voice.</seg>
+				<seg>Sim, envie emails. Quero manter-me informado sobre o Projeto Common Voice.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
@@ -13349,6 +13341,14 @@ suporte ou informações adicionais que você precisar.</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Sim, envie emails. Quero manter-me informado sobre o progresso deste idioma no Common Voice.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Sim, me envie e-mails. Quero me manter informado sobre o progresso deste idioma no Common Voice.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-native-a" srclang="en-US">
@@ -13860,7 +13860,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Você ajudou o Common Voice a atingir &lt;goalPercentage&gt;&lt;/goalPercentage&gt; da nossa meta diária de { $goalValue } validações!</seg>
+				<seg>Você ajudou o Common Voice a atingir &lt;goalPercentage&gt;&lt;/goalPercentage&gt; da nossa meta diária de { $goalValue } de validações!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-help-validation" srclang="en-US">
@@ -13868,15 +13868,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>Você ajudou o Common Voice a atingir &lt;goalPercentage&gt;&lt;/goalPercentage&gt; da nossa meta diária de { $goalValue } de validações!</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You've successfully signed up for contributing to { $language }. Thank you.</seg>
-			</tuv>
-			<tuv xml:lang="pt">
-				<seg>Você inscreveu-se com sucesso para contribuir para { $language }. Obrigado.</seg>
+				<seg>Você ajudou o Common Voice a atingir &lt;goalPercentage&gt;&lt;/goalPercentage&gt; da nossa meta diária de { $goalValue } validações!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-title" srclang="en-US">
@@ -13885,6 +13877,14 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="pt">
 				<seg>Você se inscreveu com sucesso para contribuir com { $language }. Obrigado.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've successfully signed up for contributing to { $language }. Thank you.</seg>
+			</tuv>
+			<tuv xml:lang="pt">
+				<seg>Você inscreveu-se com sucesso para contribuir para { $language }. Obrigado.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-link-text" srclang="en-US">
@@ -14068,7 +14068,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>adicionar marcador / adicionar favorito</seg>
+				<seg>marcador / favorito</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -14076,7 +14076,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>marcador / favorito</seg>
+				<seg>adicionar marcador / adicionar favorito</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -14204,7 +14204,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>corromper</seg>
+				<seg>corrompido</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -14212,7 +14212,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>corrompido</seg>
+				<seg>corromper</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -14588,7 +14588,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>relatar</seg>
+				<seg>relatório</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -14596,7 +14596,7 @@ as etapas para ter seu idioma adicionado ao Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="pt">
-				<seg>relatório</seg>
+				<seg>relatar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
