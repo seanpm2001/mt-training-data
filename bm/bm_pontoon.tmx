@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-03-01T00:18:48.745921">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-04-01T00:16:21.662295">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ab" srclang="en-US">
@@ -73,6 +73,14 @@
 			</tuv>
 			<tuv xml:lang="bm">
 				<seg>Amharikikan na</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-demographic-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ar" srclang="en-US">
@@ -479,7 +487,7 @@ Donanw kulu bɛ kɛ sisan &lt;b&gt;{ $valid }&lt;/b&gt; lɛrɛw ye minnu sɛgɛs
 				<seg>Kɔrɔnfɛla Huwasitekakan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -487,7 +495,7 @@ Donanw kulu bɛ kɛ sisan &lt;b&gt;{ $valid }&lt;/b&gt; lɛrɛw ye minnu sɛgɛs
 				<seg>Imɛyi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1223,6 +1231,16 @@ Donanw kulu bɛ kɛ sisan &lt;b&gt;{ $valid }&lt;/b&gt; lɛrɛw ye minnu sɛgɛs
 				<seg>Mosikan</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-second" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most of the data used by large companies isn’t available to the majority of people. We think that
+stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
+and accessible to everyone.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Baarakɛdabaw bɛ baara kɛ ni kunnafonidilan minnu ye, olu fanba tɛ sɔrɔ mɔgɔ fanba bolo. An hakili la o¶ bɛ kokuradonni dabila. O la, an ye Common Voice daminɛ, porozɛ min bɛ dɛmɛ don ka kumakan dɔnni da wuli¶ ani ka se bɛɛ ma.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-mobile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most of the data used by large companies isn’t available to the majority of people. We think
@@ -1333,6 +1351,14 @@ ka porogaramu kura dilan minɛnw ni ɛntɛrinɛti kan. Kumasen dɔ kalan walasa 
 			</tuv>
 			<tuv xml:lang="bm">
 				<seg>Ni i donna a kɔnɔ i bɛ se k’i ka kanw sugandi ka bɔ i ka profil yɔrɔ la.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demographic-deidentified-clarity-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.</seg>
+			</tuv>
+			<tuv xml:lang="bm">
+				<seg>Jamanadenw ka kunnafoniw minnu bɛ ci i yɛrɛ sago la (misali la, u si hakɛ, cɛya ni musoya, kan, ani u fɔcogo), olu tɛna kɛ foroba ye abada i ka kunnafonisɛbɛn kan, wa u tɛna siri i ka jatebɔsɛbɛn na kunnafonidilan kɔnɔ. Odio-klip kelen-kelen bɛɛ bɛna jɛ jamanadenw ka kunnafoniw na walasa ka sɛgɛsɛgɛli kɛ ka ɲɛ - misali la, ɲininikɛla dɔ bɛ se k’a fɛ ka kalan misali dɔ ɲɛsin jamanaden hakɛ yɔrɔ kɛrɛnkɛrɛnnen dɔ ma.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:pap-aw" srclang="en-US">
@@ -2170,7 +2196,7 @@ An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw
 				<seg>Votikikan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -2178,7 +2204,7 @@ An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw
 				<seg>Anw bɛ ka jama kafo kan fɛɛrɛw  dɛmɛli kama ,Mozila la yan.An b'a fɛ kubariya kuraw kalama ani ka dɔn I b'ala ka kumakan labaara togoya min na.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -2210,7 +2236,7 @@ An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw
 				<seg>Waleskan na</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
@@ -2218,7 +2244,7 @@ An tɛ kan misaliw dɔrɔn lajɛ kanw na minnu bɛ fɔ kosɛbɛ, nka an bɛ kanw
 				<seg>An bɛ layidu ta I ye k'An b'I kumakan latanga.Nin kalan walasa  k'I ka famuya jiidi An ka Gindo Sariyaw la.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
@@ -2693,7 +2719,7 @@ O kɔfɛ, walasa kan in ka se ka sɔrɔ Common Voice porozɛ kan,
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="bm">
-				<seg>sígańná</seg>
+				<seg>sígańná b'a la</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -2701,7 +2727,7 @@ O kɔfɛ, walasa kan in ka se ka sɔrɔ Common Voice porozɛ kan,
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="bm">
-				<seg>sígańná b'a la</seg>
+				<seg>sígańná</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
