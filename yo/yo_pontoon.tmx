@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-04-01T00:23:28.830744">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-05-01T00:24:14.936759">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -1555,7 +1555,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Ṣé o ò rí àfihàn èdè ẹ nínú àkójọpọ̀ dátà náà? Láti bèèrè fún àfihàn èdè wá sí ojú-ìwé àwọn èdè wa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1563,7 +1563,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Ṣe ìgbàsílẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1757,20 +1757,20 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ìforúkọsílẹ̀ fún gbígba imeèlì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Gẹ̀ẹ́sì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>English</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Gẹ̀ẹ́sì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-to-download" srclang="en-US">
@@ -2109,7 +2109,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>Jamaní</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -2117,7 +2117,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>Darapọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -3282,6 +3282,14 @@ kàn sí wa ni &lt;emailLink&gt;{ $email }&lt;/emailLink&gt;
 				<seg>Kyrgyz</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Èdè</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -3291,14 +3299,6 @@ kàn sí wa ni &lt;emailLink&gt;{ $email }&lt;/emailLink&gt;
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Èdè</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3482,7 +3482,7 @@ kàn sí wa ni &lt;emailLink&gt;{ $email }&lt;/emailLink&gt;
 				<seg>Ìtọ́kasí sí ìkànnì tí ó lè ràn wá lọ́wọ́ nípa ìlóye èdè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3490,7 +3490,7 @@ kàn sí wa ni &lt;emailLink&gt;{ $email }&lt;/emailLink&gt;
 				<seg>Gbọ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -4018,20 +4018,20 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 Mycroft ń ṣiṣẹ́ níbi gbogbo – lórí kọ̀mpútà, nínú ọkọ̀, tàbí lórí Raspberry Pi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>My Sentences</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn gbólóhùn mi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwon gbólóhùn mi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>My Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn gbólóhùn mi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-vote-no" srclang="en-US">
@@ -4074,20 +4074,20 @@ Mycroft ń ṣiṣẹ́ níbi gbogbo – lórí kọ̀mpútà, nínú o�
 				<seg>Orúkọ èdè rẹ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Native Language</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ède abínibí</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ède Abínibí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Native Language</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ède abínibí</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent" srclang="en-US">
@@ -4154,7 +4154,7 @@ Mycroft ń ṣiṣẹ́ níbi gbogbo – lórí kọ̀mpútà, nínú o�
 				<seg>Nias</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -4162,7 +4162,7 @@ Mycroft ń ṣiṣẹ́ níbi gbogbo – lórí kọ̀mpútà, nínú o�
 				<seg>Bẹ́ẹ̀ kọ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -4530,20 +4530,20 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>Papiamento (Aruba)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Partners</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn alábàṣepò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn alábàṣepọ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partners</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn alábàṣepò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-6" srclang="en-US">
@@ -4748,20 +4748,20 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>Tẹ { shortcut-play-toggle } láti rí ohun tí ò ó tẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Privacy</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àṣírí</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìpamọ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àṣírí</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy-title" srclang="en-US">
@@ -4788,7 +4788,7 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>Ògbóǹtarìgì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -4804,7 +4804,7 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>Púrófáìlì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -5020,20 +5020,20 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>[Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>àwọn ìkásílẹ̀</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn àkálẹ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>àwọn ìkásílẹ̀</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
@@ -5076,20 +5076,20 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>Kọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Rejected Sentences</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn gbólóhùn tí a kò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn gbólóhùn tí a kọ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rejected Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn gbólóhùn tí a kò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-rejected" srclang="en-US">
@@ -5252,14 +5252,6 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>Padà sí àwọn èdè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àtúnyẹ̀wò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -5274,6 +5266,14 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Yẹ̀ẹ́wò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àtúnyẹ̀wò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-review-failure" srclang="en-US">
@@ -5548,20 +5548,20 @@ O lè wo orísun gbólóhùn wa ní ibi yìí &lt;githubLink&gt;GitHub folder&lt
 				<seg>fi atọ́ka ìgbaniwọlé ránṣẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sentence Collection</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìgbàjọ Gbólóhùn</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Gbígba gbólóhùn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìgbàjọ Gbólóhùn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-collecting-sentences-content-3" srclang="en-US">
@@ -6328,7 +6328,7 @@ Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohù
 				<seg>Àṣìṣe ìfilélẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -6344,7 +6344,7 @@ Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohù
 				<seg>Fi jíṣẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -6360,20 +6360,20 @@ Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohù
 				<seg>Jábọ̀ ìròyìn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fi fọ́nrán jíṣẹ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Fi fọ́nrán jíṣẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fi fọ́nrán jíṣẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-result" srclang="en-US">
@@ -6544,7 +6544,7 @@ Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohù
 				<seg>Telugu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
@@ -6552,7 +6552,7 @@ Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohù
 				<seg>Táàmù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
@@ -6868,20 +6868,20 @@ Gbogbo àwọn fọ́nran ohun tó wà nínú àkójọpọ̀-dátà ni
 				<seg>Gbólóhùn náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ àlùfàǹṣá</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The sentence must be grammatically correct.</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Gbólóhùn náà gbọ́dọ̀ jẹ́ èyí tí gírámà rẹ̀ múnádóko.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Gbólóhùn náà gbọdọ̀ jẹ́ èyí tí gírámà rẹ̀ múnádóko.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Gbólóhùn náà gbọ́dọ̀ jẹ́ èyí tí gírámà rẹ̀ múnádóko.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
@@ -8275,20 +8275,20 @@ extra support or information you might need.</seg>
 				<seg>Y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Bẹ́ẹ̀ni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Bẹ́ẹ̀ ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Bẹ́ẹ̀ni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
@@ -8713,12 +8713,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%1$d nínú un %2$d</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multi_select_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>%1$d di yíyàn</seg>
+				<seg>%1$d ti yàn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_multi_select_title" srclang="en-US">
@@ -8729,15 +8729,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%1$d ti yàn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmarks_multi_select_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>%1$d ti yàn</seg>
+				<seg>%1$d di yíyàn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_multi_select_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmarks_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
 			</tuv>
@@ -8970,7 +8970,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ní àǹfàní sí àwọn abala bíráwúsà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_history_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_top_sites_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Access browsing history</seg>
 			</tuv>
@@ -8978,7 +8978,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ní àǹfàní sí ìtàn bíráwúsìnìn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_top_sites_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_history_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Access browsing history</seg>
 			</tuv>
@@ -9114,22 +9114,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fi àwọn ètò ẹ̀rọ rẹ kọ́ra</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_button_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàfikún</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_add" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàfikún</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
@@ -9139,6 +9123,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàfikún</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàfikún</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
@@ -9218,7 +9218,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàfikún àwọn ọ̀nà-àbùjá!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder_fragment_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add folder</seg>
 			</tuv>
@@ -9226,7 +9226,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàfikún fóhúdà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder_fragment_label" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add folder</seg>
 			</tuv>
@@ -9242,7 +9242,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàfikún lọ́giìnì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_add_new_collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add new collection</seg>
 			</tuv>
@@ -9250,7 +9250,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàfikún àkójọpọ̀ tuntun</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_add_new_collection" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add new collection</seg>
 			</tuv>
@@ -9290,28 +9290,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kò sí àtìlẹ́yìn fún àfikún</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_ons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add-ons</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn àfikún</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_addons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn àfikún</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add-ons</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àfikún</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
@@ -9322,12 +9306,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣe àfikún</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_ons" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Add-ons Manager</seg>
+				<seg>Add-ons</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Àsàmójútó Àfikún</seg>
+				<seg>Àwọn àfikún</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àfikún</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
@@ -9336,6 +9328,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣe Àfikún Àṣàmójútó</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons Manager</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àsàmójútó Àfikún</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_channel" srclang="en-US">
@@ -9434,20 +9434,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fikún àwọn olùbásọ̀rọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add to Home screen</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fikún síkíríìnì àkọ́kọ́ kan</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_to_homescreen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add to Home screen</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣàfikún sí Síkíríìnì àkọ́ọ́kàn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add to Home screen</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fikún síkíríìnì àkọ́kọ́ kan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_to_shortcuts" srclang="en-US">
@@ -9474,20 +9474,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìlọsíwájú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Advanced…</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìjìnlẹ̀…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ní ìlọsíwájú…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Advanced…</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìjìnlẹ̀…</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_day" srclang="en-US">
@@ -9538,12 +9538,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fàyègbà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Gbà láàyè</seg>
+				<seg>Gbàáláyè</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
@@ -9554,12 +9554,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Gbà á láàyè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Gbàáláyè</seg>
+				<seg>Gbà láàyè</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_positive" srclang="en-US">
@@ -9658,7 +9658,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fàyègba ọ́díò àti fídíò </seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_phone_feature_allowed" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:enhanced_tracking_protection_allowed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allowed</seg>
 			</tuv>
@@ -9666,7 +9666,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ti fàyègbàá</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:enhanced_tracking_protection_allowed" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_phone_feature_allowed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allowed</seg>
 			</tuv>
@@ -10002,20 +10002,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Padà                </seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_description_3" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Balanced for privacy and performance. Pages load normally.</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ó dúró digbí fún ìkọ̀kọ̀ àti ìṣesí. Àwọn ojú ìwé ń ṣiṣẹ́ déédé.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_description_4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Balanced for privacy and performance. Pages load normally.</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìṣọ̀túnṣòsì fún ìkọ̀kọ̀ àti ìṣesí. Àwọn ojúùwé ń ṣiṣẹ́ déédé.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_description_3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Balanced for privacy and performance. Pages load normally.</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ó dúró digbí fún ìkọ̀kọ̀ àti ìṣesí. Àwọn ojú ìwé ń ṣiṣẹ́ déédé.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_storage_access_not_allow" srclang="en-US">
@@ -10050,7 +10050,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Dìnà ọ́díò àti fídíò lóri dátà sẹ́lúlà nìkan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_block_audio2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_block_audio" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio only</seg>
 			</tuv>
@@ -10058,7 +10058,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Dìnà ọ́díò nìkan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_block_audio" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_block_audio2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio only</seg>
 			</tuv>
@@ -10106,20 +10106,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣe ìdínnàmọ́ kúkíìsì tí àwọn nẹ́tíwọọ̀kì ìpolówó àti àwọn ilé-iṣẹ́ àwọn ìṣètúpalẹ̀ ń lò láti ṣe àkójọ àwọn dátà bíráwúsínnì rẹ kárí ọ̀pọ̀ àwọn sáìtì. </seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_strict_button_description_3" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Blocks more trackers so pages load faster, but some on-page functionality may break.</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣe ìdínnàmọ́ sí ọ̀pọ̀ àwọn olùtọpasẹ̀ kí àwọn ojú-ìwé léè yára ṣiṣẹ́, àmọ́ díẹ̀ nínú àwọn ojú-ìwé tí ó ń ṣiṣẹ́ lé è bàjẹ́.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_strict_description_3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Blocks more trackers so pages load faster, but some on-page functionality may break.</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣe ìdínnàmọ́ sí ọ̀pọ̀ àwọn olùtọpasẹ̀ kí àwọn ojú-ìwé léè yára ṣiṣẹ́, àmọ́ díẹ̀ nínú àwọn ojú-ìwé tí ó ń ṣiṣẹ́ lé è bàjẹ́.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_strict_button_description_3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Blocks more trackers so pages load faster, but some on-page functionality may break.</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣe ìdínnàmọ́ sí ọ̀pọ̀ àwọn olùtọpasẹ̀ kí àwọn ojú-ìwé léè yára ṣiṣẹ́, àmọ́ díẹ̀ nínú àwọn ojú-ìwé tí ó ń ṣiṣẹ́ lé è bàjẹ́.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_bookmark" srclang="en-US">
@@ -10290,22 +10290,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Paárẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permissions_negative" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_out_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -10314,20 +10298,36 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Paárẹ́</seg>
+				<seg>Fagile</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permissions_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Paárẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_cancel" srclang="en-US">
@@ -10346,23 +10346,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Paárẹ́</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_cancel_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_negative" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10378,22 +10378,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permission_negative" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_negative" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -10402,31 +10386,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_negative" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Paárẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_group_prompt_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permission_negative" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10450,12 +10410,52 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Paárẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Fagile</seg>
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_group_prompt_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_cancel_active_downloads_accept" srclang="en-US">
@@ -10594,20 +10594,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Paárẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clear</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/browser-toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Paárẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_screen_section_cleaner_tab_tray_description_2" srclang="en-US">
@@ -10698,14 +10698,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Tẹ̀ẹ́ fún àlàyé nípa kókó díẹ̀ si</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:privacy_content_close_button_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Tì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_close_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -10722,7 +10714,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Tì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:privacy_content_close_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Tì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -10738,7 +10738,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Padé</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -10746,7 +10746,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Padé</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_close" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -10922,20 +10922,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àtẹ àkójọpọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_hint" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Collection name</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àkójọpọ̀ orúkọ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_name_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Collection name</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Orúkọ àkójọpọ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collection name</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àkójọpọ̀ orúkọ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_user_hint" srclang="en-US">
@@ -11076,20 +11076,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàkóso asojú àwọn ètò bíráwúsà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cookies" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kúkíìsì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn kúkì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kúkíìsì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cookies_2" srclang="en-US">
@@ -11196,20 +11196,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Orílẹ̀-èdè tàbí àgbègbè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_channel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Crashes</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn ìjákulẹ̀</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_crashes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Crashes</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn ìjàmbá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_channel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Crashes</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ìjákulẹ̀</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_activity_title" srclang="en-US">
@@ -11276,7 +11276,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìtọpasẹ̀ Kúkíìsì Kírọ́sí-Sáìtì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:etp_cryptominers_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cryptominers" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cryptominers</seg>
 			</tuv>
@@ -11284,7 +11284,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn kíríputomínà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_cryptominers" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:etp_cryptominers_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cryptominers</seg>
 			</tuv>
@@ -11364,20 +11364,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%d àwọn àdìrẹ́sì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dark</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Dúdú</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_dark_theme" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dark</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Òkùnkùn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dark</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Dúdú</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark_color_scheme_desc" srclang="en-US">
@@ -11460,7 +11460,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹ̀rọ ìwádìí ìbẹ̀rẹ̀pẹ̀pẹ̀</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_delete_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_delete_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -11476,7 +11492,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_item" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addressess_confirm_dialog_ok_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -11484,7 +11500,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_delete_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_positive" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -11508,31 +11524,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_item" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_positive" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_positive" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addressess_confirm_dialog_ok_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -11580,7 +11580,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Pa gbogbo àwọn sáìtì rẹ́ ní “%s”</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete browsing data</seg>
 			</tuv>
@@ -11588,7 +11588,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Pa dátà bíráwúsìnnì rẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete browsing data</seg>
 			</tuv>
@@ -11740,20 +11740,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Sáìtì dẹ́sítọọ̀pù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_details" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Details</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn àlàyé</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:enhanced_tracking_protection_details" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Details</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ẹ̀kúnrẹ́rẹ́ </seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_details" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Details</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn àlàyé</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_device_name" srclang="en-US">
@@ -11812,6 +11812,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàwárí si</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_dismiss_button_default_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Patì</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_negative_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
@@ -11826,14 +11834,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Yọ kúrò</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_dismiss_button_default_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Patì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
@@ -11868,20 +11868,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣe àfihàn àwọn ìwífúnni sí ọ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_do_not_allow_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Don’t allow</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Má fàyègbàá</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_not_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t allow</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Má ṣe fàyègbà</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_do_not_allow_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t allow</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Má fàyègbàá</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save" srclang="en-US">
@@ -11964,7 +11964,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìdádúró ráńpẹ́ fún ìgbàsílẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_downloads" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -11972,7 +11972,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ìgbàsílẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_downloads" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -12044,7 +12044,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%d táàbù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_subtitle" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_closed_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%d tabs</seg>
 			</tuv>
@@ -12052,7 +12052,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%d àwọn táàbù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_closed_tabs" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%d tabs</seg>
 			</tuv>
@@ -12084,15 +12084,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹ̀dà táàbù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_edit_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Edit</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàtúnṣe</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_edit" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_edit_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -12108,7 +12100,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàtúnṣe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_edit_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -12116,12 +12108,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàtúnkọ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣàtúnkọ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_edit_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàtúnṣe</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit_bookmark_snackbar_action" srclang="en-US">
@@ -12172,20 +12172,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàtúnkọ ẹ̀rọ ìwádìí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ímeélì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ímeèlì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ímeélì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_snackbar_email_address_copied" srclang="en-US">
@@ -12292,6 +12292,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Tẹ orúkọ ẹ̀rọ ìwádìí</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_search_1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter search terms</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Tẹ àwọn ọ̀rọ̀ wíwá si</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:application_search_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enter search terms</seg>
@@ -12301,14 +12309,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_search" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Enter search terms</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Tẹ àwọn ọ̀rọ̀ wíwá si</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_search_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enter search terms</seg>
 			</tuv>
@@ -12340,6 +12340,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Gbogbogbò</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_exceptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exceptions</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ìyọkúrò</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_exceptions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exceptions</seg>
@@ -12354,14 +12362,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn àyàfi</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_exceptions" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Exceptions</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn ìyọkúrò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_description" srclang="en-US">
@@ -12596,20 +12596,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Wá àbájáde tó sáájú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_fingerprinters" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Fingerprinters</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Awọn ẹ̀rọ ìtẹ̀ka</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:etp_fingerprinters_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fingerprinters</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn ẹ̀rọ ìtẹ̀ka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_custom_fingerprinters" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fingerprinters</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Awọn ẹ̀rọ ìtẹ̀ka</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_account_default_name" srclang="en-US">
@@ -12836,7 +12836,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Gbà á</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -12852,7 +12852,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Lọ sí àwọn ààtò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -13180,20 +13180,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Agẹmọ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Jump back in</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fò wọlé padà</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump back in</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Wọlé padà sínu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Jump back in</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fò wọlé padà</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_screen_section_home_description_2" srclang="en-US">
@@ -13362,7 +13362,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìlò ìkẹyìn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_warning_dialog_later" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_warning_dialog_later" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Later</seg>
 			</tuv>
@@ -13370,7 +13370,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Nígbà mìíràn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_warning_dialog_later" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:logins_warning_dialog_later" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Later</seg>
 			</tuv>
@@ -13394,6 +13394,46 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kọ́ nípa Ìdáábòbò Kúkì Lápapọ̀ </seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kọ́ sí i</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kọ́ si</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_http_only_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kọ́ si</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_etp_smartblock_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kọ́ si </seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_explanation_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kọ́ si </seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_learn_more_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -13402,7 +13442,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kẹ́kọ̀ọ́ si</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_http_only_learn_more" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -13416,46 +13456,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Kọ́ ẹ̀kọ́ si</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kọ́ si</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kọ́ si</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_explanation_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kọ́ si </seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kọ́ sí i</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_etp_smartblock_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kọ́ si </seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_learn_more" srclang="en-US">
@@ -13650,7 +13650,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàkóso àwọn àdírẹ́sì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_manage_address" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_manage_addresses" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage addresses</seg>
 			</tuv>
@@ -13658,7 +13658,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàkóso àwọn àdírẹ́sì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_manage_addresses" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_manage_address" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage addresses</seg>
 			</tuv>
@@ -13738,20 +13738,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣe alábapàdé ojú-ìwé àkọ́kọ́ rẹ tí ó jẹ́ tara ẹni. Àwọn táàbù àìpẹ́, búkúmaàkì, at́í pé àwọn èsì wíwá yóò hàn níbí.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Menu</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>mẹ́nù</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Mẹ́nù</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Menu</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>mẹ́nù</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
@@ -13914,7 +13914,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Lọ kiri sókẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_never_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_manually" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Never</seg>
 			</tuv>
@@ -13922,7 +13922,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Láéláé</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_manually" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_never_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Never</seg>
 			</tuv>
@@ -13986,7 +13986,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Táàbù tuntun oníkọ̀kọ̀ wà ní ṣíṣí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_tab" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -13994,7 +13994,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Táàbù tuntun</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -14227,6 +14227,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ọ̀wàwà</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Pa á</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
@@ -14244,14 +14252,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_off" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Off</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Pa á</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -14283,7 +14283,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ipò àìsí lórí íntánẹ́ẹ̀tì </seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_ok" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>O DÁRA</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_invalid_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ó DÁA</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permissions_positive" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -14299,22 +14315,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ó DA</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_invalid_ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ó DÁA</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>O DÁRA</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_positive" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
@@ -14323,20 +14323,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ó DA</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permissions_positive" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ó DÁA</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ó DA</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ó DÁA</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permission_positive" srclang="en-US">
@@ -14371,12 +14371,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ti pẹ́ jù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_on" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_https_only_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Tàn-án</seg>
+				<seg>Tàn án</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_on" srclang="en-US">
@@ -14387,7 +14387,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Tàn-án</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_on" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -14395,15 +14395,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Tàn-án</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_https_only_on" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Tàn án</seg>
+				<seg>Tàn-án</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_on" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -14427,20 +14427,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Lóri kọ̀m̀pútà rẹ ṣí Firefox ko sì lọ sí &lt;b&gt;https://firefox.com/pair&lt;/b&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_content_description" srclang="en-US">
@@ -14587,14 +14587,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣí sáìtì nínu bíráwúsà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_title_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open tabs</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣí àwọn táàbù</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_tabs_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open tabs</seg>
@@ -14603,7 +14595,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣí táàbù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_open_tabs" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_title_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open tabs</seg>
 			</tuv>
@@ -14612,6 +14604,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_header_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣí àwọn táàbù</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_open_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open tabs</seg>
 			</tuv>
@@ -15545,20 +15545,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣẹ̀ṣẹ̀ padé</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_recently_closed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recently closed tabs</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn táàbù tí a ṣẹ̀ṣẹ̀ padé</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_recently_closed_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently closed tabs</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn táàbù tí o tì láìpẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_recently_closed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recently closed tabs</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn táàbù tí a ṣẹ̀ṣẹ̀ padé</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_title" srclang="en-US">
@@ -15577,20 +15577,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Lò láìpẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_metadata_header_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recently visited</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàbẹ̀wò láìpẹ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_visited" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently visited</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìṣàbẹ̀wò láìpẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_metadata_header_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recently visited</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàbẹ̀wò láìpẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_screen_section_useful_history_title_2" srclang="en-US">
@@ -15689,14 +15689,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìṣàtúnṣe láti ọ̀nà jíjìn nípaṣẹ̀ USB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yọ ọ́ kúrò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -15705,23 +15697,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Yọ kúrò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_menu_item_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yọkúrò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tab_menu_item_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yọ kúrò</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -15745,7 +15721,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Yọ kúrò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_synced_tab_menu_item_remove" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yọ ọ́ kúrò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -15759,6 +15743,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Yọ kúrò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_synced_tab_menu_item_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yọ kúrò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_menu_item_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yọkúrò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_remove_account" srclang="en-US">
@@ -15937,23 +15937,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Sans Serif font</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_save" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Save</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fipamọ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_save_confirmation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Save</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fipamọ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_save_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fipamọ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_menu_save" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fipamọ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -15985,7 +15985,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fipamọ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_menu_save" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_save_confirmation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -16145,6 +16145,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Yí i lọ láti tọ́jú pẹpẹ irinṣẹ́</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàwarí</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
@@ -16159,14 +16167,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣe àwárí</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàwarí</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
@@ -16297,7 +16297,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Wá àwọn táàbù tó ti wà ní sísopọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search the web</seg>
 			</tuv>
@@ -16305,7 +16305,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Wá lórí wẹ́ẹ̀bù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search the web</seg>
 			</tuv>
@@ -16609,6 +16609,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣètò kí àwọn táàbù tó wà ní ṣíṣí láti ọjọ́, ọ̀sẹ̀ tàbí oṣù tó kọjá láì wò tì fúnra wọn.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ààtò</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -16625,14 +16633,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ààtò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn aatò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -16641,12 +16641,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ètò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Àwọn ààtò</seg>
+				<seg>Àwọn aatò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_warning_dialog_message" srclang="en-US">
@@ -16681,7 +16681,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣètò rẹ̀ báyìí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -16697,7 +16697,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Pín</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_header_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -16713,7 +16713,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Pín</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_header_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -16721,7 +16721,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Pín</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_button_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -16817,7 +16817,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ó ti dé ìwọ̀n ọ̀nà-àbùjá</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:shortcut_name_hint" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_text_placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Shortcut name</seg>
 			</tuv>
@@ -16825,7 +16825,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Orúkọ ọ̀nà-àbùjá</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_text_placeholder" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:shortcut_name_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Shortcut name</seg>
 			</tuv>
@@ -16929,14 +16929,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàfihàn wíwá ohun</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sign in</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Wọlé</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_sign_in_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
@@ -16951,6 +16943,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìforúkọsílẹ̀-wọlé</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Wọlé</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_sign_in_to_reconnect" srclang="en-US">
@@ -16977,20 +16977,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Wọlé láti wo àwọn búkúmaàkì tó ń ṣiṣẹ́pọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:synced_tabs_sign_in_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sign in to sync</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣe ìforúkọsílẹ̀ láti wọ ìṣepọ̀ náà</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_menu_sign_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in to sync</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Wọlé láti ṣiṣẹ́ pọ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:synced_tabs_sign_in_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in to sync</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣe ìforúkọsílẹ̀ láti wọ ìṣepọ̀ náà</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sign_in" srclang="en-US">
@@ -17161,7 +17161,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Sọ̀rọ̀ nísìnyí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_sponsored_label" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pocket_stories_sponsor_indication" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sponsored</seg>
 			</tuv>
@@ -17169,7 +17169,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Onígbọ̀wọ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pocket_stories_sponsor_indication" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_sponsored_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sponsored</seg>
 			</tuv>
@@ -17201,7 +17201,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%s(Ìkọ̀kọ̀)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_default_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Standard (default)</seg>
 			</tuv>
@@ -17209,7 +17209,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìdúródéédé (àìyípadà)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_default_1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_standard_button_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Standard (default)</seg>
 			</tuv>
@@ -17305,7 +17305,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Orúkọ òpópónà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_strict" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_strict_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Strict</seg>
 			</tuv>
@@ -17313,7 +17313,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Rorò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_tracking_protection_strict_option" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_strict" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Strict</seg>
 			</tuv>
@@ -17625,7 +17625,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>T́áàbù tí a gbà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tabs</seg>
 			</tuv>
@@ -17633,7 +17633,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn táàbù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tabs</seg>
 			</tuv>
@@ -18491,6 +18491,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣe àfihàn àwọn àṣàyàn</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:voice_search_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice search</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìwádìí olóhùn</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice search</seg>
@@ -18505,14 +18513,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Wíwá pẹ̀lú ohùn</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:voice_search_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Voice search</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìwádìí olóhùn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:wallpapers_item_name_content_description" srclang="en-US">
@@ -21568,14 +21568,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>{0} and {1} other replied</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>{0} àti {1} àwọn èsì míìràn</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:0-and-1-other-replied" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{0} and {1} other replied</seg>
-			</tuv>
-			<tuv xml:lang="yo">
 				<seg>{0} àti {1} èsì míìràn</seg>
 			</tuv>
 		</tu>
@@ -21595,12 +21587,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>{0} àti {1} èsì míìràn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:0-answer" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:0-and-1-other-replied" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{0} answer</seg>
+				<seg>{0} and {1} other replied</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>{0} àwọn ìdáhùn</seg>
+				<seg>{0} àti {1} àwọn èsì míìràn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:0-answer" srclang="en-US">
@@ -21627,12 +21619,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>{0} àwọn ìdáhùn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:0-documents" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:0-answer" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{0} documents</seg>
+				<seg>{0} answer</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>{0} àwọn àkọsílẹ̀</seg>
+				<seg>{0} àwọn ìdáhùn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:0-documents" srclang="en-US">
@@ -21659,12 +21651,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>{0} àwọn àkọsílẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:0-question" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:0-documents" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{0} question</seg>
+				<seg>{0} documents</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>{0} àwọn ìbéèrè</seg>
+				<seg>{0} àwọn àkọsílẹ̀</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:0-question" srclang="en-US">
@@ -21673,6 +21665,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>{0} ìbéèrè</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:0-question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{0} question</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>{0} àwọn ìbéèrè</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:0-question" srclang="en-US">
@@ -21784,7 +21784,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>1 new this week</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>{n} titun lọ́sẹ̀ yíì</seg>
+				<seg>1 titun lọ́sẹ̀ yíì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:1-new-this-week" srclang="en-US">
@@ -21792,15 +21792,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>1 new this week</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>1 titun lọ́sẹ̀ yíì</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:1-person-has-this-problem" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>1 person has this problem</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹnìkan ní ìṣòro yíì</seg>
+				<seg>{n} titun lọ́sẹ̀ yíì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:1-person-has-this-problem" srclang="en-US">
@@ -21827,6 +21819,22 @@ the steps to get your language added to Common Voice</seg>
 				<seg>{n} àwọn ènìyàn ní ìṣòro yíì</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:1-person-has-this-problem" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 person has this problem</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ẹnìkan ní ìṣòro yíì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:1-post" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 post</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>ọ̀rọ̀ àfiránṣẹ̀ 1</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:1-post" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 post</seg>
@@ -21848,15 +21856,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>1 post</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>ọ̀rọ̀ àfiránṣẹ̀ 1</seg>
+				<seg>{0} àwọn ọ̀rọ̀ àfiránṣẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:1-post" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:1-reply" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>1 post</seg>
+				<seg>1 reply</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>{0} àwọn ọ̀rọ̀ àfiránṣẹ̀</seg>
+				<seg>{n} àwọn èsì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:1-reply" srclang="en-US">
@@ -21873,14 +21881,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>èsì 1</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:1-reply" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>1 reply</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>{n} àwọn èsì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:1-reply" srclang="en-US">
@@ -25003,7 +25003,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ọ̀rọ̀ tó hàn gbàngbà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionbookmark-options" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlebookmark-options" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark options</seg>
 			</tuv>
@@ -25027,7 +25027,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ẹ̀yàn àwọn àmì ìwé</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlebookmark-options" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionbookmark-options" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark options</seg>
 			</tuv>
@@ -25227,14 +25227,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kàlẹ́ndà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecalendar" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Calendar</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kàlẹ́ndà</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:calendar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Calendar</seg>
@@ -25243,6 +25235,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kàlẹ́ndà</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecalendar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Calendar</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kàlẹ́ndà</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecalling-and-contacts" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Calling and Contacts</seg>
@@ -25257,25 +25257,25 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Pípè àti àwọn Olùbásọ̀rọ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Parẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Parẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -26667,6 +26667,22 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàkóso ìwifún tí Firefox ṣàfipámọ́</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn kúkì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn kúkì</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
@@ -26683,22 +26699,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn kúkì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncookies" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn kúkì</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecookies" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn kúkì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecookies-and-cache" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies and cache</seg>
@@ -26715,7 +26715,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kúkíísì àti ìfarasin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecopy-your-personal-information-from-one-browser-to-another" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncopy-your-personal-information-from-one-browser-to-another" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy your personal information from one browser to another</seg>
 			</tuv>
@@ -26723,7 +26723,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣẹ̀dà ìwifún àdáni rẹ láti gbàwálẹ̀ kan sí òmíìràn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncopy-your-personal-information-from-one-browser-to-another" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecopy-your-personal-information-from-one-browser-to-another" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy your personal information from one browser to another</seg>
 			</tuv>
@@ -27251,20 +27251,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàkóso ìṣàdáni, àwọn ẹ̀yán àti àfikún</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-controls-options-and-add-ons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Customize controls, options and add-ons</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàdáni àwọn ìṣàkóso, àwọn ẹ̀yàn àti àfikún</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:customize-controls-options-and-add-ons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize controls, options and add-ons</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣakoso àdáni, àwọn ẹ̀yàn ati àfikún</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-controls-options-and-add-ons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Customize controls, options and add-ons</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàdáni àwọn ìṣàkóso, àwọn ẹ̀yàn àti àfikún</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:customize-controls-options-settings-and-preferences" srclang="en-US">
@@ -27275,7 +27275,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìṣàkóso ìṣàdáni, àwọn ẹ̀yàn, aato ati àwọn ìbuyìfún</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncustomize-firefox-with-add-ons-plugins-and-extensions" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-firefox-with-add-ons-plugins-and-extensions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize Firefox with add-ons, plugins, and extensions</seg>
 			</tuv>
@@ -27299,7 +27299,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàdáni Firefox pẹ̀lú àfikún, àwọn àlékún, àti àwọn ìfàgùn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-firefox-with-add-ons-plugins-and-extensions" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncustomize-firefox-with-add-ons-plugins-and-extensions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize Firefox with add-ons, plugins, and extensions</seg>
 			</tuv>
@@ -27339,22 +27339,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ṣàdáni aròkọ yìí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncustomize-thunderbird-with-add-ons-plugins-and-extensions" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Customize Thunderbird with add-ons, plugins, and extensions</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàdáni Ẹyẹ àrá pẹlu afikun, àwọn àlékún, ati àwọn ìfàgùn</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-thunderbird-with-add-ons-plugins-and-extensions" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Customize Thunderbird with add-ons, plugins, and extensions</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàdáni Ẹyẹ àrá pẹlu afikun, àwọn àlékún, ati àwọn ìfàgùn</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-thunderbird-with-add-ons-plugins-and-extensions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize Thunderbird with add-ons, plugins, and extensions</seg>
@@ -27364,6 +27348,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncustomize-thunderbird-with-add-ons-plugins-and-extensions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Customize Thunderbird with add-ons, plugins, and extensions</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàdáni Ẹyẹ àrá pẹlu afikun, àwọn àlékún, ati àwọn ìfàgùn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptioncustomize-thunderbird-with-add-ons-plugins-and-extensions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Customize Thunderbird with add-ons, plugins, and extensions</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàdáni Ẹyẹ àrá pẹlu afikun, àwọn àlékún, ati àwọn ìfàgùn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlecustomize-thunderbird-with-add-ons-plugins-and-extensions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize Thunderbird with add-ons, plugins, and extensions</seg>
 			</tuv>
@@ -30043,20 +30043,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àṣìṣẹ àwọn iṣẹ́: ohun tí wọn túmọ̀sí àti ọ̀nà ìyanjú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleerror-messages-what-they-mean-and-how-to-fix" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Error messages: what they mean and how to fix</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àṣìṣẹ àwọn iṣẹ́: ohun tí wọn túmọ̀sí àti ọ̀nà ìyanjú</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionerror-messages-what-they-mean-and-how-to-fix" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Error messages: what they mean and how to fix</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àṣìṣe àwọn iṣẹ́: ohun tí wọ́n túmọ̀sí àti ọ̀nà ìyanjú wọn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleerror-messages-what-they-mean-and-how-to-fix" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error messages: what they mean and how to fix</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àṣìṣẹ àwọn iṣẹ́: ohun tí wọn túmọ̀sí àti ọ̀nà ìyanjú</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:error-uploading-image" srclang="en-US">
@@ -30443,22 +30443,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Firefox 6.0.2</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-controls-and-buttons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox controls and buttons</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìṣàkóso Firefox àti bọ́tìnì</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-controls-and-buttons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox controls and buttons</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìṣàkóso Firefox àti bọ́tìnì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-controls-and-buttons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox controls and buttons</seg>
@@ -30468,6 +30452,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-controls-and-buttons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox controls and buttons</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìṣàkóso Firefox àti bọ́tìnì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-controls-and-buttons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox controls and buttons</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìṣàkóso Firefox àti bọ́tìnì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-controls-and-buttons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox controls and buttons</seg>
 			</tuv>
@@ -30595,14 +30595,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ibiọjà Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-options-preferences-and-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox options, preferences and settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn Ẹ̀yàn Firefox, àwọn ìbuyìfún àti aatò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-options-preferences-and-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox options, preferences and settings</seg>
@@ -30627,15 +30619,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ẹ̀yàn Firefox, àwọn ìbuyìfún àti àwọn ààtò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:firefox-os" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-options-preferences-and-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox OS</seg>
+				<seg>Firefox options, preferences and settings</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Firefox OS</seg>
+				<seg>Àwọn Ẹ̀yàn Firefox, àwọn ìbuyìfún àti aatò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlefirefox-os" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox OS</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Firefox OS</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:firefox-os" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox OS</seg>
 			</tuv>
@@ -30715,22 +30715,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìmúdọ́gba Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-sync-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Sync settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Aatò ìmúdọ́gba Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-sync-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Sync settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Aatò ìmúdọ́gba Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-sync-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Sync settings</seg>
@@ -30740,6 +30724,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-sync-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Sync settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Aatò ìmúdọ́gba Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-sync-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Sync settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Aatò ìmúdọ́gba Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-sync-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Sync settings</seg>
 			</tuv>
@@ -30755,7 +30755,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹ̀yà Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-versions-and-languages" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-versions-and-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox versions and languages</seg>
 			</tuv>
@@ -30779,7 +30779,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹ̀yà Firefox àti èdè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfirefox-versions-and-languages" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefirefox-versions-and-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox versions and languages</seg>
 			</tuv>
@@ -30843,22 +30843,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Yanjú àwọn ìṣòro pẹ̀lú àwọn olùpèsè í-meélì (gmail, Yahoo, abbl.)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefix-problems-with-websites-facebook-youtube-webmail-etc" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Fix problems with websites (Facebook, YouTube, webmail etc.)</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yanjú àwọn ìṣòro pẹ̀lú ojúlé wẹ́ẹ̀bù (Facebook, YouTube, webmail abbl.)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfix-problems-with-websites-facebook-youtube-webmail-etc" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Fix problems with websites (Facebook, YouTube, webmail etc.)</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yanjú àwọn ìṣòro pẹ̀lú ojúlé wẹ́ẹ̀bù (Facebook, YouTube, webmail abbl.)</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfix-problems-with-websites-facebook-youtube-webmail-etc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fix problems with websites (Facebook, YouTube, webmail etc.)</seg>
@@ -30868,6 +30852,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefix-problems-with-websites-facebook-youtube-webmail-etc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fix problems with websites (Facebook, YouTube, webmail etc.)</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yanjú àwọn ìṣòro pẹ̀lú ojúlé wẹ́ẹ̀bù (Facebook, YouTube, webmail abbl.)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefix-problems-with-websites-facebook-youtube-webmail-etc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fix problems with websites (Facebook, YouTube, webmail etc.)</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yanjú àwọn ìṣòro pẹ̀lú ojúlé wẹ́ẹ̀bù (Facebook, YouTube, webmail abbl.)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfix-problems-with-websites-facebook-youtube-webmail-etc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fix problems with websites (Facebook, YouTube, webmail etc.)</seg>
 			</tuv>
@@ -30876,6 +30876,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionfix-slowness-crashing-error-messages-and-other-problems" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fix slowness, crashing, error messages and other problems</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Túnṣe díẹ̀díẹ̀, ìdàrú, àwọn àṣìṣe àti ìṣoro míìràn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefix-slowness-crashing-error-messages-and-other-problems" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fix slowness, crashing, error messages and other problems</seg>
 			</tuv>
@@ -30897,14 +30905,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣàtúnṣe irìndìn, ìdàrú, àwọn aṣìṣe iṣẹ́ àti àwọn ìṣòro</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlefix-slowness-crashing-error-messages-and-other-problems" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Fix slowness, crashing, error messages and other problems</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Túnṣe díẹ̀díẹ̀, ìdàrú, àwọn àṣìṣe àti ìṣoro míìràn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:flagged" srclang="en-US">
@@ -31235,22 +31235,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Gba àtìlẹ́hìn àwùjọ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleget-community-support" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Get community support</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Gba àtìlẹ́hìn àwùjọ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleget-community-support" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Get community support</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Gba àtìlẹ́hìn àwùjọ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionget-community-support" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get community support</seg>
@@ -31259,7 +31243,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Gba àtìlẹ́hìn àwùjọ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionget-community-support" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleget-community-support" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get community support</seg>
 			</tuv>
@@ -31268,6 +31252,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:get-community-support" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get community support</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Gba àtìlẹ́hìn àwùjọ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionget-community-support" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get community support</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Gba àtìlẹ́hìn àwùjọ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleget-community-support" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get community support</seg>
 			</tuv>
@@ -32219,6 +32219,22 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìtàn</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:history" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìtàn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:history" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìtàn</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlehistory" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
@@ -32227,22 +32243,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìtàn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:history" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>History</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìtàn</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:history" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>History</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìtàn</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:history-of-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History of {title}</seg>
@@ -32305,22 +32305,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ilé</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionhot-topics" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Hot topics</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àkọlé gbígbóná</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionhot-topics" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Hot topics</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àkọlé gbígbóná</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlehot-topics" srclang="en-US">
@@ -32331,6 +32315,30 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àkọlé gbígbóná</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionhot-topics" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hot topics</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àkọlé gbígbóná</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionhot-topics" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hot topics</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àkọlé gbígbóná</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlehow-does-it-work" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does it work?</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Báwo ló ṣe ń ṣiṣẹ́?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlehow-does-it-work" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does it work?</seg>
@@ -32353,14 +32361,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Báwo lóṣe ńṣiṣé?</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlehow-does-it-work" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does it work?</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Báwo ló ṣe ń ṣiṣẹ́?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:how-it-works" srclang="en-US">
@@ -33067,7 +33067,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìsomọ́ Àwòrán</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:images" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/djangojs.po:images" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Images</seg>
 			</tuv>
@@ -33075,7 +33075,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn àwòrán</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/djangojs.po:images" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:images" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Images</seg>
 			</tuv>
@@ -33907,28 +33907,28 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Olùdasí Kitsune</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:knowledge-base" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Knowledge Base</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìpìlẹ̀ Ìmọ̀</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:knowledge-base" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Knowledge Base</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìpìlẹ̀ Ìmọ̀</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleknowledge-base" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Knowledge Base</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìpínlẹ̀ Ìmọ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:knowledge-base" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Knowledge Base</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìpìlẹ̀ Ìmọ̀</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:knowledge-base" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Knowledge Base</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìpìlẹ̀ Ìmọ̀</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleknowledge-base" srclang="en-US">
@@ -34587,7 +34587,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kọ́ àwọn Ìpìnlẹ̀. Bẹ̀rẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlelearn-the-basics-get-started" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionlearn-the-basics-get-started" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn the Basics. Get Started</seg>
 			</tuv>
@@ -34595,7 +34595,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kọ́ àwọn Ìpìnlẹ̀. Bẹ̀rẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionlearn-the-basics-get-started" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlelearn-the-basics-get-started" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn the Basics. Get Started</seg>
 			</tuv>
@@ -36195,14 +36195,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kàǹsí Àìpẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionmozilla-persona" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Persona</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Mozilla Àdáni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlemozilla-persona" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Persona</seg>
@@ -36225,6 +36217,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Mozilla Àdáni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionmozilla-persona" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Persona</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Mozilla Àdáni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:mozilla-support" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Support</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àtìlẹ́hìn Mozilla</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:mozilla-support" srclang="en-US">
@@ -36236,14 +36244,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:site_titlemozilla-support" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Support</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àtìlẹ́hìn Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:mozilla-support" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Support</seg>
 			</tuv>
@@ -36827,23 +36827,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Akòyan àwọn iṣẹ́. Jọ̀wọ́ tún gbìyànjú.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionnone" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-badgerbadgetitlenone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>None</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Kòsí</seg>
+				<seg>Rárá</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproductdescriptionnone" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>None</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Kòsí</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-badgerbadgedescriptionnone" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlenone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>None</seg>
 			</tuv>
@@ -36859,6 +36851,22 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kòsí</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionnone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>None</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kòsí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-badgerbadgedescriptionnone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>None</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Kòsí</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:nonenone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>None</seg>
@@ -36867,20 +36875,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Kòsí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlenone" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproductdescriptionnone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>None</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Kòsí</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-badgerbadgetitlenone" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>None</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Rárá</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:non-en-us-kb" srclang="en-US">
@@ -37264,7 +37264,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%(number)d month ago</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>%(number)d àwọn oṣù sẹ́hìn</seg>
+				<seg>%(number)d oṣù sẹ́hìn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-month-ago" srclang="en-US">
@@ -37272,15 +37272,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%(number)d month ago</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>%(number)d oṣù sẹ́hìn</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-second-ago" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%(number)d second ago</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>%(number)d àwọn ìṣẹjú àayá ṣẹ́hìn</seg>
+				<seg>%(number)d àwọn oṣù sẹ́hìn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-second-ago" srclang="en-US">
@@ -37291,12 +37283,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%(number)d ìṣẹjú àayá ṣẹ́hìn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-week-ago" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-second-ago" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>%(number)d week ago</seg>
+				<seg>%(number)d second ago</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>%(number)d ọ̀sẹ̀ tó kọjá</seg>
+				<seg>%(number)d àwọn ìṣẹjú àayá ṣẹ́hìn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-week-ago" srclang="en-US">
@@ -37305,6 +37297,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>%(number)d àwọn ọ̀sẹ̀ tó kọjá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-week-ago" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%(number)d week ago</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>%(number)d ọ̀sẹ̀ tó kọjá</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:numberd-year-ago" srclang="en-US">
@@ -37723,7 +37723,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ojúlówó déètì ìfọ̀rọ̀ránṣẹ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionother" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:other" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other</seg>
 			</tuv>
@@ -37739,7 +37739,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Òmíìràn</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:other" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionother" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other</seg>
 			</tuv>
@@ -38123,7 +38123,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ọ̀rọ̀ aṣínà, fọ́ọ̀mù àti ìsàwarí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlepasswords-forms-and-search" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionpasswords-forms-and-search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Passwords, forms and search</seg>
 			</tuv>
@@ -38131,7 +38131,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ọ̀rọ̀ aṣínà, fọ́ọ̀mù àti ìsàwarí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionpasswords-forms-and-search" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlepasswords-forms-and-search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Passwords, forms and search</seg>
 			</tuv>
@@ -39187,20 +39187,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ibi ìkọ̀kọ̀ àti Ààbò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleprivacy-and-security-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Privacy and security settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìpamọ́ àti aatò ààbò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:privacy-and-security-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy and security settings</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìpamọ́ àti àwọn ìṣètò ààbò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleprivacy-and-security-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy and security settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìpamọ́ àti aatò ààbò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:privacy-policy" srclang="en-US">
@@ -39259,14 +39259,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ìṣòro pẹ̀lú àfikún, àwọn àlékún tàbí ẹ̀yà àìrídìmú àìfẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleproblems-with-add-ons-plugins-or-unwanted-software" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Problems with add-ons, plugins or unwanted software</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn ìṣòro pẹ̀lú àfikún, àwọn àlékún tàbí ẹ̀yà àìrídìmú àìfẹ́</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionproblems-with-add-ons-plugins-or-unwanted-software" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Problems with add-ons, plugins or unwanted software</seg>
@@ -39275,6 +39267,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ìṣòro pẹ̀lú àfikún, àwọn àlékún tàbí ẹ̀yà àìrídìmú àìfẹ́</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleproblems-with-add-ons-plugins-or-unwanted-software" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Problems with add-ons, plugins or unwanted software</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ìṣòro pẹ̀lú àfikún, àwọn àlékún tàbí ẹ̀yà àìrídìmú àìfẹ́</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleproblems-with-websites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Problems with websites</seg>
@@ -39305,14 +39305,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn ìṣòro ojúlà wẹ́ẹ̀bù ti kìí ṣiṣẹ́ dáradára ní Firefox fún Windows 8 Touch.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleprocedures-to-diagnose-and-fix-problems" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Procedures to diagnose and fix problems</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn ìlànà láti ṣè wádìí àti yanjú àwọn ìṣòro</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleprocedures-to-diagnose-and-fix-problems" srclang="en-US">
@@ -39329,6 +39321,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn ìlànà láti ṣèwádìí àti yanjú àwọn ìṣòro</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleprocedures-to-diagnose-and-fix-problems" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Procedures to diagnose and fix problems</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ìlànà láti ṣè wádìí àti yanjú àwọn ìṣòro</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionprocedures-to-diagnose-and-fix-problems" srclang="en-US">
@@ -39611,20 +39611,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn Ìbéèrè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:questions" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Questions</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn Ìbéèrè</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:questions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Questions</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Àwọn ìbéèrè</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:questions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Questions</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn Ìbéèrè</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:questions-responded-to-within-x-hours" srclang="en-US">
@@ -40624,23 +40624,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>reply</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>àwọn èsì</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:reply" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>reply</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>àwọn èsì</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:reply" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>reply</seg>
-			</tuv>
-			<tuv xml:lang="yo">
 				<seg>èsì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:reply" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>reply</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>àwọn èsì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:reply" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>reply</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>àwọn èsì</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:reply" srclang="en-US">
@@ -41643,20 +41643,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%s àwọn ẹyọ ọ̀rọ̀ tókù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:search" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Wá</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:buttonsearch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣàwarí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:search" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Wá</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:search" srclang="en-US">
@@ -41739,20 +41739,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìṣàwarí fún àwọn àkọsílẹ̀...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:search-gallery" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search Gallery</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàwarí Gbàgède</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:search-gallery" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search Gallery</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìṣàwárí Gbàgede</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:search-gallery" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search Gallery</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàwarí Gbàgède</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:search-gallery" srclang="en-US">
@@ -41787,23 +41787,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìṣàwarí kòsí lọ́wọ́lọ́wọ́. Jọ̀wọ́ tún gbìyànjú ní ìṣẹjú díẹ̀.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:search-mozilla-support" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search Mozilla Support</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàwarí Àtìlẹ́hìn Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:search-mozilla-support" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search Mozilla Support</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàwarí Àtìlẹ́hìn Mozilla</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:buttonsearch-mozilla-support" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search Mozilla Support</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàwarí Àtìlẹ́hìn Mozilla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:search-mozilla-support" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search Mozilla Support</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàwarí Àtìlẹ́hìn Mozilla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:search-mozilla-support" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search Mozilla Support</seg>
 			</tuv>
@@ -42112,7 +42112,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>See your question here:</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Wo ìbéèrè rẹ níbí:</seg>
+				<seg>Wo àwọn ìbéèrè rẹ níbí:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:see-your-question-here" srclang="en-US">
@@ -42120,7 +42120,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>See your question here:</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Wo àwọn ìbéèrè rẹ níbí:</seg>
+				<seg>Wo ìbéèrè rẹ níbí:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:select-a-language-to-translate-to" srclang="en-US">
@@ -42459,28 +42459,28 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Pín ọgbọ́n rẹ pẹ̀lú àgbayé.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:show" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show:</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàfihàn:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:show" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show:</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàfihàn:</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:show" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show:</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣàfihàn:</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:show" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Show:</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàfihàn:</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:show" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Show:</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàfihàn:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:show-after" srclang="en-US">
@@ -42651,20 +42651,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fihan mí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:show-media-for" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Show media for:</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ṣàfihàn mídíà fun:</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:show-media-for" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show media for:</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ṣàfihàn mídíà fún:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:show-media-for" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show media for:</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ṣàfihàn mídíà fun:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:show-media-for" srclang="en-US">
@@ -43163,20 +43163,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ìyanjú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/djangojs.po:solved" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Solved</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìyanjú</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:solved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Solved</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ti yanjú</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/djangojs.po:solved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Solved</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìyanjú</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:solved" srclang="en-US">
@@ -43563,23 +43563,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Wà lójúpò pẹ̀lú àwọn olùpèsè titun, búlóógì àti àbùdá ojúlúmò</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:thread_typesticky" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sticky</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Lílẹ̀mọ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:thread_typesticky" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sticky</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Lílẹ̀mọ́</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:sticky" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sticky</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Lílẹ̀mọ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:thread_typesticky" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sticky</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Lílẹ̀mọ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:thread_typesticky" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sticky</seg>
 			</tuv>
@@ -44315,23 +44315,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn Táàbù</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptiontab-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Aatò táàbù</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptiontab-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Aatò táàbù</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitletab-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tab settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Aatò táàbù</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptiontab-settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tab settings</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Aatò táàbù</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptiontab-settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tab settings</seg>
 			</tuv>
@@ -46299,28 +46299,28 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Irúfẹ́ èròjà atẹ̀lélànà</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlethunderbird" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thunderbird</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlethunderbird" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thunderbird</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:thunderbird" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thunderbird</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Thunderbird</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlethunderbird" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thunderbird</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ẹyẹ àrá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlethunderbird" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thunderbird</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ẹyẹ àrá</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-controls-and-buttons" srclang="en-US">
@@ -46347,14 +46347,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹyẹ àrá dàrú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-crashes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thunderbird crashes</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá dàrú</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-crashes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thunderbird crashes</seg>
@@ -46363,20 +46355,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹyẹ àrá dàrú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-is-slow-or-stops-working" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-crashes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Thunderbird is slow or stops working</seg>
+				<seg>Thunderbird crashes</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá lọ́ra tàbí dúró ìṣiṣẹ́</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-is-slow-or-stops-working" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thunderbird is slow or stops working</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá lọ́ra tàbí dúró ìṣiṣẹ́</seg>
+				<seg>Ẹyẹ àrá dàrú</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-is-slow-or-stops-working" srclang="en-US">
@@ -46395,12 +46379,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ẹyẹ àrá lọ́ra tàbí dúró ìṣiṣẹ́</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-options-preferences-and-settings" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-is-slow-or-stops-working" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Thunderbird options, preferences and settings</seg>
+				<seg>Thunderbird is slow or stops working</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Àwọn ẹ̀yán ẹyẹ àrá, àwọn ìbuyìfún àti àwọn ààtò</seg>
+				<seg>Ẹyẹ àrá lọ́ra tàbí dúró ìṣiṣẹ́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-is-slow-or-stops-working" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thunderbird is slow or stops working</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ẹyẹ àrá lọ́ra tàbí dúró ìṣiṣẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-options-preferences-and-settings" srclang="en-US">
@@ -46411,6 +46403,22 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ẹ̀yán ẹyẹ àrá, àwọn ìbuyìfún àti àwọn ààtò</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-options-preferences-and-settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thunderbird options, preferences and settings</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ẹ̀yán ẹyẹ àrá, àwọn ìbuyìfún àti àwọn ààtò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-versions-and-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thunderbird versions and languages</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn ẹ̀yà ẹyẹ àrá àti àwọn èdè</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-versions-and-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thunderbird versions and languages</seg>
@@ -46435,12 +46443,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn ẹ̀yà ẹyẹ àrá àti àwọn èdè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-versions-and-languages" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-wont-save-settings-or-remember-information" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Thunderbird versions and languages</seg>
+				<seg>Thunderbird won't save settings or remember information</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>Àwọn ẹ̀yà ẹyẹ àrá àti àwọn èdè</seg>
+				<seg>Ẹyẹ àrá kòní ṣàfipamọ́ ààtò tàbí rántí ìwifún</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-wont-save-settings-or-remember-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thunderbird won't save settings or remember information</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ẹyẹ àrá kòní ṣàfipamọ́ ààtò tàbí rántí ìwifún</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-wont-save-settings-or-remember-information" srclang="en-US">
@@ -46452,22 +46468,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-wont-save-settings-or-remember-information" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thunderbird won't save settings or remember information</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá kòní ṣàfipamọ́ ààtò tàbí rántí ìwifún</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlethunderbird-wont-save-settings-or-remember-information" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thunderbird won't save settings or remember information</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ẹyẹ àrá kòní ṣàfipamọ́ ààtò tàbí rántí ìwifún</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionthunderbird-wont-save-settings-or-remember-information" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thunderbird won't save settings or remember information</seg>
 			</tuv>
@@ -46481,14 +46481,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Agbègbè àkókò</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:tips-and-tricks" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tips and tricks</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn àṣírí àti ọgbọ́n inú</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitletips-and-tricks" srclang="en-US">
@@ -46508,6 +46500,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptiontips-and-tricks" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tips and tricks</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn àṣírí àti ọgbọ́n inú</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:tips-and-tricks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tips and tricks</seg>
 			</tuv>
@@ -47747,14 +47747,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Yọ ìdínà kúrò ni ́Firefox láti sopọ̀ mọ́ Íntánẹ́tì</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleunblock-firefox-from-connecting-to-the-internet" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unblock Firefox from connecting to the Internet</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yọ ìdínà kúrò ni ́Firefox láti sopọ̀ mọ́ Íntánẹ́tì</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionunblock-firefox-from-connecting-to-the-internet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unblock Firefox from connecting to the Internet</seg>
@@ -47771,7 +47763,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Yọ ìdínà kúrò ni ́Firefox láti sopọ̀ mọ́ Íntánẹ́tì</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleunblock-firefox-from-connecting-to-the-internet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unblock Firefox from connecting to the Internet</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yọ ìdínà kúrò ni ́Firefox láti sopọ̀ mọ́ Íntánẹ́tì</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionunblock-thunderbird-from-connecting-to-the-internet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unblock Thunderbird from connecting to the Internet</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Yọ ìdínà kúrò ní Ẹyẹ àrá láti sopọ̀ mọ́ Íntánẹ́tì</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleunblock-thunderbird-from-connecting-to-the-internet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unblock Thunderbird from connecting to the Internet</seg>
 			</tuv>
@@ -47788,14 +47796,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionunblock-thunderbird-from-connecting-to-the-internet" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unblock Thunderbird from connecting to the Internet</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Yọ ìdínà kúrò ní Ẹyẹ àrá láti sopọ̀ mọ́ Íntánẹ́tì</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitleunblock-thunderbird-from-connecting-to-the-internet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unblock Thunderbird from connecting to the Internet</seg>
 			</tuv>
@@ -47907,20 +47907,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìyípadà tí a kò túnwò</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:revisionunreviewed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unreviewed</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Ìyípadà tí a kò túnwò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:documentunreviewed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unreviewed</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Aiṣàgbéyẹ̀wò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:revisionunreviewed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unreviewed</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Ìyípadà tí a kò túnwò</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:unreviewed-changes" srclang="en-US">
@@ -48163,20 +48163,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Ìgbàsókè</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:avatarupload" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Upload</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Gbàwálẹ̀</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:upload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload</seg>
 			</tuv>
 			<tuv xml:lang="yo">
 				<seg>Ìgbàsókè</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:avatarupload" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Gbàwálẹ̀</seg>
 			</tuv>
 		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:upload-a-new-media-file" srclang="en-US">
@@ -48739,14 +48739,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Fídíò, ìfetigbọ́ àti ààtò ìjọṣepọ̀</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:videos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Videos</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Àwọn fídíò</seg>
-			</tuv>
-		</tu>
 		<tu tuid="sumo:LC_MESSAGES/djangojs.po:videos" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Videos</seg>
@@ -48763,23 +48755,31 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Àwọn fídíò</seg>
 			</tuv>
 		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:videos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Videos</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Àwọn fídíò</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionvideos-sound-pictures-and-animations-dont-work" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Videos, sound, pictures and animations don't work</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fídíò, ohùn, awòrán àti àwòrán abẹ̀mí kò ṣiṣé</seg>
+			</tuv>
+		</tu>
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionvideos-sound-pictures-and-animations-dont-work" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Videos, sound, pictures and animations don't work</seg>
+			</tuv>
+			<tuv xml:lang="yo">
+				<seg>Fídíò, ohùn, awòrán àti àwòrán abẹ̀mí kò ṣiṣé</seg>
+			</tuv>
+		</tu>
 		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopictitlevideos-sound-pictures-and-animations-dont-work" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Videos, sound, pictures and animations don't work</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fídíò, ohùn, awòrán àti àwòrán abẹ̀mí kò ṣiṣé</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionvideos-sound-pictures-and-animations-dont-work" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Videos, sound, pictures and animations don't work</seg>
-			</tuv>
-			<tuv xml:lang="yo">
-				<seg>Fídíò, ohùn, awòrán àti àwòrán abẹ̀mí kò ṣiṣé</seg>
-			</tuv>
-		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productstopicdescriptionvideos-sound-pictures-and-animations-dont-work" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Videos, sound, pictures and animations don't work</seg>
 			</tuv>
@@ -49387,7 +49387,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Gbàwálẹ̀ ojúlé wẹ́ẹ̀bù fún Windows, Mac àti Linux</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlewebmaker" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:webmaker" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Webmaker</seg>
 			</tuv>
@@ -49395,7 +49395,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Olùṣe wẹ́ẹ̀bù</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:webmaker" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:db-productsproducttitlewebmaker" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Webmaker</seg>
 			</tuv>
@@ -49859,7 +49859,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>X-Ray Goggles</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/djangojs.po:yes" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/django.po:yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -49867,7 +49867,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Bẹ́ẹ̀ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="sumo:LC_MESSAGES/django.po:yes" srclang="en-US">
+		<tu tuid="sumo:LC_MESSAGES/djangojs.po:yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -51153,7 +51153,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>ọlọtọ</seg>
+				<seg>díbàjẹ́</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -51161,7 +51161,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="yo">
-				<seg>díbàjẹ́</seg>
+				<seg>ọlọtọ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-04-01T00:21:51.549693">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-05-01T00:22:21.943668">
 	</header>
 	<body>
 		<tu tuid="firefox:dom/chrome/layout/css.properties:pesupportsconditioninparenseof" srclang="en-US">
@@ -9,14 +9,6 @@
 			</tuv>
 			<tuv xml:lang="qvi">
 				<seg>‘)’</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/translationNotification.ftl:translation-notification-translated-to-suffix" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ "" }</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>{ "" }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
@@ -107,7 +99,7 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -116,6 +108,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -139,15 +139,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -179,14 +171,6 @@
 				<seg>Firefox Focus</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:lockwise-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Lockwise</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Firefox Lockwise</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:lockwise-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Lockwise</seg>
@@ -195,7 +179,15 @@
 				<seg>Firefox Lockwise</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:lockwise-brand-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Lockwise</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Firefox Lockwise</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
@@ -203,7 +195,7 @@
 				<seg>Firefox Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
@@ -235,14 +227,6 @@
 				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Relay</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Firefox Relay</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:relay-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Relay</seg>
@@ -251,12 +235,12 @@
 				<seg>Firefox Relay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:screenshots-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox Screenshots</seg>
+				<seg>Firefox Relay</seg>
 			</tuv>
 			<tuv xml:lang="qvi">
-				<seg>Firefox Screenshots</seg>
+				<seg>Firefox Relay</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:screenshots-brand-name" srclang="en-US">
@@ -267,12 +251,12 @@
 				<seg>Firefox Screenshots</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:send-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:screenshots-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox Send</seg>
+				<seg>Firefox Screenshots</seg>
 			</tuv>
 			<tuv xml:lang="qvi">
-				<seg>Firefox Send</seg>
+				<seg>Firefox Screenshots</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:send-brand-name" srclang="en-US">
@@ -283,7 +267,15 @@
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:translations-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:send-brand-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Send</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Firefox Send</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:translations-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Translations</seg>
 			</tuv>
@@ -291,7 +283,7 @@
 				<seg>Firefox Translations</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:translations-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:translations-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Translations</seg>
 			</tuv>
@@ -427,7 +419,7 @@
 				<seg>{ main-context-menu-page-save.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -435,7 +427,7 @@
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -459,6 +451,14 @@
 				<seg>{ menu-quit.label }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Monitor</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Monitor</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Monitor</seg>
@@ -467,12 +467,12 @@
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Monitor</seg>
+				<seg>Mozilla</seg>
 			</tuv>
 			<tuv xml:lang="qvi">
-				<seg>Monitor</seg>
+				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
@@ -484,14 +484,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="qvi">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -531,7 +523,7 @@
 				<seg>Mozilla Rally</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla VPN</seg>
 			</tuv>
@@ -539,7 +531,7 @@
 				<seg>Mozilla VPN</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla VPN</seg>
 			</tuv>
@@ -571,7 +563,7 @@
 				<seg>Tsirpayupa kallarinata akllapay ima munashkata shinay\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:pocket-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:pocket-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pocket</seg>
 			</tuv>
@@ -579,7 +571,7 @@
 				<seg>Pocket</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:pocket-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:pocket-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pocket</seg>
 			</tuv>
@@ -705,6 +697,14 @@
 			</tuv>
 			<tuv xml:lang="qvi">
 				<seg>Kunanpachakta witishka. &lt;label data-l10n-name="failed-link"&gt;Puchuk wallpata urahuchina aparinkapa&lt;/label&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:aboutdialog-update-manual" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Updates available at &lt;a data-l10n-name="manual-link"/&gt;</seg>
+			</tuv>
+			<tuv xml:lang="qvi">
+				<seg>Kunanpayashkakuna shinankapak -pi &lt;a data-l10n-name="manual-link"/&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-manual" srclang="en-US">
