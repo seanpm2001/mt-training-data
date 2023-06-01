@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-05-01T00:24:54.376877">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-06-01T00:26:06.471499">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -180,7 +180,7 @@ could include:</seg>
 				<seg>Yewna Ziwan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -188,7 +188,7 @@ could include:</seg>
 				<seg>Ziwanêk îlawe bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -1103,20 +1103,20 @@ Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! &lt;languageRequestLink&gt;Î
 				<seg>Dewam ke</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
-			</tuv>
-			<tuv xml:lang="zza">
-				<seg>Dest bide</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="zza">
 				<seg>Beşdar be</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="zza">
+				<seg>Dest bide</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
@@ -1391,7 +1391,7 @@ Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! &lt;languageRequestLink&gt;Î
 				<seg>Weşanê Komdayeyan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-heading" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -1399,7 +1399,7 @@ Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! &lt;languageRequestLink&gt;Î
 				<seg>Komdayeyî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -1543,7 +1543,7 @@ Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! &lt;languageRequestLink&gt;Î
 				<seg>Ti ziwanê xo komdayeyî de nêvînenî/a? Seba waştişê ziwanêk, şo Rîpelê ma yê Ziwanan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1551,7 +1551,7 @@ Ma zaf wazenîme ke ti ziwanê xo îlawer bikerê! &lt;languageRequestLink&gt;Î
 				<seg>Bîyare war</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -2597,7 +2597,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Common Voice saetan senî hesab keno?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -2605,7 +2605,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Common Voice senî gureyeno?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -3253,7 +3253,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Qirxizkî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3269,7 +3269,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Ziwan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3445,7 +3445,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Lînkê keyepelan ke fehmkerdişê ziwanî de hetkarîya ma kenê</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3453,7 +3453,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Goşdar bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3645,7 +3645,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Maîthîlî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
@@ -3653,7 +3653,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Baldar be ke cumle rîayetê nê krîteran bikero:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-make-sure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
@@ -3939,7 +3939,7 @@ Coka ma databasê xo de zafrengîye wazenîme!</seg>
 				<seg>Berpirsîyarîya hempare.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -3947,7 +3947,7 @@ Coka ma databasê xo de zafrengîye wazenîme!</seg>
 				<seg>Cumleyê Mi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -3995,7 +3995,7 @@ Coka ma databasê xo de zafrengîye wazenîme!</seg>
 				<seg>Nameyê ziwanê to</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -4003,7 +4003,7 @@ Coka ma databasê xo de zafrengîye wazenîme!</seg>
 				<seg>Ziwanê Dayîke</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -4715,7 +4715,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Profîl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -4723,7 +4723,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Profîl</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -4931,7 +4931,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>[Verê ke çekuya peyêne wanîyaya, qeyd birîya]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
@@ -4939,7 +4939,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Qeydî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
@@ -5155,6 +5155,14 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Agêre ziwanan</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="zza">
+				<seg>Çim Biçarne</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -5164,14 +5172,6 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="zza">
-				<seg>Çim Biçarne</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -5635,7 +5635,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Setswana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5643,7 +5643,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Eyarî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5811,14 +5811,6 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Sîswatkî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Size</seg>
-			</tuv>
-			<tuv xml:lang="zza">
-				<seg>Girsîye</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Size</seg>
@@ -5827,7 +5819,15 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Girsîye</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Size</seg>
+			</tuv>
+			<tuv xml:lang="zza">
+				<seg>Girsîye</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5835,7 +5835,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Ravêre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5995,7 +5995,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Spankî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -6003,7 +6003,7 @@ Metnê ma yê çimeyî na &lt;githubLink&gt;dosyaya GitHubî&lt;/githubLink&gt; 
 				<seg>Qisey ke</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -6127,7 +6127,7 @@ Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem 
 				<seg>Binuse û fekê xo tarîf bike</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -6135,7 +6135,7 @@ Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem 
 				<seg>Statîstîkî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -6223,6 +6223,14 @@ Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem 
 				<seg>Xetaya Rusnayîşî</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="zza">
+				<seg>Birusne</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
@@ -6232,14 +6240,6 @@ Seba ke naskerdişê vengî hîna zaf unîversal bo, ma nimûneyanê vengî hem 
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="zza">
-				<seg>Birusne</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -6784,7 +6784,7 @@ Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto 
 				<seg>Ganî cumle hetê gramerî ra raşt bo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
@@ -6792,7 +6792,7 @@ Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto 
 				<seg>Ganî merdim bieşko cumle biwano.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
@@ -6952,7 +6952,7 @@ Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto 
 				<seg>Beşdarê Tewr Aktîfî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -6960,7 +6960,7 @@ Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto 
 				<seg>Pêro pîya</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -7344,7 +7344,7 @@ Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto 
 				<seg>Venedîkkî</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -7352,7 +7352,7 @@ Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto 
 				<seg>Versîyon</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -7524,7 +7524,7 @@ Pê e-maîl yan zî forumanê &lt;discourseLink&gt;Discourse&lt;/discourseLink&g
 				<seg>Ma keye de nan wenîme.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -7532,7 +7532,7 @@ Pê e-maîl yan zî forumanê &lt;discourseLink&gt;Discourse&lt;/discourseLink&g
 				<seg>Mozîlla de ma komelêkê teknolojîya vengî awan kenîme. Ma wazenîme seba rojanekerdişan û çimeyanê dayeyan ê neweyan ra to de bikewîme têkilîye û bizanîme ke ti nê dayeyan senî xebitnenî/a.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -8511,7 +8511,7 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="zza">
-				<seg>canîşan</seg>
+				<seg>canîşan kerdene</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -8519,7 +8519,7 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="zza">
-				<seg>canîşan kerdene</seg>
+				<seg>canîşan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
