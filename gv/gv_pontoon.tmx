@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-06-01T00:22:18.984341">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-07-01T00:24:58.967643">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -75,7 +75,7 @@
 				<seg>Ta { -brand-short-name } gymmydey yn tasht LRT ec Mozilla dy yannoo shickyr dy vel kiangley sauçhey, ayns ynnyd jeh teishtyn voish coarys obbree yn ymmydeyr.  Myr shen, my vees claare noi veerysyn ny moggyl lhiettal kiangley lesh teisht sauçhys currit magh liorish LRT nagh vel ayns tasht LRT Vozilla, bee briwnys jeant nagh vel yn chiangley sauçhey.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-symantec" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-symantec" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Certificates issued by GeoTrust, RapidSSL, Symantec, Thawte, and VeriSign are no longer considered safe because these certificate authorities failed to follow security practices in the past.</seg>
 			</tuv>
@@ -83,7 +83,7 @@
 				<seg>Cha nel treisht currit ayns teishtyn currit magh liorish GeoTrust, RapidSSL, Symantec, Thawte, ny VeriSign er yn oyr nagh ren ny lughtyn reill teisht shoh geiyrt er cliaghtaghyn sauçhys keayrt dy row.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-symantec" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-symantec" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Certificates issued by GeoTrust, RapidSSL, Symantec, Thawte, and VeriSign are no longer considered safe because these certificate authorities failed to follow security practices in the past.</seg>
 			</tuv>
@@ -211,7 +211,15 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -227,7 +235,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -259,7 +267,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -267,7 +275,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -283,15 +291,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -299,7 +299,7 @@
 				<seg>She cowraghyn-keirdey Undinys Mozilla Firefox as jesheenys Firefox.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
 			</tuv>
@@ -339,7 +339,7 @@
 				<seg>Firefox Lockwise</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
@@ -347,7 +347,7 @@
 				<seg>Firefox Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
@@ -363,14 +363,6 @@
 				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Profiler</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Firefox Profiler</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutLogging.ftl:profiler-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Profiler</seg>
@@ -379,7 +371,15 @@
 				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Profiler</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Firefox Profiler</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:relay-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Relay</seg>
 			</tuv>
@@ -387,7 +387,7 @@
 				<seg>Firefox Relay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:relay-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Relay</seg>
 			</tuv>
@@ -411,7 +411,7 @@
 				<seg>Firefox Screenshots</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:send-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:send-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -419,7 +419,7 @@
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:send-brand-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/branding/brandings.ftl:send-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -465,6 +465,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>&lt;img data-l10n-name="icon"/&gt;Jeelaadey lhieggan noa — &lt;label data-l10n-name="download-status"/&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:settings-update-downloading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;img data-l10n-name="icon"/&gt;Downloading update — &lt;label data-l10n-name="download-status"&gt;{ $transfer }&lt;/label&gt;</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>&lt;img data-l10n-name="icon"/&gt;Jeelaadey lhieggan noa — &lt;label data-l10n-name="download-status"&gt;{ $transfer }&lt;/label&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:date-header" srclang="en-US">
