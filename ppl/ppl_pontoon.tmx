@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-07-01T00:27:01.433912">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-08-01T00:24:39.197450">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -9,14 +9,6 @@
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>1</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-mozilla" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-short-name } is backed by the non-profit Mozilla, which administers a completely open certificate authority (CA) store. The CA store helps ensure that certificate authorities are following best practices for user security.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla kipalewia { -brand-short-name }. Yaja  se organización te kineki kipiwilia tumin wan kitekimaka se tapiyaluyan tapujtuk ipal tatekimakalis ipal certificados (CA). Ne tapialuyan ipal CA kipalewia pal ma ne tatekimakalis ipal certificados kichiwikan ne tay yek pal kipalewia ne usuarioj.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-mozilla" srclang="en-US">
@@ -28,14 +20,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-connection" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-short-name } uses the Mozilla CA store to verify that a connection is secure, rather than certificates supplied by the user’s operating system. So, if an antivirus program or a network is intercepting a connection with a security certificate issued by a CA that is not in the Mozilla CA store, the connection is considered unsafe.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>{ -brand-short-name } kikwi ne tapiyaluyan Mozilla CA pal kita yek su ne musalulis te tesajsay, wan te kita ne certificadoj tay tamakak ne isistema operativo ne usuarioj. Kwakuni, asu se programa antivirus u se matapan nemi kitzkia se musalulis iwan se certificadoj tajpiyalis tay tamakak se CA ne tesu nemi tik ne tapiyaluyan Mozilla CA, ne musalulis nesis tesajsay.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-connection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-short-name } uses the Mozilla CA store to verify that a connection is secure, rather than certificates supplied by the user’s operating system. So, if an antivirus program or a network is intercepting a connection with a security certificate issued by a CA that is not in the Mozilla CA store, the connection is considered unsafe.</seg>
 			</tuv>
@@ -59,15 +43,7 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:facebook-container-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Facebook Container</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Facebook Container</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -75,23 +51,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandproductname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -115,6 +75,14 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -123,36 +91,12 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:trademarkinfopart1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne ilojlogoj Firefox wan the Firefox majmarcaj ipal the Mozilla Foundation.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
@@ -163,28 +107,12 @@
 				<seg>Firefox wan ne Firefox-ishkamet kisat itech ne tiankismachiut pal ne Mozilla Foundation.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:focus-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Focus</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Focus</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:focus-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Focus</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Firefox Focus</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:lockwise-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Lockwise</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Lockwise</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:lockwise-brand-name" srclang="en-US">
@@ -195,28 +123,12 @@
 				<seg>Firefox Lockwise</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Monitor</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Monitor</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Monitor</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Firefox Monitor</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Profiler</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
@@ -235,14 +147,6 @@
 				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Relay</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Relay</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:relay-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Relay</seg>
@@ -259,14 +163,6 @@
 				<seg>Firefox Screenshots</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:screenshots-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Screenshots</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Screenshots</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:send-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
@@ -275,36 +171,12 @@
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:send-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Send</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Send</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:translations-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Translations</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Translations</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:translations-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Translations</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Firefox Translations</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-intro" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $hostname } uses an invalid security certificate.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>{ $hostname } kikwi se teyek certificado ipal tajpiyalis</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-intro" srclang="en-US">
@@ -323,22 +195,6 @@
 				<seg>Lockwise</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:lockwise-brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Lockwise</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Lockwise</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:monitor-brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Monitor</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Monitor</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:monitor-brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Monitor</seg>
@@ -347,7 +203,7 @@
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -363,23 +219,7 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.dtd:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -395,36 +235,12 @@
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:rally-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Rally</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla Rally</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla VPN</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla VPN</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:mozilla-vpn-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla VPN</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Mozilla VPN</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:pocket-brand-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Pocket</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Pocket</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:pocket-brand-name" srclang="en-US">
@@ -435,14 +251,6 @@
 				<seg>Pocket</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:rally-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Rally</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Rally</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:relay-brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Relay</seg>
@@ -451,23 +259,7 @@
 				<seg>Relay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/branding/brandings.ftl:relay-brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Relay</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Relay</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-unknown-issuer-intro" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Someone could be trying to impersonate the site and you should not continue.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Se akaj kiejekua nesi kenha ken ne sitioj pal metzshijshikua, kunij maka shikalaki.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-unknown-issuer-intro" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Someone could be trying to impersonate the site and you should not continue.</seg>
 			</tuv>
@@ -491,23 +283,7 @@
 				<seg>Ne certificado tesu muyulmati ika se certificadoj CA tesu yek kititanij.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-cert-invalid" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The certificate is not trusted because it was issued by an invalid CA certificate.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne certificado tesu muyulmati ika se certificadoj CA tesu yek kititanij.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-trust-untrusted-issuer" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The certificate is not trusted because the issuer certificate is not trusted.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne certificadoj tesu muyulmati ika ne icertificadoj ne ká kititania tesu muyulmati.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-untrusted-issuer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The certificate is not trusted because the issuer certificate is not trusted.</seg>
 			</tuv>
@@ -531,23 +307,7 @@
 				<seg>Ne sitios tik ne matapan kiejekuat inhidentidad iwan ipalewika ne certificados. { -brand-short-name } tesu kiyulmati { $hostname } ika icertificado tesu mumati, ne certificado mutajkwilua isel, u ne servidor tesu kititania ne yejyek certificados intermedios.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-trust-unknown-issuer" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Websites prove their identity via certificates. { -brand-short-name } does not trust { $hostname } because its certificate issuer is unknown, the certificate is self-signed, or the server is not sending the correct intermediate certificates.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne sitios tik ne matapan kiejekuat inhidentidad iwan ipalewika ne certificados. { -brand-short-name } tesu kiyulmati { $hostname } ika icertificado tesu mumati, ne certificado mutajkwilua isel, u ne servidor tesu kititania ne yejyek certificados intermedios.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:cert-error-mitm-intro" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Websites prove their identity via certificates, which are issued by certificate authorities.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne sitios web kita yek inhidentidad ipanpa certificados. Ini certificados kititaniat ne tatuktianimet ipal certificación.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/aboutCertError.ftl:cert-error-mitm-intro" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Websites prove their identity via certificates, which are issued by certificate authorities.</seg>
 			</tuv>
@@ -747,14 +507,6 @@
 				<seg>Te welik muishkupina. Shikishkupina tajasan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:brand-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-accounts:auth.ftl:brand-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -763,12 +515,12 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:product-firefox-account" srclang="en-US">
+		<tu tuid="firefox-accounts:branding.ftl:brand-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox account</seg>
+				<seg>Firefox</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Firefox account</seg>
+				<seg>Firefox</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-accounts:branding.ftl:product-firefox-account" srclang="en-US">
@@ -779,12 +531,12 @@
 				<seg>Firefox account</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:product-firefox-accounts" srclang="en-US">
+		<tu tuid="firefox-accounts:auth.ftl:product-firefox-account" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox accounts</seg>
+				<seg>Firefox account</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Firefox accounts</seg>
+				<seg>Firefox account</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-accounts:auth.ftl:product-firefox-accounts" srclang="en-US">
@@ -795,7 +547,15 @@
 				<seg>Firefox accounts</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
+		<tu tuid="firefox-accounts:branding.ftl:product-firefox-accounts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox accounts</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox accounts</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Cloud</seg>
 			</tuv>
@@ -803,7 +563,7 @@
 				<seg>Firefox Cloud</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
+		<tu tuid="firefox-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Cloud</seg>
 			</tuv>
@@ -1483,7 +1243,7 @@
 				<seg>Ne dirección tesu muajsik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
@@ -1491,7 +1251,7 @@
 				<seg>Chayawtuk…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
@@ -1615,7 +1375,7 @@
 				<seg>Takimiltia senpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -1623,7 +1383,7 @@
 				<seg>Tesu welik muchiwa se musalulis seguruj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -2374,7 +2134,7 @@ Tikselia ini tanawatilis ika taja ne itekuyu ini titantukayit.</seg>
 				<seg>Shimumachti tay muneki pal tiktajpia mutamatil wan hackers te kichtekit ichtaka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:brand-name" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -2382,7 +2142,7 @@ Tikselia ini tanawatilis ika taja ne itekuyu ini titantukayit.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:brand-name" srclang="en-US">
+		<tu tuid="firefox-monitor-website:email-strings.ftl:brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -2976,7 +2736,7 @@ wan shiktali tik mutanutzalis wan tepustapuani pal tesu nemi pal tikelnamiki muc
 				<seg>Tay nikneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
+		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -2984,7 +2744,7 @@ wan shiktali tik mutanutzalis wan tepustapuani pal tesu nemi pal tikelnamiki muc
 				<seg>{ -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -4620,20 +4380,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Cámaraj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikajkawa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Shikpulu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikajkawa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_error_format" srclang="en-US">
@@ -4764,7 +4524,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktentzakwa ne tay nemi ka kalijtik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -4772,7 +4532,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -4788,7 +4548,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -4868,7 +4628,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tajtaiwan pal titakejketza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_dismiss_input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -4884,7 +4644,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_dismiss_input" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -5036,22 +4796,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikpupu wan shiktapu %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ma mupupu kan nipashaluj yewa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikpupu kan nipashaluj yewa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
@@ -5066,6 +4810,22 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Shikpupu kan tipashaluj yewa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikpupu kan nipashaluj yewa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ma mupupu kan nipashaluj yewa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_and_open_short_label" srclang="en-US">
@@ -5340,7 +5100,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Taketzalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5364,7 +5124,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikmatiuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5420,7 +5180,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shinemi ichtaka mujmusta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_subitem_manage_sites" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_autocomplete_manage_sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage sites</seg>
 			</tuv>
@@ -5428,7 +5188,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktekimaka ne sijsitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_autocomplete_manage_sites" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_subitem_manage_sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage sites</seg>
 			</tuv>
@@ -5604,14 +5364,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tapual ipal tapachiwiani tentzaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Off</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Sewtuk</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
@@ -5620,7 +5372,15 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Sewtuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Sewtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -5628,7 +5388,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>SHIKSEWI tik ini sitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -5668,7 +5428,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Timakaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ON for this site</seg>
 			</tuv>
@@ -5676,7 +5436,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>SHIKTIMAKA tik ini sitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ON for this site</seg>
 			</tuv>
@@ -5914,6 +5674,14 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shitayekchiwa wejka iwan ne USB/Wi-Fi</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikishti</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5931,14 +5699,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikishti</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5994,7 +5754,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikishti muchi ne tepusyulu tatemua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -6002,7 +5762,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktukeyti uksenpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -6282,7 +6042,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktali ma senpa nemi achtu, ma temi isel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_cookie_banner_underline_settings" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>settings</seg>
 			</tuv>
@@ -6290,7 +6050,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>tachijchiwalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_cookie_banner_underline_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>settings</seg>
 			</tuv>
@@ -6387,7 +6147,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tetajpialis kan tipashalua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -6395,7 +6155,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Te nikneki nikita</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -7072,7 +6832,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikupina ne idirección ne ilpika</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -7080,7 +6840,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikmajmachiwa ne URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -7843,7 +7603,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>tapanaltia</seg>
+				<seg>palantuk</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -7851,7 +7611,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>palantuk</seg>
+				<seg>tapanaltia</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -8598,7 +8358,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -8606,7 +8366,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
