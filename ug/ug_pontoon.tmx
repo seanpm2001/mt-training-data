@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-09-01T00:24:29.929600">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-10-01T00:28:39.219053">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -197,7 +197,7 @@ could include:</seg>
 				<seg>قوشۇمچە تىل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -205,7 +205,7 @@ could include:</seg>
 				<seg>تىل قوشۇڭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Language</seg>
 			</tuv>
@@ -413,6 +413,14 @@ could include:</seg>
 				<seg>كېلىۋاتامسىز؟ [باشقىلار چاقىردى]</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>كېلىۋاتامسە؟ &lt;strong&gt;[باشقا بىرى چاقىردى]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hy-am" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Armenian</seg>
@@ -541,14 +549,6 @@ could include:</seg>
 				<seg>قايتىش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Background Noise</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>مۇھىت شاۋقۇنى</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Noise</seg>
@@ -557,7 +557,15 @@ could include:</seg>
 				<seg>مۇھىت شاۋقۇنى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>مۇھىت شاۋقۇنى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -565,7 +573,7 @@ could include:</seg>
 				<seg>مۇھىت ئاۋازى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -1320,7 +1328,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>داۋاملاشتۇر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -1328,7 +1336,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>تۆھپە قوشاي</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -1400,6 +1408,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>تۆھپىكارلار ئىئانە قىلىنغان جۈملىلەرنى ئوقۇش ئارقىلىق ئاۋازلارنى خاتىرىلەيدۇ.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>Cookies</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
@@ -1408,12 +1424,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Cookies</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:resource-coqui-info" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Cookies</seg>
+				<seg>&lt;coquiLink&gt;Coqui&lt;/coquiLink&gt; is dedicated to open speech technology. Their projects include deep learning based STT and TTS engines.</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>Cookies</seg>
+				<seg>&lt;coquiLink&gt; Coqui &lt;/coquiLink&gt; ئوچۇق نۇتۇق تېخنىكىسىغا بېغىشلانغان. ئۇلارنىڭ تۈرلىرى چوڭقۇر ئۆگىنىشنى ئاساس قىلغان STT ۋە TTS موتورلىرىنى ئۆز ئىچىگە ئالىدۇ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:kw" srclang="en-US">
@@ -1720,7 +1736,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>دىۋەخىچە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:report-sc-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1728,7 +1744,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ئوخشىمىغان تىل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1782,6 +1798,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>بۇ جۈملە كۆرسەتمىگە ئۇيغۇنمۇ؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:donate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئىئانە</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-subtitle" srclang="en-US">
@@ -1988,7 +2012,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>تەرجىمىھال تەھرىر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1996,7 +2020,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ئېلخەت</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -2028,7 +2052,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ئېلخەت مۇشتەرىلىكى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -2036,7 +2060,7 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ئىنگلىزچە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -2156,6 +2180,14 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>ھەممەيلەن</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ewo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ewondo</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئېۋوندوچە</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:example" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Example</seg>
@@ -2234,6 +2266,14 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>ئاممىۋى دائىرىدە جۈملىنىڭ مەۋجۇت ئىكەنلىكى بايقالدى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-7" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Find others who care. That could be universities, language schools, advocacy groups or data science communities. Reach out and explain clearly how they can help and why. &lt;outreachTemplates&gt;See our template outreach emails&lt;/outreachTemplates&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئۇنىۋېرسىتېتلار، تىل مەكتەپلىرى، تەشۋىقات گۇرۇپپىلىرى ياكى سانلىق مەلۇمات پەنلىرى جەمئىيىتىگە ئوخشاش، بۇ ئىشقا كۆڭۈل بۆلىدىغانلارنى ئىزدەڭ. ئۇلارنىڭ قانداق ۋە نېمە ئۈچۈن ياردەم قىلالايدىغانلىقىنىڭ سەۋەبىنى ئېنىق چۈشەندۈرۈڭ. &lt;outreachTemplates&gt;سىرتقى ئالاقە ئېلخەت قېلىپىمىزنى كۆرۈڭ&lt;/outreachTemplates&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:finish-editing" srclang="en-US">
@@ -2440,6 +2480,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ئاۋاز تونۇتۇشنى باشلاڭ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:resource-nemo-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;githubLink&gt;NVIDIA NeMo&lt;/githubLink&gt;™ is an &lt;docsLink&gt;open-source toolkit&lt;/docsLink&gt; for researchers developing state-of-the-art conversational AI models.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>&lt;githubLink&gt;NVIDIA NeMo&lt;/githubLink&gt;™ تەتقىقاتچىلار ئەڭ ئىلغار سۆزلىشىش شەكلىدىكى سۈنئىي ئەقىل (AI) بۆلىكىنى ئىجاد قىلىدىغان بىر يۈرۈش &lt;docsLink&gt;ئوچۇق كودلۇق ئىجادكارلار قورال بوغچىسى&lt;/docsLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:avatar-clip-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Give your avatar a voice</seg>
@@ -2590,6 +2638,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>كۆرسەتمە</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:gu-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gujarati</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>گۇجاراتىچە</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:ht" srclang="en-US">
@@ -3482,6 +3538,14 @@ and we’ll get back to you!</seg>
 				<seg>ياپونچە</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:jv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Javanese</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>جاۋانىسچە</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Join the Common Voice mailing list</seg>
@@ -3682,7 +3746,7 @@ and we’ll get back to you!</seg>
 				<seg>قىرغىزچە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3690,7 +3754,7 @@ and we’ll get back to you!</seg>
 				<seg>تىل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -4258,14 +4322,6 @@ and we’ll get back to you!</seg>
 				<seg>ئۇچۇر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>[Mismatched content]</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>[ماس كەلمىگەن مەزمۇن]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Mismatched content]</seg>
@@ -4274,7 +4330,15 @@ and we’ll get back to you!</seg>
 				<seg>[ماس كەلمىگەن مەزمۇن]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Mismatched content]</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>[ماس كەلمىگەن مەزمۇن]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
 			</tuv>
@@ -4282,7 +4346,7 @@ and we’ll get back to you!</seg>
 				<seg>خاتا ئوقۇلغانلار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
 			</tuv>
@@ -4432,6 +4496,14 @@ This is why in our voice database we want variety!</seg>
 				<seg>Mozilla ئۆزىنى تورنى ھەممىگە ئوچۇق ۋە ھەربىر ئادەم ئىشلىتەلەيدىغان ھالەتتە ساقلاشقا بېغىشلىغان. بۇنىڭ ئۈچۈن بىز Common Voice تۈرىگە ئوخشاش تۈرلەر ئارقىلىق تور قۇرغۇچىلارنى تېخىمۇ چوڭ ئىمكانغا ئىگە قىلىشىمىز لازىم. ئاۋاز تېخنىكىسىنىڭ ئومۇملىشىش بىلەن تەڭ بۇ بارلىق ئىشلەتكۈچىلەر ئۈچۈن باراۋەر بولىدىغانلىقىغا ئىشىنىمىز. بۇ دېگەنلىك ئاۋاز تېخنىكىسىنى قۇرۇش ۋە سىناشتا تېخىمۇ كۆپ تىللاردىكى كۆپ خىللىققا ئىگە تەلەپپۇز ۋە نوپۇسنى ئويلىشىش كېرەك ئىكەنلىكىدىن دېرەك بېرىدۇ.Common Voice ھەرقانداق كىشىنىڭ ئىشلىتىشىنى ئىچىۋېتىلگەن ئاممىۋى مەنبە بولۇپ دۇنيادىكى Mozilla نىڭ گۇرۇپپىلىرى ۋە ئاچقۇچىلار ئۆزلىرىنىڭ تۈرلىرىدە ئىشلىتىپ كېلىۋاتىدۇ.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:resource-deepspeech-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our &lt;githubLink&gt;Github overview&lt;/githubLink&gt; or join the &lt;discourseLink&gt;DeepSpeech Discourse&lt;/discourseLink&gt; to learn how to get started.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى Deep Speech نى قوللىنىپ، ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن باشلاشنى بىلىشتە بىزنىڭ &lt;githubLink&gt;قىسقىچە تونۇشتۇرۇش  Github &lt;/githubLink&gt;  نى ئوقۇڭ ياكى &lt;discourseLink&gt;DeepSpeech مۇنازىرىسىگە&lt;/discourseLink&gt; قاتنىشىڭ.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mutual accountability.</seg>
@@ -4458,7 +4530,7 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 Mycroftئى ئۈستەل كومپيۇتېرىدا، ماشىنىدا ياكى Raspberry Pi دا ئىجرا قىلغىلى بولىدۇ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -4466,7 +4538,7 @@ Mycroftئى ئۈستەل كومپيۇتېرىدا، ماشىنىدا ياكى Ra
 				<seg>جۈملىلىرىم</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>My Sentences</seg>
 			</tuv>
@@ -4610,20 +4682,20 @@ Mycroftئى ئۈستەل كومپيۇتېرىدا، ماشىنىدا ياكى Ra
 				<seg>ياق</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>[No ‘a’ in the original text]</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>[ئەسلى تېكىستتە «ئا» يوق]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[No ‘a’ in the original text]</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>[ئەسلى تېكىستتە «بىر» يوق]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[No ‘a’ in the original text]</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>[ئەسلى تېكىستتە «ئا» يوق]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:new-sentence-rule-1" srclang="en-US">
@@ -4924,6 +4996,14 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ياكى ئاۋازنى ئۆچۈرۈڭ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:os" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ossetian</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئوسسېتىنچە</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:other" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other</seg>
@@ -5050,7 +5130,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ھەمكارلاشقۇچى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -5058,7 +5138,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ھەمكارلاشقۇچىلار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-partners" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partners</seg>
 			</tuv>
@@ -5091,6 +5171,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise-tip-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Part of the text can’t be heard]</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>[تېكىستنىڭ بىر قىسمىنى ئاڭلىغىلى بولمىدى]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Part of the text can’t be heard]</seg>
 			</tuv>
@@ -5154,6 +5242,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>شەخسىي باشقۇرۇش تاختىلىرى سىزنى شەخسى ۋە ئىجتىمائىي رايونىنىڭ ئىلگىرىلەش ئەھۋالىدىن خەۋەرلەندۈرۈپ تۇرىدۇ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:resource-playbook-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playbookLink&gt;Find helpful guidance&lt;/playbookLink&gt; on the entire Common Voice journey, from localisation to dataset usage, as well as how to connect with our community.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>پۈتكۈل Common Voice سەپىرىدە يەرلىكلەشتۈرۈشتىن سانلىق مەلۇمات توپلىمىنى ئىشلىتىش، جامائىتىمىز بىلەن قانداق ئالاقە قىلىشقىچە بولغان نۇرغۇن ئۇچۇرلارنى &lt;playbookLink&gt;كېرەكلىك يېتەكچى&lt;/playbookLink&gt; دىن تاپقىلى بولىدۇ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-last-time-instruction" srclang="en-US">
@@ -5324,20 +5420,20 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>تەرجىمىھال</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Profile</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەرجىمىھال</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>ئارخىپىم</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەرجىمىھال</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:improve-audio" srclang="en-US">
@@ -5412,7 +5508,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[ئىنگلىزچىدىكى «كۆتۈرۈلگەن» دېگەن سۆز ئىككى بوغۇم ئەمەس بەلكى بىر بوغۇم تەلەپپۇز قىلىنىدۇ]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:reader-effects" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-reader-effects-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
@@ -5420,7 +5516,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ئوقۇرمەن ئۈنۈمى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-reader-effects-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:reader-effects" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
@@ -5436,7 +5532,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>بەتتىكى بارلىق سۆزلەرنى توغرا ئوقۇش مۇھىم. ئاڭلىغاندا، ئۈنگە ئېلىنغاننىڭ يېزىلغىنى ئىكەنلىكىنى ئىنچىكىلىك بىلەن تەكشۈرۈڭ. ئەگەر ئۇنىڭدا قوشۇلغان، قىسقارتىلغان ياكى كەم قالغان سۆزلەر بولسا رەت قىلىڭ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-explanation-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
 			</tuv>
@@ -5444,7 +5540,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ئەمەلىيەتتە مەۋجۇت بولمىغان قىسقارتىپ ئوقۇش، مەسىلەن، بارغانكەن دېگەننى  بارغان ئىكەن ياكى بۇرۇن باردى.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-explanation-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
 			</tuv>
@@ -5588,7 +5684,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[ئاخىرقى سۆزنى ئۈنگە ئېلىش ئاخىرلىشىشتىن بۇرۇن ئۈزۈلۈپ قالدى]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
@@ -5596,7 +5692,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ئۈن خاتىرىسى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
 			</tuv>
@@ -5660,7 +5756,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>رەت قىل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
@@ -5668,7 +5764,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>رەت قىلىنغان جۈملىلەر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rejected Sentences</seg>
 			</tuv>
@@ -5852,7 +5948,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>تەكشۈرۈش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -5868,7 +5964,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>تەكشۈرۈش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -6180,7 +6276,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>جۈملە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-sentence-collection-nav-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
 			</tuv>
@@ -6188,7 +6284,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>جۈملە توپلىمى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-sentence-collection-nav-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
 			</tuv>
@@ -6284,6 +6380,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>جۈملىدە بەلگىلەر بولماسلىقى كېرەك</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-sentences-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences must be reviewed and accepted by two people to be included in Common Voice. You create guidelines for your language &lt;languageGuidelinesLink&gt;here&lt;/languageGuidelinesLink&gt;. Sentences must be in the &lt;licenseLink&gt;public domain&lt;/licenseLink&gt; and shorter than 15 words. You can ask the owner of a text to make it &lt;waiverLink&gt;CC0 using our waiver process&lt;/waiverLink&gt;, and send to us on commonvoice@mozilla.com</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>جۈملىلەر چوقۇم ئىككى كىشى تەكشۈرۈپ قوشۇلغاندىن كېيىن ئاندىن Common Voice دا كۆرۈنىدۇ. سىز &lt;languageGuidelinesLink&gt;بۇ جاي&lt;/languageGuidelinesLink&gt; دا تىلىڭىزغا يېتەكچى قۇرالايسىز. جۈملىلەر چوقۇم &lt;licenseLink&gt;ئاممىۋى دائىرە&lt;/licenseLink&gt; دە بولۇشى ھەمدە 15 سۆزدىن قىسقا بولۇشى كېرەك. سىز تېكىست ئىگىسىدىن سوراپ بىزنىڭ &lt;waiverLink&gt;CC0 كەچۈرۈم قىلىش جەريانى&lt;/waiverLink&gt; دىن ئۆتكۈزۈپ، بىزگە commonvoice@mozilla.com ئەۋەتىپ بەرسىڭىز بولىدۇ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-are-you-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentences not submitted, are you sure you want to leave?</seg>
@@ -6364,20 +6468,20 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>سىۋاناچە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەڭشەكلەر</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>تەڭشەك</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەڭشەكلەر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sha256-checksum-copied" srclang="en-US">
@@ -6452,7 +6556,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[«دىنوزاۋر» بولۇشى كېرەك]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Should be “We are”]</seg>
 			</tuv>
@@ -6460,7 +6564,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[«بىز» بولۇشى كېرەك]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Should be “We are”]</seg>
 			</tuv>
@@ -6572,7 +6676,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>چوڭلۇقى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -6580,7 +6684,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ئاتلا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -6912,7 +7016,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>تەلەپپۇزىڭىزنى يېزىق ئارقىلىق تەسۋىرلەڭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -6920,7 +7024,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>ئىستاتىستىكا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -6968,6 +7072,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>&lt;strong&gt;[چاراس-چۇرۇس]&lt;/strong&gt;ترىناسىك ئېراسىنىڭ گىگانت &lt;strong&gt;[چاراس-چۇرۇس]&lt;/strong&gt;دىنوزاۋرلىرى.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-8" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;Get creative!&lt;/strong&gt; Your language community will be unique, and these are just a few ways to get started.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>&lt;strong&gt;تەسەۋۋۇرىڭىزنى  جارى قىلدۇرۇڭ!&lt;/strong&gt; تىل جامائىتىڭىز بىردىنبىر، بۇنى بىر قانچە باسقۇچتىلا باشلىيالايسىز.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
@@ -6992,6 +7104,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>يوللاش مەغلۇب بولدى</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>يوللا</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
@@ -7008,14 +7128,6 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>يوللا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>يوللا</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
@@ -7024,20 +7136,20 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>دوكلات يوللاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>ئاۋاز يوللا</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>ئاۋازنى يوللاش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئاۋاز يوللا</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-result" srclang="en-US">
@@ -7136,20 +7248,20 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>تاجىكچە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Taking several attempts to read a word.</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-explanation-7" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Taking several attempts to read a word.</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>بىر سۆزنى بىر قانچە قېتىم ئوقۇشقا تەمشەلگەن.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:zgh" srclang="en-US">
@@ -7439,7 +7551,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ترىئاسى- ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise-example-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic.</seg>
 			</tuv>
@@ -7447,7 +7559,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise-example-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic.</seg>
 			</tuv>
@@ -7623,7 +7735,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
@@ -7631,7 +7743,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
@@ -7647,7 +7759,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -7655,7 +7767,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -7847,20 +7959,20 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ئەجرى كۆپ تۆھپىكارلار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Total</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>جەمئىي</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>ئومۇمىي</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Total</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>جەمئىي</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:total-approved" srclang="en-US">
@@ -8279,7 +8391,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ۋارىيانتلار بىر تىلنىڭ، مەسىلەن مەلۇم جۇغراپىيەلىك ماكان ياكى مەلۇم رايوندىكى خەلقلەرنىڭ ئۆزىگە خاس ئالاھىدىلىكى بولۇپ ھېسابلىنىدۇ. بەزىدە بۇلار دىيالېكت دەپمۇ ئاتىلىدۇ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:varying-pronunciations" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Varying Pronunciations</seg>
 			</tuv>
@@ -8287,7 +8399,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ھەرخىل تەلەپپۇزلار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:varying-pronunciations" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Varying Pronunciations</seg>
 			</tuv>
@@ -8303,7 +8415,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ۋېنداچە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -8311,7 +8423,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>نەشرى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -8359,7 +8471,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ئاۋازلار ئاڭلاشقا تەييار بولغان تەرتىپىگە يوللاندى.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:voice-collection" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-voice-collection-nav-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice Collection</seg>
 			</tuv>
@@ -8367,7 +8479,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ئاۋاز توپلىمى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-voice-collection-nav-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:voice-collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice Collection</seg>
 			</tuv>
@@ -8571,20 +8683,20 @@ Common Voice نى تېخىمۇ ياخشىلاشقا ياردەمدە بولۇش�
 				<seg>بىز بىر قەھۋە ئالماقچى.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We are going out to get coffee.</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-5-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get coffee.</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>بىز قەھۋە ئالماقچى.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
@@ -8861,6 +8973,14 @@ Then, to make the language available on the Common Voice project,
 &lt;githubRepoLink&gt; GitHub دا يېڭى تىلنى ئىلتىماس قىلىڭ&lt;githubRepoLink&gt;. &lt;localizationFragment&gt; تەپسىلاتىنى تور بەت تەرجىمىسىدىن كۆرۈڭ&lt;/localizationFragment&gt;.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-delta-explainer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’ve made some changes. Delta Segments just contain the most recent clips since the last release. &lt;deltaLink&gt;Read more about this work&lt;/deltaLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىز بەزى ئۆزگەرتىشلەرنى ئېلىپ باردۇق. دېلتا بۆلەكلىرى ئالدىنقى قېتىم ئېلان قىلىنغاندىن بۇيانقى ئەڭ يېڭى ئۈن ئۈزۈندىلىرىنىلا ئۆز ئىچىگە ئالىدۇ. &lt;deltaLink&gt; بۇ خىزمەت ھەققىدە تېخىمۇ كۆپ ئۇچۇرلار &lt;/deltaLink&gt;.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We've run out of clips to validate in this language...</seg>
@@ -8941,7 +9061,7 @@ Then, to make the language available on the Common Voice project,
 				<seg>Common Voice دا قايسى تىل بار؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -8949,7 +9069,7 @@ Then, to make the language available on the Common Voice project,
 				<seg>Common Voice دېگەن نېمە؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
@@ -9309,6 +9429,14 @@ Then, to make the language available on the Common Voice project,
 				<seg>&lt;b&gt;{ $size }&lt;/b&gt; نى چۈشۈرۈشنى باشلاشقا بولىدۇ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-sentences-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can add sentences on the &lt;writePageLink&gt;Write page&lt;/writePageLink&gt; or review sentences on the &lt;reviewPageLink&gt;Review page&lt;/reviewPageLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>&lt;writePageLink&gt;يازاي بەت&lt;/writePageLink&gt; تە جۈملە قوشالايسىز ياكى &lt;reviewPageLink&gt;تەكشۈرەي بەت&lt;/reviewPageLink&gt; تە جۈملىلەرنى تەكشۈرەلەيسىز.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-link-single" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can also copy and paste the direct URLs into your favorite download manager. They will expire in 12 hours, but you can come back to this page to generate new ones any time.</seg>
@@ -9357,6 +9485,14 @@ Then, to make the language available on the Common Voice project,
 				<seg>سىز ھەر { $days } كۈندە يېڭى ئۈن خاتىرىلىرىڭىزنى تەلەپ قىلالايسىز.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can run events to help people contribute. It’s easier than you think. You could do it online with a videoconferencing tool, or in person if it’s safe. &lt;eventTemplate&gt;Check out our templates and resources for running events&lt;/eventTemplate&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>كىشىلەرنىڭ تۆھپە قوشۇشىغا ياردەم بېرىش ئۈچۈن پائالىيەت ئېلىپ بارالايسىز. ئۇ سىز ئويلىغاندىنمۇ ئاسان. ئۇنى توردا سىنلىق يىغىن قورالى ئارقىلىق ياكى بىخەتەر بولسا بىۋاسىتە ئېلىپ بارسىڭىزمۇ بولىدۇ. &lt;eventTemplate&gt;پائالىيەت ئۇيۇشتۇرۇش ھەققىدىكى قېلىپ ۋە مەنبەلىرىمىزنى تەكشۈرۈڭ&lt;/eventTemplate&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-collecting-sentences-content-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can &lt;sentenceCollectorLinkAdd&gt;add small numbers of sentences&lt;/sentenceCollectorLinkAdd&gt;,
@@ -9377,6 +9513,14 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>سىز &lt;scraperLink&gt;جۈملە چىقارغۇچ&lt;/scraperLink&gt; نى ئىشلىتىپ Wikipedia دىن قىسقا جۈملىلەرنى توپلىيالايسىز.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:citing-sentences-subheader-websites-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
@@ -9385,12 +9529,12 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-5" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
+				<seg>You could use social media platforms to get the message out. Share posts that explain why it matters, and get in touch with other people talking about issues like language rights, voice AI, or bias in tech. See more advice on &lt;campaignLink&gt;running a social campaign, including content you can re-use&lt;/campaignLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»</seg>
+				<seg>ئۇچۇرنى يەتكۈزۈشتە ئىجتىمائىي ئالاقە سۇپىلىرىدىن پايدىلانسىڭىز بولىدۇ. بۇنىڭ نېمە ئۈچۈن مۇھىملىقىنى چۈشەندۈرۈپ بېرىدىغان يازمىلارنى ھەمبەھىرلەڭ ھەمدە تىل ھوقۇقى، ئاۋازلىق سۈنئىي ئەقىل ياكى تېخنىكىدىكى بىر تەرەپلىمە قاراش قاتارلىق مەسىلىلەر توغرىسىدا باشقىلار بىلەن پاراڭلىشىپ تۇرۇڭ. &lt;campaignLink&gt;سىز قايتا ئىشلىتەلەيدىغان مەزمۇنلارنى ئۆز ئىچىگە ئالغان ئىجتىمائىي پائالىيەت ئورۇنلاشتۇرۇش ھەققىدە&lt;/campaignLink&gt;  تېخىمۇ كۆپ تەكلىپلەرنى كۆرۈڭ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-not-added" srclang="en-US">
@@ -9623,6 +9767,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg> %1$dدانە يېڭى ھوقۇق تەلەپ قىلىدۇ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multi_select_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$d selected</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>%1$d تاللاندى</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/tabstray/src/main/res/values/strings.xml:mozac_tab_counter_open_tab_tray_single" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 open tab. Tap to switch tabs.</seg>
@@ -9684,7 +9836,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>%2$s is requesting your username and password. The site says: “%1$s”</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>%2$s ئىشلەتكۈچى ئىسمى بىلەن ئىمنى تەلەپ قىلىۋاتىدۇ. توربەتتە مۇنداق دېيىلگەن: «%1$s»</seg>
+				<seg>%2$s ئىشلەتكۈچى ئىسمى بىلەن ئىمنى تەلەپ قىلىۋاتىدۇ. تور بېكەتتە دېيىلگىنى: «%1$s»</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_category_about" srclang="en-US">
@@ -9759,7 +9911,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ھېسابات تەڭشىكى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
@@ -9783,7 +9935,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>قوشاي</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
@@ -9804,7 +9956,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Add new collection</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>يېڭى ساقلانما قۇرۇش</seg>
+				<seg>يېڭى يىغقۇچ قۇر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
@@ -9823,7 +9975,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>قىستۇرما</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons Manager</seg>
 			</tuv>
@@ -9831,7 +9983,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>قىستۇرما باشقۇرغۇچ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons Manager</seg>
 			</tuv>
@@ -9895,22 +10047,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئالىي…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>رۇخسەت بەر</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>رۇخسەت بەر</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
@@ -9919,12 +10055,28 @@ the steps to get your language added to Common Voice</seg>
 				<seg>رۇخسەت قىلىش</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>رۇخسەت بەر</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>رۇخسەت قىلىش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>رۇخسەت بەر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_always_allow" srclang="en-US">
@@ -10031,22 +10183,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>كامېرا ئېچىلدى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_install_addon_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بىكار قىلىش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بىكار قىلىش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -10055,23 +10191,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>بىكار قىلىش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بىكار قىلىش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بىكار قىلىش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىكار قىلىش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10088,6 +10216,30 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىكار قىلىش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_install_addon_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىكار قىلىش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىكار قىلىش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10151,6 +10303,30 @@ the steps to get your language added to Common Voice</seg>
 				<seg>يېقىنقى كۆرۈش تارىخى ، ساقلانمىلار ۋە مۇناسىۋەتلىك سانلىق مەلۇماتلارنى تازىلاش</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تاقاش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تاقاش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:privacy_content_close_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تاقاش</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_close_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -10167,31 +10343,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تاقاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_button_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تاقاش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تاقاش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تاقاش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:privacy_content_close_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -10247,7 +10399,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>توركۆرگۈ ۋاكالەتچى تەڭشىكىنى باشقۇرۇش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_toolbar_long_press_popup_copy" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_copy_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
@@ -10255,7 +10407,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>كۆچۈرۈش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_copy_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_toolbar_long_press_popup_copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy</seg>
 			</tuv>
@@ -10343,7 +10495,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئۆچۈرۈش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_deny_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deny</seg>
 			</tuv>
@@ -10351,7 +10503,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>رەت قىلىش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_deny_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deny</seg>
 			</tuv>
@@ -10383,20 +10535,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>چەكلەندى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_dismiss_button_default_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_disable_private_browsing_button" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
+				<seg>Disable private browsing</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>بولدىلا</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_close_tabs_banner_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>بولدىلا</seg>
+				<seg>شەخسىي زىيارەتنى چەكلە</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
@@ -10415,7 +10559,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>بولدىلا</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_close_tabs_banner_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بولدىلا</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بولدىلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_dismiss_button_default_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -10511,7 +10671,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>چۈشۈرۈش توختىتىلدى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_downloads" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -10519,7 +10679,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>چۈشۈرۈلمىلەر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_downloads" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -10581,6 +10741,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>قوزغىتىلدى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_private_browsing_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enable private browsing</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>شەخسىي زىيارەتنى قوزغات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:application_search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter search terms</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئىزدەيدىغان ئاتالغۇ كىرگۈزۈلىدۇ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_status_error" srclang="en-US">
@@ -10743,6 +10919,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ياردەم</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Highlighted</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئالاھىدە</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
@@ -10751,12 +10935,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئالاھىدە</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_history" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Highlighted</seg>
+				<seg>History</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>ئالاھىدە</seg>
+				<seg>تارىخ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_history" srclang="en-US">
@@ -10767,12 +10951,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تارىخ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_history" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_home_2" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>History</seg>
+				<seg>Homepage</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>تارىخ</seg>
+				<seg>باشبەت</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_home_page" srclang="en-US">
@@ -10784,14 +10968,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:opening_screen_homepage" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Homepage</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>باشبەت</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_home_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Homepage</seg>
 			</tuv>
@@ -10911,22 +11087,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئاخىرقى قېتىم يېڭىلانغان</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pocket_stories_feature_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەپسىلاتى</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_http_only_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەپسىلاتى</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_explanation_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -10943,22 +11103,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تەپسىلاتى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەپسىلاتىنى بىلىش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەپسىلاتى</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_learn_more_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -10968,6 +11112,38 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەپسىلاتى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pocket_stories_feature_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەپسىلاتى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەپسىلاتىنى بىلىش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_http_only_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەپسىلاتى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -11076,7 +11252,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>More options</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>تېخىمۇ كۆپ تاللاش تۈرى</seg>
+				<seg>تېخىمۇ كۆپ تاللانما</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection_name" srclang="en-US">
@@ -11084,7 +11260,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Name</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>ساقلانما نامى</seg>
+				<seg>ئىسمى</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_never_allow" srclang="en-US">
@@ -11103,7 +11279,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>يېڭى قىستۇرما بار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -11111,7 +11287,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>يېڭى بەتكۈچ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -11157,6 +11333,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>كامېرا يوق ئىكەن</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/service/nimbus/src/main/res/values/strings.xml:mozac_service_nimbus_no_experiments" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No experiments here</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بۇ يەردە سىناق يوق</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_no_internet_title" srclang="en-US">
@@ -11271,14 +11455,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تېخىمۇ بۇرۇن</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_on" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>ئوچۇق</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_https_only_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
@@ -11287,7 +11463,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئوچۇق</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئوچۇق</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -11295,7 +11479,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئېچىش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -11468,6 +11652,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>بىخەتەرلىك سەۋەبىدىن پورت چەكلەنگەن</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private %s</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>شەخسىي %s</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_pkcs11_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Provide cryptographic authentication services</seg>
@@ -11608,6 +11800,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>يېقىنقى خەتكۈچلەر</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recently saved</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>يېقىنداق ساقلانغان</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_screen_section_useful_history_title_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recent searches</seg>
@@ -11648,6 +11848,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>چىقىرىۋىتىش</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>چىقىرىۋەت</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -11665,14 +11873,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_visited_menu_item_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>چىقىرىۋەت</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -11712,7 +11912,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>باھا: %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_save_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_custom_search_engine_edit_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -11720,7 +11920,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ساقلاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_custom_search_engine_edit_button_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_save_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -11741,7 +11941,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Save selected tabs to collection</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>تاللانغان بەتكۈچلەرنى ساقلاڭ</seg>
+				<seg>تاللانغان بەتكۈچلەرنى يىغقۇچقا ساقلايدۇ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_scan_button" srclang="en-US">
@@ -11750,6 +11950,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>سايىلەش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئىزدەش</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
@@ -11776,20 +11984,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئىزدەش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>ئىزدەش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_search_suggestions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search %1$s</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg> %1$sدىن ئىزدەش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search bookmarks</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>خەتكۈچ ئىزدەيدۇ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_button" srclang="en-US">
@@ -11808,6 +12016,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئىزدەش ماتورى تەڭشىكى</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search history</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تارىختىن ئىزدەيدۇ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:locale_search_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search language</seg>
@@ -11821,7 +12037,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>Search or enter address</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>ئىزدەڭ ياكى تور ئادرېسىنى كىرگۈزۈپ زىيارەت قىلىڭ</seg>
+				<seg>ئىزدەيدۇ ياكى ئادرېس كىرگۈزۈلىدۇ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_suggestions_title" srclang="en-US">
@@ -11840,12 +12056,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئىزدەش تەڭشىكى</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search tabs</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بەتكۈچ ئىزدەيدۇ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_hint_general_engine" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search the web</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>توردىن ئىزدەش</seg>
+				<seg>توردىن ئىزدەيدۇ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
@@ -11856,12 +12080,12 @@ the steps to get your language added to Common Voice</seg>
 				<seg>توردىن ئىزدەش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Secure Connection Failed</seg>
+				<seg>Search the web</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>بىخەتەر ئۇلىنىش مەغلۇپ بولدى</seg>
+				<seg>توردىن ئىزدەش</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
@@ -11872,12 +12096,28 @@ the steps to get your language added to Common Voice</seg>
 				<seg>بىخەتەر ئۇلىنىش مەغلۇپ بولدى</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Secure Connection Failed</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىخەتەر ئۇلىنىش مەغلۇپ بولدى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_httpsonly_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Secure Site Not Available</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>بىخەتەر تور بېكەتنى ئىشلەتكىلى بولمايدۇ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_select_collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select collection</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>ساقلانمىنى تاللاش</seg>
+				<seg>يىغقۇچ تاللا</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_selected_content_description" srclang="en-US">
@@ -11912,7 +12152,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تەڭشەك</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -11928,14 +12168,6 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تەڭشەكلەر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>تەڭشەك</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -11944,7 +12176,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تەڭشەك</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_menu_settings" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -11952,7 +12184,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>تەڭشەك</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>تەڭشەك</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ھەمبەھىرلەش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -11968,15 +12216,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ھەمبەھىرلەش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>ھەمبەھىرلەش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -12000,20 +12240,20 @@ the steps to get your language added to Common Voice</seg>
 				<seg>رەسىمنى ھەمبەھىرلەش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_share_link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share link</seg>
-			</tuv>
-			<tuv xml:lang="ug">
-				<seg>ئۇلانمىنى ئورتاقلاش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_share_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share link</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>ئۇلانمىنى ھەمبەھىرلەش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_share_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share link</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئۇلانمىنى ئورتاقلاش</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/ktx/src/main/res/values/strings.xml:mozac_support_ktx_share_dialog_title" srclang="en-US">
@@ -12038,6 +12278,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>ھەممىنى كۆرسەت</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_show_all_content_description_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show all saved bookmarks</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ساقلانغان بارلىق خەتكۈچنى كۆرسەت</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
@@ -12078,6 +12326,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>بەزى مەزمۇنلار «ئاپتوماتىك قويۇش» تەرىپىدىن توسۇلدى</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%s (Private)</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>%s (شەخسىي)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_dialog_status" srclang="en-US">
@@ -12189,7 +12445,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>The page at %1$s says:</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>توربەت %1$s دا مۇنداق دېيىلگەن:</seg>
+				<seg>بەت %1$s تە دېيىلگىنى:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_today" srclang="en-US">
@@ -12232,7 +12488,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئىزلاشتىن توسۇش ئىقتىدارى ئوچۇق</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_page_refresh" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_try_again" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try Again</seg>
 			</tuv>
@@ -12240,7 +12496,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>قايتا سىناڭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_try_again" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_page_refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try Again</seg>
 			</tuv>
@@ -12422,7 +12678,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>كۆرۈش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice search</seg>
 			</tuv>
@@ -12430,7 +12686,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ئاۋازلىق ئىزدەش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice search</seg>
 			</tuv>
@@ -12468,6 +12724,22 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="ug">
 				<seg>تۈنۈگۈن</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:no_open_tabs_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your open tabs will be shown here.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>ئوچۇق بەتكۈچلىرىڭىز بۇ يەردە كۆرۈنىدۇ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:no_private_tabs_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your private tabs will be shown here.</seg>
+			</tuv>
+			<tuv xml:lang="ug">
+				<seg>شەخسىي بەتكۈچلىرىڭىز بۇ يەردە كۆرۈنىدۇ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -13131,7 +13403,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>دوكلات</seg>
+				<seg>دوكلات قىل</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -13139,7 +13411,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="ug">
-				<seg>دوكلات قىل</seg>
+				<seg>دوكلات</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

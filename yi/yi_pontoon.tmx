@@ -1,7 +1,6010 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-09-01T00:24:49.602414">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-10-01T00:29:08.783846">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[1-5]</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>[1-5]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-sentence-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 sentence collected</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>1 זאץ געזאמלט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>2 ערלעדיגט, האלט אן!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-no-votes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>≥ 2 No votes</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>≥ 2 ניין שטימען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-yes-votes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>≥ 2 Yes votes</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>≥ 2 יא שטימען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Abkhaz</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אבקהאזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>About</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבער אונז</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Accent</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אקצענט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאנטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ace" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Acehnese</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אקענעזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; האבן זיי אקוראט געזאגט דעם זאץ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; דערנאך ליינט דער זאץ הויעך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-stop-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; ווען פארטיג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $actionType } געבט אריין ווען גרייט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-add" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייג צו</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-info-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add as much information as you can about the language. This
+could include:</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייגט אריין דאס מערסטע אינפארמאציע וואס איר קענט איבער דעם שפרייך. דאס
+קען ארייננעמען:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-information-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add information</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייג צו אינפארמאציע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Adding Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צולייגן זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-additional-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Additional Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאך א שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:add-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייגט צו א שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-lang-sec-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייג צו א שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-add-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add new custom accent "{ $inputValue }"</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייג צו אן אייגענעם אקצענט "{ $inputValue }"</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-addsen-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add new sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייג צו נייע זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייגט צו זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-add-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Your Voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייגט צו אייער שטימע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ady" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Adyghe</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אדיגעדזשיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:om" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Afaan Oromo</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אפען אורומא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:af" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Afrikaans</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אפריקאנס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-age" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Age</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עלטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sq" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Albanian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אלבעיניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A little background noise is okay, but if you can hear another person speaking distinct words, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אביסל הינטערגרונד גרידער איז אין ארדענונג, אבער אויב דו קענסט הערן נאך א מענטש רעדן אנדערע ווערטער, זאל די קליפ ווערן צוריקגעוויזן. געווענדליך געשעט דאס וואו די טעלעווידזשן איז געבליבן אנגעצונדן, אדער וואו עס איז דא דא א שמועס דערנעבן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:all-locales" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אלע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-approve" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Approve</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Arabic</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אראביש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices-tip-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? [called by another]</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דו קומסט? [גערופן דורך א צווייטן]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hy-am" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Armenian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ארמעיניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hyw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Armenian Western</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מעריב ארמעיניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask about a new language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פרעגט וועגן א נייע שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Asturian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עסטרייכיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:avatar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avatar</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אוועטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:avatar-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avatar uploaded</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אוועטער ארויפגעלאדנט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:average-difficulty" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Average</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דורכשניטליך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-is-it-valid-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A voice clip is marked "valid" when a user gives it a Yes vote.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א שטימע קליפ ווערט געצייכנט אלס "ריכטיג" ווען א באנוצער גיבט עס א יא שטים.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avoid too much background noise - it should be easy to hear you.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארמייד צו פיל הינטערגרונד גרידער - ס'זאל זיין גרינג דיך צו הערן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:awards" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Awards</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באלוינונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:card-button-back" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Back</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוריק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הינטערגרונד גרידער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הונטערגרונד גרידער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Voices</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הונטערגרונד שטימעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Voices</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הינטערגרונד שטימעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:back-top" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Back to Top</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוריק צום אנהייב</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:bas" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Basaa</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באסאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:be" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Belarusian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>בעלארוסיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:benefits" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Benefits</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארדינסטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-with-count-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;bold&gt;העלפט אונז&lt;/bold&gt; טרעפן מער שטימעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:both-speak-and-listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Both</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביידע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:both-speak-and-listen-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Both (Speak and Listen)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביידע (דערן און צוהערן)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-language-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browse Languages</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>בלעטערן שפרייכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:build-custom-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Build a custom goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>בוי אויף אן אייגענעם ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:build-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Build Profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>בוי א פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:bg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bulgarian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>בולגאריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lose-goal-progress-warning" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By editing your goal, you may lose your existing progress.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביים טוישן אייער ציל, קענט איר פארלירן אייער עקזיסטירענדע פארשריט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-privacy-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דורכ'ן זיך אריינשרייבן צו באקומען אימעילס פארשפרעכט איר אז איר זענט אין ארדענונג מיט מאזילע צו האנדלען דער אינפארמאציע ווי ערקלערט אין די &lt;privacyLink&gt;פראווייטקייט נאטיץ&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-no-identify" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;b&gt;You agree&lt;/b&gt; to not attempt to determine the identity of speakers in the Common Voice dataset</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;b&gt;דו שטימסט צו&lt;/b&gt; נישט צו פראבירן צו געוואר ווערן די אידענטיטעט פון די רעדנערס אין די קאמאן וואויס דאטא סעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cant-decide" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Can't decide?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר קענט נישט אפמאכן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:yue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cantonese</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאנטאנעזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ckb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Central Kurdish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צענטראל קורדיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:change-email-setings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change your email via Settings under Login Identity</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טוישט אייער אימעיל אין די אנשטעלונגען אונטער איישרייבונג אידענטיטעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:see-less" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;זעט ווייניגער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:see-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;זעט מער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-cn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Chinese (China)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>כינעזיש (כינע)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-hk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Chinese (Hong Kong)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>כינעזיש (האנג קאנג)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-tw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Chinese (Taiwan)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>כינעזיש (טייוואן)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citation</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ציטירונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:citing-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citing Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ציטירן זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:action-click" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דריקט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-goal-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips recorded</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס רעקארדירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס ארויפגעלאדנט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-goal-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips validated</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס באשטעטיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-you-recorded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips You've Recorded</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס וואס איר האט רעקארדירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-you-validated" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips You've Validated</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס וואס איר האט באשטעטיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארמאך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארמאך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-collecting-sentences-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collecting sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאמלען זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-home-collect-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collect sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאמלט זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-other-comment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Comment</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאמאנטירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice Dataset</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאמאן וואויס דאטא סעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:home-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאמאן וואויס איז מאזילע'ס איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is part of Mozilla's initiative to help teach machines how real people speak.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאמאן וואויס איז א טייל פון מאזילע'ס איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-language-select-card-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is the world’s largest publicly available, multi-language voice dataset.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאמאן וואויס איז דער וועלטס גרעסטע עפענטליכע פארהאן, פארשידענע-שפרייכן שטימע דאטא סעט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Community participation and decision making.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געמיינדע אנטייל נעמען און באשלוס פאסן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-button-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Confirm</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Confirm Goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיג דעם ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-sentences-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Confirm New Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיג נייע זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:connect-gravatar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Connect with Gravatar</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארבינד מיט Gravatar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contact" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאנטאקט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact Form</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאנטאקט פארום</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:content-license-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Content available under a &lt;licenseLink&gt;Creative Commons license&lt;/licenseLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינהאלט צו באקומען אונטער די &lt;/licenseLink&gt;Creative Commons license&lt;licenseLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי ווייטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערט זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute to { $lang }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערט צו { $lang }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:status-contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute Your Voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערט אייער שטימע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-activity" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Activity</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערונג אקטיוויטעטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-experience" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Experience</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערונג ערפארונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contributors record voice clips by reading from a bank of donated sentences.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערער רעקארדירן שטימע קליפס דורך לייענען פון א באנק פון ביישטייערטע זאצן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קוכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קוכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:kw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cornish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קארניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:n-clips-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count } clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:x-months-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count }mo</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאנאטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-rejected-by-you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $countOfInvalidated } rejected by you</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $countOfInvalidated } צוריקגעוויזן דורך אייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-confirm-sentences-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $countOfSentences } sentences found.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן געפינען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:x-weeks-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count }wk</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $count } וואכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:x-years-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count }y</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יארן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:create-custom-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create a Custom Goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שאף אן אייגענעם ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Croatian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קראעטיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Czech</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טשעכיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dag" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dagbani</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דאגאבאני</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:daily-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Daily Goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טעגליכע ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:da" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Danish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דעניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dashboard" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dashboard</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבערזיכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דאטא סעטס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-date" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Date</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דאטום</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:days" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Days</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טעג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-delete-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete my recordings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מעקט אויס מיין רעקארדירונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete Profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויסמעקן פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-sc-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:difficult-difficulty" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Difficult</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שווער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-difficult-pronounce" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Difficult to pronounce</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שווער צו ארויסזאגן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-discard-ongoing-recording-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Discard ongoing recording</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווארף אוועק די אנגייענדע רעקארדירונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-discourse" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Discourse</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דיסקארס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:donate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שענקען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate your voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישטייערט אייער שטימע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't see your language on Common Voice yet?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זעט איר נאכנישט אייער שפרייך אויף קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download Common Voice Data</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ קאמאן וואויס דאטא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-other-download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download Data</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ דאטא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download { $language }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ { $language }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download My Data</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ מיין דאטא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-dataset-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download the Dataset</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט אראפ די דאטא סעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:your-feedback" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Do you have ideas on how we can make the Common Voice dataset better? Let us know on Discourse</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האט איר געדאנקען וויאזוי מיר קענען מאכן די קאמאן וואויס דאטא סעט בעסער? לאזט אונז וואוסן אויף דיסקארס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:want-to-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Do you want to continue?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווילט איר גיין ווייטער?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:which-goal-type" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Do you want to Speak, Listen or both?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווילט איר רעדן, צוהערן אדער ביידע?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:nl" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dutch</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דויטש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:easy-difficulty" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Easy</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גרינג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פאררעכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:edit-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit Profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארעכט פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אימעיל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אימעיל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-already-used" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email is already used for a different account</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דער אימעיל איז שוין אין באנוץ פאר א צווייטער קאנטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ענגליש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ענגליש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-to-download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter Email to Download</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייגט אריין אייער אימעיל צו אראפ לאדענען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-form-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your email</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייגט אריין אייער אימעיל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-code" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error { $code }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פעלער { $code }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ESC</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ESC</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:et" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Estonian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עסטאניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Events</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אווענטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:everyone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Everyone</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איעדער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Example</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביישפיל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exit &amp; Delete clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ארויסגיין &amp; אויסמעקן די קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>FAQ</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אפט געפרעגטע פרייגן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:female" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Female</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פרוי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:new-sentence-rule-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fewer than 15 words</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווייניגער ווי 15 ווערטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:indicates-required" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fields marked with an asterisk (*) are required.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קעסטלעך אנגעצייכנט מיט א שטערנדל (*) זענען פארלאנגט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ענדיג רעקארדירן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:fi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finnish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פיניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>First, check if your language &lt;languageLink&gt;already exists&lt;/languageLink&gt;.
+If it isn’t, you can &lt;languageRequestLink&gt;ask about adding your language&lt;/languageRequestLink&gt;.
+There are two stages. Translating the site, and collecting sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ערשט, קוקט דורך אויב דער שפרייך &lt;languageLink&gt;עקזעסטירט שוין&lt;/languageLink&gt;.
+אויב נישט, קענט איר &lt;languageRequestLink&gt;פרעגן איבער צולייגן אייער שפרייך&lt;/languageRequestLink&gt;.
+עס איז דא צוויי שטאפלען. איבערטייטשן דעם זייטל, און זאמלען זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-for-example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>for example</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צום ביישפיל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:fr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>French</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פראנצויזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Frequently Asked Questions</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אפט געפרעגטע פרייגן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:size-gigabyte" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>GB</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ג"ב</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-gender-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gender</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געשלעכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ka" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Georgian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דזשארדזשיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:de" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>German</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דויטש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-get-involved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get involved</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווער פארמישט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-get-involved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get involved</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווער פארמישט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Involved</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווער פארמישט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:get-started-goals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get started with goals</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פאנגט אן מיט צילן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:glossary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Glossary</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווערטער בוך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-reached" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Goal reached</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ציל דערגרייכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Goals</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צילן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:gom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Goan Konkani</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גואניש קאנקאני</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:go-discourse" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to Discourse</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי צו דיסקארס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:go-languages-page" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to Languages Page</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי צו שפרייכן בלאט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-other-goto" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to { $name }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי צו { $name }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:partnerships-governments-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Governments</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעגירונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-grammar-or-spelling" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Grammatical / spelling error</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גראמאטישער\ אויסלייג פעלער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-many-a-week" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great! How many clips a week?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געוואלדיג! וויפיל קליפס א וואך?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-many-per-day" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great! How many clips per day?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געוואלדיג! וויפיל קליפס א טאג?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געוואלדיג!&lt;recordIcon&gt;&lt;/recordIcon&gt; רעקארדירט אייער קומענדיגע קליפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:el" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Greek</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גריכיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארשריפטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:gu-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Gujarati</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גודזשאראטי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ht" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Haitian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העיטיעאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cnh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hakha Chin</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האקהא טשין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ha" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hausa</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האוסא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:feedback-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Have Feedback?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האט איר באמערקונגען?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:read-terms-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Have you read our Terms?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האט איר געליינט אונזערע טערמינען?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:he" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hebrew</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העברעיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הילף</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-reach-hours-general-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help Common Voice reach { $hours } hours in a language with a personal goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט קאמאן וואויס דערגרייכן { $hours } שטונדן אין א שפרייך מיט א פערזענליכע ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-first-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט שאפן קאמאן וואויס'ס ערשטע ציל אפשניט אין { $locale }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-reach-hours-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help reach { $hours } hours in { $language } with a personal goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט דערגרייכן { $hours } שטונדן אין { $language } מיט א פערזענליכע ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט לערנען די מאשינען ווי אזוי עכטע מענטשן רעדן, ביישטייערט אייער שטימע ביי { $link }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-helpus" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us build a community around voice technology, stay in touch via email.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט אונז בויען א געמיינדע ארום שטימע טעכנעלאגיע, בלייבט אין פארבינדונג דורך אימעיל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-make-dataset" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us build a high quality, publicly open dataset</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט אונז בויען א הויעך קוואליטעט, עפענטליכע דאטא סעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-share-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us find more voices, share your goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טיילט מיט אייער ציל אונז צו העלפן טרעפן מער שטימעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us find others to donate their voice!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט אונז טרעפן אנדערע צו ביישטייערן זייער שטימע!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-reach-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us get to { $goal }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט אונז אנקומען צו { $goal }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-us-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate sentences!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט אונז באשטעטיגן זאצן!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate voices</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>העלפט אונז באשטעטיגן שטימעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hidden" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hidden</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באהאלטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mrj" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hill Mari</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>בארג מארי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hindi</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הינדי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-home" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Home</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היים</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-validation-hours" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hours</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטונדן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-recorded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hours Recorded</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטונדן רעקארדירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-validated" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hours Validated</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטונדן באשטעטיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:status-hours" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $hours } validated hours so far!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $hours } באשטעטיגטע שטונדן ביז דערווייל!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How ?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How are project decisions made?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי ווערן די פראיעקט באשלוסן געמאכט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How can I get the Common Voice data?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי קען איך באקומען די קאמאן וואויס דאטא?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How can we effectively grow a language on Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי קענען מיר אפעקטיוו פארגרעסערן א שפרייך אויף קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does Common Voice calculate hours?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי טוט קאמאן וואויס אויסרעכענען די שטונדען?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does Common Voice work?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי ארבייט קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does Common Voice work?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי ארבייט קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-localize" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does site localization work?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי ארבייט די וועבזייטל לאקאליזירונג?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-access-dataset" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I access and use the dataset?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי קען איך צוקומען צו און נוצן די דאטא סעט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I add a language?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי לייג איך צו א שפרייך?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I add sentences?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי לייג איך צו זאצן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-to-cite" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I cite?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי ציטיר איך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I know whether to approve a voice clip?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי ווייס איך צו איך זאל באשטעטיגן א שטימע קליפ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-quality" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I record a high quality voice clip?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי רעקארדיר איך א הויכע קוואליטעט שטימע קליפ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-stay-in-touch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I stay in touch?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי בלייב איך אין פארבינדונג?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-privacy-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do you ensure anonymity and privacy of the people who donated their voices?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי טוט איר פארזיכערן די אנאנימיטעט און פריוואטקייט פון די מענטשן וואס ביישטייערן זייער שטימע?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to Cite</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי צו ציטירן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-help-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How would you describe your accent?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויאזוי וואלט איר געשילדערט אייער אקצענט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hungarian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אונגאריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-agree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איך בין איינשטימיג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy-and-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree to Common Voice's &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איך בין איינשטימיג מיט קאמאן וואויס'ס &lt;termsLink&gt; טערמינען &lt;/termsLink&gt; און &lt;privacyLink&gt; פריוואטקייט נאטיץ&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-do-want-native-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I am a non-native speaker and I speak with an accent, do you still want my voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איך רעדט נישט דער שפרייך פון געבוירן און איך רעדט מיט אן אקצענט, דארפט איר נאכאלץ מייט שטימע?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:is" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Icelandic</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייסלענדיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איך וויל באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms-disagree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I do not agree</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איך בין נישט איינשטימיג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you could &lt;strong&gt;hear them&lt;/strong&gt; and &lt;strong&gt;understand them&lt;/strong&gt;, it’s usually &lt;strong&gt;best to approve&lt;/strong&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויב איר קענט זיי &lt;strong&gt;הערן&lt;/strong&gt; און &lt;strong&gt;פארשטיין&lt;/strong&gt;, איז עס געווענטליך &lt;strong&gt;די בעסטע צו באשטעטיגן&lt;/strong&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויב לויפט איר אויס פון זאצן איבער צו קוקן, ביטע העלפט אונז זאמלען מער זאצן!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ig" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Igbo</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איגבא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'm okay with you handling this info as you explain in Mozilla's &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איך בין אין ארדענונג מיט אייך צו האנדלען די אינפארמאציע אזויווי ערקלערט אין מאזילע'ס &lt;privacyLink&gt;פריוואטקייט פארשריפטן&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:id" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Indonesian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינדאניזיעאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Information about the language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינפארמאציע איבער דעם שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-section-in-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>In Progress</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מען ארבעט דערויף</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-welcome-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interested in learning more and contributing to the project?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איטערעסירט צו לערנען מער און ביישטייערן צו דעם פראיעקט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ia" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interlingua</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינטערלינגוע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ie" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interlingue</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינטערלינגוע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ga-ie" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Irish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:nd" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>IsiNdebele (North)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צפון IsiNdebele</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:nr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>IsiNdebele (South)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דרום IsiNdebele</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-is-account-public-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Is my account information public?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איז מיין קאנטע אינפארמאציע עפענטליך?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-is-goal-assistant-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Is the goal of Common Voice to build a voice assistant?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איז די ציל פון קאמאן וואויס צו בויען א שטימע צוהעלפער?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:it" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Italian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איטאליעניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-difficult-pronounce-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It contains words or phrases that are hard to read or pronounce.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עס פארמאגט ווערטער אדער פארזן וואס זענען שווער צו ליינען אדער ארויסזאגן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-sc-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m reviewing.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך קוק איבער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m speaking.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך רעדט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:izh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Izhorian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איזהאריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ja" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Japanese</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יאפאנעזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:jv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Javanese</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דזשאוואנעזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Join the Common Voice mailing list</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שליסט אייך אן אין די קאמאן וואויס מעיל ליסטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:kbd" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kabardian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאבארדיאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:kn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kannada</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאנדא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kaqchikel</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאקטשיקל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:max-file-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $kb }kb max</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $kb } ק"ב מערסטנס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:keep" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האלט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האלט אן, רעקארדירט נאכאמאל&lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-keep-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep the recordings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האלט די רעקארדירונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:keep-track-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פאלגט נאך אייער פארשריט מיט א פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile and help our voice data be more accurate.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פאלגט נאך אייער פארשריט מיט א פראפייל און העלפט אונזער שטימע דאטא זיין מער אקוראט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:km" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Khmer</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קמעריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:quc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>K'iche'</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קיטשא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:kpv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Komi-Zyrian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קומי-זיריאניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ko" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Korean</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קארעאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language Request</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שפרייך פארלאנג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Languages</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שפרייכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ltg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Latgalian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאטגאליאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Latvian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לעטוויאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-playbook" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to take part</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לערנט וויאזוי צו אנטייל נעמען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לערנט מער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lose-changes-warning" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaving now means you’ll lose your changes</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יעצט אוועקגיין מיינט אז איר וועט פארלירן אייערע טוישינגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaving now means you'll lose your progress</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אוועק גיין יעצט מיינט אז איר וועט פארלירן אייער פארשריט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-length" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Length</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לענג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Let's Get Started</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאמיר אנפאנגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lij" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ligurian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ליגוריאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:link-copied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Link Copied</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לינק קאפירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הער צו</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויסהערן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen-queue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen-Queue</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוהערן-רייע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט זיך...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:localization" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Localization</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאקאליזירונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:localized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Localized</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאקאליזירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:login" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ארייבשרייבונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:login-identity" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Login Identity</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אריינשרייבונג אידענטיטעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט אייך אריין\שרייבט אייך אויף</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:logout" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log Out</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייב זיך ארויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:jbo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Lojban</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדזשבען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:no-clips-to-validate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ס'קוקט אויס אז ס'איז נישטא קיין קליפס צו אויסערן אויף דעם שפרייך. העלפט אונז אנפולן די רייע דורך רעקארדירן אביסל יעצט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:lg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Luganda</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לוגאנדאיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mai" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Maithili</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאיטילי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאכט זיכער אז די פלאטפראמע רעקארדירט פאר איר פאנגט אן רעדן, און אז ס'שטעלט זיך אפ ווען איר האט געענדיגט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Malay</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאלעי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:male" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Male</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:size-megabyte" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>MB</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מ"ב</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mni" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Meetei Lon</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאיטעי לאן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-form-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Message</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מעלדונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:license-mixed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mixed</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געמישט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mdf" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Moksha</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאקשאניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>More</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:mos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mossi</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאוסי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-second" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most of the data used by large companies isn’t available to the majority of people. We think that
+stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
+and accessible to everyone.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מערסטנס פון אונזער דאטע וואס ווערט גענוצט דורך גרויסע פירמעס איז נישט צוטריטליך פאר מיינסטענס מענטשן. מיר האלטן אז דאס שטערט אינאוואציע. האבן מיר געעפנט קאמאן וואויס, א פראיעקט צו העלפן מאכן שטימע דערקענונג אפען פאר יעדעם.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-mobile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most of the data used by large companies isn’t available to the majority of people. We think
+that stifles innovation. So we’ve launched Project Common Voice, a project to help make voice
+recognition open to everyone.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מערסטנס פון אונזער דאטע וואס ווערט גענוצט דורך גרויסע פירמעס איז נישט צוטריטליך פאר מיינסטענס מענטשן. מיר האלטן אז דאס שטערט אינאוואציע. האבן מיר געעפנט קאמאן וואויס, א פראיעקט צו העלפן מאכן שטימע דערקענונג אפען פאר יעדעם.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:default-tagline" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla Common Voice is an initiative to help teach machines how real people speak.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאזילע קאמאן וואויס איז אן איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mutual accountability.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קעגנזייטיגע פאראנטווארטליכקייט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>My Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיינע זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-my" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>My Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיינע זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>n</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:not-available-abbreviation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N/A</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נישט גילטיג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-form-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאמען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-info-explanation-list-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Names of your language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נעמען פון אייער שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Native Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געבוירערענער שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Native Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געבוירערענער שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need some help with accent?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דארף הילף מיט די אקצענט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need some help with variants?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דארפט איר הילף מיט ווערסיעס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:card-button-next" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Next</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קומענדיגע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:status-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Next Goals: { $goal }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קומענדיגע צילן: { $goal }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ניין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ניין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:gravatar_not_found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No gravatar found for your email</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר האבן נישט געפינען קיין gravatar פאר אייער אימעיל אדרעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר טרעפן נישט קיין מיקראפאון.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-none-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No rejected sentences found!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר האבן נישט געטראפן קיין צוריקגעוויזענע זאצן!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-my-no-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No sentences found!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר האבן נישט געטראפן קיין זאצן!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-note" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Note: You will still need to select between Speak or Listen to change contribution type.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאטיץ: איר וועט נאכאלץ דארפן אויסוועלן צווישן דערן אדער אויסהערן צו טוישן די ביישטייערן טיפ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No Thanks</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ניין, א דאנק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-variant-default-value" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No variant selected</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קיין ווערסיע אויסגעוועלט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:number-of-voices" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Number of Voices</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צאל שטימעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-numbers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Numbers</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נומערן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארלאשן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-offensive-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומאיידעלע שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-offensive-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive speech</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אפענסיווע רעדע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנגעצונדן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-ph-one-per-line" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>One sentence per line</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איין זאץ פער ליניע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:join-newsletter" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Optionally join on our email list for updates and new information about the project.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שליסט אייך אן פרייוויליג אין אונזער אימעיל ליסטע פאר אנטוויקלונגען און נייע אינפארמאציע אבער דעם פראיעקט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:os" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ossetian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אסעטיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:other" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:other-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-validation-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other people validate those voice clips.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע מענטשן באשטעטיגן די שטימע קליפס.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-other-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other voice datasets…</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע שטימע דאטא סעטס…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:other-datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other Voice Datasets</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנדערע שטימע דאטא סעטס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:status-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Overall project status: see how far we’ve come!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אלגעמיינע פראיעקט צושטאנד: זעט ווי ווייט מיר זענען געקומען!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-play-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:partner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partner</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שותף</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-partners" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partners</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שותפים</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-findpd-subtitle-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partner with local organizations or individuals</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטעלט אייך צוזאם מיט לאקאלע ארגענעזאציעס אדער אידעווידואלן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-contrib-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>People come and contribute their voices.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מענטשן קומען און ביישטייערן זייערע שטימעס.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:fa" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Persian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פערסיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-personal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Personal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פערזענליכע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-last-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;דאס לעצטע!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-play-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Play/Stop</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שפיל/שטעל אפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-add-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please add sentences.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביטע לייגט צו זאצן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-err-select-lang" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please select a language.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביטע וועלט א שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-login-err-try-again" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ביטע פראבירט נאכאמאל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:pl" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Polish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פויליש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:pt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Portuguese</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארטאגעזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-us-explain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דריקט שפיל, הער צו &amp; און זאג אונז: האט עס אקוראט געזאגט דעם דאזיגן זאץ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:toggle-play-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Press { shortcut-play-toggle } to toggle play mode</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דריקט { shortcut-play-toggle } צו טוישן שפילן מאדע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פריוואטקייט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פריוואטקייט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:accept-privacy-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy Policy</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פריוואטקייט פארשריפטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy, security and transparency.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פריוואטקייט, זיכערקייט און דורכזיכטיגקייט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Profile</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פראפייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-meter-in-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Progress</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארשריט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>r</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ר</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:show-wall-of-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read More</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ליינט מער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-record-content-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read the sentence carefully - don’t miss, change or add words.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ליינט דער זאץ פארזיכטיג - נישט צו פארזען, טוישן אדער צולייגן ווערטער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to contribute?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גרייט צו ביישטייערן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to do { $count } more?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גרייט צו טון נאך { $count } מער?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ready-to-record" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to donate your voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זענט איר גרייט צו ביישטייערן אייער שטימע?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ready-to-validate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to help validate sentences?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זענט איר גרייט צו באשטעטיגן זאצן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-google-recaptcha-required" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>reCAPTCHA is required if you want to proceed</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>reCAPTCHA איז פארלאנגט אויב איר ווילט ווייטער גיין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info-sub-with-challenge" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באקומט אימעילס א שטייגער ווי פארמעסטונגען און ציל דערמאנונגען, פארשריט אנטוויקלונגען, און נייעס באריכטן איבער קאמאן וואויס.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recorded-clips" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recorded Clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדירטע קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recorded-hours" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recorded Hours</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדירטע שטונדן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; דאס לעצטע!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדירונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדירונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדירן שטימע קליפס איז א וויכטיגע טייל פון בויען אונזער אפענע דאטע סעט; מאנכע זאגן אז דאס איז די אויך די אינטערעסאנטע טייל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record/Stop</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדיר/שטעל אפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעקארדירט אייער שטימע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-refresh-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Refresh</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פרישט איבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-reject" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reject</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווייז צוריק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-rejected-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rejected Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוריקגעוויזענע זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-rejected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rejected Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוריקגעוויזענע זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-remove-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>remove</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נעמט אוועק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נעם אראפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:remove-avatar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove Avatar</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נעם אראפ די אוועטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באריכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request a Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארלאנגט א שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request recordings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארלאנגט רעקארדירונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contact-required" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>*required</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארלאנגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-rerecord" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבער-רעקארדיר</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record clip</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבער-רעקארד דעם קליפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי צוריק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:return-to-cv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי צוריק צו קאמאן וואויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-return-to-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Languages</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיי צוריק צו שפראכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קוקט איבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבערגיין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קוקט איבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קוקט איבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:reviewing-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewing Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבערקוקן זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קוקט איבער &amp; און רעקארדירט איבער אויב ס'פעלט זיך אויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; Submit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גייט איבער &amp; גיבט אריין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Romanian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ראמעניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ru" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Russian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רוסיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>s</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ה</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sah" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sakha</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סאכא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sardinian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סארדיניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-submit-save" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היט אפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-submit-saved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Saved</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אפגעהיטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-search-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זוכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-search-for-answers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search for answers</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זוך פאר ענטפערס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-findpd-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search for them on the Internet</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זוכט פאר זיי אויף דעם אינטערנעט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:compare-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>See how your progress compares to other contributors all over the world.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זע וויאזוי אייער פארשריט פארגלייכט אנטקעגן אנדערע ביישטייערער איבער די גאנצע וועלט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:languages-show-less" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>See Less</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זעט וויינעגער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:languages-show-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>See More</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זעט מער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select a Language...</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועלט א שפרייך...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-selected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Selected</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויסגעוועלטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select Language</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועלט א שפרייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאץ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן זאמלונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן זאמלונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-sentence-collection-nav-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן זאמלונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-collecting-sentences-content-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;sentenceCollectorFragment&gt;See more on sentence collection&lt;/sentenceCollectorFragment&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;sentenceCollectorFragment&gt;זע מער איבער זאצן זאמלונג&lt;/sentenceCollectorFragment&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-collecting-sentences-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;sentenceCollectorVideo&gt;Watch our guide on using the Sentence Collector&lt;/sentenceCollectorVideo&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;sentenceCollectorVideo&gt;זעט אונזער גייד איבער נוצן דעם זאצן זאמלער&lt;/sentenceCollectorVideo&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-added-by-you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } added by you</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>{ $sentences } צוגעלייגט דורך אייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences are collected for people to read aloud.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-no-numbers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence should not contain numbers</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן זאלט נישט אנטהאלטן קיין נומערן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-validation-no-symbols" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence should not contain symbols</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן זאלן נישט אנטהאלטן קיין סימבאלן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-err-failed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences failed</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאצן דורכגעפאלן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Serbian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סערביש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:set-a-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Set a goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטעלט א ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנשטעלונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנשטעלונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share my goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טיילט מיט מיין ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:share-n-daily-contribution-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share your { $count } Clip Daily Goal for { $type }</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טיילט מיט אייער { $count } טעגליכע קליפ ציל פאר { $type }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcuts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Shortcuts</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארקערצערונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-show-all-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show all skipped sentences again</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווייז אלע איבערגעהיפטע זאצן נאכאמאל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:show-ranking" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show my ranking</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווייז מיין ראנג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-stay-in-touch-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט אייך אויף</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sign-up-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for an account</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט אייך אויף פאר א קאנטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscription-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for Common Voice newsletters, goal reminders and progress updates</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט אייך אויף פאר קאמאן וואויס נייעס באריכטן, ציל דערמאנונגען און פארשריט אנטוויקלונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-subscription-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign up for email updates</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט אייך אויף פאר אימעיל אנטוויקלונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-form-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for { $lang } updates:</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט אייך אויף פאר { $lang } אנטוויקלונגען:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ss" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Siswati</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סיסוואטיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Size</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Size</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבערהיפ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גייט אריבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Slovak</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סלאוואקיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sl" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Slovenian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סלאוועניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Social media</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סאציאלע מידיע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-language-req-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Someone asks for a language to be added.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איינער בעט פאר א שפרייך צו ווערן צוגעלייגט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-google-recaptcha-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong with reCAPTCHA. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עפעס איז געגאנגען שלעכט מיט די reCAPTCHA. ביטע פראבירט נאכאמאל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:snk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Soninke</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סאנינקע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dsb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorbian, Lower</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אונטערן סערביש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hsb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorbian, Upper</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויבערן סערביש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, Common Voice is running slowly. Thanks for your interest.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנטשילדוגט, קאמאן וואויס לויפט שטייליך. יישר כח פאר אייער אינטערעסע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-something-went-wrong" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, something went wrong</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אנטשילדוגט, עפעס איז נישט אין ארדענונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sdh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Southern Kurdish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דרום קורדיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:st" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Southern Sotho</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דרום סוטואיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:es" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Spanish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ספאניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעדט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעד</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-speakers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speakers</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דעדנערס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעדט יעצט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:home-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak up, contribute here!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הייבט אייער שטימע, ביישטייערט דא!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;speechBlogLink&gt;Get Started with Speech Recognition&lt;/speechBlogLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;speechBlogLink&gt;הויבט אן מיט רעדן דערקענונג&lt;/speechBlogLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sst" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speech-to-text (STT)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>רעדן-צו-ווערטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:splits" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Splits</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוטיילונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start recording</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>הויבט אן רעקארדירן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-custom-accent-placeholder-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start typing to describe your accent</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פאנגט אן צו טייפן צו באשרייבן אייער אקצענט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stats" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Stats</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סטאטיסטיקס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Status Page</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צושטאנד בלאט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:still-have-questions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Still have questions?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר האט נאך אלץ פראגן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:streaks" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Streaks</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטריכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-validate-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;Do not reject clips where the speaker ‘has an accent’ that is different to your own&lt;/strong&gt; - this is important for voice recognition to work better for everyone.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;strong&gt;ווייז נישט צוריק קיין קליפס וואס דער רעדנער ‘האט אן אקצענט’ וואס איז אנדערש פון אייער&lt;/strong&gt; - דאס איז וויכטיג פאר שטימע דערקענונג צו ארבייטן בעסער פאר יעדעם.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-grow-language-content-8" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;Get creative!&lt;/strong&gt; Your language community will be unique, and these are just a few ways to get started.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;strong&gt;זיי שעפעריש!&lt;/strong&gt; אייער שפרייך געמיינדע וועט זיין אייגנארטיג, און דאס איז בלויז עטליכע וועגן אנצופאנגען.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיב אריין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיב אריין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיב אריין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גיבט אריין א באריכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געבט אריין קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געבט אריין קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sv-se" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swedish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שוועדיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:syr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Syriac</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סיריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:nan-tw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taiwanese (Minnan)</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טאווינעזיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tajik</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טאדזשיק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zgh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tamazight</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מאזיריש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Terms</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טערמינען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Terms</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טערמינען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:thanks-for-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thanks for confirming your account, now let's build your profile.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפייל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:second-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing your voice!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א דאנק פארן ביישטייערן אייער שטימע!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:first-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for donating your voice clips!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א דאנק פארן ביישטייערן אייער שטימע קליפס!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-submit-msg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א דאנק פארן רעקארדירן!&lt;lineBreak&gt;&lt;/lineBreak&gt;יעצט קוקט איבער און געבט אריין אייער קליפ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
+the teams updated via email. If you want to contribute, please provide your email below.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א דאנק פאר אייער אינטערעסע צו ביישטייערן צו { $lang }. אונז ארבייטן שווער צו מאכן איעדער שפרייך גרייט ארויסצוגעבן און האלטן די באטייליגטע אינפארמירט דורך אימעיל. אויב איך ווילט ביישטייערן, ביטע לייגט אריין אייער אימעיל אונטן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:thanks-for-voice-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your voice information</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>א דאנק פאר אייער שטימע אינפארמאציע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-offensive-speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The clip has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דער קליפ האט אומרעספעקטירטע אדער אומאיידעלע שפרייך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-get-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Common Voice dataset is available for download under the &lt;licenseLink&gt;CC0&lt;/licenseLink&gt; license on &lt;datasetLink&gt;our Datasets page&lt;/datasetLink&gt;. You can also download several other publicly available datasets from the same page.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די קאמאן וואויס דאטא סעט איז פארהאן אראפצולאדענען אונטער די &lt;licenseLink&gt;CC0&lt;/licenseLink&gt; לייסענס אויף &lt;datasetLink&gt;אונזער דאטא סעטס בלאט&lt;/datasetLink&gt;. איר קענט אראפלאדענען פארשידענע אנדערע עפענטליך-פארהאנען דאטא סעטס פון דער זעלבער בלאט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-recorded-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The count of voice recording hours we have collected so far.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די צאל פון שטימע רעקארדירונג שטונדן מיר האבן געזאמלט ביז אהער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings-and-locale-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The number of recordings and which languages you contribute to will be public.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די צאל פון רעקארדירונגען און וועלכע שפרייך איר ביישטייערט צו וועט זיין עפענטליך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too long.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די רעקארדירונג איז געווען צו לאנג.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די רעקארדירונג איז געווען צו שטיל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too short.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די רעקארדירונג איז געווען צו קורץ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:file_too_large" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The selected file is too large</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די אויסגעוועלטע פייל איז צו גרויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has a grammatical or spelling error.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דער זאץ האט א גראמאטישער אדער אויסלייג גרייז.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-offensive-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דער זאץ האט אומרעספעקטירטע אדער אומאיידעלע שפרייך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די זאצן דארפן זיין גראמאטיש ריכטיג.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די זאצן דארפן זיין אויסגעלייגט ריכטיג.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-spelling-punctuation-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די זאץ דארף זיין אויסגעלייגט ריכטיג.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-length-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence should have fewer than 15 words.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די זאץ זאל האבן ווייניגער ווי 15 ווערטער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-localize-content-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The site is ready to be launched when it reaches 75% completion.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די זייטל איז גרייט צו ווערן ארויסגעגיבן ווען עס דערגרייכט 75% פון זיין געענדיגט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-localization-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The website text is translated into that language.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>די וועבזייטל טעקסט ווערט איבערגעטייטשט צו דעם שפרייך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-three-more-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Three to go!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאך דריי צו גיין!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tig" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tigre</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טיגרע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ti" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tigrinya</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טיגריניא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:today" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היינט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-recorded-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today's Common Voice progress on clips recorded</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היינטיגע קאמאן וואויס פארשריט פון קליפס רעקארדירט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-validated-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today's Common Voice progress on clips validated</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היינטיגע קאמאן וואויס פארשריט פון קליפס באשטעטיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today's Progress</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היינטיגע פארשריט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-yes-votes-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>To make it into the Common Voice dataset, a voice clip must be validated by two separate users.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צו קענען אריינגיין אין די קאמאן וואיס דאטא סעט, א שטימע קליפ דארף ווערן באשטעטיגט דורך צוויי באזונדערע באנוצער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:top-contributors" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Top Contributors</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גרעסטע ביישטייערער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Total</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סך הכול</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:toward-next-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Toward next goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צו דעם קומענדיגער ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-translate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Translate this page</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טייטשט איבער דעם בלאט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-translating-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;translateVideoLink&gt;Watch our guide on how to use Pontoon.&lt;/translateVideoLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>&lt;translateVideoLink&gt;קוקט אונזער גייד איבער וויאזוי צו נוצן פענטאאן.&lt;/translateVideoLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-translating-heading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Translating the site</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבערטייטשן דעם זייטל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-localize-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Translation of the Common Voice site happens on &lt;strong&gt;Pontoon&lt;/strong&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דאס איבערטייטשן די קאמאן וואויס זייטל געשעט אויף &lt;strong&gt;פענטאן&lt;/strong&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turkish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טערקיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:tk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turkmen</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>טורקמעניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:uby" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ubykh</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אוביחיז</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:udm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Udmurt</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אודמארטיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:uk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ukrainian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אוקרייניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-add-err-unexpected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unexpected response returned from server</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומערווארטעטער ענטפער צוריקגעקומען פונעם סערווער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-aborted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload aborted. Do you want to delete your recordings?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ארויף לאדענען אפגעשטעלט. ווילט איר אויסמעקן אייער ראקארדירונגען?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:browse-file-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload an image file</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לאדנט ארויף א בילד פייל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-clip-upload-server" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload of this clip keeps failing at server. Reload the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דאס ארויפלאדענען דעם קליפ האלט אן צו דורכפאלן ביים סערווער. פרישט איבער דעם בלאט אדער פראבירט נאכאמאל שפעטער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-clip-upload" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload of this clip keeps failing, keep retrying?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דאס ארויפלאדענען דעם קליפ האלט אן צו דורכפאלן, ווילט איר ווייטער פראבירן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ur" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Urdu</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אורדא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-username" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>User Name</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באנוצער נאמען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Users validate the accuracy of donated clips, checking that the speaker read the sentence correctly.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באנוצער באשטעטיגן די אקוראטקייט פון די ביישטייערטע קליפס, זיכער צו מאכן אז די רעדנער ליינט די זאץ ריכטיג.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-using-cv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Using Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נוצן קאמאן וואויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-clips" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validated Clips</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיגטע קליפס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hours" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validated Hours</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשעטיגטע שטונדן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hr-total" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validated Hr. Total</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>סך הכול באשעטיגטע שטונדן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-paragraph" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיגן ביישטייערטע קליפס איז פונקט אזוי וויכטיג צו די קאמאן וואויס מיסיע. הערט אויס און העלפט אונז צושטעלן קוואליטעט אפען סאורס שטימע דאטא.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-validation-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validation Progress</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיגונג פארשריט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:validations" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validations</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיגונגען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-project-governance-content-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Value and recognition.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווערד און אנערקענונג.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-variants-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועריאנטן זענען א ספעציפישע פארום פון א שפרייך - צום ביישפיל געטיילט מיט מענטשן וואס לעבען אינעם זעלבן ראיאן אדער געמיינדע. אפאר מאל ווערט עס אויך אנגערופן דייעלעקט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vec" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Venetian</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווענעזיאניש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Version</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווערסיע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Version</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווערסיע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Vietnamese</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וויעטנאמיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:view-goals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>View your progress against personal and project goals.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זע דיין פארשריט אנטקעגען פערזענליכע און פראיעקט צילן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:visible" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Visible</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זעהבאר</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:voice-collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice Collection</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימע זאמלונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-voice-collection-nav-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice Collection</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימע זאמלונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-contrib-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice Contribution</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימע ביישטייערונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-first" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
+for our machines. But to create voice systems, developers need an extremely large amount of voice
+data.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימע איז נאטירליך, שטימע איז מענטשליך. דאס איז פארוואס מיר זענען פרייליך צו שאפן נוצבארע שטימע
+טעכנעלאגיע פאר אונזערע מאשינען. אבער צו שאפן שטימע סיסטעמען, דארפן די דעוועלאפערס אן עקסרעם גרויסע צאל פון שטימע דאטא.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-start" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
+technology for our machines. But to create voice systems, an extremely large amount of voice
+data is required.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימע איז נאטירליך, שטימע איז מענטשליך. דאס איז פארוואס מיר זענען פרייליך צו שאפן נוצבארע שטימע
+טעכנעלאגיע פאר אונזערע מאשינען. אבער צו שאפן שטימע סיסטעמען, אן עקסטרעם גרויסע צאל פון שטימע דאטא פארלאנגט זיך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:voices-online" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voices Online Now</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימעס יעצט אנליין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-validation-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice Validation</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטימע באשטעטיגונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vot" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Votic</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואטיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-subscribe-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Want to stay in touch with Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווילט איר בלייבן אין פארבינדונג מיט קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר גייען ארויס צו נעמען א קאווע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר גייען ארויס צו נעמען א קאווע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-5-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר גייען ארויס צו נעמען קאווע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר גייען ארויס צו נעמען קאווע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר ביי מאזילע בויען א געמיינדע ארום שטימע טעכנעלאגיע. מיר ווילן זיך האלטן פארבינדן איבער אנטוויקלונגען, נייע דאטא זאמלונגען און צו הערן מער איבער וויאזוי איר נוצט די דאטא.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר ביי מאזילע בויען א געמיינדע ארום קול טעכנעלאגיע. מיר ווילן זיך האלטן אין פארבינדונג איבער אנטוויקלונגען, נייע דאטא קוועלער און צו הערן מער איבער וויאזוי איר נוצט די דאטא.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-localization-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Website Localization</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועב זייטל לאקאליזירונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:citing-sentences-subheader-websites" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Websites</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועב זייטלעך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-how-calc-hours-a" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We calculate hours by estimating the average length of each recording, and then multiplying that number by the total number of recordings across all languages.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר רעכענען די  שטונדן דורך אפשאצן די דורכשניטליכע לענג פון איעדע ראקארדירונג, און נאכדעם דאפלען דער נומער ביי די צאל פון רעקארדירונגען אריבער אלע שפרייכן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-title-404" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t find that page for you</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר האבן נישט געקענט טרעפן דעם בלאט פאר אייך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר קענען נישט קריגן קיין זאצן פאר אייך צו רעדן.
+ביטע פראבירט נאכאמאל שפעטער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-interval-weekly" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Weekly</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועכנטליך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:weekly-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Weekly Goal</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועכנטליכע ציל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-new-lang-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We launch the Common Voice site in this language.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר געבן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Welsh</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועלש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עס קען זיין אז מיר זענען אויסגעלאפן פון קליפס - פרישט איבער דעם בלאט, אדער פראבירט נאכאמאל שפעטער.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר פארשפרעכן צו האנדלען אייער אינפארמאציע מיט פארזיכטיגקייט. ליינט מער אין אונזער &lt;privacyLink&gt;פריוואטקייט נאטיץ&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר פארשפרעכן צו האנדלען אייער אינפארמאציע מיט פארזיכטיגקייט. ליינט מער אין אונזער &lt;privacyLink&gt;פריוואטקייט נאטיץ&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:error-title-503" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re experiencing unexpected downtime</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אונזער זייטל איז אומערווארטעט נישט צוטריטליך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר גייען ארויס צו נעמען א קאווע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר גייען ארויס צו נעמען קאווע.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-release-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We release the dataset every 3 months.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר געבן ארויס דעם דאטא סעט איעדער 3 מאנאטן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:banner-error-slow-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're receiving a lot of traffic and are currently investigating the issues.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר באקומען אסאך טרעפיק און מיר פארשטן די פראבלעמען.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-translating-content-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We use a Mozilla tool called &lt;pontoonLink&gt;Pontoon&lt;/pontoonLink&gt; for translations. Pontoon has lots of languages,
+but if it doesn’t have yours you can &lt;pontoonRequestLink&gt;request for your language to be added&lt;/pontoonRequestLink&gt;.
+Then, to make the language available on the Common Voice project,
+&lt;githubRepoLink&gt;request the new language on GitHub&lt;/githubRepoLink&gt;. &lt;localizationFragment&gt;See more on site translation&lt;/localizationFragment&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר ביי מאזילע נוצן א געצייג גערופן &lt;pontoonLink&gt;פענטאאן&lt;/pontoonLink&gt; פאר איבערטייטשונגען. פענטאאן האט אסאך שפרייכן,
+אבער אויך עס פארמאגט נישט אייערס קענט איר &lt;pontoonRequestLink&gt;פארלאנגען צוצולייגן אייער שפרייך&lt;/pontoonRequestLink&gt;.
+דערנאך, צו מאכן דעם שפרייך צוטריטליך אויך דעם קאמאן וואויס פראיעקט,
+&lt;githubRepoLink&gt;פארלאנגט די נייע שפרייך אויף GitHub &lt;/githubRepoLink&gt;. &lt;localizationFragment&gt;זעט מער איבער זייטל איבעטייטשונג&lt;/localizationFragment&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We've run out of sentences to record in this language...</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר זענען אויסגעלאפן פון זאצן צו רעקארדירן אין דעם שפרייך...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will be in touch with more information as it becomes available.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר וועלן זיין אין פארבינדונג מיט מער אינפארמאציע ווי נאר עס איז פארהאן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-not-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will not make your email public.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיר וועלן נישט פארעפענטליכן אייער אימעיל אדרעס.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-determine-identity-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What does it mean that I can’t “determine the identity” of speakers in the Common Voice dataset?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס מיינט דאס איז איך טאר נישט “נאכגיין די אידענטיטעט” פון די רעדנערדס אין די קאמאן וואיס דאטא סעט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-what-is-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is a language on Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס איז א שפרייך אויף קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-is-cv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס איז דאס קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס איז דאס קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-ask" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this sentence?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואסערע פראבלעמען האט איר מיט דעם זאץ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-type" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What kind of goal do you want to build?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואסערע סארט ציל ווילט איר בויען?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:what-can-i-add" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What kinds of sentences can I add?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועלכע סארט זאצן קען איך צולייגן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-quality-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What level of audio quality is required for a voice clip to be used in the dataset?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועלכע שטאפל פון אודיא קוואליטעט פארלאנגט זיך אז א שטימע קליפ זאל גענוצט ווערן אין א דאטא סעט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:whats-inside" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What’s inside the Common Voice dataset?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס געפינט זיך אינעם קאמאן וואויס דאטא סעט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:whats-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What's Public?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס איז עפענטליך?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-and-deepspeech-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What’s the difference between Common Voice and Deep Speech?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואס איז די דיפערענץ צווישן קאמאן וואויס און דיפ ספיטש?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-when-release2-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When will you release Common Voice data in other languages?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווען וועט איר ארויסגעבן קאמאן וואויס דאטא אין אנדערע שפרייכן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-variant" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Which variant of { $language } do you speak?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וועלכע ווערסיע פון { $language } רעדסטו?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-why-common-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why ?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-profile-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why a profile?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס א פראפייל?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-donate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why are you asking?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס פרעגט איר?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס קאמאן וואויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:why-demographic" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why does this matter?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס מאכט דאס אויס?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-not-ask-read-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why don’t you ask people to read from books or Wikipedia articles in different languages?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס בעט איר נישט מענטשן צו ליינען פון ביכער אדער וויקיפידיע ארטיקלען אין אנדערע שפרייכן?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-different-speakers-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why do you need so many different speakers per language?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס דארפט איר אזויפיל רעדנער אויף א שפרייך?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-10k-hours-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why is 10,000 validated hours the per language goal for capturing audio?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס איז 10,000 באשטעטיגטע שטונדן די פער שפרייך ציל פאר אפכאפן אודיא?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-mission-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why is Common Voice part of the Mozilla mission?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס איז קאמאן וואויס א טייל פון די מאזילע מיסיע?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why is it important?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס איז עס וויכטיג?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-my-lang-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why is my language not included yet?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס איז מיין שפרייך נאכנישט אריינגעלייגט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-account-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why should I sign up for an account?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארוואס זאל איך זיך ארויף שרייבן פאר א קאנטע?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:first-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Would you like to share some information about how you speak?</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>וואלט איר געוואלט מיטטיילן אביסל אינפארמאציע איבער וויאזוי איר רעדט?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:write" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייבט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>y</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>י</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-approve-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Y</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>י</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יא, שיק מיך אימעילס. איך וויל בלייבן אינפארמירט איבער די קאמאן וואויס פראיעקט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>יא, שיק מיך אימעילס. איך וויל בלייבן אינפארמירט איבער די פארשריט פון דעם שפרייך אויף קאמאן וואויס.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:yi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yiddish</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אידיש</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דו</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-sentences-content-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can add sentences on the &lt;writePageLink&gt;Write page&lt;/writePageLink&gt; or review sentences on the &lt;reviewPageLink&gt;Review page&lt;/reviewPageLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר קענט צולייגן זאצן אויף די &lt;writePageLink&gt;שרייב בלאט&lt;/writePageLink&gt; אדער איבערקוקן זאצן אויף די &lt;reviewPageLink&gt;איבערקוקן בלאט&lt;/reviewPageLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:username-optin-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can choose to make your username public or anonymous.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר קענט וועלן צו מאכן אייער באנוצער נאמען עפענטליך אדער אנאנים.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-not-added" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not added any languages yet.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר האט נאכנישט צוגעלייגט קיין שפרייכן דערווייל.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר מוזט ערלויבן מיקראפאון צוטריט.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-accent-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייער אקצענט איז דער וועג וויאזוי איר זאגט ארויס די ווערטער. עס קען ווערן געפארעמט ביי די וועג וויאזוי איר געלעבט, וועלכע אנדערע שפרייכן איר רעדט און אסאך אנדערע פאקטארן. איר קענט מיטיילן סיי וועלכע אינפארמאציע איר פילט איז גילטיג דא.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:daily-goal-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your daily goal has been created</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייער טעגליכע ציל איז געווארן אוועקגעשטעלט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your download has started.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייער אראפ לאדענען האט זיך אנגעהויבן.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-generic-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to a target segment</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר ביישטייערט צו א ציל אפשניט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:target-segment-first-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to our first target segment</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר ביישטייערט צו אונזער ערשטע ציל אפשניט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:not-receiving-emails-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're currently set to &lt;bold&gt;NOT&lt;/bold&gt; receive emails such as goal reminders, my
+progress updates and newsletters about Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר זענט יעצט אנגעשטעלט צו &lt;bold&gt;נישט&lt;/bold&gt; באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:receiving-emails-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're currently set to receive emails such as goal reminders, my
+progress updates and newsletters about Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר זענט יעצט אנגעשטעלט צו באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your email address</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייער אימעיל אדרעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-personal-your-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your languages:</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייערע שפרייכן:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:your-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Languages</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייערע שפרייכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:username-email-not-demographic" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your username and email will not be associated with the published data.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייער באנוצער נאמען און אימעיל וועט נישט זיין פארבינדן מיט די ארויגעגעבענעם דאטא.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:weekly-goal-created" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your weekly goal has been created</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אייער וועכנטליכע ציל איז געווארן אוועקגעשטעלט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-help-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר האט געהאלפן קאמאן וואויס דערגרייכן &lt;goalPercentage&gt;&lt;/goalPercentage&gt; פון אונזער טעגליכע { $goalValue } רעקארדירונג ציל!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר האט געהאלפן קאמאן וואויס דערגרייכן &lt;goalPercentage&gt;&lt;/goalPercentage&gt; פון אונזער טעגליכע { $goalValue } באשטעטיגן ציל!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've successfully signed up for contributing to { $language }. Thank you.</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איר האט זיך דערפאלגרייך איינגעשריבן צו ביישטייערן צו { $language }. א דאנק.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zza" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Zaza</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאזא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Zulu</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זאלא</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>add-on</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צולייגונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attack</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אטאקירן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attacker</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אטאקירער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attack Site</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אטאקע זייטל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>attendee</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באטייליגטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>autoplay</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אוטאמאטיש-שפילן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייען-צייכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>bookmark</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>לייען-צייכן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>breakpoint</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>האלט פונקט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bug report</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פעלער באריכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cipher</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארשליסונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>clipboard</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קליפבאורד</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>colorway</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קאליר-וועג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>confirmation code</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיגונג קאוד</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupt</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געשעדיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupt</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שעדיגן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>corrupted</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געשעדיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>crash</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קראך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cryptominer</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קריפטאו גראבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cryptomining</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>קריפטאו גראבן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>deceptive site</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארפירערישער זייטל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>decryption</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויפשליסונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>disinformation</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>דיס-אינפארמאציע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>distrust</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומציטרוי</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>enable</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אקטיוויזירן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>encrypt</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארשליסן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>encryption</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארשליסונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>end user</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ענדגילטיגע באנוצער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>extension</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פארלעגערונג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox View</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פייערפאקס אויסקוק</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>grassroots</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באזיס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>home page</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>היים בלאט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>import</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אימפארטירן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>independent browser</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומאפהענגיגע בראוזער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>innovations</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינאוואציעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>insecure</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומפארזיכעטע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>installation</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אינסטאלאציע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Issue</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ארויסגעבן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>MDN</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מד"נ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>misinformation</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>מיס-אינפארמאציע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>native</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>געבוירענער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>net neutrality</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נעט נייטראלקייט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>nonprofit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נישט פאר פארדינסטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>non-profit</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נישט פאר פארדינסטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>override</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איבערשרייבן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy Notice</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פריוואטקייט נאטיץ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Privacy Policy</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>פריוואטקייט פארשריפטן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>release</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אויסגאבע</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>report</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באריכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>report</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באריכט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>restricted site</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באגרעניצטע זייטל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>revert</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>צוריקציען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>search suggestion</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זוך פארשלאג</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>security keys</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זיכערהייט שליסלען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sensitive</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>עמפינדליך</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sidebar</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>זייט-באקסל</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייב אונטער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>signer</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אונטערשרייבער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign in</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>איין שרייבן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign-in</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שרייב איין</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>studies</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>שטודיעס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Terms of Service</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באדינונג טערמינען</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>track</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאכפאלגן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>trackers</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאכפאלגערס</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tracking Content</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>נאכצופאלגן דעם אינהאלט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>unencrypted</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומפארשלאסן</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>unresponsive</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומראגירבאר</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>unsafe</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>אומזיכער</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>validate</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>באשטעטיגט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>validity</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>גילטיגקייט</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>version</seg>
+			</tuv>
+			<tuv xml:lang="yi">
+				<seg>ווערסיע</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

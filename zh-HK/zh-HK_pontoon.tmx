@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-09-01T00:24:59.599047">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-10-01T00:29:22.977335">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -112,7 +112,7 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; 呢句讀得準唔準？</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; 佢哋將句子讀得準確嗎？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-instruction" srclang="en-US">
@@ -120,7 +120,7 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; 佢哋將句子讀得準確嗎？</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; 呢句讀得準唔準？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
@@ -890,7 +890,7 @@ We want to make voice data freely and publicly available, and make sure the data
 				<seg>By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s &lt;privacyLink&gt;Privacy Policy&lt;privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>如果你同意接收電郵，就代表你同意 Mozilla 依照&lt;privacyLink&gt;隱私權保護政策&lt;/privacyLink&gt;當中描述嘅方法嚟處理呢啲資訊。</seg>
+				<seg>如果同意接收電郵，就代表您同意 Mozilla 依照&lt;privacyLink&gt;隱私權保護政策&lt;/privacyLink&gt;當中描述嘅方法處理呢啲資訊。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-privacy" srclang="en-US">
@@ -898,7 +898,7 @@ We want to make voice data freely and publicly available, and make sure the data
 				<seg>By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s &lt;privacyLink&gt;Privacy Policy&lt;privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>如果同意接收電郵，就代表您同意 Mozilla 依照&lt;privacyLink&gt;隱私權保護政策&lt;/privacyLink&gt;當中描述嘅方法處理呢啲資訊。</seg>
+				<seg>如果你同意接收電郵，就代表你同意 Mozilla 依照&lt;privacyLink&gt;隱私權保護政策&lt;/privacyLink&gt;當中描述嘅方法嚟處理呢啲資訊。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-no-identify" srclang="en-US">
@@ -1076,7 +1076,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Chinese (Hong Kong)</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>中文 (香港)</seg>
+				<seg>中文（香港）</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-hk" srclang="en-US">
@@ -1084,15 +1084,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>Chinese (Hong Kong)</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>中文（香港）</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-tw" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Chinese (Taiwan)</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>中文（臺灣）</seg>
+				<seg>中文 (香港)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-tw" srclang="en-US">
@@ -1101,6 +1093,14 @@ Recognition engines that use this data to improve their accuracy.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>中文 (臺灣)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:zh-tw" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Chinese (Taiwan)</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>中文（臺灣）</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:localization-select" srclang="en-US">
@@ -1240,23 +1240,23 @@ clip recordings.</seg>
 				<seg>您驗證的錄音</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>關閉</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>關閉</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>關閉</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>關閉</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1312,7 +1312,7 @@ clip recordings.</seg>
 				<seg>Common Voice 數據，以及上面列出的所有其他語音數據集。</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice Dataset</seg>
 			</tuv>
@@ -1320,7 +1320,7 @@ clip recordings.</seg>
 				<seg>Common Voice 數據集</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice Dataset</seg>
 			</tuv>
@@ -1353,7 +1353,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>Common Voice 係 Mozilla 發起嘅計劃，用來訓練機器學識真人說話嘅方式。</seg>
+				<seg>Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:home-title" srclang="en-US">
@@ -1361,7 +1361,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。</seg>
+				<seg>Common Voice 係 Mozilla 發起嘅計劃，用來訓練機器學識真人說話嘅方式。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-description" srclang="en-US">
@@ -1504,20 +1504,20 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>參與貢獻</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>參與貢獻</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>貢獻</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>參與貢獻</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-empty-state-cta" srclang="en-US">
@@ -1608,7 +1608,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -1616,7 +1616,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Cookies</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -1837,7 +1837,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Dashboard</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>控制台</seg>
+				<seg>儀表板</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:dashboard" srclang="en-US">
@@ -1845,7 +1845,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>Dashboard</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>儀表板</seg>
+				<seg>控制台</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-dataset-release-title" srclang="en-US">
@@ -1864,7 +1864,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>數據集</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -1872,7 +1872,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>數據集</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets-heading" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -2048,7 +2048,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>數據集入面冇你嘅語言？請去語言頁面要求新增語言。</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -2056,7 +2056,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>下載</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -2292,22 +2292,6 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>編輯個人檔案</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>電郵</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>電郵</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
@@ -2317,6 +2301,22 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>電郵</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>電郵</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -2364,23 +2364,23 @@ The dataset currently consists of &lt;b&gt;{ $valid }&lt;/b&gt; validated hours 
 				<seg>英文</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>英文</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>English</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>英文</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>英文</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>英文</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:english" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -3205,7 +3205,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>請到 { $link } 獻聲，幫我哋教機器瞭解真人係點講話嘅。</seg>
+				<seg>請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:share-text" srclang="en-US">
@@ -3213,7 +3213,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。</seg>
+				<seg>請到 { $link } 獻聲，幫我哋教機器瞭解真人係點講話嘅。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-helpus" srclang="en-US">
@@ -3381,7 +3381,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Hours Recorded</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>個鐘嘅錄音</seg>
+				<seg>個小時的錄音</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-recorded" srclang="en-US">
@@ -3389,7 +3389,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Hours Recorded</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>個小時的錄音</seg>
+				<seg>個鐘嘅錄音</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:hours-validated" srclang="en-US">
@@ -3456,20 +3456,20 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Common Voice 如何計算時數？</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does Common Voice work?</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>Common Voice 喺點運作？</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>Common Voice 喺點運作㗎？</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does Common Voice work?</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>Common Voice 喺點運作？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title" srclang="en-US">
@@ -4192,23 +4192,23 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>語言</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>語言</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>語言</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>語言</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>語言</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -4245,7 +4245,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Language request successfully submitted, thank you.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>增添新語言嘅請求已經收到，唔該曬。</seg>
+				<seg>已收到新語言請求，感謝您。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-success-title" srclang="en-US">
@@ -4253,7 +4253,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Language request successfully submitted, thank you.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>已收到新語言請求，感謝您。</seg>
+				<seg>增添新語言嘅請求已經收到，唔該曬。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:languages" srclang="en-US">
@@ -4309,7 +4309,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Leaderboard Visibility</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>排行榜能見度</seg>
+				<seg>在排行榜上顯示個人檔案</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:leaderboard-visibility" srclang="en-US">
@@ -4317,7 +4317,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Leaderboard Visibility</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>在排行榜上顯示個人檔案</seg>
+				<seg>排行榜能見度</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-text-learn" srclang="en-US">
@@ -4381,7 +4381,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>LibriSpeech 語料庫來自 LibriVox 計劃，共有大概一千個鐘嘅 16 千赫英語有聲書錄音。</seg>
+				<seg>LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-other-librispeech-description" srclang="en-US">
@@ -4389,7 +4389,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。</seg>
+				<seg>LibriSpeech 語料庫來自 LibriVox 計劃，共有大概一千個鐘嘅 16 千赫英語有聲書錄音。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:cv-license" srclang="en-US">
@@ -4653,7 +4653,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。</seg>
+				<seg>睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:no-clips-to-validate" srclang="en-US">
@@ -4661,7 +4661,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。</seg>
+				<seg>睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:lg" srclang="en-US">
@@ -4957,7 +4957,7 @@ that stifles innovation. So we’ve launched Project Common Voice, a project to 
 recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立咗等每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。</seg>
+				<seg>大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-mobile" srclang="en-US">
@@ -4967,7 +4967,7 @@ that stifles innovation. So we’ve launched Project Common Voice, a project to 
 recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。</seg>
+				<seg>大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立咗等每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-different-speakers-a" srclang="en-US">
@@ -5093,22 +5093,6 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>名字</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Native Language</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>母語</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Native Language</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>母語</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
@@ -5118,6 +5102,22 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Native Language</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>母語</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Native Language</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>母語</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -5210,14 +5210,6 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>No</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>不好</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
 				<seg>唔好</seg>
 			</tuv>
 		</tu>
@@ -5235,6 +5227,14 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>錯</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>不好</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:gravatar_not_found" srclang="en-US">
@@ -5314,7 +5314,7 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>Note: You will still need to select between Speak or Listen to change contribution type.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>註: 您仍須要選擇「聽」或「說」來切換貢獻類型。</seg>
+				<seg>註: 您仍須要選擇「聽」或「講」來切換貢獻類型。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:skip-submission-note" srclang="en-US">
@@ -5322,15 +5322,7 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 				<seg>Note: You will still need to select between Speak or Listen to change contribution type.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>註: 您仍須要選擇「聽」或「講」來切換貢獻類型。</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:notfound-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not found</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>找不到</seg>
+				<seg>註: 您仍須要選擇「聽」或「說」來切換貢獻類型。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:notfound-title" srclang="en-US">
@@ -5339,6 +5331,14 @@ Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Ras
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>搵唔到</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:notfound-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not found</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>找不到</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-no" srclang="en-US">
@@ -5388,8 +5388,8 @@ to make innovative apps for devices and the web. Read a sentence to help machine
 contributors to improve the quality. It’s that simple!</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>而家你可以將自己嘅聲音捐畀我哋，以幫助打造開放源碼嘅語音資料庫，等任何人都可以為裝置同互聯網打造嶄新嘅應用程式。&lt;lineBreak&gt;&lt;/lineBreak&gt;
-只要朗讀一段文字，你就可以幫助機器了解我哋點樣講嘢嘅。你亦可以驗證其他貢獻者嘅聲音，嚟協助改善品質。就係咁簡單！</seg>
+				<seg>現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。&lt;lineBreak&gt;&lt;/lineBreak&gt;
+只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-more-desktop" srclang="en-US">
@@ -5399,8 +5399,8 @@ to make innovative apps for devices and the web. Read a sentence to help machine
 contributors to improve the quality. It’s that simple!</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。&lt;lineBreak&gt;&lt;/lineBreak&gt;
-只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！</seg>
+				<seg>而家你可以將自己嘅聲音捐畀我哋，以幫助打造開放源碼嘅語音資料庫，等任何人都可以為裝置同互聯網打造嶄新嘅應用程式。&lt;lineBreak&gt;&lt;/lineBreak&gt;
+只要朗讀一段文字，你就可以幫助機器了解我哋點樣講嘢嘅。你亦可以驗證其他貢獻者嘅聲音，嚟協助改善品質。就係咁簡單！</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:n-clips" srclang="en-US">
@@ -5877,7 +5877,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？</seg>
+				<seg>撳下播放掣，聽一下，然後回覆：佢哋讀呢句讀得啱唔啱？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:help-us-explain" srclang="en-US">
@@ -5885,15 +5885,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>撳下播放掣，聽一下，然後回覆：佢哋讀呢句讀得啱唔啱？</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:toggle-play-tooltip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Press { shortcut-play-toggle } to toggle play mode</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>按下 { shortcut-play-toggle } 即可切換播放模式</seg>
+				<seg>按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:toggle-play-tooltip" srclang="en-US">
@@ -5902,6 +5894,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>撳 { shortcut-play-toggle } 即可切換播放模式</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:toggle-play-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Press { shortcut-play-toggle } to toggle play mode</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>按下 { shortcut-play-toggle } 即可切換播放模式</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy" srclang="en-US">
@@ -5944,7 +5944,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>專業級</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -5952,7 +5952,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>個人檔案</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -6125,7 +6125,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Recorded Clips</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>錄音</seg>
+				<seg>已錄製嘅錄音</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:recorded-clips" srclang="en-US">
@@ -6133,7 +6133,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Recorded Clips</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>已錄製嘅錄音</seg>
+				<seg>錄音</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:recorded-hours" srclang="en-US">
@@ -6168,6 +6168,22 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>錄音中</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>錄音</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recordings</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>錄音</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-recordings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recordings</seg>
@@ -6176,20 +6192,12 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>錄音片段</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
+				<seg>Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>錄音</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:recordings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recordings</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>錄音</seg>
+				<seg>錄音係我哋建立開放數據集個陣不可或缺嘅一部分，亦都係好多人覺得最好玩嘅一部分！</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
@@ -6198,14 +6206,6 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-paragraph" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>錄音係我哋建立開放數據集個陣不可或缺嘅一部分，亦都係好多人覺得最好玩嘅一部分！</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-record-toggle-label" srclang="en-US">
@@ -6429,7 +6429,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Return to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>翻去 Common Voice</seg>
+				<seg>返回 Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:return-to-cv" srclang="en-US">
@@ -6437,7 +6437,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Return to Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>返回 Common Voice</seg>
+				<seg>翻去 Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:download-back" srclang="en-US">
@@ -6470,14 +6470,6 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>返回語言清單</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>檢閱</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
@@ -6504,12 +6496,12 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>審核</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-tooltip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Review &amp; re-record clips here as you go</seg>
+				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>在此確認或重錄片段</seg>
+				<seg>檢閱</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-tooltip" srclang="en-US">
@@ -6520,12 +6512,12 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>在此確認或重錄片段</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Review &amp; re-record clips if needed</seg>
+				<seg>Review &amp; re-record clips here as you go</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>聽多次錄音，有需要就重錄</seg>
+				<seg>在此確認或重錄片段</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-instruction" srclang="en-US">
@@ -6536,6 +6528,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>確認錄音內容，有需要的話可以重錄</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>聽多次錄音，有需要就重錄</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-home-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review sentences</seg>
@@ -6544,7 +6544,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>審核句子</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -6552,7 +6552,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>審核句子</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -6824,20 +6824,20 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>轉送註冊鏈結</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sentence Collection</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>語句收集</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-sentence-collection-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>收集句子</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>語句收集</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-playbook-how-add-language-collecting-sentences-content-1" srclang="en-US">
@@ -7112,7 +7112,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>略過</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -7120,7 +7120,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>略過</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -7280,28 +7280,28 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>西班牙文</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Speak</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>說話</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Speak</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>講</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>講</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>講</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>說話</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:language-speakers" srclang="en-US">
@@ -7341,7 +7341,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Speak now</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>而家開始講話</seg>
+				<seg>現在開始說話</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-now" srclang="en-US">
@@ -7349,7 +7349,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>Speak now</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>現在開始說話</seg>
+				<seg>而家開始講話</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:home-cta" srclang="en-US">
@@ -7444,7 +7444,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>開始打字來形容你嘅口音</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -7452,7 +7452,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>統計資料</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-stats-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-statistics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Statistics</seg>
 			</tuv>
@@ -7500,23 +7500,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>連勝</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>提交</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>提交</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -7540,6 +7524,22 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>提交</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>提交</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>提交</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
@@ -7548,7 +7548,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>提交報告</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -7556,7 +7556,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>提交錄音</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -7788,6 +7788,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>泰盧固文</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Terms</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>使用條款</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-footer-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
@@ -7804,14 +7812,6 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>使用條款</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:terms" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Terms</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>使用條款</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:th" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thai</seg>
@@ -7826,14 +7826,6 @@ To make voice recognition even more universal, we're collecting voice samples in
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>泰文</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:thanks-for-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thanks for confirming your account, now let's build your profile.</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>多謝您確認您的帳戶, 現在讓我們建立您的個人資料。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:thanks-for-account" srclang="en-US">
@@ -7842,6 +7834,14 @@ To make voice recognition even more universal, we're collecting voice samples in
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>多謝你確認你嘅帳戶，而家等我哋建立你嘅個人檔案。</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:thanks-for-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thanks for confirming your account, now let's build your profile.</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>多謝您確認您的帳戶, 現在讓我們建立您的個人資料。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:demo-language-select-card-body" srclang="en-US">
@@ -8023,7 +8023,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>The recording was too long.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>這個錄音太長了。</seg>
+				<seg>呢段錄音太長喇。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-long" srclang="en-US">
@@ -8031,15 +8031,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>The recording was too long.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>呢段錄音太長喇。</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-quiet" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The recording was too quiet.</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>這個錄音太靜了。</seg>
+				<seg>這個錄音太長了。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-quiet" srclang="en-US">
@@ -8048,6 +8040,14 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>呢段錄音太靜喇。</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>這個錄音太靜了。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-short" srclang="en-US">
@@ -8255,7 +8255,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>Today's Common Voice progress on clips validated</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>今日 Common Voice 驗證片段的進度</seg>
+				<seg>今日 Common Voice 驗證錄音嘅進度</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-validated-progress" srclang="en-US">
@@ -8263,7 +8263,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>Today's Common Voice progress on clips validated</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>今日 Common Voice 驗證錄音嘅進度</seg>
+				<seg>今日 Common Voice 驗證片段的進度</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-progress" srclang="en-US">
@@ -8314,7 +8314,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>貢獻者排行榜</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -8322,7 +8322,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>總計</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-lang-info-title-total" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-total-progress" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total</seg>
 			</tuv>
@@ -8623,7 +8623,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>Validated Clips</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>已驗證嘅錄音</seg>
+				<seg>已被驗證的錄音</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-clips" srclang="en-US">
@@ -8631,15 +8631,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>Validated Clips</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>已被驗證的錄音</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hours" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Validated Hours</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>已驗證時數</seg>
+				<seg>已驗證嘅錄音</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hours" srclang="en-US">
@@ -8648,6 +8640,14 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>已驗證鐘數</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hours" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validated Hours</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>已驗證時數</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:total-hours" srclang="en-US">
@@ -8664,14 +8664,6 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>已驗證時數</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hr-total" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Validated Hr. Total</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>已驗證總時數</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hr-total" srclang="en-US">
@@ -8682,12 +8674,12 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>已驗證總鐘數</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-paragraph" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:validated-hr-total" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
+				<seg>Validated Hr. Total</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。只要聽一下，就可以幫我哋打造高品質、開放源碼嘅語音數據集。</seg>
+				<seg>已驗證總時數</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-paragraph" srclang="en-US">
@@ -8696,6 +8688,14 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>驗證他人錄下的錄音片段，對 Common Voice 的使命也非常重要。只要聽一聽，便能幫助我們打造高品質、開放源碼的語音數據。</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-paragraph" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。只要聽一下，就可以幫我哋打造高品質、開放源碼嘅語音數據集。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:goal-type-validation" srclang="en-US">
@@ -8746,7 +8746,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>威尼斯文</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -8754,7 +8754,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>版本</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:release-version" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:dataset-version" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Version</seg>
 			</tuv>
@@ -8791,7 +8791,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>Visible</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>可見</seg>
+				<seg>公開</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:visible" srclang="en-US">
@@ -8799,7 +8799,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>Visible</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>公開</seg>
+				<seg>可見</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen-queue-text" srclang="en-US">
@@ -8841,7 +8841,7 @@ for our machines. But to create voice systems, developers need an extremely larg
 data.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>語音係一種好自然、富有人性嘅事物。我哋希望建立一套畀機器用到嘅語音技術。但建立呢一個語音系統嘅過程，需要超多嘅語音數據。</seg>
+				<seg>語音係自然、有人性的，所以我哋好興奮能為機器創立可用的語音技術。但建立語音系統，需要非常大量的語音數據。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-first" srclang="en-US">
@@ -8851,7 +8851,7 @@ for our machines. But to create voice systems, developers need an extremely larg
 data.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>語音係自然、有人性的，所以我哋好興奮能為機器創立可用的語音技術。但建立語音系統，需要非常大量的語音數據。</seg>
+				<seg>語音係一種好自然、富有人性嘅事物。我哋希望建立一套畀機器用到嘅語音技術。但建立呢一個語音系統嘅過程，需要超多嘅語音數據。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:wall-of-text-start" srclang="en-US">
@@ -8907,7 +8907,7 @@ We're not only collecting voice samples  in widely spoken languages but also i
 				<seg>Voices Online Now</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>宜家在線嘅人聲</seg>
+				<seg>而家在線嘅人聲</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:voices-online" srclang="en-US">
@@ -8915,7 +8915,7 @@ We're not only collecting voice samples  in widely spoken languages but also i
 				<seg>Voices Online Now</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>而家在線嘅人聲</seg>
+				<seg>宜家在線嘅人聲</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:about-voice-validation-title" srclang="en-US">
@@ -9020,14 +9020,6 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>在 Mozilla 我們正在打造一個和語音技術相關的社群。我們想與您保持聯繫，提供新的技術、資料來源，和瞭解您會如何使用這些資料。</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
@@ -9042,6 +9034,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>在 Mozilla 我們正在打造一個和語音技術相關的社群。我們想與您保持聯繫，提供新的技術、資料來源，和瞭解您會如何使用這些資料。</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-explanatory-text" srclang="en-US">
@@ -9185,6 +9185,14 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
+				<seg>我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅&lt;privacyLink&gt;私隱權公告&lt;/privacyLink&gt;。</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
 				<seg>我們保證會小心處理您的資訊。若要了解更多，請閲讀我們的&lt;privacyLink&gt;私隱權公告&lt;/privacyLink&gt;。</seg>
 			</tuv>
 		</tu>
@@ -9194,14 +9202,6 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>我們保證會小心處理您的資訊。若要了解更多，請閲讀我們的&lt;privacyLink&gt;私隱權公告&lt;/privacyLink&gt;。</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅&lt;privacyLink&gt;私隱權公告&lt;/privacyLink&gt;。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-privacy-info" srclang="en-US">
@@ -9313,7 +9313,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>We will be in touch with more information about how to add your language to Common Voice very soon.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>我哋會盡快同你聯絡，同你提供更多有關點樣增添語言到 Common Voice 入邊嘅資訊。</seg>
+				<seg>我們會很快將如何在 Common Voice 新增語言的資訊寄給您。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-success-content" srclang="en-US">
@@ -9321,7 +9321,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>We will be in touch with more information about how to add your language to Common Voice very soon.</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>我們會很快將如何在 Common Voice 新增語言的資訊寄給您。</seg>
+				<seg>我哋會盡快同你聯絡，同你提供更多有關點樣增添語言到 Common Voice 入邊嘅資訊。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-success-text" srclang="en-US">
@@ -9380,20 +9380,20 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>Common Voice 是甚麼？</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>What is Common Voice?</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>Common Voice 係咩嘢？</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What is Common Voice?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>Common Voice 是什麼？</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>Common Voice 係咩嘢？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-what-cv-q" srclang="en-US">
@@ -9476,20 +9476,20 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>你哋幾時會發布其他語言的 Common Voice 數據？</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-source-q" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Where does the source text come from?</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>原文的文字來自哪裏？</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-where-src-from-2-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Where does the source text come from?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>啲文本邊度嚟㗎？</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-source-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Where does the source text come from?</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>原文的文字來自哪裏？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-variant" srclang="en-US">
@@ -9508,20 +9508,20 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>點解？</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-why-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Why a profile?</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>點解我要註冊帳戶？</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:why-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why a profile?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>點解要個人檔案？</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-why-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why a profile?</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>點解我要註冊帳戶？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:why-profile-title" srclang="en-US">
@@ -9604,7 +9604,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>為什麼 Common Voice 係 Mozilla 使命的一部分？</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-important-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is it important?</seg>
 			</tuv>
@@ -9612,7 +9612,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>點解咁重要？</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-why-important-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:faq-important-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why is it important?</seg>
 			</tuv>
@@ -9700,14 +9700,6 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>好</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>好</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
@@ -9724,12 +9716,12 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>啱</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>好，寄電郵給我。我想追蹤和 Common Voice 計劃有關的各種資訊。</seg>
+				<seg>好</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
@@ -9738,6 +9730,14 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>好，寄電郵給我。我想追蹤和 Common Voice 計劃有關的各種資訊。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
@@ -9809,7 +9809,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>You are about to initiate a download of &lt;size&gt;{ $size }GB&lt;/size&gt;, proceed?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>您將會下載 &lt;size&gt;{ $size } GB&lt;/size&gt; 的檔案，要繼續嗎？</seg>
+				<seg>您將會下載 &lt;size&gt;{ $size } GB&lt;/size&gt; 嘅檔案，下唔下載？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:data-download-modal" srclang="en-US">
@@ -9817,7 +9817,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>You are about to initiate a download of &lt;size&gt;{ $size }GB&lt;/size&gt;, proceed?</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>您將會下載 &lt;size&gt;{ $size } GB&lt;/size&gt; 嘅檔案，下唔下載？</seg>
+				<seg>您將會下載 &lt;size&gt;{ $size } GB&lt;/size&gt; 的檔案，要繼續嗎？</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:confirm-size" srclang="en-US">
@@ -9889,7 +9889,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人資料後，就唔能夠再從資料集中刪除錄音。</seg>
+				<seg>您的錄音會以匿名的形式保留喺 Common Voice 嘅數據集。當您刪除咗個人檔案後，就唔能夠再從數據集中刪除錄音。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:keep-info" srclang="en-US">
@@ -9897,7 +9897,7 @@ Common Voice 的多語言數據集已經成為最大的公開語音數據集，�
 				<seg>Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
-				<seg>您的錄音會以匿名的形式保留喺 Common Voice 嘅數據集。當您刪除咗個人檔案後，就唔能夠再從數據集中刪除錄音。</seg>
+				<seg>您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人資料後，就唔能夠再從資料集中刪除錄音。</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:avatar-clip-recorded" srclang="en-US">
@@ -10638,22 +10638,6 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>攔截內容</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookie Banner Reduction</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>減少 Cookie 橫額</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookie Banner Reduction</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>減少 Cookie 橫額</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
@@ -10663,6 +10647,22 @@ progress updates and newsletters about Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookie Banner Reduction</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>減少 Cookie 橫額</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookie Banner Reduction</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>減少 Cookie 橫額</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -10782,7 +10782,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>由數碼權利管理嘅內容</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enhanced_tracking_protection" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enhanced Tracking Protection</seg>
 			</tuv>
@@ -10790,7 +10790,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>加強追蹤保護</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enhanced_tracking_protection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enhanced Tracking Protection</seg>
 			</tuv>
@@ -10838,22 +10838,6 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>刪除並開啟 %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>刪除瀏覽紀錄</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>刪除瀏覽記錄</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
@@ -10868,6 +10852,22 @@ progress updates and newsletters about Common Voice</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>刪除瀏覽紀錄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>刪除瀏覽紀錄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>刪除瀏覽記錄</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_and_open_short_label" srclang="en-US">
@@ -11118,14 +11118,6 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>語言</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>想知多啲</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -11135,6 +11127,14 @@ progress updates and newsletters about Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>想知多啲</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -11342,20 +11342,20 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>已阻擋嘅追蹤器數目</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Off</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>冇開</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>關閉</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>冇開</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
@@ -11390,20 +11390,20 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>明白晒！</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>開咗</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
 			<tuv xml:lang="zh-HK">
 				<seg>開啟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>開咗</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
@@ -11598,15 +11598,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>移除</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="zh-HK">
-				<seg>移除</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -11622,7 +11614,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>移除</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -11630,7 +11622,15 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>移除</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="zh-HK">
+				<seg>移除</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -11670,7 +11670,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>移除搜尋引擎</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -11678,7 +11678,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>重新命名</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -11990,7 +11990,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>網站安全性</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -11998,7 +11998,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>略過</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -12398,7 +12398,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>你已經受到保護！</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
@@ -12406,7 +12406,7 @@ progress updates and newsletters about Common Voice</seg>
 				<seg>你嘅權利</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
