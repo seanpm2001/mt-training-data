@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-11-01T00:25:26.956773">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-12-01T00:25:24.182097">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -43,7 +43,15 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -52,14 +60,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -83,7 +83,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -91,7 +91,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -203,7 +203,7 @@
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -211,7 +211,7 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -323,894 +323,6 @@
 				<seg>x-western</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-deleted-successfully" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account deleted successfully</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mutapujka mupupujtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-no-longer-exists-recreate-it" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account no longer exists. Recreate it?</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tapujka tea nemi. Tikneki tikchiwa uksepa?</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-notifications-will-now-also-be-sent-to-secondaryemails" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account notifications will now also be sent to %(secondaryEmail)s.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tiktaniasket tanawatilis ipal mutapujka ka %(secondaryEmail)s.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-notifications-will-now-also-be-sent-to-secondaryemailverifieds" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account notifications will now also be sent to %(secondaryEmailVerified)s.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne tanawatilis ipal mutapujka tiktaniat %(secondaryEmailVerified)s nusan.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-picture" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account picture</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Itilkwil ne mutapujka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-recovery" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account Recovery</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Talajsilis ipal mutapujka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-recovery-enabled" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account recovery enabled</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikwelitiat ne talajsilis ipal mutapujka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-recovery-revoked" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account recovery revoked</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Talajsili ipal mutapujka te kiski yek</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:account-verified" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account verified</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpepetaketa mutapujka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:add" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add…</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikachitili...</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikajkawa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:change" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Change...</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpata...</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:change" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Change…</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpata...</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:choose-the-name-you-would-like-to-appear-in-firefox-and-when-managing-your-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Choose the name you would like to appear in Firefox and when managing your account.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikijkwilu mukwachtukay yu-nesi tik Firefox wan ken titajshitia.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:complete-set-up-by-entering-the-new-password-on-your-other-firefox-devices" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Complete set-up by entering the new password on your other Firefox devices.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shitajshiti nujme iwan ne yankwik taketzalis ichtaka kan tikwi Firefox.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:connected" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Connected</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Musalujtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:copied" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Copied</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Muishkupintuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:display-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Display name</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikneshti ne itukay</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:display-name-updated" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Display name updated</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mukwachtukay muyankwilijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:downloaded" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Downloaded</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mutemultijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:email-address" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email address</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Itukay ne mucorreo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:email-resent-add-accountsfirefoxcom-to-your-contacts-to-ensure-a-smooth-delivery" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Titani mutitanijtuk ukpa. Shikishtili accounts@firefox.com mutenutzal pal tikwikwi yek muchi.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:failed-to-copy-please-manually-copy" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Failed to copy. Please manually copy.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Te welik muishkupina. Shikishkupina tajasan.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:brand-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:brand-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:product-firefox-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox account</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox account</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:product-firefox-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox account</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox account</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:product-firefox-accounts" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox accounts</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox accounts</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:product-firefox-accounts" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox accounts</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox accounts</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Cloud</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Cloud</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Cloud</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Cloud</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:firefox-recovery-codes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Recovery Codes</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Codigo ipal talajsilis Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:firefox-recovery-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Recovery Key</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Codigo ipal talajsilis Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:firefox-sync-will-resume-momentarily" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox Sync will resume momentarily</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox Sync tekitis uksenpa nemanha</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:forgot-password" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Forgot password?</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikelkaw ne taketzalis ichtaka?</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:if-you-lose-access-to-your-account-youll-be-able-to-restore-your-sync-data" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If you lose access to your account, youll be able to restore your sync data.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Su te tiweli tikalaki tik mutapujka, tiwelis tikalana muchi ne dajdato.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-active-over-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last active over %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Nemik nikan achka an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-active-over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last active over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Nemik nikan achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-active-over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Nemik nikan achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-active-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last active %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Nemik nikan an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-active-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last active %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Nemik nikan an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-active-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Nemik nikan an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-checked-lastchecktimes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last checked: %(lastCheckTime)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpepetaket ka %(lastCheckTime)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-seen-over-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last seen over %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikitzki achka an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-seen-over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last seen over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikitzki achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-seen-over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikitzki achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-seen-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last seen %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>tikitzki an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-seen-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last seen %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikitzki an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-seen-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikitzki an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-over-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync over %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato muyankwilijtiwit achka an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato muynakwilijtiwit achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato muyankwilitiwit achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-time-unknown" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync time unknown</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Te mumati kan dajdato muyankwilijtiwit</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato muyankwilijtiwit an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato muyankwilijtiwit an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:last-sync-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato muyankwilijtiwit %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:auth.ftl:brand-mozilla" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:branding.ftl:brand-mozilla" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:new-password" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New password</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Yankwik taketalis ichtaka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:new-recovery-codes-generated" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New recovery codes generated</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Yankwik codigo ipal talajsilis mutitanijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:none" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>none</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>te kanaj</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:once-youre-finished-use-your-new-password-to-sign-in-on-all-of-your-devices" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Once you're finished, use your new password to sign in on all of your devices.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Keman titami, shikwi ne yankwik taketzalis ichtaka pal tiktalia mutukay ka nujme.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:open-gmail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open Gmail</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shiktapu Gmail</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:open-hotmail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open Hotmail</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shiktapu Hotmail</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:open-outlook" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open Outlook</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shiktapu Outlook</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:open-restmail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open Restmail</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shiktapu Restmail</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:open-yahoo" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open Yahoo</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shiktapu Yahoo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:other" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Other</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ukse</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:over-translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Over %(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Achka an %(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:password" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Password</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Taketzalis ichtaka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:password-changed-successfully" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Password changed successfully</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpataka ne taketzalis ichtaka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:password-reset" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Password reset</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikchiwa mutaketzalis ichtaka uksenpa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:password-reset-successfully-sign-in-to-continue" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Password reset successfully. Sign in to continue.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mutaketzalis ichtaka mupatak. Shu shiktali mutkay.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:permissionnames-required" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%(permissionName)s (required)</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Muneki %(permissionName)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:please-select-one" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Please Select One</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikpejpena se</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:primary-email-set-to-emails" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Primary email set to %(email)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Achtu itukay mucorreo pal %(email)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:primary-email-verified" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Primary email verified</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpepetaketa ne itukay mucorreo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:primary-email-verified-successfully" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Primary email verified successfully</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne achtu itukay mucorreo mupepetatuk yek</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:printed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Printed</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tamakishtijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:re-enter-password" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Re-enter password</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Taketzalis ichtaka uksenpa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:reset-password" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Reset password</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikchiwa taketzalis ichtaka uksenpa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:secondary-email" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Secondary email</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ukse itukay mucorreo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:secondary-email-removed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Secondary email removed</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ukse itukay mucorreo muishtijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:secondary-email-verified" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Secondary email verified</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne ukse itukay mucorreo nemi yek</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:sign-in" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sign in</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shiktali mutukay</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:sign-in-confirmed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sign-in confirmed</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tiktalijtuk mutukay yek!</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:start-browsing" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Start browsing</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tipewa titajtachia</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:subscribed-successfully" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Subscribed successfully</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Timuijkwilujtuka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:thank-you-for-reaching-out-to-mozilla-support-about-bescapedlowercasetopicsb-for-bescapedselectedplansb-well-contact-you-via-email-as-soon-as-possible" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thank you for reaching out to Mozilla Support about &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt; for &lt;b&gt;%(escapedSelectedPlan)s&lt;/b&gt;. We'll contact you via email as soon as possible.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Padiush tinechnawatia tik Tepalewilis Mozilla ipanpa &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt; ika &lt;b&gt;%(escapedSelectedPlan)s&lt;/b&gt;. Timetznutzasket iwan se titanti.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:thank-you-for-reaching-out-to-mozilla-support-about-bescapedlowercasetopicsb-well-contact-you-via-email-as-soon-as-possible" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thank you for reaching out to Mozilla Support about &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt;. We'll contact you via email as soon as possible.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Padiush tinechnawatia tik Tepaliwilis Mozilla ipanpa &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt;. Timetznutzasket iwan se titanti.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:translatedtimeagos" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%(translatedTimeAgo)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>%(translatedTimeAgo)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:translatedtimeagos-in-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%(translatedTimeAgo)s in %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>%(translatedTimeAgo)s tik %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>%(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:two-step-authentication" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Two-step Authentication</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tepepetalis unpa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:two-step-authentication-enabled" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Two-step authentication enabled</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tepepetalis unpa muwelitijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:two-step-authentication-removed" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Two-step authentication removed</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tepepetalis unpa muishtijtuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:unknown-account-a-hrefsignupsign-upa" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unknown account. &lt;a href="/signup"&gt;Sign up&lt;/a&gt;</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Te muishmati ne tapujka. &lt;a href="/signup"&gt; kitalij itukay &lt;/a&gt;</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:use-the-code-codes-to-set-up-two-step-authentication-in-supported-applications" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Use the code %(code)s to set up two-step authentication in supported applications.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikwi ne codigo %(code)s pal tikwelitia ne tepepetalis unpa, semaya kan weli muchiwa.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:verification-email-sent" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Verification email sent</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tiktitanijtiwit se correo pal tikpepetat</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:web-session" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Web Session</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tanamikilis ipal tzawalamat</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:web-session-useragents" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Web Session, %(userAgent)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tanamikilis ipal tzawalamat, %(userAgent)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:welcome-back" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Welcome back</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Yek timukweptuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:were-sorry-to-hear-about-this-if-this-was-a-device-you-really-dont-trust-you-should-change-your-firefox-account-password-and-change-any-passwords-saved-in-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Te tiknekiskiat ma ini panu. Su ini tanuska tesu seguro, shikpata ne taketzalis ichtaka ipal mutapujka Firefox, wan nusan shikpata muchi taketzalis ichtaka tikwij tik Firefox.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:were-sorry-to-hear-about-this-you-should-change-your-firefox-account-password-and-look-for-information-from-your-device-manufacturer-about-erasing-your-data-remotely" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Te tiknekiskiat ma ini panu. Shikpata ne taketzalis ichtaka ipal mutapujka Firefox wan shikishtemu ken tiweliskia tikpupua mudajdato ka nujme, kan tikwij.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:you-are-now-ready-to-make-changes-to-your-firefox-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You are now ready to make changes to your Firefox Account.</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tiwelia titajshitia tik mutapujka ipal Firefox.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:you-are-now-ready-to-use-servicenames" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You are now ready to use %(serviceName)s</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tiwelia tikwi %(serviceName)s</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:your-account-has-been-locked-for-security-reasons" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your account has been locked for security reasons</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Mutapujka mutzakwilijtuk ika muita tesajsay</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:your-password-has-been-reset" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your password has been reset</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tikpatak mutaketzalis ichtaka</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-accounts:LC_MESSAGES/client.po:your-sync-data-is-protected" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your sync data is protected</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Dajdato, ne tikyankwilijtuk, nakat seguro.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_no_realm_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s is requesting your username and password.</seg>
@@ -1243,7 +355,7 @@
 				<seg>Ne dirección tesu muajsik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
@@ -1251,7 +363,7 @@
 				<seg>Chayawtuk…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
@@ -1535,7 +647,7 @@
 				<seg>5 mijmitoj ipanpa ne tayektaliani ipal takezalis ichtaka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:about-firefox-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:about-fxm-headline" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>About { -product-name }</seg>
 			</tuv>
@@ -1543,7 +655,7 @@
 				<seg>Ipanpa { -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:about-fxm-headline" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:about-firefox-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>About { -product-name }</seg>
 			</tuv>
@@ -2332,20 +1444,20 @@ kishkupawia tamatil taichtekilis kan nemi mutamatilsyu. Tiknepanuat iwan ne Fire
 				<seg>Nuchan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does { -product-name } treat sensitive sites?</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>{ -product-name } ken kimati se nejmach tzawalamat?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does { -product-name } treat sensitive sites?</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Tay { -product-name } kichiwa iwan ne sijsitioj ichtaka?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does { -product-name } treat sensitive sites?</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>{ -product-name } ken kimati se nejmach tzawalamat?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:faq3" srclang="en-US">
@@ -2736,7 +1848,7 @@ wan shiktali tik mutanutzalis wan tepustapuani pal tesu nemi pal tikelnamiki muc
 				<seg>Tay nikneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
+		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -2744,7 +1856,7 @@ wan shiktali tik mutanutzalis wan tepustapuani pal tesu nemi pal tikelnamiki muc
 				<seg>{ -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -3428,7 +2540,7 @@ seuk tanujnutzalis ipal cuentaj.</seg>
 				<seg>Ika tesu se kaltapanalis, te nemi pal mupata ne taketzalis ichtaka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:email-unsub-link" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:unsub-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unsubscribe</seg>
 			</tuv>
@@ -3436,7 +2548,7 @@ seuk tanujnutzalis ipal cuentaj.</seg>
 				<seg>Shikishti mutukay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:unsub-button" srclang="en-US">
+		<tu tuid="firefox-monitor-website:email-strings.ftl:email-unsub-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unsubscribe</seg>
 			</tuv>
@@ -4388,20 +3500,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Cámaraj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikajkawa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Shikpulu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikajkawa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_error_format" srclang="en-US">
@@ -4532,14 +3644,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktentzakwa ne tay nemi ka kalijtik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookie Banner Reduction</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Takashawani ipal ne ibanner ne cookie</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
@@ -4548,7 +3652,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -4556,7 +3660,15 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookie Banner Reduction</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Takashawani ipal ne ibanner ne cookie</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -4636,14 +3748,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tajtaiwan pal titakejketza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikishti</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_dismiss_input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
@@ -4653,6 +3757,14 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikishti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -4700,7 +3812,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Muishtukatuk kan tipashalua pal metzishpelwia wan pal kineshtia ken yaja tekiti kenha ken ne bojbotón pal tiktakulia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_user_list_summary" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_topsite_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enable to autocomplete more than 450 popular URLs in the address bar.</seg>
 			</tuv>
@@ -4708,7 +3820,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktimaka su tikneki ma temi isel wan nemit 450 ush ukchupi URLs tik ne barraj ipal direccion.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_topsite_summary" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_user_list_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enable to autocomplete more than 450 popular URLs in the address bar.</seg>
 			</tuv>
@@ -4740,20 +3852,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Asu tiktimaka, sejseuk iswat welit tekitit ken te tikchia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Enhanced Tracking Protection</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Timutajpiya  ukchupi yek keman kinekit yawit mupan</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enhanced_tracking_protection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enhanced Tracking Protection</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Timutajpiya ukchupi yek keman kinekit yawit mupan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enhanced Tracking Protection</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Timutajpiya  ukchupi yek keman kinekit yawit mupan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:full_screen_notification" srclang="en-US">
@@ -4804,12 +3916,12 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikpupu wan shiktapu %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Ma mupupu kan nipashaluj yewa</seg>
+				<seg>Shikpupu kan nipashaluj yewa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
@@ -4820,20 +3932,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikpupu kan tipashaluj yewa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikpupu kan nipashaluj yewa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Shikpupu kan tipashaluj yewa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ma mupupu kan nipashaluj yewa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_and_open_short_label" srclang="en-US">
@@ -5108,7 +4220,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Taketzalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5124,7 +4236,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikmatiuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5132,7 +4244,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikmatiuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5308,7 +4420,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ne witz</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -5316,7 +4428,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tesu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -5372,14 +4484,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tapual ipal tapachiwiani tentzaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Off</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Sewtuk</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
@@ -5388,7 +4492,15 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Sewtuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Sewtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -5396,7 +4508,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>SHIKSEWI tik ini sitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -5420,7 +4532,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Yek nemi, nikmatiaya!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -5428,7 +4540,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Timakaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -5452,7 +4564,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>SHIKTIMAKA tik ini sitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -5460,7 +4572,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktapu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -5690,6 +4802,14 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikishti</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5698,7 +4818,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5715,14 +4835,6 @@ when your email appears in a data breach. Here’s what we know about this breac
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikishti</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5826,7 +4938,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Pal tinejmachnemi keman tipashalua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -5834,7 +4946,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -6155,7 +5267,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tetajpialis kan tipashalua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -6163,7 +5275,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Te nikneki nikita</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -6740,20 +5852,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ne itashkalchin mumapipil weli kimakishtia %1$s su se URL nemia tapujtuk tik ne aplicación. Yawi nemi tik modoj ichtaka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your Rights</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Ne tay mupal</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Tay mupal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Rights</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ne tay mupal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_search_title" srclang="en-US">
@@ -7278,6 +6390,894 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Ne itashkalchin mumapipil weli kisutuma %1$s su se URL nemia tapujtuk tik ne aplicación. Yawi nemi tik modoj ichtaka.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-deleted-successfully" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account deleted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mutapujka mupupujtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-no-longer-exists-recreate-it" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account no longer exists. Recreate it?</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tapujka tea nemi. Tikneki tikchiwa uksepa?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-notifications-will-now-also-be-sent-to-secondaryemails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account notifications will now also be sent to %(secondaryEmail)s.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tiktaniasket tanawatilis ipal mutapujka ka %(secondaryEmail)s.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-notifications-will-now-also-be-sent-to-secondaryemailverifieds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account notifications will now also be sent to %(secondaryEmailVerified)s.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ne tanawatilis ipal mutapujka tiktaniat %(secondaryEmailVerified)s nusan.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-picture" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account picture</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Itilkwil ne mutapujka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-recovery" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account Recovery</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Talajsilis ipal mutapujka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-recovery-enabled" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account recovery enabled</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikwelitiat ne talajsilis ipal mutapujka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-recovery-revoked" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account recovery revoked</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Talajsili ipal mutapujka te kiski yek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:account-verified" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account verified</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpepetaketa mutapujka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:add" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add…</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikachitili...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikajkawa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:change" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change...</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpata...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:change" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change…</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpata...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:choose-the-name-you-would-like-to-appear-in-firefox-and-when-managing-your-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Choose the name you would like to appear in Firefox and when managing your account.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikijkwilu mukwachtukay yu-nesi tik Firefox wan ken titajshitia.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:complete-set-up-by-entering-the-new-password-on-your-other-firefox-devices" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Complete set-up by entering the new password on your other Firefox devices.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shitajshiti nujme iwan ne yankwik taketzalis ichtaka kan tikwi Firefox.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:connected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Connected</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Musalujtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:copied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copied</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Muishkupintuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:display-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Display name</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikneshti ne itukay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:display-name-updated" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Display name updated</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mukwachtukay muyankwilijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:downloaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloaded</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mutemultijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:email-address" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email address</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Itukay ne mucorreo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:email-resent-add-accountsfirefoxcom-to-your-contacts-to-ensure-a-smooth-delivery" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Titani mutitanijtuk ukpa. Shikishtili accounts@firefox.com mutenutzal pal tikwikwi yek muchi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:failed-to-copy-please-manually-copy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Failed to copy. Please manually copy.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Te welik muishkupina. Shikishkupina tajasan.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:branding.ftl:brand-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox account</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox account</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox account</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox account</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-accounts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox accounts</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox accounts</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-accounts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox accounts</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox accounts</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Cloud</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox Cloud</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Cloud</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox Cloud</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:firefox-recovery-codes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Recovery Codes</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Codigo ipal talajsilis Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:firefox-recovery-key" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Recovery Key</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Codigo ipal talajsilis Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:firefox-sync-will-resume-momentarily" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox Sync will resume momentarily</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox Sync tekitis uksenpa nemanha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:forgot-password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Forgot password?</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikelkaw ne taketzalis ichtaka?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:if-you-lose-access-to-your-account-youll-be-able-to-restore-your-sync-data" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you lose access to your account, youll be able to restore your sync data.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Su te tiweli tikalaki tik mutapujka, tiwelis tikalana muchi ne dajdato.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-active-over-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last active over %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Nemik nikan achka an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-active-over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last active over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Nemik nikan achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-active-over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Nemik nikan achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-active-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last active %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Nemik nikan an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-active-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last active %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Nemik nikan an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-active-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Nemik nikan an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-checked-lastchecktimes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last checked: %(lastCheckTime)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpepetaket ka %(lastCheckTime)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-seen-over-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last seen over %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikitzki achka an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-seen-over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last seen over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikitzki achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-seen-over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikitzki achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-seen-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last seen %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>tikitzki an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-seen-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last seen %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikitzki an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-seen-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikitzki an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-over-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync over %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato muyankwilijtiwit achka an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato muynakwilijtiwit achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato muyankwilitiwit achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-time-unknown" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync time unknown</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Te mumati kan dajdato muyankwilijtiwit</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato muyankwilijtiwit an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato muyankwilijtiwit an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:last-sync-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato muyankwilijtiwit %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:brand-mozilla" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:branding.ftl:brand-mozilla" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:new-password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New password</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Yankwik taketalis ichtaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:new-recovery-codes-generated" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New recovery codes generated</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Yankwik codigo ipal talajsilis mutitanijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:none" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>none</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>te kanaj</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:once-youre-finished-use-your-new-password-to-sign-in-on-all-of-your-devices" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Once you're finished, use your new password to sign in on all of your devices.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Keman titami, shikwi ne yankwik taketzalis ichtaka pal tiktalia mutukay ka nujme.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:open-gmail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Gmail</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shiktapu Gmail</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:open-hotmail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Hotmail</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shiktapu Hotmail</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:open-outlook" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Outlook</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shiktapu Outlook</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:open-restmail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Restmail</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shiktapu Restmail</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:open-yahoo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Yahoo</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shiktapu Yahoo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:other" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ukse</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:over-translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Over %(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Achka an %(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:over-translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Over %(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Achka an %(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:over-translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Taketzalis ichtaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:password-changed-successfully" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password changed successfully</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpataka ne taketzalis ichtaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:password-reset" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password reset</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikchiwa mutaketzalis ichtaka uksenpa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:password-reset-successfully-sign-in-to-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Password reset successfully. Sign in to continue.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mutaketzalis ichtaka mupatak. Shu shiktali mutkay.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:permissionnames-required" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%(permissionName)s (required)</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Muneki %(permissionName)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:please-select-one" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please Select One</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikpejpena se</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:primary-email-set-to-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Primary email set to %(email)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Achtu itukay mucorreo pal %(email)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:primary-email-verified" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Primary email verified</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpepetaketa ne itukay mucorreo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:primary-email-verified-successfully" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Primary email verified successfully</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ne achtu itukay mucorreo mupepetatuk yek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:printed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Printed</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tamakishtijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:re-enter-password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-enter password</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Taketzalis ichtaka uksenpa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:reset-password" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reset password</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikchiwa taketzalis ichtaka uksenpa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:secondary-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Secondary email</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ukse itukay mucorreo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:secondary-email-removed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Secondary email removed</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ukse itukay mucorreo muishtijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:secondary-email-verified" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Secondary email verified</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Ne ukse itukay mucorreo nemi yek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:sign-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shiktali mutukay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:sign-in-confirmed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign-in confirmed</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tiktalijtuk mutukay yek!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:start-browsing" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start browsing</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tipewa titajtachia</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:subscribed-successfully" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Subscribed successfully</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Timuijkwilujtuka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:thank-you-for-reaching-out-to-mozilla-support-about-bescapedlowercasetopicsb-for-bescapedselectedplansb-well-contact-you-via-email-as-soon-as-possible" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for reaching out to Mozilla Support about &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt; for &lt;b&gt;%(escapedSelectedPlan)s&lt;/b&gt;. We'll contact you via email as soon as possible.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Padiush tinechnawatia tik Tepalewilis Mozilla ipanpa &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt; ika &lt;b&gt;%(escapedSelectedPlan)s&lt;/b&gt;. Timetznutzasket iwan se titanti.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:thank-you-for-reaching-out-to-mozilla-support-about-bescapedlowercasetopicsb-well-contact-you-via-email-as-soon-as-possible" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for reaching out to Mozilla Support about &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt;. We'll contact you via email as soon as possible.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Padiush tinechnawatia tik Tepaliwilis Mozilla ipanpa &lt;b&gt;%(escapedLowercaseTopic)s&lt;/b&gt;. Timetznutzasket iwan se titanti.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:translatedtimeagos" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%(translatedTimeAgo)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>%(translatedTimeAgo)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:translatedtimeagos-in-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%(translatedTimeAgo)s in %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>%(translatedTimeAgo)s tik %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:translatedtimeagos-near-translatedcitys-translatedstates-translatedcountrys" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>%(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:two-step-authentication" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Two-step Authentication</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tepepetalis unpa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:two-step-authentication-enabled" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Two-step authentication enabled</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tepepetalis unpa muwelitijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:two-step-authentication-removed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Two-step authentication removed</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tepepetalis unpa muishtijtuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:unknown-account-a-hrefsignupsign-upa" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unknown account. &lt;a href="/signup"&gt;Sign up&lt;/a&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Te muishmati ne tapujka. &lt;a href="/signup"&gt; kitalij itukay &lt;/a&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:use-the-code-codes-to-set-up-two-step-authentication-in-supported-applications" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use the code %(code)s to set up two-step authentication in supported applications.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikwi ne codigo %(code)s pal tikwelitia ne tepepetalis unpa, semaya kan weli muchiwa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:verification-email-sent" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Verification email sent</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tiktitanijtiwit se correo pal tikpepetat</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:web-session" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Web Session</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tanamikilis ipal tzawalamat</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:web-session-useragents" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Web Session, %(userAgent)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tanamikilis ipal tzawalamat, %(userAgent)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:welcome-back" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Welcome back</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Yek timukweptuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:were-sorry-to-hear-about-this-if-this-was-a-device-you-really-dont-trust-you-should-change-your-firefox-account-password-and-change-any-passwords-saved-in-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Te tiknekiskiat ma ini panu. Su ini tanuska tesu seguro, shikpata ne taketzalis ichtaka ipal mutapujka Firefox, wan nusan shikpata muchi taketzalis ichtaka tikwij tik Firefox.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:were-sorry-to-hear-about-this-you-should-change-your-firefox-account-password-and-look-for-information-from-your-device-manufacturer-about-erasing-your-data-remotely" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Te tiknekiskiat ma ini panu. Shikpata ne taketzalis ichtaka ipal mutapujka Firefox wan shikishtemu ken tiweliskia tikpupua mudajdato ka nujme, kan tikwij.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:you-are-now-ready-to-make-changes-to-your-firefox-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You are now ready to make changes to your Firefox Account.</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tiwelia titajshitia tik mutapujka ipal Firefox.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:you-are-now-ready-to-use-servicenames" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You are now ready to use %(serviceName)s</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tiwelia tikwi %(serviceName)s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:your-account-has-been-locked-for-security-reasons" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your account has been locked for security reasons</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Mutapujka mutzakwilijtuk ika muita tesajsay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:your-password-has-been-reset" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your password has been reset</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tikpatak mutaketzalis ichtaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:LC_MESSAGES/client.po:your-sync-data-is-protected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your sync data is protected</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Dajdato, ne tikyankwilijtuk, nakat seguro.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="pontoon-intro:messages.properties:how-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does it work?</seg>
@@ -7611,7 +7611,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>palantuk</seg>
+				<seg>tapanaltia</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -7619,7 +7619,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>tapanaltia</seg>
+				<seg>palantuk</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -8366,7 +8366,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -8374,7 +8374,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-11-01T00:16:42.826096">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2023-12-01T00:17:57.765270">
 	</header>
 	<body>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description" srclang="en-US">
@@ -51,7 +51,7 @@
 				<seg>%1$d napili</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_tab_tray_single" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/tabstray/src/main/res/values/strings.xml:mozac_tab_counter_open_tab_tray_single" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 open tab. Tap to switch tabs.</seg>
 			</tuv>
@@ -59,7 +59,7 @@
 				<seg>1 ang abli nga tab. i-Tap para mobalhin ug mga tab.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/tabstray/src/main/res/values/strings.xml:mozac_tab_counter_open_tab_tray_single" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_tab_tray_single" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 open tab. Tap to switch tabs.</seg>
 			</tuv>
@@ -149,7 +149,7 @@
 				<seg>%1$s sa %2$s %3$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_tab_counter_open_tab_tray_plural" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_tab_tray_plural" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s open tabs. Tap to switch tabs.</seg>
 			</tuv>
@@ -165,7 +165,7 @@
 				<seg>%1$s ang abli nga mga tab. i-Tap para mobalhin ug mga tab.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_tab_tray_plural" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_tab_counter_open_tab_tray_plural" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s open tabs. Tap to switch tabs.</seg>
 			</tuv>
@@ -221,7 +221,7 @@
 				<seg>i-Access ang mga browser tab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_history_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_top_sites_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Access browsing history</seg>
 			</tuv>
@@ -229,7 +229,7 @@
 				<seg>i-Access ang browsing history</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_top_sites_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_history_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Access browsing history</seg>
 			</tuv>
@@ -317,20 +317,20 @@
 				<seg>i-Access imong dapit</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>i-Add</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>Idugang</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>i-Add</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_title" srclang="en-US">
@@ -397,12 +397,12 @@
 				<seg>Ang add-on dili suportado</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Mga Add-on</seg>
+				<seg>Add-on</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_ons" srclang="en-US">
@@ -413,20 +413,12 @@
 				<seg>Mga Add-on</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Add-on</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add-ons Manager</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Add-on Manager</seg>
+				<seg>Mga Add-on</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
@@ -435,6 +427,14 @@
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>Add-ons Manager</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add-ons Manager</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Add-on Manager</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_channel" srclang="en-US">
@@ -466,7 +466,7 @@
 				<seg>Address Not Found</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y Address</seg>
+				<seg>Wala'y Address</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_pos_button_text" srclang="en-US">
@@ -509,7 +509,7 @@
 				<seg>i-Dugang ang na-save nga password?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
@@ -517,7 +517,7 @@
 				<seg>Advanced…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
 			</tuv>
@@ -533,20 +533,20 @@
 				<seg>Allow</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Allow</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>i-Allow</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Allow</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
@@ -781,7 +781,7 @@
 				<seg>Camera ga-andar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -789,7 +789,15 @@
 				<seg>Cancel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Cancel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -813,7 +821,7 @@
 				<seg>Cancel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_negative_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -829,15 +837,7 @@
 				<seg>Cancel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Cancel</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -901,14 +901,6 @@
 				<seg>Limpyo, han-ay nga mga tab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clear</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Clear</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/browser-toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
@@ -923,6 +915,14 @@
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>Panas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Clear</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_screen_section_cleaner_tab_tray_description_2" srclang="en-US">
@@ -941,20 +941,20 @@
 				<seg>Panasa ang bag-ong browsing history, cookie, ug iglabot nga data</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Close</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>i-Close</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Close</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_read_close" srclang="en-US">
@@ -1257,7 +1257,7 @@
 				<seg>Ang ngalan sa device dapat dili blanko.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled_section" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -1265,7 +1265,7 @@
 				<seg>na-Disable</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled_section" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -1289,6 +1289,14 @@
 				<seg>i-Dismiss</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>i-Dismiss</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_negative_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
@@ -1298,14 +1306,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>i-Dismiss</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -1329,7 +1329,7 @@
 				<seg>Ipakita ang mga pahibalo kanimo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_do_not_allow_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_not_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t allow</seg>
 			</tuv>
@@ -1337,7 +1337,7 @@
 				<seg>Ayaw tugoti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_not_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_do_not_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t allow</seg>
 			</tuv>
@@ -1801,7 +1801,7 @@
 				<seg>Adto sa settings</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -1809,7 +1809,7 @@
 				<seg>Adto sa settings</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -1953,7 +1953,7 @@
 				<seg>Jul</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump back in</seg>
 			</tuv>
@@ -1961,7 +1961,7 @@
 				<seg>Sulod balik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump back in</seg>
 			</tuv>
@@ -2005,7 +2005,7 @@
 				<seg>¶
  · &lt;label&gt;Basin naay ga-impersonate sa site ug dili ka dapat mopadayon.&lt;/label&gt;¶
  · &lt;br&gt;&lt;br&gt;¶
- · &lt;label&gt;Ang mga website nagapaila-ila pinaagi sa mga certificate. Ang %1$s wala\'y salig sa &lt;b&gt;%2$s&lt;/b&gt; kay dili ilado ang iyang certificate issuer, ang certificate kay self-signed, o ang server kay wala nagtubag sa insakto nga mga intermediate certificate.&lt;/label&gt;¶
+ · &lt;label&gt;Ang mga website nagapaila-ila pinaagi sa mga certificate. Ang %1$s wala'y salig sa &lt;b&gt;%2$s&lt;/b&gt; kay dili ilado ang iyang certificate issuer, ang certificate kay self-signed, o ang server kay wala nagtubag sa insakto nga mga intermediate certificate.&lt;/label&gt;¶
  · </seg>
 			</tuv>
 		</tu>
@@ -2041,6 +2041,14 @@
 				<seg>Ulahing pag-update</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_learn_more_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Dugang pagtuon</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -2050,14 +2058,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Dugang pagtuon</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_learn_more_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -2177,6 +2177,22 @@
 				<seg>Media</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Menu</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Menu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Menu</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Menu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
@@ -2186,22 +2202,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Menu</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Menu</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Menu</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Menu</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -2270,7 +2270,7 @@
 				<seg>New add-on available</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Naa\'y bag-ong add-on</seg>
+				<seg>Naa'y bag-ong add-on</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_supported_checker_notification_title_plural" srclang="en-US">
@@ -2278,7 +2278,7 @@
 				<seg>New add-ons available</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Naa\'y bag-ong mga add-on</seg>
+				<seg>Naa'y bag-ong mga add-on</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_private_tab" srclang="en-US">
@@ -2350,7 +2350,7 @@
 				<seg>No app found to open %1$s files</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y app nakita nga maka-abli sa %1$s mga file</seg>
+				<seg>Wala'y app nakita nga maka-abli sa %1$s mga file</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/qr/src/main/res/values/strings.xml:mozac_feature_qr_scanner_no_camera" srclang="en-US">
@@ -2358,7 +2358,7 @@
 				<seg>No camera available on device</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y camera nga magamit sa device</seg>
+				<seg>Wala'y camera nga magamit sa device</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_no_crashes" srclang="en-US">
@@ -2382,7 +2382,7 @@
 				<seg>No internet connection</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y koneksyon sa internet</seg>
+				<seg>Wala'y koneksyon sa internet</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_neg_button_text" srclang="en-US">
@@ -2422,7 +2422,7 @@
 				<seg>No update available</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y update available</seg>
+				<seg>Wala'y update available</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_no_username" srclang="en-US">
@@ -2430,7 +2430,7 @@
 				<seg>(No username)</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>(Wala\'y username)</seg>
+				<seg>(Wala'y username)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_nov" srclang="en-US">
@@ -2649,7 +2649,7 @@
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>¶
- · &lt;p&gt;Wala pa\'y dugang detalye para ani nga problema o error.&lt;/p&gt;¶
+ · &lt;p&gt;Wala pa'y dugang detalye para ani nga problema o error.&lt;/p&gt;¶
  · </seg>
 			</tuv>
 		</tu>
@@ -2666,7 +2666,7 @@
 				<seg>Password field must not be empty</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Ang Password field dapat naa\'y sulod</seg>
+				<seg>Ang Password field dapat naa'y sulod</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_password" srclang="en-US">
@@ -2893,7 +2893,7 @@
 				<seg>¶
  · &lt;p&gt;Dili makita sa browser ang host server sa gihatag nga address.&lt;/p&gt;¶
  · &lt;ul&gt;¶
- · &lt;li&gt;Susiha ang address kung naa\'y sayup sa pag-type sama sa¶
+ · &lt;li&gt;Susiha ang address kung naa'y sayup sa pag-type sama sa¶
  · &lt;strong&gt;ww&lt;/strong&gt;.example.com imbis¶
  · &lt;strong&gt;www&lt;/strong&gt;.example.com.&lt;/li&gt;¶
  · &lt;li&gt;Kung wala pa gihapon mogawas nga page, tan-awa imong device data o koneksyon sa Wi-Fi.&lt;/li&gt;¶
@@ -2938,7 +2938,7 @@
       &lt;ul&gt;
         &lt;li&gt;Sakto ba ang proxy configuration sa browser? Susiha ang mga setting ug sulay balik.&lt;/li&gt;
         &lt;li&gt;Ang proxy service gadawat ba ug koneksyon gikan ani nga network?&lt;/li&gt;
-        &lt;li&gt;Aduna pa\'y problema? Konsulta sa inyong network administrator o internet service provider ug tabang.&lt;/li&gt;
+        &lt;li&gt;Aduna pa'y problema? Konsulta sa inyong network administrator o internet service provider ug tabang.&lt;/li&gt;
       &lt;/ul&gt;
     </seg>
 			</tuv>
@@ -2960,7 +2960,7 @@
       &lt;ul&gt;
         &lt;li&gt;Sakto ba ang proxy configuration sa browser? Susiha ang mga setting ug sulay balik.&lt;/li&gt;
         &lt;li&gt;Ang proxy service gadawat ba ug koneksyon gikan ani nga network?&lt;/li&gt;
-        &lt;li&gt;Aduna pa\'y problema? Konsulta sa inyong network administrator o internet service provider ug tabang.&lt;/li&gt;
+        &lt;li&gt;Aduna pa'y problema? Konsulta sa inyong network administrator o internet service provider ug tabang.&lt;/li&gt;
       &lt;/ul&gt;
     </seg>
 			</tuv>
@@ -3005,24 +3005,6 @@
  · </seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_corrupted_content_message" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>
-      &lt;p&gt;The page you are trying to view cannot be shown because an error in the data transmission was detected.&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Please contact the website owners to inform them of this problem.&lt;/li&gt;
-      &lt;/ul&gt;
-    </seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>¶
- · &lt;p&gt;Ang page nga gisulayan ug pakita dili makita tungod kay naa\'y error nga nabantayan kamulong transmission.&lt;/p&gt;¶
- · &lt;ul&gt;¶
- · &lt;li&gt;Palihog ug kontak sa mga tag-iya sa website aron ipahibalo ang problema.&lt;/li&gt;¶
- · &lt;/ul&gt;¶
- · </seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_content_crashed_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>
@@ -3034,7 +3016,25 @@
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>¶
- · &lt;p&gt;Ang page nga gisulayan ug pakita dili makita tungod kay naa\'y error nga nabantayan kamulong transmission.&lt;/p&gt;¶
+ · &lt;p&gt;Ang page nga gisulayan ug pakita dili makita tungod kay naa'y error nga nabantayan kamulong transmission.&lt;/p&gt;¶
+ · &lt;ul&gt;¶
+ · &lt;li&gt;Palihog ug kontak sa mga tag-iya sa website aron ipahibalo ang problema.&lt;/li&gt;¶
+ · &lt;/ul&gt;¶
+ · </seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_corrupted_content_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>
+      &lt;p&gt;The page you are trying to view cannot be shown because an error in the data transmission was detected.&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Please contact the website owners to inform them of this problem.&lt;/li&gt;
+      &lt;/ul&gt;
+    </seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>¶
+ · &lt;p&gt;Ang page nga gisulayan ug pakita dili makita tungod kay naa'y error nga nabantayan kamulong transmission.&lt;/p&gt;¶
  · &lt;ul&gt;¶
  · &lt;li&gt;Palihog ug kontak sa mga tag-iya sa website aron ipahibalo ang problema.&lt;/li&gt;¶
  · &lt;/ul&gt;¶
@@ -3067,7 +3067,7 @@
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>¶
- · &lt;p&gt;Ang gihatag nga address sayop ang format. Palihog ug tan-aw sa location bar kung naa\'y sayop ug sulay balik.&lt;/p&gt;¶
+ · &lt;p&gt;Ang gihatag nga address sayop ang format. Palihog ug tan-aw sa location bar kung naa'y sayop ug sulay balik.&lt;/p&gt;¶
  · </seg>
 			</tuv>
 		</tu>
@@ -3079,7 +3079,7 @@
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>¶
- · &lt;p&gt;Ang girequest nga address duna\'y port (e.g., &lt;q&gt;mozilla.org:80&lt;/q&gt; para port 80 sa mozilla.org) gigamit para lang sa &lt;em&gt;ubang tuyo&lt;/em&gt; dili Web browsing. Gi-undang sa browser ang request alang sa imong proteksyon ug seguridad.&lt;/p&gt;¶
+ · &lt;p&gt;Ang girequest nga address duna'y port (e.g., &lt;q&gt;mozilla.org:80&lt;/q&gt; para port 80 sa mozilla.org) gigamit para lang sa &lt;em&gt;ubang tuyo&lt;/em&gt; dili Web browsing. Gi-undang sa browser ang request alang sa imong proteksyon ug seguridad.&lt;/p&gt;¶
  · </seg>
 			</tuv>
 		</tu>
@@ -3101,7 +3101,7 @@
  · &lt;ul&gt;¶
  · &lt;li&gt;Basin nakasinati ang server ug taas nga demand o kasamtangang pagkapalong? Sulayi balik unya.&lt;/li&gt;¶
  · &lt;li&gt;DIli ba ka maka-browse ug uban site? Tan-awa ang device network connection.&lt;/li&gt;¶
- · &lt;li&gt;Aduna ba\'y firewall o proxy ang imong device o network? Ang sayop nga setting makaputol sa Web browsing.&lt;/li&gt;¶
+ · &lt;li&gt;Aduna ba'y firewall o proxy ang imong device o network? Ang sayop nga setting makaputol sa Web browsing.&lt;/li&gt;¶
  · &lt;li&gt;Problema pa gihapon? Tawagi imong network administrator o Internet provider para sa dugang tabang.&lt;/li&gt;¶
  · &lt;/ul&gt;¶
  · </seg>
@@ -3247,7 +3247,7 @@
 				<seg>Nadawat nga mga tab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_bookmarked" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_bookmarked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently bookmarked</seg>
 			</tuv>
@@ -3255,7 +3255,7 @@
 				<seg>Bag-ong nabookmark</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_bookmarked" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_bookmarked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently bookmarked</seg>
 			</tuv>
@@ -3287,7 +3287,7 @@
 				<seg>Bag-ong nasave nga bookmarks</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_visited" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_metadata_header_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently visited</seg>
 			</tuv>
@@ -3295,7 +3295,7 @@
 				<seg>Bagong nabisita</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_metadata_header_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_recently_visited" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently visited</seg>
 			</tuv>
@@ -3327,20 +3327,20 @@
 				<seg>i-Reconnect para mapadayon ang pag-sync</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_refresh" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Refresh</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Refresh</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>i-Refresh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_refresh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Refresh</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Refresh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_message" srclang="en-US">
@@ -3375,20 +3375,20 @@
 				<seg>Remote debugging pinaagi sa USB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Remove</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_visited_menu_item_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>i-Remove</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Remove</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_notification_action_report" srclang="en-US">
@@ -3543,20 +3543,20 @@
 				<seg>i-Scan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_search_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Search</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:a11y_search_icon_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
 				<seg>i-Search</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_search_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Search</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
@@ -3655,7 +3655,7 @@
 				<seg>i-Search sa web</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -3663,7 +3663,7 @@
 				<seg>Secure Connection Pakyas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -3791,6 +3791,14 @@
 				<seg>i-Set ang abri nga tabs nga automatic mo-sirado kung wala malantaw sulod sa milabay nga adlaw, semana, o bulan.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>Mga Setting</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -3807,22 +3815,6 @@
 				<seg>Mga Setting</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>Mga Setting</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share</seg>
-			</tuv>
-			<tuv xml:lang="ceb">
-				<seg>i-Share</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
@@ -3832,6 +3824,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_share" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share</seg>
+			</tuv>
+			<tuv xml:lang="ceb">
+				<seg>i-Share</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -3895,7 +3895,7 @@
 				<seg>i-Share sa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_show_all" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_show_all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show all</seg>
 			</tuv>
@@ -3903,7 +3903,7 @@
 				<seg>Ipakita tanan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_show_all" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_show_all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show all</seg>
 			</tuv>
@@ -4356,7 +4356,7 @@
 				<seg>Tracking Protection is off for this site</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y Tracking Protection ani nga site</seg>
+				<seg>Wala'y Tracking Protection ani nga site</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_on_no_trackers_blocked" srclang="en-US">
@@ -4372,7 +4372,7 @@
 				<seg>Translation not found, for locale %1$s neither default language %2$s</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>Wala\'y translation, para sa locale nga %1$s ug walay default language %2$s</seg>
+				<seg>Wala'y translation, para sa locale nga %1$s ug walay default language %2$s</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_page_refresh" srclang="en-US">
@@ -4421,8 +4421,8 @@
 				<seg>
       &lt;ul&gt;
         &lt;li&gt;Basin ang item kay na-rename, na-remove, o nabalhin?&lt;/li&gt;
-        &lt;li&gt;Naa ba\'y spelling, capitalization, o ubang sayop sa pag-sulat sa address?&lt;/li&gt;
-        &lt;li&gt;Naa ba ka\'y igo nga access permission sa gi-request nga item?&lt;/li&gt;
+        &lt;li&gt;Naa ba'y spelling, capitalization, o ubang sayop sa pag-sulat sa address?&lt;/li&gt;
+        &lt;li&gt;Naa ba ka'y igo nga access permission sa gi-request nga item?&lt;/li&gt;
       &lt;/ul&gt;
     </seg>
 			</tuv>
@@ -4508,7 +4508,7 @@
 			<tuv xml:lang="ceb">
 				<seg>¶
  · &lt;ul&gt;¶
- · &lt;li&gt;Basin problema ni sa server configuration, o basin naa\'y gusto mo-impersonate ani nga server.&lt;/li&gt;¶
+ · &lt;li&gt;Basin problema ni sa server configuration, o basin naa'y gusto mo-impersonate ani nga server.&lt;/li&gt;¶
  · &lt;li&gt;Kung naka-konek ka ani nga server sa niagi, basin temporary ra ni nga error, sulayi lang ug balik unya.&lt;/li&gt;¶
  · &lt;/ul&gt;¶
  · </seg>
@@ -5433,7 +5433,7 @@
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>tug-an</seg>
+				<seg>report</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -5441,7 +5441,7 @@
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="ceb">
-				<seg>report</seg>
+				<seg>tug-an</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
